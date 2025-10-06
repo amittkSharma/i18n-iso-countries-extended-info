@@ -1,0 +1,43 @@
+{
+	"name": "i18n-iso-countries-extended-info",
+	"version": "1.0.0",
+	"description": "",
+	"bin": {
+		"pullAzureSecrets": "node ./build/index.js"
+	},
+	"scripts": {
+		"start": "npx ts-node src/index.ts",
+		"build": "tsc --project tsconfig.json",
+		"release": "commit-and-tag-version",
+		"format": "biome format --write",
+		"lint": "biome lint --write",
+		"check": "biome check --write"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@biomejs/biome": "2.2.5",
+		"@tsconfig/node20": "^20.1.4",
+		"@types/node": "^20.19.14",
+		"@types/pino": "^7.0.5",
+		"commit-and-tag-version": "^12.4.1",
+		"ts-node": "^10.9.2",
+		"tslib": "^2.8.1",
+		"typescript": "^5.9.2"
+	},
+	"dependencies": {
+		"pino": "^9.2.0",
+		"pino-pretty": "^11.2.1"
+	},
+	"commit-and-tag-version": {
+		"noVerify": false,
+		"silent": false,
+		"skip": {
+			"changelog": false,
+			"bump": false,
+			"commit": true,
+			"tag": true
+		}
+	}
+}
