@@ -27,6 +27,7 @@
 		"typescript": "^5.9.2"
 	},
 	"dependencies": {
+		"i18n-iso-countries": "^7.14.0",
 		"pino": "^9.2.0",
 		"pino-pretty": "^11.2.1"
 	},
