@@ -1,6 +1,6 @@
 import type { CountryCurrencyInfo } from "./types";
 
-const dataJSON: Record<string, CountryCurrencyInfo> = {
+export const dataJSON: Record<string, CountryCurrencyInfo> = {
 	AD: {
 		countryName: "Andorra",
 		currency: "EUR",
@@ -1588,5 +1588,11 @@ const dataJSON: Record<string, CountryCurrencyInfo> = {
 		currency: "ZWL",
 		symbol: "ZWL",
 		numericCode: 932,
+	},
+	AQ: {
+		countryName: "Antarctica",
+		currency: "EUR",
+		symbol: "€",
+		numericCode: 672,
 	},
 };

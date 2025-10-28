@@ -1,10 +1,18 @@
 import { getAlpha2Codes } from "i18n-iso-countries";
+import { dataJSON } from "./currency";
 
 export const getAllIsoCode = () => {
-	const list = getAlpha2Codes();
+	const countries = Object.keys(getAlpha2Codes());
+	const currencies = Object.keys(dataJSON);
 
-	// TODO: Compare the iso codes from the country and iso codes in the currency object
+	console.log(
+		`countries: ${JSON.stringify(Object.keys(countries).length, null, 2)}`,
+	);
+	console.log(
+		`currencies: ${JSON.stringify(Object.keys(currencies).length, null, 2)}`,
+	);
 
-	console.log(`List: ${JSON.stringify(Object.keys(list).length, null, 2)}`);
-	console.log(`List: ${JSON.stringify(list, null, 2)}`);
+	const missing = countries.filter((item) => currencies.indexOf(item) < 0);
+
+	console.log(`missing:${JSON.stringify(missing, null, 2)}`);
 };
