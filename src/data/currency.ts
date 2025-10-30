@@ -1,6 +1,6 @@
-import type { CountryCurrencyInfo } from "./types";
+import type { CountryCurrencyInfo } from "../types";
 
-export const dataJSON: Record<string, CountryCurrencyInfo> = {
+export const currenciesInfo: Record<string, CountryCurrencyInfo> = {
 	AD: {
 		countryName: "Andorra",
 		currency: "EUR",
