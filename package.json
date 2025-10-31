@@ -6,12 +6,14 @@
 		"pullAzureSecrets": "node ./build/index.js"
 	},
 	"scripts": {
+		"prestart": "npx ts-node src/checkCountryCurrencySync.ts",
 		"start": "npx ts-node src/index.ts",
 		"build": "tsc --project tsconfig.json",
 		"release": "commit-and-tag-version",
 		"format": "biome format --write",
 		"lint": "biome lint --write",
-		"check": "biome check --write"
+		"check": "biome check --write",
+		"test": "node --test src/tests/*.test.ts"
 	},
 	"keywords": [],
 	"author": "",
@@ -27,6 +29,7 @@
 		"typescript": "^5.9.2"
 	},
 	"dependencies": {
+		"i18n-iso-countries": "^7.14.0",
 		"pino": "^9.2.0",
 		"pino-pretty": "^11.2.1"
 	},
