@@ -3,6 +3,7 @@ import {
 	getCountryIsoCodeByName,
 	getDetailedCountryInformationByIso2Code,
 	getDetailedCountryInformationByIso3Code,
+	getDetailedCountryInformationByNumericCode,
 	isCountryIsoCodeValid,
 } from "./getCountryIsoCodeByName";
 
@@ -40,5 +41,11 @@ export const getCountryInformationByIso3Code = (iso3Code: string) => {
 	}
 	isCountryIsoCodeValid(iso3Code);
 	const info = getDetailedCountryInformationByIso3Code(iso3Code);
+	return info;
+};
+
+export const getCountryInformationByNumericCode = (numericCode: string) => {
+	isCountryIsoCodeValid(numericCode);
+	const info = getDetailedCountryInformationByNumericCode(numericCode);
 	return info;
 };

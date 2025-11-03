@@ -6,6 +6,8 @@ import {
 	getAlpha3Code,
 	getName,
 	isValid,
+	numericToAlpha2,
+	numericToAlpha3,
 } from "i18n-iso-countries";
 import { BASIC_LANGUAGE } from "./constants";
 import { getCurrencyInformationByCountryIso2Code } from "./data/currency";
@@ -13,6 +15,19 @@ import type { DetailedCountryInformation } from "./types/detailedCountryInformat
 import { log } from "./utils/logger";
 
 type IsoCodeType = "iso-2" | "iso-3" | "both";
+
+type Select = "all" | "official" | "alias";
+
+const getCountryOfficialNameByCode = (
+	code: string,
+	select: Select = "official",
+) => {
+	const countryName = getName(code, BASIC_LANGUAGE, {
+		select: select,
+	});
+
+	return countryName;
+};
 
 export const getCountryIsoCodeByName = (
 	countryName: string,
@@ -44,9 +59,7 @@ export const isCountryIsoCodeValid = (countryIsoCode: string) => {
 export const getDetailedCountryInformationByIso2Code = (
 	countryIso2ode: string,
 ) => {
-	const countryName = getName(countryIso2ode, BASIC_LANGUAGE, {
-		select: "official",
-	});
+	const countryName = getCountryOfficialNameByCode(countryIso2ode);
 
 	const countryIso3Code = alpha2ToAlpha3(countryIso2ode);
 	const countryCurrencyInfo =
@@ -65,10 +78,7 @@ export const getDetailedCountryInformationByIso2Code = (
 export const getDetailedCountryInformationByIso3Code = (
 	countryIso3Code: string,
 ) => {
-	const countryName = getName(countryIso3Code, BASIC_LANGUAGE, {
-		select: "official",
-	});
-
+	const countryName = getCountryOfficialNameByCode(countryIso3Code);
 	const countryIso2Code = alpha3ToAlpha2(countryIso3Code);
 	const countryCurrencyInfo = getCurrencyInformationByCountryIso2Code(
 		countryIso2Code!,
@@ -78,6 +88,26 @@ export const getDetailedCountryInformationByIso3Code = (
 		countryName: countryName!,
 		iso2Code: countryIso2Code!,
 		iso3Code: countryIso3Code,
+		...countryCurrencyInfo,
+	};
+
+	return detailedCountryInfo;
+};
+
+export const getDetailedCountryInformationByNumericCode = (
+	countryNumericCode: string,
+) => {
+	const countryIso2Code = numericToAlpha2(countryNumericCode);
+	const countryIso3Code = numericToAlpha3(countryNumericCode);
+	const countryName = getCountryOfficialNameByCode(countryIso2Code!);
+	const countryCurrencyInfo = getCurrencyInformationByCountryIso2Code(
+		countryIso2Code!,
+	);
+
+	const detailedCountryInfo: DetailedCountryInformation = {
+		countryName: countryName!,
+		iso2Code: countryIso2Code!,
+		iso3Code: countryIso3Code!,
 		...countryCurrencyInfo,
 	};
 
