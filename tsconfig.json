@@ -35,7 +35,8 @@
 		"pretty": true,
 		"removeComments": false,
 		"suppressExcessPropertyErrors": false,
-		"resolveJsonModule": true
+		"resolveJsonModule": true,
+		"types": ["node", "jest"]
 	},
 	"include": ["src/**/*", "src/**/*.json"],
 	"exclude": ["node_modules"]

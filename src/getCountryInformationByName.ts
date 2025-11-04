@@ -1,11 +1,11 @@
-import { getCurrencyInformationByCountryIso2Code } from "./data/currency";
 import {
 	getCountryIsoCodeByName,
 	getDetailedCountryInformationByIso2Code,
 	getDetailedCountryInformationByIso3Code,
 	getDetailedCountryInformationByNumericCode,
-	isCountryIsoCodeValid,
-} from "./getCountryIsoCodeByName";
+	isCountryIsoOrNumericCodeValid,
+} from "./countryIsoInformationService";
+import { getCurrencyInformationByCountryIso2Code } from "./data/currency";
 
 export const getCountryInformationByName = (countryName: string) => {
 	const { iso2Code, iso3Code } = getCountryIsoCodeByName(countryName, "both");
@@ -28,7 +28,7 @@ export const getCountryInformationByIso2Code = (iso2Code: string) => {
 			"Iso-code length is not appropriate, ISO-2 code must have length of 2 characters",
 		);
 	}
-	isCountryIsoCodeValid(iso2Code);
+	isCountryIsoOrNumericCodeValid(iso2Code);
 	const info = getDetailedCountryInformationByIso2Code(iso2Code);
 	return info;
 };
@@ -39,13 +39,13 @@ export const getCountryInformationByIso3Code = (iso3Code: string) => {
 			"Iso-code length is not appropriate, ISO-3 code must have length of 3 characters",
 		);
 	}
-	isCountryIsoCodeValid(iso3Code);
+	isCountryIsoOrNumericCodeValid(iso3Code);
 	const info = getDetailedCountryInformationByIso3Code(iso3Code);
 	return info;
 };
 
 export const getCountryInformationByNumericCode = (numericCode: string) => {
-	isCountryIsoCodeValid(numericCode);
+	isCountryIsoOrNumericCodeValid(numericCode);
 	const info = getDetailedCountryInformationByNumericCode(numericCode);
 	return info;
 };
