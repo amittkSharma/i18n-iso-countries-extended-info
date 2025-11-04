@@ -47,12 +47,12 @@ export const getCountryIsoCodeByName = (
 	}
 };
 
-export const isCountryIsoCodeValid = (countryIsoCode: string) => {
+export const isCountryIsoOrNumericCodeValid = (countryIsoCode: string) => {
 	const isCountryIsoCode = isValid(countryIsoCode);
 	if (isCountryIsoCode) {
 		return isCountryIsoCode;
 	} else {
-		throw new Error(`Iso Code: ${countryIsoCode} is not valid`);
+		throw new Error(`Iso Code/Numeric Code: ${countryIsoCode} is not valid`);
 	}
 };
 
