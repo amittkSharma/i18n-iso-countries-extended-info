@@ -12,7 +12,6 @@ import {
 import { BASIC_LANGUAGE } from "./constants";
 import { getCurrencyInformationByCountryIso2Code } from "./data/currency";
 import type { DetailedCountryInformation } from "./types/detailedCountryInformation";
-import { log } from "./utils/logger";
 
 type IsoCodeType = "iso-2" | "iso-3" | "both";
 
@@ -33,7 +32,6 @@ export const getCountryIsoCodeByName = (
 	countryName: string,
 	isoCode: IsoCodeType = "iso-2",
 ) => {
-	log.info(`Getting country name by iso-code: ${isoCode}`);
 	switch (isoCode) {
 		case "iso-2":
 			return { iso2Code: getAlpha2Code(countryName, BASIC_LANGUAGE) };
