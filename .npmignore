@@ -1,0 +1,6 @@
+.vscode
+.*ignore
+
+src
+coverage
+*jest*.(j|t)s
