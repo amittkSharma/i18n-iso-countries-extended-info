@@ -1,6 +1,6 @@
 import { getAlpha2Codes } from "i18n-iso-countries";
 import { currenciesInfo } from "./data/currency";
-import { log } from "./utils/logger";
+import { log } from "./devUtils/logger";
 
 const validateDataSources = () => {
 	const countries = Object.keys(getAlpha2Codes());

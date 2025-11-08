@@ -1,5 +1,4 @@
 import type { CountryCurrencyInfo } from "../types";
-import { log } from "../utils/logger";
 
 export const currenciesInfo: Record<string, CountryCurrencyInfo> = {
 	AD: {
@@ -1602,8 +1601,6 @@ export const getCurrencyInformationByCountryIso2Code = (iso2Code: string) => {
 	if (iso2Code in currenciesInfo) {
 		return currenciesInfo[iso2Code];
 	} else {
-		log.warn(`Currency information is not available`);
-
 		return undefined;
 	}
 };
