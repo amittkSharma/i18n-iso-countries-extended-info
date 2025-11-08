@@ -16,8 +16,16 @@
 		"test": "jest"
 	},
 	"keywords": [],
-	"author": "",
-	"license": "ISC",
+	"author": "Amitt K Sharma",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/amittkSharma/i18n-iso-countries-extended-info.git"
+	},
+	"bugs": {
+		"url": "https://github.com/amittkSharma/i18n-iso-countries-extended-info/issues"
+	},
+	"homepage": "https://github.com/amittkSharma/i18n-iso-countries-extended-info#readme",
 	"devDependencies": {
 		"@biomejs/biome": "2.2.5",
 		"@tsconfig/node20": "^20.1.4",
