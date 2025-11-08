@@ -4,7 +4,7 @@ import {
 	getDetailedCountryInformationByIso3Code,
 	getDetailedCountryInformationByNumericCode,
 	isCountryIsoOrNumericCodeValid,
-} from "../countryIsoInformationService";
+} from "../i18nIsoCountriesService";
 import type { DetailedCountryInformation } from "../types/detailedCountryInformation";
 
 describe("country iso information service ", () => {

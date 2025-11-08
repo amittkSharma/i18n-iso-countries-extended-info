@@ -1,133 +1,56 @@
-/** biome-ignore-all lint/style/noNonNullAssertion:off */
-import {
-	alpha2ToAlpha3,
-	alpha3ToAlpha2,
-	getAlpha2Code,
-	getAlpha2Codes,
-	getAlpha3Code,
-	getAlpha3Codes,
-	getName,
-	isValid,
-	numericToAlpha2,
-	numericToAlpha3,
-} from "i18n-iso-countries";
-import { BASIC_LANGUAGE } from "./constants";
 import { getCurrencyInformationByCountryIso2Code } from "./data/currency";
-import type {
-	CountryIsoCodePreview,
-	DetailedCountryInformation,
-} from "./types/detailedCountryInformation";
+import {
+	getAllCountriesWithIsoCodes,
+	getCountryIsoCodeByName,
+	getDetailedCountryInformationByIso2Code,
+	getDetailedCountryInformationByIso3Code,
+	getDetailedCountryInformationByNumericCode,
+	isCountryIsoOrNumericCodeValid,
+} from "./i18nIsoCountriesService";
+import type { IsoCode } from "./types/detailedCountryInformation";
 
-type IsoCodeType = "iso-2" | "iso-3" | "both";
-
-type Select = "all" | "official" | "alias";
-
-const getCountryOfficialNameByCode = (
-	code: string,
-	select: Select = "official",
-) => {
-	const countryName = getName(code, BASIC_LANGUAGE, {
-		select: select,
-	});
-
-	return countryName;
-};
-
-export const getCountryIsoCodeByName = (
-	countryName: string,
-	isoCode: IsoCodeType = "iso-2",
-) => {
-	switch (isoCode) {
-		case "iso-2":
-			return { iso2Code: getAlpha2Code(countryName, BASIC_LANGUAGE) };
-		case "iso-3":
-			return { iso3Code: getAlpha3Code(countryName, BASIC_LANGUAGE) };
-		case "both":
-			return {
-				iso2Code: getAlpha2Code(countryName, BASIC_LANGUAGE),
-				iso3Code: getAlpha3Code(countryName, BASIC_LANGUAGE),
-			};
-	}
-};
-
-export const isCountryIsoOrNumericCodeValid = (countryIsoCode: string) => {
-	const isCountryIsoCode = isValid(countryIsoCode);
-	if (isCountryIsoCode) {
-		return isCountryIsoCode;
-	} else {
-		throw new Error(`Iso Code/Numeric Code: ${countryIsoCode} is not valid`);
-	}
-};
-
-export const getDetailedCountryInformationByIso2Code = (
-	countryIso2ode: string,
-) => {
-	const countryName = getCountryOfficialNameByCode(countryIso2ode);
-
-	const countryIso3Code = alpha2ToAlpha3(countryIso2ode);
-	const countryCurrencyInfo =
-		getCurrencyInformationByCountryIso2Code(countryIso2ode);
-
-	const detailedCountryInfo: DetailedCountryInformation = {
-		countryName: countryName!,
-		iso2Code: countryIso2ode,
-		iso3Code: countryIso3Code!,
-		...countryCurrencyInfo,
-	};
-
-	return detailedCountryInfo;
-};
-
-export const getDetailedCountryInformationByIso3Code = (
-	countryIso3Code: string,
-) => {
-	const countryName = getCountryOfficialNameByCode(countryIso3Code);
-	const countryIso2Code = alpha3ToAlpha2(countryIso3Code);
-	const countryCurrencyInfo = getCurrencyInformationByCountryIso2Code(
-		countryIso2Code!,
-	);
-
-	const detailedCountryInfo: DetailedCountryInformation = {
-		countryName: countryName!,
-		iso2Code: countryIso2Code!,
-		iso3Code: countryIso3Code,
-		...countryCurrencyInfo,
-	};
-
-	return detailedCountryInfo;
-};
-
-export const getDetailedCountryInformationByNumericCode = (
-	countryNumericCode: string,
-) => {
-	const countryIso2Code = numericToAlpha2(countryNumericCode);
-	const countryIso3Code = numericToAlpha3(countryNumericCode);
-	const countryName = getCountryOfficialNameByCode(countryIso2Code!);
-	const countryCurrencyInfo = getCurrencyInformationByCountryIso2Code(
-		countryIso2Code!,
-	);
-
-	const detailedCountryInfo: DetailedCountryInformation = {
-		countryName: countryName!,
-		iso2Code: countryIso2Code!,
-		iso3Code: countryIso3Code!,
-		...countryCurrencyInfo,
-	};
-
-	return detailedCountryInfo;
-};
-
-export const getAllCountriesWithIsoCodes = (
-	isoCodeType: IsoCodeType,
-): Array<CountryIsoCodePreview> => {
-	const codes =
-		isoCodeType === "iso-2"
-			? Object.keys(getAlpha2Codes())
-			: Object.keys(getAlpha3Codes());
-	return codes.map((code) => {
+export const getCountryInformationByName = (countryName: string) => {
+	const iso2Code = getCountryIsoCodeByName(countryName, "iso-2");
+	if (iso2Code) {
 		return {
-			code,
-			countryName: getCountryOfficialNameByCode(code),
+			countryName,
+			iso2Code,
+			iso3Code: getCountryIsoCodeByName(countryName, "iso-3"),
+			...getCurrencyInformationByCountryIso2Code(iso2Code),
 		};
-	});
+	}
+
+	throw Error(`failed to get information about ${countryName}`);
+};
+
+export const getCountryInformationByIso2Code = (iso2Code: string) => {
+	if (iso2Code.length !== 2) {
+		throw new Error(
+			"Iso-code length is not appropriate, ISO-2 code must have length of 2 characters",
+		);
+	}
+	isCountryIsoOrNumericCodeValid(iso2Code);
+	const info = getDetailedCountryInformationByIso2Code(iso2Code);
+	return info;
+};
+
+export const getCountryInformationByIso3Code = (iso3Code: string) => {
+	if (iso3Code.length !== 3) {
+		throw new Error(
+			"Iso-code length is not appropriate, ISO-3 code must have length of 3 characters",
+		);
+	}
+	isCountryIsoOrNumericCodeValid(iso3Code);
+	const info = getDetailedCountryInformationByIso3Code(iso3Code);
+	return info;
+};
+
+export const getCountryInformationByNumericCode = (numericCode: string) => {
+	isCountryIsoOrNumericCodeValid(numericCode);
+	const info = getDetailedCountryInformationByNumericCode(numericCode);
+	return info;
+};
+
+export const getAllCountriesIsoCodes = (isoCode: IsoCode = "iso-2") => {
+	return getAllCountriesWithIsoCodes(isoCode);
 };
