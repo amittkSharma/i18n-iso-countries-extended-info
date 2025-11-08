@@ -3,7 +3,9 @@ import {
 	alpha2ToAlpha3,
 	alpha3ToAlpha2,
 	getAlpha2Code,
+	getAlpha2Codes,
 	getAlpha3Code,
+	getAlpha3Codes,
 	getName,
 	isValid,
 	numericToAlpha2,
@@ -11,7 +13,10 @@ import {
 } from "i18n-iso-countries";
 import { BASIC_LANGUAGE } from "./constants";
 import { getCurrencyInformationByCountryIso2Code } from "./data/currency";
-import type { DetailedCountryInformation } from "./types/detailedCountryInformation";
+import type {
+	CountryIsoCodePreview,
+	DetailedCountryInformation,
+} from "./types/detailedCountryInformation";
 
 type IsoCodeType = "iso-2" | "iso-3" | "both";
 
@@ -110,4 +115,19 @@ export const getDetailedCountryInformationByNumericCode = (
 	};
 
 	return detailedCountryInfo;
+};
+
+export const getAllCountriesWithIsoCodes = (
+	isoCodeType: IsoCodeType,
+): Array<CountryIsoCodePreview> => {
+	const codes =
+		isoCodeType === "iso-2"
+			? Object.keys(getAlpha2Codes())
+			: Object.keys(getAlpha3Codes());
+	return codes.map((code) => {
+		return {
+			code,
+			countryName: getCountryOfficialNameByCode(code),
+		};
+	});
 };
