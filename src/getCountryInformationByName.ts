@@ -1,4 +1,5 @@
 import {
+	getAllCountriesWithIsoCodes,
 	getCountryIsoCodeByName,
 	getDetailedCountryInformationByIso2Code,
 	getDetailedCountryInformationByIso3Code,
@@ -48,4 +49,12 @@ export const getCountryInformationByNumericCode = (numericCode: string) => {
 	isCountryIsoOrNumericCodeValid(numericCode);
 	const info = getDetailedCountryInformationByNumericCode(numericCode);
 	return info;
+};
+
+export const getAllCountriesIso2Codes = () => {
+	return getAllCountriesWithIsoCodes("iso-2");
+};
+
+export const getAllCountriesIso3Codes = () => {
+	return getAllCountriesWithIsoCodes("iso-3");
 };

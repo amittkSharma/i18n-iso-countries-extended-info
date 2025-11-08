@@ -7,3 +7,8 @@ export interface DetailedCountryInformation {
 	symbol?: string | undefined;
 	dateFormat?: string | undefined;
 }
+
+export interface CountryIsoCodePreview {
+	countryName?: string;
+	code: string;
+}
