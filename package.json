@@ -15,15 +15,25 @@
 		"check": "biome check --write",
 		"test": "jest"
 	},
-	"keywords": [],
+	"keywords": [
+		"i18n",
+		"iso",
+		"3166",
+		"iso 3166",
+		"iso 3166-1",
+		"alpha",
+		"alpha-2",
+		"alpha-3",
+		"numeric",
+		"country",
+		"countries",
+		"iso codes"
+	],
 	"author": "Amitt K Sharma",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/amittkSharma/i18n-iso-countries-extended-info.git"
-	},
-	"bugs": {
-		"url": "https://github.com/amittkSharma/i18n-iso-countries-extended-info/issues"
 	},
 	"homepage": "https://github.com/amittkSharma/i18n-iso-countries-extended-info#readme",
 	"devDependencies": {
