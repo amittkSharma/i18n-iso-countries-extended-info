@@ -3,7 +3,7 @@
 	"version": "1.3.0",
 	"description": "",
 	"types": "./build/index.d.ts",
-	"main": "./build/index.ts",
+	"main": "./build/index.js",
 	"bin": {
 		"pullAzureSecrets": "node ./build/index.js"
 	},
