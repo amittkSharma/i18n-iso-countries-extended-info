@@ -9,7 +9,7 @@
 		"prestart": "npx ts-node src/checkCountryCurrencySync.ts",
 		"start": "npx ts-node src/launchApp.ts",
 		"build": "tsc --project tsconfig.json",
-		"release": "commit-and-tag-version",
+		"release": "npm run build && commit-and-tag-version",
 		"format": "biome format --write",
 		"lint": "biome lint --write",
 		"check": "biome check --write",

@@ -14,7 +14,6 @@
 		"experimentalDecorators": true,
 		"moduleResolution": "node",
 		"sourceMap": false,
-		"declaration": false,
 		"esModuleInterop": true,
 		"jsx": "react",
 		"lib": ["dom", "dom.iterable", "esnext", "ES2022"],
@@ -36,7 +35,14 @@
 		"removeComments": false,
 		"suppressExcessPropertyErrors": false,
 		"resolveJsonModule": true,
-		"types": ["node", "jest"]
+		"types": ["node", "jest"],
+		"declaration": true,
+		// This compiler run should
+		// only output d.ts files
+		"emitDeclarationOnly": true,
+		// go to js file when using IDE functions like
+		// "Go to Definition" in VSCode
+		"declarationMap": true
 	},
 	"include": ["src/**/*", "src/**/*.json"],
 	"exclude": [
