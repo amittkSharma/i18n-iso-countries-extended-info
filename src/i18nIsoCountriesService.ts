@@ -12,7 +12,7 @@ import {
 	numericToAlpha3,
 } from "i18n-iso-countries";
 import { BASIC_LANGUAGE } from "./constants";
-import { getCurrencyInformationByCountryIso2Code } from "./data/currency";
+import { getCurrencyInformationByCountryIso2Code } from "./countryCurrencyInformation";
 import type {
 	CountryIsoCodePreview,
 	DetailedCountryInformation,

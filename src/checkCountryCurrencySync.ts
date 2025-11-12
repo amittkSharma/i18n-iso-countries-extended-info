@@ -1,5 +1,5 @@
 import { getAlpha2Codes } from "i18n-iso-countries";
-import { currenciesInfo } from "./data/currency";
+import { currenciesInfo } from "./countryData/currencyInformation";
 import { log } from "./devUtils/logger";
 
 const validateDataSources = () => {

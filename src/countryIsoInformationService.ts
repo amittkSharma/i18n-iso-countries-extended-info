@@ -1,4 +1,4 @@
-import { getCurrencyInformationByCountryIso2Code } from "./data/currency";
+import { getCurrencyInformationByCountryIso2Code } from "./countryCurrencyInformation";
 import {
 	getAllCountriesWithIsoCodes,
 	getCountryIsoCodeByName,

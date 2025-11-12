@@ -1596,11 +1596,3 @@ export const currenciesInfo: Record<string, CountryCurrencyInfo> = {
 		numericCode: 672,
 	},
 };
-
-export const getCurrencyInformationByCountryIso2Code = (iso2Code: string) => {
-	if (iso2Code in currenciesInfo) {
-		return currenciesInfo[iso2Code];
-	} else {
-		return undefined;
-	}
-};
