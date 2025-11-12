@@ -63,7 +63,7 @@
 			"changelog": false,
 			"bump": false,
 			"commit": true,
-			"tag": true
+			"tag": false
 		}
 	}
 }
