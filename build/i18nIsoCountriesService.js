@@ -4,7 +4,7 @@ exports.getAllCountriesWithIsoCodes = exports.getDetailedCountryInformationByNum
 /** biome-ignore-all lint/style/noNonNullAssertion:off */
 const i18n_iso_countries_1 = require("i18n-iso-countries");
 const constants_1 = require("./constants");
-const currency_1 = require("./data/currency");
+const countryCurrencyInformation_1 = require("./countryCurrencyInformation");
 const getCountryOfficialNameByCode = (code, select = "official") => {
     const countryName = (0, i18n_iso_countries_1.getName)(code, constants_1.BASIC_LANGUAGE, {
         select: select,
@@ -35,7 +35,7 @@ exports.isCountryIsoOrNumericCodeValid = isCountryIsoOrNumericCodeValid;
 const getDetailedCountryInformationByIso2Code = (countryIso2ode) => {
     const countryName = getCountryOfficialNameByCode(countryIso2ode);
     const countryIso3Code = (0, i18n_iso_countries_1.alpha2ToAlpha3)(countryIso2ode);
-    const countryCurrencyInfo = (0, currency_1.getCurrencyInformationByCountryIso2Code)(countryIso2ode);
+    const countryCurrencyInfo = (0, countryCurrencyInformation_1.getCurrencyInformationByCountryIso2Code)(countryIso2ode);
     const detailedCountryInfo = {
         countryName: countryName,
         iso2Code: countryIso2ode,
@@ -48,7 +48,7 @@ exports.getDetailedCountryInformationByIso2Code = getDetailedCountryInformationB
 const getDetailedCountryInformationByIso3Code = (countryIso3Code) => {
     const countryName = getCountryOfficialNameByCode(countryIso3Code);
     const countryIso2Code = (0, i18n_iso_countries_1.alpha3ToAlpha2)(countryIso3Code);
-    const countryCurrencyInfo = (0, currency_1.getCurrencyInformationByCountryIso2Code)(countryIso2Code);
+    const countryCurrencyInfo = (0, countryCurrencyInformation_1.getCurrencyInformationByCountryIso2Code)(countryIso2Code);
     const detailedCountryInfo = {
         countryName: countryName,
         iso2Code: countryIso2Code,
@@ -62,7 +62,7 @@ const getDetailedCountryInformationByNumericCode = (countryNumericCode) => {
     const countryIso2Code = (0, i18n_iso_countries_1.numericToAlpha2)(countryNumericCode);
     const countryIso3Code = (0, i18n_iso_countries_1.numericToAlpha3)(countryNumericCode);
     const countryName = getCountryOfficialNameByCode(countryIso2Code);
-    const countryCurrencyInfo = (0, currency_1.getCurrencyInformationByCountryIso2Code)(countryIso2Code);
+    const countryCurrencyInfo = (0, countryCurrencyInformation_1.getCurrencyInformationByCountryIso2Code)(countryIso2Code);
     const detailedCountryInfo = {
         countryName: countryName,
         iso2Code: countryIso2Code,

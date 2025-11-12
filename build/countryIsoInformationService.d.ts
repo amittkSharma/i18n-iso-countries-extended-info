@@ -1,3 +1,4 @@
+export { isCountryIsoOrNumericCodeValid } from "./i18nIsoCountriesService";
 import type { IsoCode } from "./types/detailedCountryInformation";
 export declare const getCountryInformationByName: (countryName: string) => {
     countryName: string;

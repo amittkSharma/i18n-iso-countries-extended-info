@@ -1,8 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getAllCountriesIsoCodes = exports.getCountryInformationByNumericCode = exports.getCountryInformationByIso3Code = exports.getCountryInformationByIso2Code = exports.getCountryInformationByName = void 0;
-const currency_1 = require("./data/currency");
+exports.getAllCountriesIsoCodes = exports.getCountryInformationByNumericCode = exports.getCountryInformationByIso3Code = exports.getCountryInformationByIso2Code = exports.getCountryInformationByName = exports.isCountryIsoOrNumericCodeValid = void 0;
+const countryCurrencyInformation_1 = require("./countryCurrencyInformation");
 const i18nIsoCountriesService_1 = require("./i18nIsoCountriesService");
+var i18nIsoCountriesService_2 = require("./i18nIsoCountriesService");
+Object.defineProperty(exports, "isCountryIsoOrNumericCodeValid", { enumerable: true, get: function () { return i18nIsoCountriesService_2.isCountryIsoOrNumericCodeValid; } });
 const getCountryInformationByName = (countryName) => {
     const iso2Code = (0, i18nIsoCountriesService_1.getCountryIsoCodeByName)(countryName, "iso-2");
     if (iso2Code) {
@@ -10,7 +12,7 @@ const getCountryInformationByName = (countryName) => {
             countryName,
             iso2Code,
             iso3Code: (0, i18nIsoCountriesService_1.getCountryIsoCodeByName)(countryName, "iso-3"),
-            ...(0, currency_1.getCurrencyInformationByCountryIso2Code)(iso2Code),
+            ...(0, countryCurrencyInformation_1.getCurrencyInformationByCountryIso2Code)(iso2Code),
         };
     }
     throw Error(`failed to get information about ${countryName}`);
