@@ -4,9 +4,9 @@ import {
 	getCountryInformationByIso3Code,
 	getCountryInformationByName,
 	getCountryInformationByNumericCode,
-} from "./countryIsoInformationService";
-import { log } from "./devUtils/logger";
-import { printObj } from "./devUtils/printObject";
+} from "../countryIsoInformationService";
+import { log } from "./logger";
+import { printObj } from "./printObject";
 
 const launchApp = async () => {
 	printObj(getCountryInformationByName("India"), "Information by country name");

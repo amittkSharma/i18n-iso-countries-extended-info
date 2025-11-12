@@ -9,7 +9,7 @@
 	},
 	"scripts": {
 		"prestart": "npx ts-node src/checkCountryCurrencySync.ts",
-		"start": "npx ts-node src/launchApp.ts",
+		"start": "npx ts-node src/devUtils/launchApp.ts",
 		"build": "tsc --project tsconfig.json",
 		"release": "npm run build && commit-and-tag-version",
 		"format": "biome format --write",
