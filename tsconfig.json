@@ -47,6 +47,7 @@
 		"src/**/tests",
 		"src/**/devUtils",
 		"src/**/launchApp.ts",
+		"src/rawCountryData/*.ts",
 		"src/**/checkCountryCurrencySync.ts"
 	]
 }

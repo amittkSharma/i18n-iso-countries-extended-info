@@ -67,7 +67,7 @@ export const getDetailedCountryInformationByIso2Code = (
 		getCurrencyInformationByCountryIso2Code(countryIso2ode);
 
 	const detailedCountryInfo: DetailedCountryInformation = {
-		countryName: countryName!,
+		name: countryName!,
 		iso2Code: countryIso2ode,
 		iso3Code: countryIso3Code!,
 		...countryCurrencyInfo,
@@ -86,7 +86,7 @@ export const getDetailedCountryInformationByIso3Code = (
 	);
 
 	const detailedCountryInfo: DetailedCountryInformation = {
-		countryName: countryName!,
+		name: countryName!,
 		iso2Code: countryIso2Code!,
 		iso3Code: countryIso3Code,
 		...countryCurrencyInfo,
@@ -106,7 +106,7 @@ export const getDetailedCountryInformationByNumericCode = (
 	);
 
 	const detailedCountryInfo: DetailedCountryInformation = {
-		countryName: countryName!,
+		name: countryName!,
 		iso2Code: countryIso2Code!,
 		iso3Code: countryIso3Code!,
 		...countryCurrencyInfo,
