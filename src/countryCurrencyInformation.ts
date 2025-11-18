@@ -1,5 +1,18 @@
-import { currenciesInfo } from "./countryData/currencyInformation";
+import { countriesWithRegionalInfo } from "./generated/countryDataSet";
+import type { CurrencyInfo } from "./types/detailedCountryInformation";
 
-export const getCurrencyInformationByCountryIso2Code = (iso2Code: string) => {
-	return iso2Code in currenciesInfo ? currenciesInfo[iso2Code] : undefined;
+export const getCurrencyInformationByCountryIso2Code = (
+	iso2Code: string,
+): CurrencyInfo => {
+	const completeInfo =
+		iso2Code in countriesWithRegionalInfo
+			? countriesWithRegionalInfo[iso2Code]
+			: undefined;
+	const currencyInfo: CurrencyInfo = {
+		currency: completeInfo?.currency,
+		symbol: completeInfo?.symbol,
+		currencyName: completeInfo?.currencyName,
+	};
+
+	return currencyInfo;
 };

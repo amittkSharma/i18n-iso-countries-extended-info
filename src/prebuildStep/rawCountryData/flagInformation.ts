@@ -17,7 +17,7 @@ type CountryData = {
 
 type CountryProperty = keyof CountryData;
 
-const countriesData: CountryData[] = [
+export const countriesData: CountryData[] = [
 	{
 		countryNameEn: "Andorra",
 		countryNameLocal: "Andorra",
@@ -4081,4 +4081,3 @@ const countriesData: CountryData[] = [
 ];
 
 export type { CountryData, CountryProperty };
-export default countriesData;

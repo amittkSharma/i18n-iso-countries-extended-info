@@ -1,11 +1,10 @@
 export { isCountryIsoOrNumericCodeValid } from "./i18nIsoCountriesService";
 import type { IsoCode } from "./types/detailedCountryInformation";
 export declare const getCountryInformationByName: (countryName: string) => {
+    currency?: string;
+    currencyName?: string;
+    symbol?: string;
     countryName: string;
-    currency?: string | undefined;
-    symbol?: string | undefined;
-    numericCode?: number | undefined;
-    dateFormat?: string;
     iso2Code: string;
     iso3Code: string | undefined;
 };

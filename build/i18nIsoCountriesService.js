@@ -37,7 +37,7 @@ const getDetailedCountryInformationByIso2Code = (countryIso2ode) => {
     const countryIso3Code = (0, i18n_iso_countries_1.alpha2ToAlpha3)(countryIso2ode);
     const countryCurrencyInfo = (0, countryCurrencyInformation_1.getCurrencyInformationByCountryIso2Code)(countryIso2ode);
     const detailedCountryInfo = {
-        countryName: countryName,
+        name: countryName,
         iso2Code: countryIso2ode,
         iso3Code: countryIso3Code,
         ...countryCurrencyInfo,
@@ -50,7 +50,7 @@ const getDetailedCountryInformationByIso3Code = (countryIso3Code) => {
     const countryIso2Code = (0, i18n_iso_countries_1.alpha3ToAlpha2)(countryIso3Code);
     const countryCurrencyInfo = (0, countryCurrencyInformation_1.getCurrencyInformationByCountryIso2Code)(countryIso2Code);
     const detailedCountryInfo = {
-        countryName: countryName,
+        name: countryName,
         iso2Code: countryIso2Code,
         iso3Code: countryIso3Code,
         ...countryCurrencyInfo,
@@ -64,7 +64,7 @@ const getDetailedCountryInformationByNumericCode = (countryNumericCode) => {
     const countryName = getCountryOfficialNameByCode(countryIso2Code);
     const countryCurrencyInfo = (0, countryCurrencyInformation_1.getCurrencyInformationByCountryIso2Code)(countryIso2Code);
     const detailedCountryInfo = {
-        countryName: countryName,
+        name: countryName,
         iso2Code: countryIso2Code,
         iso3Code: countryIso3Code,
         ...countryCurrencyInfo,

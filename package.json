@@ -8,7 +8,7 @@
 		"pullAzureSecrets": "node ./build/index.js"
 	},
 	"scripts": {
-		"prestart": "npx ts-node src/checkCountryCurrencySync.ts",
+		"prestart": "npx ts-node src/prebuildStep/checkCountryCurrencySync.ts && npx ts-node src/prebuildStep/createDatasetFile.ts",
 		"start": "npx ts-node src/devUtils/launchApp.ts",
 		"build": "tsc --project tsconfig.json",
 		"release": "npm run build && commit-and-tag-version",

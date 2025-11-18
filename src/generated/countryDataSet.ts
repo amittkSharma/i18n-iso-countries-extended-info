@@ -1,0 +1,5252 @@
+
+  import type { CountrySource } from '../types/countrySource';
+
+  export const countriesWithRegionalInfo: Record<string, CountrySource> =  {
+  "AD": {
+    "name": "Andorra",
+    "native": "Andorra",
+    "phone": [
+      376
+    ],
+    "continent": "EU",
+    "capital": "Andorra la Vella",
+    "currency": "EUR",
+    "languages": [
+      "ca"
+    ],
+    "symbol": "€",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Europe",
+    "flag": "🇦🇩",
+    "officialLanguageCode": "ca",
+    "officialLanguageName": "Catalan, Valencian"
+  },
+  "AE": {
+    "name": "United Arab Emirates",
+    "native": "دولة الإمارات العربية المتحدة",
+    "phone": [
+      971
+    ],
+    "continent": "AS",
+    "capital": "Abu Dhabi",
+    "currency": "AED",
+    "languages": [
+      "ar"
+    ],
+    "symbol": "AED",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 784,
+    "currencyName": "United Arab Emirates dirham",
+    "region": "Arab States",
+    "flag": "🇦🇪",
+    "officialLanguageCode": "ar",
+    "officialLanguageName": "Arabic"
+  },
+  "AF": {
+    "name": "Afghanistan",
+    "native": "افغانستان",
+    "phone": [
+      93
+    ],
+    "continent": "AS",
+    "capital": "Kabul",
+    "currency": "AFN",
+    "languages": [
+      "ps",
+      "fa",
+      "uz",
+      "tk"
+    ],
+    "symbol": "Af",
+    "numericCode": 971,
+    "currencyName": "Afghan afghani",
+    "region": "Asia & Pacific",
+    "flag": "🇦🇫",
+    "officialLanguageCode": "fa",
+    "officialLanguageName": "Persian"
+  },
+  "AG": {
+    "name": "Antigua and Barbuda",
+    "native": "Antigua and Barbuda",
+    "phone": [
+      1268
+    ],
+    "continent": "NA",
+    "capital": "Saint John's",
+    "currency": "XCD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "XCD",
+    "numericCode": 951,
+    "currencyName": "East Caribbean dollar",
+    "region": "South/Latin America",
+    "flag": "🇦🇬",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "AI": {
+    "name": "Anguilla",
+    "native": "Anguilla",
+    "phone": [
+      1264
+    ],
+    "continent": "NA",
+    "capital": "The Valley",
+    "currency": "XCD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "XCD",
+    "numericCode": 951,
+    "currencyName": "East Caribbean dollar",
+    "region": "South/Latin America",
+    "flag": "🇦🇮",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "AL": {
+    "name": "Albania",
+    "native": "Shqipëria",
+    "phone": [
+      355
+    ],
+    "continent": "EU",
+    "capital": "Tirana",
+    "currency": "ALL",
+    "languages": [
+      "sq"
+    ],
+    "symbol": "ALL",
+    "dateFormat": "yyyy-MM-dd",
+    "numericCode": 8,
+    "currencyName": "Albanian lek",
+    "region": "Europe",
+    "flag": "🇦🇱",
+    "officialLanguageCode": "sq",
+    "officialLanguageName": "Albanian"
+  },
+  "AM": {
+    "name": "Armenia",
+    "native": "Հայաստան",
+    "phone": [
+      374
+    ],
+    "continent": "AS",
+    "capital": "Yerevan",
+    "currency": "AMD",
+    "languages": [
+      "hy",
+      "ru"
+    ],
+    "symbol": "AMD",
+    "numericCode": 51,
+    "currencyName": "Armenian dram",
+    "region": "Europe",
+    "flag": "🇦🇲",
+    "officialLanguageCode": "hy",
+    "officialLanguageName": "Armenian"
+  },
+  "AO": {
+    "name": "Angola",
+    "native": "Angola",
+    "phone": [
+      244
+    ],
+    "continent": "AF",
+    "capital": "Luanda",
+    "currency": "AOA",
+    "languages": [
+      "pt"
+    ],
+    "symbol": "AOA",
+    "numericCode": 973,
+    "currencyName": "Angolan kwanza",
+    "region": "Africa",
+    "flag": "🇦🇴",
+    "officialLanguageCode": "pt",
+    "officialLanguageName": "Portuguese"
+  },
+  "AQ": {
+    "name": "Antarctica",
+    "native": "Antarctica",
+    "phone": [
+      672
+    ],
+    "continent": "AN",
+    "capital": "",
+    "currency": "EUR",
+    "languages": [],
+    "symbol": "€",
+    "numericCode": 672,
+    "currencyName": "",
+    "region": "Asia & Pacific",
+    "flag": "🇦🇶",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "AR": {
+    "name": "Argentina",
+    "native": "Argentina",
+    "phone": [
+      54
+    ],
+    "continent": "SA",
+    "capital": "Buenos Aires",
+    "currency": "ARS",
+    "languages": [
+      "es",
+      "gn"
+    ],
+    "symbol": "AR$",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 32,
+    "currencyName": "Argentine peso",
+    "region": "South/Latin America",
+    "flag": "🇦🇷",
+    "officialLanguageCode": "es",
+    "officialLanguageName": "Spanish, Castilian"
+  },
+  "AS": {
+    "name": "American Samoa",
+    "native": "American Samoa",
+    "phone": [
+      1684
+    ],
+    "continent": "OC",
+    "capital": "Pago Pago",
+    "currency": "USD",
+    "languages": [
+      "en",
+      "sm"
+    ],
+    "symbol": "$",
+    "numericCode": 840,
+    "currencyName": "United States dollar",
+    "region": "Asia & Pacific",
+    "flag": "🇦🇸",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "AT": {
+    "name": "Austria",
+    "native": "Österreich",
+    "phone": [
+      43
+    ],
+    "continent": "EU",
+    "capital": "Vienna",
+    "currency": "EUR",
+    "languages": [
+      "de"
+    ],
+    "symbol": "€",
+    "dateFormat": "dd.MM.yyyy",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Europe",
+    "flag": "🇦🇹",
+    "officialLanguageCode": "de",
+    "officialLanguageName": "German"
+  },
+  "AU": {
+    "name": "Australia",
+    "native": "Australia",
+    "phone": [
+      61
+    ],
+    "continent": "OC",
+    "capital": "Canberra",
+    "currency": "AUD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "$",
+    "dateFormat": "d/MM/yyyy",
+    "numericCode": 36,
+    "currencyName": "Australian dollar",
+    "region": "Asia & Pacific",
+    "flag": "🇦🇺",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "AW": {
+    "name": "Aruba",
+    "native": "Aruba",
+    "phone": [
+      297
+    ],
+    "continent": "NA",
+    "capital": "Oranjestad",
+    "currency": "AWG",
+    "languages": [
+      "nl",
+      "pa"
+    ],
+    "symbol": "AWG",
+    "numericCode": 533,
+    "currencyName": "Aruban florin",
+    "region": "South/Latin America",
+    "flag": "🇦🇼",
+    "officialLanguageCode": "nl",
+    "officialLanguageName": "Dutch, Flemish"
+  },
+  "AX": {
+    "name": "Aland",
+    "native": "Åland",
+    "phone": [
+      358
+    ],
+    "continent": "EU",
+    "capital": "Mariehamn",
+    "currency": "EUR",
+    "languages": [
+      "sv"
+    ],
+    "symbol": "€",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Europe",
+    "flag": "🇦🇽",
+    "officialLanguageCode": "sv",
+    "officialLanguageName": "Swedish"
+  },
+  "AZ": {
+    "name": "Azerbaijan",
+    "native": "Azərbaycan",
+    "phone": [
+      994
+    ],
+    "continent": "AS",
+    "continents": [
+      "AS",
+      "EU"
+    ],
+    "capital": "Baku",
+    "currency": "AZN",
+    "languages": [
+      "az"
+    ],
+    "symbol": "man.",
+    "numericCode": 944,
+    "currencyName": "Azerbaijani manat",
+    "region": "Asia & Pacific",
+    "flag": "🇦🇿",
+    "officialLanguageCode": "az",
+    "officialLanguageName": "Azerbaijani"
+  },
+  "BA": {
+    "name": "Bosnia and Herzegovina",
+    "native": "Bosna i Hercegovina",
+    "phone": [
+      387
+    ],
+    "continent": "EU",
+    "capital": "Sarajevo",
+    "currency": "BAM",
+    "languages": [
+      "bs",
+      "hr",
+      "sr"
+    ],
+    "symbol": "KM",
+    "dateFormat": "yyyy-MM-dd",
+    "numericCode": 977,
+    "currencyName": "Bosnia and Herzegovina convertible mark",
+    "region": "Europe",
+    "flag": "🇧🇦",
+    "officialLanguageCode": "bs",
+    "officialLanguageName": "Bosnian"
+  },
+  "BB": {
+    "name": "Barbados",
+    "native": "Barbados",
+    "phone": [
+      1246
+    ],
+    "continent": "NA",
+    "capital": "Bridgetown",
+    "currency": "BBD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "BBD",
+    "numericCode": 52,
+    "currencyName": "Barbados dollar",
+    "region": "South/Latin America",
+    "flag": "🇧🇧",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "BD": {
+    "name": "Bangladesh",
+    "native": "Bangladesh",
+    "phone": [
+      880
+    ],
+    "continent": "AS",
+    "capital": "Dhaka",
+    "currency": "BDT",
+    "languages": [
+      "bn"
+    ],
+    "symbol": "Tk",
+    "numericCode": 50,
+    "currencyName": "Bangladeshi taka",
+    "region": "Asia & Pacific",
+    "flag": "🇧🇩",
+    "officialLanguageCode": "bn",
+    "officialLanguageName": "Bengali"
+  },
+  "BE": {
+    "name": "Belgium",
+    "native": "België",
+    "phone": [
+      32
+    ],
+    "continent": "EU",
+    "capital": "Brussels",
+    "currency": "EUR",
+    "languages": [
+      "nl",
+      "fr",
+      "de"
+    ],
+    "symbol": "€",
+    "dateFormat": "d/MM/yyyy",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Europe",
+    "flag": "🇧🇪",
+    "officialLanguageCode": "nl",
+    "officialLanguageName": "Dutch, Flemish"
+  },
+  "BF": {
+    "name": "Burkina Faso",
+    "native": "Burkina Faso",
+    "phone": [
+      226
+    ],
+    "continent": "AF",
+    "capital": "Ouagadougou",
+    "currency": "XOF",
+    "languages": [
+      "fr",
+      "ff"
+    ],
+    "symbol": "CFA",
+    "numericCode": 952,
+    "currencyName": "CFA franc BCEAO",
+    "region": "Africa",
+    "flag": "🇧🇫",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "BG": {
+    "name": "Bulgaria",
+    "native": "България",
+    "phone": [
+      359
+    ],
+    "continent": "EU",
+    "capital": "Sofia",
+    "currency": "BGN",
+    "languages": [
+      "bg"
+    ],
+    "symbol": "BGN",
+    "dateFormat": "yyyy-M-d",
+    "numericCode": 975,
+    "currencyName": "Bulgarian lev",
+    "region": "Europe",
+    "flag": "🇧🇬",
+    "officialLanguageCode": "bg",
+    "officialLanguageName": "Bulgarian"
+  },
+  "BH": {
+    "name": "Bahrain",
+    "native": "‏البحرين",
+    "phone": [
+      973
+    ],
+    "continent": "AS",
+    "capital": "Manama",
+    "currency": "BHD",
+    "languages": [
+      "ar"
+    ],
+    "symbol": "BD",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 48,
+    "currencyName": "Bahraini dinar",
+    "region": "Arab States",
+    "flag": "🇧🇭",
+    "officialLanguageCode": "ar",
+    "officialLanguageName": "Arabic"
+  },
+  "BI": {
+    "name": "Burundi",
+    "native": "Burundi",
+    "phone": [
+      257
+    ],
+    "continent": "AF",
+    "capital": "Gitega",
+    "currency": "BIF",
+    "languages": [
+      "fr",
+      "rn"
+    ],
+    "symbol": "FBu",
+    "numericCode": 108,
+    "currencyName": "Burundian franc",
+    "region": "Africa",
+    "flag": "🇧🇮",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "BJ": {
+    "name": "Benin",
+    "native": "Bénin",
+    "phone": [
+      229
+    ],
+    "continent": "AF",
+    "capital": "Porto-Novo",
+    "currency": "XOF",
+    "languages": [
+      "fr"
+    ],
+    "symbol": "CFA",
+    "numericCode": 952,
+    "currencyName": "CFA franc BCEAO",
+    "region": "Africa",
+    "flag": "🇧🇯",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "BL": {
+    "name": "Saint Barthelemy",
+    "native": "Saint-Barthélemy",
+    "phone": [
+      590
+    ],
+    "continent": "NA",
+    "capital": "Gustavia",
+    "currency": "EUR",
+    "languages": [
+      "fr"
+    ],
+    "symbol": "€",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "South/Latin America",
+    "flag": "🇧🇱",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "BM": {
+    "name": "Bermuda",
+    "native": "Bermuda",
+    "phone": [
+      1441
+    ],
+    "continent": "NA",
+    "capital": "Hamilton",
+    "currency": "BMD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "BMD",
+    "numericCode": 60,
+    "currencyName": "Bermudian dollar",
+    "region": "North America",
+    "flag": "🇧🇲",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "BN": {
+    "name": "Brunei",
+    "native": "Negara Brunei Darussalam",
+    "phone": [
+      673
+    ],
+    "continent": "AS",
+    "capital": "Bandar Seri Begawan",
+    "currency": "BND",
+    "languages": [
+      "ms"
+    ],
+    "symbol": "BN$",
+    "numericCode": 96,
+    "currencyName": "Brunei dollar",
+    "region": "Asia & Pacific",
+    "flag": "🇧🇳",
+    "officialLanguageCode": "ms",
+    "officialLanguageName": "Malay"
+  },
+  "BO": {
+    "name": "Bolivia",
+    "native": "Bolivia",
+    "phone": [
+      591
+    ],
+    "continent": "SA",
+    "capital": "Sucre",
+    "currency": "BOB",
+    "languages": [
+      "es",
+      "ay",
+      "qu"
+    ],
+    "symbol": "Bs",
+    "dateFormat": "dd-MM-yyyy",
+    "numericCode": 68,
+    "currencyName": "",
+    "region": "South/Latin America",
+    "flag": "🇧🇴",
+    "officialLanguageCode": "es",
+    "officialLanguageName": "Spanish, Castilian"
+  },
+  "BQ": {
+    "name": "Bonaire",
+    "native": "Bonaire",
+    "phone": [
+      5997
+    ],
+    "continent": "NA",
+    "capital": "Kralendijk",
+    "currency": "USD",
+    "languages": [
+      "nl"
+    ],
+    "symbol": "$",
+    "numericCode": 840,
+    "currencyName": "United States dollar",
+    "region": "Unknown",
+    "flag": "🇧🇶",
+    "officialLanguageCode": "nl",
+    "officialLanguageName": "Dutch, Flemish"
+  },
+  "BR": {
+    "name": "Brazil",
+    "native": "Brasil",
+    "phone": [
+      55
+    ],
+    "continent": "SA",
+    "capital": "Brasília",
+    "currency": "BRL",
+    "languages": [
+      "pt"
+    ],
+    "symbol": "R$",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 986,
+    "currencyName": "Brazilian real",
+    "region": "South/Latin America",
+    "flag": "🇧🇷",
+    "officialLanguageCode": "pt",
+    "officialLanguageName": "Portuguese"
+  },
+  "BS": {
+    "name": "Bahamas",
+    "native": "Bahamas",
+    "phone": [
+      1242
+    ],
+    "continent": "NA",
+    "capital": "Nassau",
+    "currency": "BSD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "BSD",
+    "numericCode": 44,
+    "currencyName": "Bahamian dollar",
+    "region": "Caribbean",
+    "flag": "🇧🇸",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "BT": {
+    "name": "Bhutan",
+    "native": "ʼbrug-yul",
+    "phone": [
+      975
+    ],
+    "continent": "AS",
+    "capital": "Thimphu",
+    "currency": "BTN",
+    "languages": [
+      "dz"
+    ],
+    "symbol": "BTN",
+    "numericCode": 64,
+    "currencyName": "Bhutanese ngultrum",
+    "region": "Asia & Pacific",
+    "flag": "🇧🇹",
+    "officialLanguageCode": "dz",
+    "officialLanguageName": "Dzongkha"
+  },
+  "BV": {
+    "name": "Bouvet Island",
+    "native": "Bouvetøya",
+    "phone": [
+      47
+    ],
+    "continent": "AN",
+    "capital": "",
+    "currency": "NOK",
+    "languages": [
+      "no",
+      "nb",
+      "nn"
+    ],
+    "symbol": "Nkr",
+    "numericCode": 578,
+    "currencyName": "Norwegian krone",
+    "region": "South/Latin America",
+    "flag": "🇧🇻",
+    "officialLanguageCode": "no",
+    "officialLanguageName": "Norwegian"
+  },
+  "BW": {
+    "name": "Botswana",
+    "native": "Botswana",
+    "phone": [
+      267
+    ],
+    "continent": "AF",
+    "capital": "Gaborone",
+    "currency": "BWP",
+    "languages": [
+      "en",
+      "tn"
+    ],
+    "symbol": "BWP",
+    "numericCode": 72,
+    "currencyName": "Botswana pula",
+    "region": "Africa",
+    "flag": "🇧🇼",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "BY": {
+    "name": "Belarus",
+    "native": "Беларусь",
+    "phone": [
+      375
+    ],
+    "continent": "EU",
+    "capital": "Minsk",
+    "currency": "BYN",
+    "languages": [
+      "be",
+      "ru"
+    ],
+    "symbol": "BYN",
+    "dateFormat": "d.M.yyyy",
+    "numericCode": 933,
+    "currencyName": "",
+    "region": "Europe",
+    "flag": "🇧🇾",
+    "officialLanguageCode": "be",
+    "officialLanguageName": "Belarusian"
+  },
+  "BZ": {
+    "name": "Belize",
+    "native": "Belize",
+    "phone": [
+      501
+    ],
+    "continent": "NA",
+    "capital": "Belmopan",
+    "currency": "BZD",
+    "languages": [
+      "en",
+      "es"
+    ],
+    "symbol": "BZ$",
+    "numericCode": 84,
+    "currencyName": "Belize dollar",
+    "region": "South/Latin America",
+    "flag": "🇧🇿",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "CA": {
+    "name": "Canada",
+    "native": "Canada",
+    "phone": [
+      1
+    ],
+    "continent": "NA",
+    "capital": "Ottawa",
+    "currency": "CAD",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "symbol": "CA$",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 124,
+    "currencyName": "Canadian dollar",
+    "region": "North America",
+    "flag": "🇨🇦",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "CC": {
+    "name": "Cocos (Keeling) Islands",
+    "native": "Cocos (Keeling) Islands",
+    "phone": [
+      61
+    ],
+    "continent": "AS",
+    "capital": "West Island",
+    "currency": "AUD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "AU$",
+    "numericCode": 36,
+    "currencyName": "Australian dollar",
+    "region": "Australia",
+    "flag": "🇨🇨",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "CD": {
+    "name": "Democratic Republic of the Congo",
+    "native": "République démocratique du Congo",
+    "phone": [
+      243
+    ],
+    "continent": "AF",
+    "capital": "Kinshasa",
+    "currency": "CDF",
+    "languages": [
+      "fr",
+      "ln",
+      "kg",
+      "sw",
+      "lu"
+    ],
+    "symbol": "CDF",
+    "numericCode": 976,
+    "currencyName": "Congolese franc",
+    "region": "Africa",
+    "flag": "🇨🇩",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "CF": {
+    "name": "Central African Republic",
+    "native": "Ködörösêse tî Bêafrîka",
+    "phone": [
+      236
+    ],
+    "continent": "AF",
+    "capital": "Bangui",
+    "currency": "XAF",
+    "languages": [
+      "fr",
+      "sg"
+    ],
+    "symbol": "FCFA",
+    "numericCode": 950,
+    "currencyName": "Central African CFA",
+    "region": "Africa",
+    "flag": "🇨🇫",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "CG": {
+    "name": "Republic of the Congo",
+    "native": "République du Congo",
+    "phone": [
+      242
+    ],
+    "continent": "AF",
+    "capital": "Brazzaville",
+    "currency": "XAF",
+    "languages": [
+      "fr",
+      "ln"
+    ],
+    "symbol": "FCFA",
+    "numericCode": 950,
+    "currencyName": "CFA franc BEAC",
+    "region": "Africa",
+    "flag": "🇨🇬",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "CH": {
+    "name": "Switzerland",
+    "native": "Schweiz",
+    "phone": [
+      41
+    ],
+    "continent": "EU",
+    "capital": "Bern",
+    "currency": "CHF",
+    "languages": [
+      "de",
+      "fr",
+      "it"
+    ],
+    "symbol": "CHF",
+    "dateFormat": "dd.MM.yyyy",
+    "numericCode": 756,
+    "currencyName": "Swiss franc",
+    "region": "Europe",
+    "flag": "🇨🇭",
+    "officialLanguageCode": "de",
+    "officialLanguageName": "German"
+  },
+  "CI": {
+    "name": "Ivory Coast",
+    "native": "Côte d'Ivoire",
+    "phone": [
+      225
+    ],
+    "continent": "AF",
+    "capital": "Yamoussoukro",
+    "currency": "XOF",
+    "languages": [
+      "fr"
+    ],
+    "symbol": "CFA",
+    "numericCode": 952,
+    "currencyName": "CFA franc BCEAO",
+    "region": "Africa",
+    "flag": "🇨🇮",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "CK": {
+    "name": "Cook Islands",
+    "native": "Cook Islands",
+    "phone": [
+      682
+    ],
+    "continent": "OC",
+    "capital": "Avarua",
+    "currency": "NZD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "NZ$",
+    "numericCode": 554,
+    "currencyName": "New Zealand dollar",
+    "region": "South Pacific Ocean",
+    "flag": "🇨🇰",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "CL": {
+    "name": "Chile",
+    "native": "Chile",
+    "phone": [
+      56
+    ],
+    "continent": "SA",
+    "capital": "Santiago",
+    "currency": "CLP",
+    "languages": [
+      "es"
+    ],
+    "symbol": "CL$",
+    "dateFormat": "dd-MM-yyyy",
+    "numericCode": 152,
+    "currencyName": "Chilean peso",
+    "region": "South/Latin America",
+    "flag": "🇨🇱",
+    "officialLanguageCode": "es",
+    "officialLanguageName": "Spanish, Castilian"
+  },
+  "CM": {
+    "name": "Cameroon",
+    "native": "Cameroon",
+    "phone": [
+      237
+    ],
+    "continent": "AF",
+    "capital": "Yaoundé",
+    "currency": "XAF",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "symbol": "FCFA",
+    "numericCode": 950,
+    "currencyName": "CFA franc BEAC",
+    "region": "Africa",
+    "flag": "🇨🇲",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "CN": {
+    "name": "China",
+    "native": "中国",
+    "phone": [
+      86
+    ],
+    "continent": "AS",
+    "capital": "Beijing",
+    "currency": "CNY",
+    "languages": [
+      "zh"
+    ],
+    "symbol": "CN¥",
+    "dateFormat": "yyyy-M-d",
+    "numericCode": 156,
+    "currencyName": "Renminbi (Chinese) yuan",
+    "region": "Asia & Pacific",
+    "flag": "🇨🇳",
+    "officialLanguageCode": "zh-hans",
+    "officialLanguageName": ""
+  },
+  "CO": {
+    "name": "Colombia",
+    "native": "Colombia",
+    "phone": [
+      57
+    ],
+    "continent": "SA",
+    "capital": "Bogotá",
+    "currency": "COP",
+    "languages": [
+      "es"
+    ],
+    "symbol": "CO$",
+    "dateFormat": "d/MM/yyyy",
+    "numericCode": 170,
+    "currencyName": "Colombian peso",
+    "region": "South/Latin America",
+    "flag": "🇨🇴",
+    "officialLanguageCode": "es",
+    "officialLanguageName": "Spanish, Castilian"
+  },
+  "CR": {
+    "name": "Costa Rica",
+    "native": "Costa Rica",
+    "phone": [
+      506
+    ],
+    "continent": "NA",
+    "capital": "San José",
+    "currency": "CRC",
+    "languages": [
+      "es"
+    ],
+    "symbol": "₡",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 188,
+    "currencyName": "Costa Rican colon",
+    "region": "South/Latin America",
+    "flag": "🇨🇷",
+    "officialLanguageCode": "es",
+    "officialLanguageName": "Spanish, Castilian"
+  },
+  "CU": {
+    "name": "Cuba",
+    "native": "Cuba",
+    "phone": [
+      53
+    ],
+    "continent": "NA",
+    "capital": "Havana",
+    "currency": "CUP",
+    "languages": [
+      "es"
+    ],
+    "symbol": "CUP",
+    "numericCode": 192,
+    "currencyName": "Cuban convertible peso",
+    "region": "South/Latin America",
+    "flag": "🇨🇺",
+    "officialLanguageCode": "es",
+    "officialLanguageName": "Spanish, Castilian"
+  },
+  "CV": {
+    "name": "Cape Verde",
+    "native": "Cabo Verde",
+    "phone": [
+      238
+    ],
+    "continent": "AF",
+    "capital": "Praia",
+    "currency": "CVE",
+    "languages": [
+      "pt"
+    ],
+    "symbol": "CV$",
+    "numericCode": 132,
+    "currencyName": "Cape Verdean escudo",
+    "region": "Africa",
+    "flag": "🇨🇻",
+    "officialLanguageCode": "pt",
+    "officialLanguageName": "Portuguese"
+  },
+  "CW": {
+    "name": "Curacao",
+    "native": "Curaçao",
+    "phone": [
+      5999
+    ],
+    "continent": "NA",
+    "capital": "Willemstad",
+    "currency": "ANG",
+    "languages": [
+      "nl",
+      "pa",
+      "en"
+    ],
+    "symbol": "ANG",
+    "numericCode": 532,
+    "currencyName": "Netherlands Antillean guilder",
+    "region": "Unknown",
+    "flag": "🇨🇼",
+    "officialLanguageCode": "nl",
+    "officialLanguageName": "Dutch, Flemish"
+  },
+  "CX": {
+    "name": "Christmas Island",
+    "native": "Christmas Island",
+    "phone": [
+      61
+    ],
+    "continent": "AS",
+    "capital": "Flying Fish Cove",
+    "currency": "AUD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "AU$",
+    "numericCode": 36,
+    "currencyName": "Australian dollar",
+    "region": "Asia & Pacific",
+    "flag": "🇨🇽",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "CY": {
+    "name": "Cyprus",
+    "native": "Κύπρος",
+    "phone": [
+      357
+    ],
+    "continent": "EU",
+    "capital": "Nicosia",
+    "currency": "EUR",
+    "languages": [
+      "el",
+      "tr",
+      "hy"
+    ],
+    "symbol": "€",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Europe",
+    "flag": "🇨🇾",
+    "officialLanguageCode": "el",
+    "officialLanguageName": "Greek, Modern (1453-)"
+  },
+  "CZ": {
+    "name": "Czech Republic",
+    "native": "Česká republika",
+    "phone": [
+      420
+    ],
+    "continent": "EU",
+    "capital": "Prague",
+    "currency": "CZK",
+    "languages": [
+      "cs"
+    ],
+    "symbol": "Kč",
+    "dateFormat": "d.M.yyyy",
+    "numericCode": 203,
+    "currencyName": "Czech koruna",
+    "region": "Europe",
+    "flag": "🇨🇿",
+    "officialLanguageCode": "cs",
+    "officialLanguageName": "Czech"
+  },
+  "DE": {
+    "name": "Germany",
+    "native": "Deutschland",
+    "phone": [
+      49
+    ],
+    "continent": "EU",
+    "capital": "Berlin",
+    "currency": "EUR",
+    "languages": [
+      "de"
+    ],
+    "symbol": "€",
+    "dateFormat": "dd.MM.yyyy",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Europe",
+    "flag": "🇩🇪",
+    "officialLanguageCode": "de",
+    "officialLanguageName": "German"
+  },
+  "DJ": {
+    "name": "Djibouti",
+    "native": "Djibouti",
+    "phone": [
+      253
+    ],
+    "continent": "AF",
+    "capital": "Djibouti",
+    "currency": "DJF",
+    "languages": [
+      "fr",
+      "ar"
+    ],
+    "symbol": "Fdj",
+    "numericCode": 262,
+    "currencyName": "Djiboutian franc",
+    "region": "Arab States",
+    "flag": "🇩🇯",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "DK": {
+    "name": "Denmark",
+    "native": "Danmark",
+    "phone": [
+      45
+    ],
+    "continent": "EU",
+    "continents": [
+      "EU",
+      "NA"
+    ],
+    "capital": "Copenhagen",
+    "currency": "DKK",
+    "languages": [
+      "da"
+    ],
+    "symbol": "Dkr",
+    "dateFormat": "dd-MM-yyyy",
+    "numericCode": 208,
+    "currencyName": "Danish krone",
+    "region": "Europe",
+    "flag": "🇩🇰",
+    "officialLanguageCode": "da",
+    "officialLanguageName": "Danish"
+  },
+  "DM": {
+    "name": "Dominica",
+    "native": "Dominica",
+    "phone": [
+      1767
+    ],
+    "continent": "NA",
+    "capital": "Roseau",
+    "currency": "XCD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "XCD",
+    "numericCode": 951,
+    "currencyName": "East Caribbean dollar",
+    "region": "South/Latin America",
+    "flag": "🇩🇲",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "DO": {
+    "name": "Dominican Republic",
+    "native": "República Dominicana",
+    "phone": [
+      1809,
+      1829,
+      1849
+    ],
+    "continent": "NA",
+    "capital": "Santo Domingo",
+    "currency": "DOP",
+    "languages": [
+      "es"
+    ],
+    "symbol": "RD$",
+    "dateFormat": "MM/dd/yyyy",
+    "numericCode": 214,
+    "currencyName": "Dominican peso",
+    "region": "South/Latin America",
+    "flag": "🇩🇴",
+    "officialLanguageCode": "es",
+    "officialLanguageName": "Spanish, Castilian"
+  },
+  "DZ": {
+    "name": "Algeria",
+    "native": "الجزائر",
+    "phone": [
+      213
+    ],
+    "continent": "AF",
+    "capital": "Algiers",
+    "currency": "DZD",
+    "languages": [
+      "ar"
+    ],
+    "symbol": "DA",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 12,
+    "currencyName": "Algerian dinar",
+    "region": "Arab States",
+    "flag": "🇩🇿",
+    "officialLanguageCode": "ar",
+    "officialLanguageName": "Arabic"
+  },
+  "EC": {
+    "name": "Ecuador",
+    "native": "Ecuador",
+    "phone": [
+      593
+    ],
+    "continent": "SA",
+    "capital": "Quito",
+    "currency": "USD",
+    "languages": [
+      "es"
+    ],
+    "symbol": "$",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 840,
+    "currencyName": "United States dollar",
+    "region": "South/Latin America",
+    "flag": "🇪🇨",
+    "officialLanguageCode": "es",
+    "officialLanguageName": "Spanish, Castilian"
+  },
+  "EE": {
+    "name": "Estonia",
+    "native": "Eesti",
+    "phone": [
+      372
+    ],
+    "continent": "EU",
+    "capital": "Tallinn",
+    "currency": "EUR",
+    "languages": [
+      "et"
+    ],
+    "symbol": "€",
+    "dateFormat": "d.MM.yyyy",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Europe",
+    "flag": "🇪🇪",
+    "officialLanguageCode": "et",
+    "officialLanguageName": "Estonian"
+  },
+  "EG": {
+    "name": "Egypt",
+    "native": "مصر‎",
+    "phone": [
+      20
+    ],
+    "continent": "AF",
+    "continents": [
+      "AF",
+      "AS"
+    ],
+    "capital": "Cairo",
+    "currency": "EGP",
+    "languages": [
+      "ar"
+    ],
+    "symbol": "EGP",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 818,
+    "currencyName": "Egyptian pound",
+    "region": "Arab States",
+    "flag": "🇪🇬",
+    "officialLanguageCode": "ar",
+    "officialLanguageName": "Arabic"
+  },
+  "EH": {
+    "name": "Western Sahara",
+    "native": "الصحراء الغربية",
+    "phone": [
+      212
+    ],
+    "continent": "AF",
+    "capital": "El Aaiún",
+    "currency": "MAD",
+    "languages": [
+      "es"
+    ],
+    "symbol": "MAD",
+    "numericCode": 504,
+    "currencyName": "Moroccan dirham",
+    "region": "Africa",
+    "flag": "🇪🇭",
+    "officialLanguageCode": "ar",
+    "officialLanguageName": "Arabic"
+  },
+  "ER": {
+    "name": "Eritrea",
+    "native": "ኤርትራ",
+    "phone": [
+      291
+    ],
+    "continent": "AF",
+    "capital": "Asmara",
+    "currency": "ERN",
+    "languages": [
+      "ti",
+      "ar",
+      "en"
+    ],
+    "symbol": "Nfk",
+    "numericCode": 232,
+    "currencyName": "Eritrean nakfa",
+    "region": "Africa",
+    "flag": "🇪🇷",
+    "officialLanguageCode": "ti",
+    "officialLanguageName": "Tigrinya"
+  },
+  "ES": {
+    "name": "Spain",
+    "native": "España",
+    "phone": [
+      34
+    ],
+    "continent": "EU",
+    "capital": "Madrid",
+    "currency": "EUR",
+    "languages": [
+      "es",
+      "eu",
+      "ca",
+      "gl",
+      "oc"
+    ],
+    "symbol": "€",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Europe",
+    "flag": "🇪🇸",
+    "officialLanguageCode": "es",
+    "officialLanguageName": "Spanish, Castilian"
+  },
+  "ET": {
+    "name": "Ethiopia",
+    "native": "ኢትዮጵያ",
+    "phone": [
+      251
+    ],
+    "continent": "AF",
+    "capital": "Addis Ababa",
+    "currency": "ETB",
+    "languages": [
+      "am"
+    ],
+    "symbol": "Br",
+    "numericCode": 230,
+    "currencyName": "Ethiopian birr",
+    "region": "Africa",
+    "flag": "🇪🇹",
+    "officialLanguageCode": "am",
+    "officialLanguageName": "Amharic"
+  },
+  "FI": {
+    "name": "Finland",
+    "native": "Suomi",
+    "phone": [
+      358
+    ],
+    "continent": "EU",
+    "capital": "Helsinki",
+    "currency": "EUR",
+    "languages": [
+      "fi",
+      "sv"
+    ],
+    "symbol": "€",
+    "dateFormat": "d.M.yyyy",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Europe",
+    "flag": "🇫🇮",
+    "officialLanguageCode": "fi",
+    "officialLanguageName": "Finnish"
+  },
+  "FJ": {
+    "name": "Fiji",
+    "native": "Fiji",
+    "phone": [
+      679
+    ],
+    "continent": "OC",
+    "capital": "Suva",
+    "currency": "FJD",
+    "languages": [
+      "en",
+      "fj",
+      "hi",
+      "ur"
+    ],
+    "symbol": "FJD",
+    "numericCode": 242,
+    "currencyName": "Fiji dollar",
+    "region": "Asia & Pacific",
+    "flag": "🇫🇯",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "FK": {
+    "name": "Falkland Islands",
+    "native": "Falkland Islands",
+    "phone": [
+      500
+    ],
+    "continent": "SA",
+    "capital": "Stanley",
+    "currency": "FKP",
+    "languages": [
+      "en"
+    ],
+    "symbol": "FKP",
+    "numericCode": 238,
+    "currencyName": "Falklands pound",
+    "region": "South Atlantic Ocean",
+    "flag": "🇫🇰",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "FM": {
+    "name": "Micronesia",
+    "native": "Micronesia",
+    "phone": [
+      691
+    ],
+    "continent": "OC",
+    "capital": "Palikir",
+    "currency": "USD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "$",
+    "numericCode": 840,
+    "currencyName": "United States dollar",
+    "region": "Asia & Pacific",
+    "flag": "🇫🇲",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "FO": {
+    "name": "Faroe Islands",
+    "native": "Føroyar",
+    "phone": [
+      298
+    ],
+    "continent": "EU",
+    "capital": "Tórshavn",
+    "currency": "DKK",
+    "languages": [
+      "fo"
+    ],
+    "symbol": "Dkr",
+    "numericCode": 208,
+    "currencyName": "Faroese króna",
+    "region": "Europe",
+    "flag": "🇫🇴",
+    "officialLanguageCode": "da",
+    "officialLanguageName": "Danish"
+  },
+  "FR": {
+    "name": "France",
+    "native": "France",
+    "phone": [
+      33
+    ],
+    "continent": "EU",
+    "capital": "Paris",
+    "currency": "EUR",
+    "languages": [
+      "fr"
+    ],
+    "symbol": "€",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Europe",
+    "flag": "🇫🇷",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "GA": {
+    "name": "Gabon",
+    "native": "Gabon",
+    "phone": [
+      241
+    ],
+    "continent": "AF",
+    "capital": "Libreville",
+    "currency": "XAF",
+    "languages": [
+      "fr"
+    ],
+    "symbol": "FCFA",
+    "numericCode": 950,
+    "currencyName": "CFA franc BEAC",
+    "region": "Africa",
+    "flag": "🇬🇦",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "GB": {
+    "name": "United Kingdom",
+    "native": "United Kingdom",
+    "phone": [
+      44
+    ],
+    "continent": "EU",
+    "capital": "London",
+    "currency": "GBP",
+    "languages": [
+      "en"
+    ],
+    "symbol": "£",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 826,
+    "currencyName": "Pound sterling",
+    "region": "Europe",
+    "flag": "🇬🇧",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "GD": {
+    "name": "Grenada",
+    "native": "Grenada",
+    "phone": [
+      1473
+    ],
+    "continent": "NA",
+    "capital": "St. George's",
+    "currency": "XCD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "XCD",
+    "numericCode": 951,
+    "currencyName": "East Caribbean dollar",
+    "region": "South/Latin America",
+    "flag": "🇬🇩",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "GE": {
+    "name": "Georgia",
+    "native": "საქართველო",
+    "phone": [
+      995
+    ],
+    "continent": "AS",
+    "continents": [
+      "AS",
+      "EU"
+    ],
+    "capital": "Tbilisi",
+    "currency": "GEL",
+    "languages": [
+      "ka"
+    ],
+    "symbol": "GEL",
+    "numericCode": 981,
+    "currencyName": "Georgian lari",
+    "region": "Europe",
+    "flag": "🇬🇪",
+    "officialLanguageCode": "ka",
+    "officialLanguageName": "Georgian"
+  },
+  "GF": {
+    "name": "French Guiana",
+    "native": "Guyane française",
+    "phone": [
+      594
+    ],
+    "continent": "SA",
+    "capital": "Cayenne",
+    "currency": "EUR",
+    "languages": [
+      "fr"
+    ],
+    "symbol": "€",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "South/Latin America",
+    "flag": "🇬🇫",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "GG": {
+    "name": "Guernsey",
+    "native": "Guernsey",
+    "phone": [
+      44
+    ],
+    "continent": "EU",
+    "capital": "St. Peter Port",
+    "currency": "GBP",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "symbol": "£",
+    "numericCode": 826,
+    "currencyName": "Pound sterling",
+    "region": "Europe",
+    "flag": "🇬🇬",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "GH": {
+    "name": "Ghana",
+    "native": "Ghana",
+    "phone": [
+      233
+    ],
+    "continent": "AF",
+    "capital": "Accra",
+    "currency": "GHS",
+    "languages": [
+      "en"
+    ],
+    "symbol": "GH₵",
+    "numericCode": 936,
+    "currencyName": "Ghanaian cedi",
+    "region": "Africa",
+    "flag": "🇬🇭",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "GI": {
+    "name": "Gibraltar",
+    "native": "Gibraltar",
+    "phone": [
+      350
+    ],
+    "continent": "EU",
+    "capital": "Gibraltar",
+    "currency": "GIP",
+    "languages": [
+      "en"
+    ],
+    "symbol": "GIP",
+    "numericCode": 292,
+    "currencyName": "Gibraltar pound",
+    "region": "Europe",
+    "flag": "🇬🇮",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "GL": {
+    "name": "Greenland",
+    "native": "Kalaallit Nunaat",
+    "phone": [
+      299
+    ],
+    "continent": "NA",
+    "capital": "Nuuk",
+    "currency": "DKK",
+    "languages": [
+      "kl"
+    ],
+    "symbol": "Dkr",
+    "numericCode": 208,
+    "currencyName": "Danish krone",
+    "region": "Europe",
+    "flag": "🇬🇱",
+    "officialLanguageCode": "kl",
+    "officialLanguageName": "Kalaallisut, Greenlandic"
+  },
+  "GM": {
+    "name": "Gambia",
+    "native": "Gambia",
+    "phone": [
+      220
+    ],
+    "continent": "AF",
+    "capital": "Banjul",
+    "currency": "GMD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "GMD",
+    "numericCode": 270,
+    "currencyName": "Gambian dalasi",
+    "region": "Africa",
+    "flag": "🇬🇲",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "GN": {
+    "name": "Guinea",
+    "native": "Guinée",
+    "phone": [
+      224
+    ],
+    "continent": "AF",
+    "capital": "Conakry",
+    "currency": "GNF",
+    "languages": [
+      "fr",
+      "ff"
+    ],
+    "symbol": "FG",
+    "numericCode": 324,
+    "currencyName": "Guinean franc",
+    "region": "Africa",
+    "flag": "🇬🇳",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "GP": {
+    "name": "Guadeloupe",
+    "native": "Guadeloupe",
+    "phone": [
+      590
+    ],
+    "continent": "NA",
+    "capital": "Basse-Terre",
+    "currency": "EUR",
+    "languages": [
+      "fr"
+    ],
+    "symbol": "€",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "South/Latin America",
+    "flag": "🇬🇵",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "GQ": {
+    "name": "Equatorial Guinea",
+    "native": "Guinea Ecuatorial",
+    "phone": [
+      240
+    ],
+    "continent": "AF",
+    "capital": "Malabo",
+    "currency": "XAF",
+    "languages": [
+      "es",
+      "fr"
+    ],
+    "symbol": "FCFA",
+    "numericCode": 950,
+    "currencyName": "CFA franc BEAC",
+    "region": "Africa",
+    "flag": "🇬🇶",
+    "officialLanguageCode": "es",
+    "officialLanguageName": "Spanish, Castilian"
+  },
+  "GR": {
+    "name": "Greece",
+    "native": "Ελλάδα",
+    "phone": [
+      30
+    ],
+    "continent": "EU",
+    "capital": "Athens",
+    "currency": "EUR",
+    "languages": [
+      "el"
+    ],
+    "symbol": "€",
+    "dateFormat": "d/M/yyyy",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Europe",
+    "flag": "🇬🇷",
+    "officialLanguageCode": "el",
+    "officialLanguageName": "Greek, Modern (1453-)"
+  },
+  "GS": {
+    "name": "South Georgia and the South Sandwich Islands",
+    "native": "South Georgia",
+    "phone": [
+      500
+    ],
+    "continent": "AN",
+    "capital": "King Edward Point",
+    "currency": "GBP",
+    "languages": [
+      "en"
+    ],
+    "symbol": "£",
+    "numericCode": 826,
+    "currencyName": "",
+    "region": "South/Latin America",
+    "flag": "🇬🇸",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "GT": {
+    "name": "Guatemala",
+    "native": "Guatemala",
+    "phone": [
+      502
+    ],
+    "continent": "NA",
+    "capital": "Guatemala City",
+    "currency": "GTQ",
+    "languages": [
+      "es"
+    ],
+    "symbol": "GTQ",
+    "dateFormat": "d/MM/yyyy",
+    "numericCode": 320,
+    "currencyName": "Guatemalan quetzal",
+    "region": "South/Latin America",
+    "flag": "🇬🇹",
+    "officialLanguageCode": "es",
+    "officialLanguageName": "Spanish, Castilian"
+  },
+  "GU": {
+    "name": "Guam",
+    "native": "Guam",
+    "phone": [
+      1671
+    ],
+    "continent": "OC",
+    "capital": "Hagåtña",
+    "currency": "USD",
+    "languages": [
+      "en",
+      "ch",
+      "es"
+    ],
+    "symbol": "$",
+    "numericCode": 840,
+    "currencyName": "United States dollar",
+    "region": "Asia & Pacific",
+    "flag": "🇬🇺",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "GW": {
+    "name": "Guinea-Bissau",
+    "native": "Guiné-Bissau",
+    "phone": [
+      245
+    ],
+    "continent": "AF",
+    "capital": "Bissau",
+    "currency": "XOF",
+    "languages": [
+      "pt"
+    ],
+    "symbol": "CFA",
+    "numericCode": 952,
+    "currencyName": "CFA franc BCEAO",
+    "region": "Africa",
+    "flag": "🇬🇼",
+    "officialLanguageCode": "pt",
+    "officialLanguageName": "Portuguese"
+  },
+  "GY": {
+    "name": "Guyana",
+    "native": "Guyana",
+    "phone": [
+      592
+    ],
+    "continent": "SA",
+    "capital": "Georgetown",
+    "currency": "GYD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "GYD",
+    "numericCode": 328,
+    "currencyName": "Guyanese dollar",
+    "region": "South/Latin America",
+    "flag": "🇬🇾",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "HK": {
+    "name": "Hong Kong",
+    "native": "香港",
+    "phone": [
+      852
+    ],
+    "continent": "AS",
+    "capital": "City of Victoria",
+    "currency": "HKD",
+    "languages": [
+      "zh",
+      "en"
+    ],
+    "symbol": "HK$",
+    "dateFormat": "yyyy年M月d日",
+    "numericCode": 344,
+    "currencyName": "Hong Kong dollar",
+    "region": "Asia & Pacific",
+    "flag": "🇭🇰",
+    "officialLanguageCode": "zh-hant",
+    "officialLanguageName": ""
+  },
+  "HM": {
+    "name": "Heard Island and McDonald Islands",
+    "native": "Heard Island and McDonald Islands",
+    "phone": [
+      61
+    ],
+    "continent": "AN",
+    "capital": "",
+    "currency": "AUD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "AU$",
+    "numericCode": 36,
+    "currencyName": "Australian dollar",
+    "region": "Indian Ocean",
+    "flag": "🇭🇲",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "HN": {
+    "name": "Honduras",
+    "native": "Honduras",
+    "phone": [
+      504
+    ],
+    "continent": "NA",
+    "capital": "Tegucigalpa",
+    "currency": "HNL",
+    "languages": [
+      "es"
+    ],
+    "symbol": "HNL",
+    "dateFormat": "MM-dd-yyyy",
+    "numericCode": 340,
+    "currencyName": "Honduran lempira",
+    "region": "South/Latin America",
+    "flag": "🇭🇳",
+    "officialLanguageCode": "es",
+    "officialLanguageName": "Spanish, Castilian"
+  },
+  "HR": {
+    "name": "Croatia",
+    "native": "Hrvatska",
+    "phone": [
+      385
+    ],
+    "continent": "EU",
+    "capital": "Zagreb",
+    "currency": "EUR",
+    "languages": [
+      "hr"
+    ],
+    "symbol": "€",
+    "dateFormat": "dd.MM.yyyy.",
+    "numericCode": 978,
+    "currencyName": "Croatian kuna",
+    "region": "Europe",
+    "flag": "🇭🇷",
+    "officialLanguageCode": "hr",
+    "officialLanguageName": "Croatian"
+  },
+  "HT": {
+    "name": "Haiti",
+    "native": "Haïti",
+    "phone": [
+      509
+    ],
+    "continent": "NA",
+    "capital": "Port-au-Prince",
+    "currency": "HTG",
+    "languages": [
+      "fr",
+      "ht"
+    ],
+    "symbol": "HTG",
+    "numericCode": 332,
+    "currencyName": "Haitian gourde",
+    "region": "South/Latin America",
+    "flag": "🇭🇹",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "HU": {
+    "name": "Hungary",
+    "native": "Magyarország",
+    "phone": [
+      36
+    ],
+    "continent": "EU",
+    "capital": "Budapest",
+    "currency": "HUF",
+    "languages": [
+      "hu"
+    ],
+    "symbol": "Ft",
+    "dateFormat": "yyyy.MM.dd.",
+    "numericCode": 348,
+    "currencyName": "Hungarian forint",
+    "region": "Europe",
+    "flag": "🇭🇺",
+    "officialLanguageCode": "hu",
+    "officialLanguageName": "Hungarian"
+  },
+  "ID": {
+    "name": "Indonesia",
+    "native": "Indonesia",
+    "phone": [
+      62
+    ],
+    "continent": "AS",
+    "capital": "Jakarta",
+    "currency": "IDR",
+    "languages": [
+      "id"
+    ],
+    "symbol": "Rp",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 360,
+    "currencyName": "Indonesian rupiah",
+    "region": "Asia & Pacific",
+    "flag": "🇮🇩",
+    "officialLanguageCode": "id",
+    "officialLanguageName": "Indonesian"
+  },
+  "IE": {
+    "name": "Ireland",
+    "native": "Éire",
+    "phone": [
+      353
+    ],
+    "continent": "EU",
+    "capital": "Dublin",
+    "currency": "EUR",
+    "languages": [
+      "ga",
+      "en"
+    ],
+    "symbol": "€",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Europe",
+    "flag": "🇮🇪",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "IL": {
+    "name": "Israel",
+    "native": "יִשְׂרָאֵל",
+    "phone": [
+      972
+    ],
+    "continent": "AS",
+    "capital": "Jerusalem",
+    "currency": "ILS",
+    "languages": [
+      "he",
+      "ar"
+    ],
+    "symbol": "₪",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 376,
+    "currencyName": "Israeli new shekel",
+    "region": "Europe",
+    "flag": "🇮🇱",
+    "officialLanguageCode": "he",
+    "officialLanguageName": "Hebrew"
+  },
+  "IM": {
+    "name": "Isle of Man",
+    "native": "Isle of Man",
+    "phone": [
+      44
+    ],
+    "continent": "EU",
+    "capital": "Douglas",
+    "currency": "GBP",
+    "languages": [
+      "en",
+      "gv"
+    ],
+    "symbol": "£",
+    "numericCode": 826,
+    "currencyName": "Pound sterling",
+    "region": "Europe",
+    "flag": "🇮🇲",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "IN": {
+    "name": "India",
+    "native": "भारत",
+    "phone": [
+      91
+    ],
+    "continent": "AS",
+    "capital": "New Delhi",
+    "currency": "INR",
+    "languages": [
+      "hi",
+      "en"
+    ],
+    "symbol": "₹",
+    "dateFormat": "d/M/yyyy",
+    "numericCode": 356,
+    "currencyName": "Indian rupee",
+    "region": "Asia & Pacific",
+    "flag": "🇮🇳",
+    "officialLanguageCode": "hi",
+    "officialLanguageName": "Hindi"
+  },
+  "IO": {
+    "name": "British Indian Ocean Territory",
+    "native": "British Indian Ocean Territory",
+    "phone": [
+      246
+    ],
+    "continent": "AS",
+    "capital": "Diego Garcia",
+    "currency": "USD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "$",
+    "numericCode": 840,
+    "currencyName": "United States Dollar",
+    "region": "Indian Ocean",
+    "flag": "🇮🇴",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "IQ": {
+    "name": "Iraq",
+    "native": "العراق",
+    "phone": [
+      964
+    ],
+    "continent": "AS",
+    "capital": "Baghdad",
+    "currency": "IQD",
+    "languages": [
+      "ar",
+      "ku"
+    ],
+    "symbol": "IQD",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 368,
+    "currencyName": "Iraqi dinar",
+    "region": "Arab States",
+    "flag": "🇮🇶",
+    "officialLanguageCode": "ar",
+    "officialLanguageName": "Arabic"
+  },
+  "IR": {
+    "name": "Iran",
+    "native": "ایران",
+    "phone": [
+      98
+    ],
+    "continent": "AS",
+    "capital": "Tehran",
+    "currency": "IRR",
+    "languages": [
+      "fa"
+    ],
+    "symbol": "IRR",
+    "numericCode": 364,
+    "currencyName": "Iranian rial",
+    "region": "Asia & Pacific",
+    "flag": "🇮🇷",
+    "officialLanguageCode": "fa",
+    "officialLanguageName": "Persian"
+  },
+  "IS": {
+    "name": "Iceland",
+    "native": "Ísland",
+    "phone": [
+      354
+    ],
+    "continent": "EU",
+    "capital": "Reykjavik",
+    "currency": "ISK",
+    "languages": [
+      "is"
+    ],
+    "symbol": "Ikr",
+    "dateFormat": "d.M.yyyy",
+    "numericCode": 352,
+    "currencyName": "Icelandic króna",
+    "region": "Europe",
+    "flag": "🇮🇸",
+    "officialLanguageCode": "is",
+    "officialLanguageName": "Icelandic"
+  },
+  "IT": {
+    "name": "Italy",
+    "native": "Italia",
+    "phone": [
+      39
+    ],
+    "continent": "EU",
+    "capital": "Rome",
+    "currency": "EUR",
+    "languages": [
+      "it"
+    ],
+    "symbol": "€",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Europe",
+    "flag": "🇮🇹",
+    "officialLanguageCode": "it",
+    "officialLanguageName": "Italian"
+  },
+  "JE": {
+    "name": "Jersey",
+    "native": "Jersey",
+    "phone": [
+      44
+    ],
+    "continent": "EU",
+    "capital": "Saint Helier",
+    "currency": "GBP",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "symbol": "£",
+    "numericCode": 826,
+    "currencyName": "Pound sterling",
+    "region": "Europe",
+    "flag": "🇯🇪",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "JM": {
+    "name": "Jamaica",
+    "native": "Jamaica",
+    "phone": [
+      1876
+    ],
+    "continent": "NA",
+    "capital": "Kingston",
+    "currency": "JMD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "J$",
+    "numericCode": 388,
+    "currencyName": "Jamaican dollar",
+    "region": "South/Latin America",
+    "flag": "🇯🇲",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "JO": {
+    "name": "Jordan",
+    "native": "الأردن",
+    "phone": [
+      962
+    ],
+    "continent": "AS",
+    "capital": "Amman",
+    "currency": "JOD",
+    "languages": [
+      "ar"
+    ],
+    "symbol": "JD",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 400,
+    "currencyName": "Jordanian dinar",
+    "region": "Arab States",
+    "flag": "🇯🇴",
+    "officialLanguageCode": "ar",
+    "officialLanguageName": "Arabic"
+  },
+  "JP": {
+    "name": "Japan",
+    "native": "日本",
+    "phone": [
+      81
+    ],
+    "continent": "AS",
+    "capital": "Tokyo",
+    "currency": "JPY",
+    "languages": [
+      "ja"
+    ],
+    "symbol": "¥",
+    "dateFormat": "H24.MM.dd",
+    "numericCode": 392,
+    "currencyName": "Japanese yen",
+    "region": "Asia & Pacific",
+    "flag": "🇯🇵",
+    "officialLanguageCode": "ja",
+    "officialLanguageName": "Japanese"
+  },
+  "KE": {
+    "name": "Kenya",
+    "native": "Kenya",
+    "phone": [
+      254
+    ],
+    "continent": "AF",
+    "capital": "Nairobi",
+    "currency": "KES",
+    "languages": [
+      "en",
+      "sw"
+    ],
+    "symbol": "Ksh",
+    "numericCode": 404,
+    "currencyName": "Kenyan shilling",
+    "region": "Africa",
+    "flag": "🇰🇪",
+    "officialLanguageCode": "sw",
+    "officialLanguageName": "Swahili"
+  },
+  "KG": {
+    "name": "Kyrgyzstan",
+    "native": "Кыргызстан",
+    "phone": [
+      996
+    ],
+    "continent": "AS",
+    "capital": "Bishkek",
+    "currency": "KGS",
+    "languages": [
+      "ky",
+      "ru"
+    ],
+    "symbol": "KGS",
+    "numericCode": 417,
+    "currencyName": "Kyrgyzstani som",
+    "region": "Asia & Pacific",
+    "flag": "🇰🇬",
+    "officialLanguageCode": "ky",
+    "officialLanguageName": "Kirghiz, Kyrgyz"
+  },
+  "KH": {
+    "name": "Cambodia",
+    "native": "កម្ពុជា",
+    "phone": [
+      855
+    ],
+    "continent": "AS",
+    "capital": "Phnom Penh",
+    "currency": "KHR",
+    "languages": [
+      "km"
+    ],
+    "symbol": "KHR",
+    "numericCode": 116,
+    "currencyName": "Cambodian riel",
+    "region": "Asia & Pacific",
+    "flag": "🇰🇭",
+    "officialLanguageCode": "km",
+    "officialLanguageName": "Central Khmer"
+  },
+  "KI": {
+    "name": "Kiribati",
+    "native": "Kiribati",
+    "phone": [
+      686
+    ],
+    "continent": "OC",
+    "capital": "South Tarawa",
+    "currency": "AUD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "AU$",
+    "numericCode": 36,
+    "currencyName": "Australian dollar",
+    "region": "Asia & Pacific",
+    "flag": "🇰🇮",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "KM": {
+    "name": "Comoros",
+    "native": "Komori",
+    "phone": [
+      269
+    ],
+    "continent": "AF",
+    "capital": "Moroni",
+    "currency": "KMF",
+    "languages": [
+      "ar",
+      "fr"
+    ],
+    "symbol": "CF",
+    "numericCode": 174,
+    "currencyName": "Comorian franc",
+    "region": "Indian Ocean",
+    "flag": "🇰🇲",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "KN": {
+    "name": "Saint Kitts and Nevis",
+    "native": "Saint Kitts and Nevis",
+    "phone": [
+      1869
+    ],
+    "continent": "NA",
+    "capital": "Basseterre",
+    "currency": "XCD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "XCD",
+    "numericCode": 951,
+    "currencyName": "East Caribbean dollar",
+    "region": "South/Latin America",
+    "flag": "🇰🇳",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "KP": {
+    "name": "North Korea",
+    "native": "북한",
+    "phone": [
+      850
+    ],
+    "continent": "AS",
+    "capital": "Pyongyang",
+    "currency": "KPW",
+    "languages": [
+      "ko"
+    ],
+    "symbol": "KPW",
+    "numericCode": 408,
+    "currencyName": "North Korean won",
+    "region": "Asia",
+    "flag": "🇰🇵",
+    "officialLanguageCode": "ko",
+    "officialLanguageName": "Korean"
+  },
+  "KR": {
+    "name": "South Korea",
+    "native": "대한민국",
+    "phone": [
+      82
+    ],
+    "continent": "AS",
+    "capital": "Seoul",
+    "currency": "KRW",
+    "languages": [
+      "ko"
+    ],
+    "symbol": "₩",
+    "dateFormat": "yyyy. M. d",
+    "numericCode": 410,
+    "currencyName": "South Korean won",
+    "region": "Asia",
+    "flag": "🇰🇷",
+    "officialLanguageCode": "ko",
+    "officialLanguageName": "Korean"
+  },
+  "KW": {
+    "name": "Kuwait",
+    "native": "الكويت",
+    "phone": [
+      965
+    ],
+    "continent": "AS",
+    "capital": "Kuwait City",
+    "currency": "KWD",
+    "languages": [
+      "ar"
+    ],
+    "symbol": "KD",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 414,
+    "currencyName": "Kuwaiti dinar",
+    "region": "Arab States",
+    "flag": "🇰🇼",
+    "officialLanguageCode": "ar",
+    "officialLanguageName": "Arabic"
+  },
+  "KY": {
+    "name": "Cayman Islands",
+    "native": "Cayman Islands",
+    "phone": [
+      1345
+    ],
+    "continent": "NA",
+    "capital": "George Town",
+    "currency": "KYD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "KYD",
+    "numericCode": 136,
+    "currencyName": "Cayman Islands dollar",
+    "region": "Caribbean Sea",
+    "flag": "🇰🇾",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "KZ": {
+    "name": "Kazakhstan",
+    "native": "Қазақстан",
+    "phone": [
+      7
+    ],
+    "continent": "AS",
+    "continents": [
+      "AS",
+      "EU"
+    ],
+    "capital": "Astana",
+    "currency": "KZT",
+    "languages": [
+      "kk",
+      "ru"
+    ],
+    "symbol": "KZT",
+    "numericCode": 398,
+    "currencyName": "Kazakhstani tenge",
+    "region": "Asia & Pacific",
+    "flag": "🇰🇿",
+    "officialLanguageCode": "kk",
+    "officialLanguageName": "Kazakh"
+  },
+  "LA": {
+    "name": "Laos",
+    "native": "ສປປລາວ",
+    "phone": [
+      856
+    ],
+    "continent": "AS",
+    "capital": "Vientiane",
+    "currency": "LAK",
+    "languages": [
+      "lo"
+    ],
+    "symbol": "LAK",
+    "numericCode": 418,
+    "currencyName": "Lao kip",
+    "region": "Asia & Pacific",
+    "flag": "🇱🇦",
+    "officialLanguageCode": "lo",
+    "officialLanguageName": "Lao"
+  },
+  "LB": {
+    "name": "Lebanon",
+    "native": "لبنان",
+    "phone": [
+      961
+    ],
+    "continent": "AS",
+    "capital": "Beirut",
+    "currency": "LBP",
+    "languages": [
+      "ar",
+      "fr"
+    ],
+    "symbol": "LB£",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 422,
+    "currencyName": "Lebanese pound",
+    "region": "Arab States",
+    "flag": "🇱🇧",
+    "officialLanguageCode": "ar",
+    "officialLanguageName": "Arabic"
+  },
+  "LC": {
+    "name": "Saint Lucia",
+    "native": "Saint Lucia",
+    "phone": [
+      1758
+    ],
+    "continent": "NA",
+    "capital": "Castries",
+    "currency": "XCD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "XCD",
+    "numericCode": 951,
+    "currencyName": "East Caribbean dollar",
+    "region": "South/Latin America",
+    "flag": "🇱🇨",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "LI": {
+    "name": "Liechtenstein",
+    "native": "Liechtenstein",
+    "phone": [
+      423
+    ],
+    "continent": "EU",
+    "capital": "Vaduz",
+    "currency": "CHF",
+    "languages": [
+      "de"
+    ],
+    "symbol": "CHF",
+    "numericCode": 756,
+    "currencyName": "Swiss franc",
+    "region": "Europe",
+    "flag": "🇱🇮",
+    "officialLanguageCode": "de",
+    "officialLanguageName": "German"
+  },
+  "LK": {
+    "name": "Sri Lanka",
+    "native": "śrī laṃkāva",
+    "phone": [
+      94
+    ],
+    "continent": "AS",
+    "capital": "Colombo",
+    "currency": "LKR",
+    "languages": [
+      "si",
+      "ta"
+    ],
+    "symbol": "SLRs",
+    "numericCode": 144,
+    "currencyName": "Sri Lankan rupee",
+    "region": "Asia & Pacific",
+    "flag": "🇱🇰",
+    "officialLanguageCode": "si",
+    "officialLanguageName": "Sinhala, Sinhalese"
+  },
+  "LR": {
+    "name": "Liberia",
+    "native": "Liberia",
+    "phone": [
+      231
+    ],
+    "continent": "AF",
+    "capital": "Monrovia",
+    "currency": "LRD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "LRD",
+    "numericCode": 430,
+    "currencyName": "Liberian dollar",
+    "region": "Africa",
+    "flag": "🇱🇷",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "LS": {
+    "name": "Lesotho",
+    "native": "Lesotho",
+    "phone": [
+      266
+    ],
+    "continent": "AF",
+    "capital": "Maseru",
+    "currency": "LSL",
+    "languages": [
+      "en",
+      "st"
+    ],
+    "symbol": "LSL",
+    "numericCode": 426,
+    "currencyName": "Lesotho loti",
+    "region": "Africa",
+    "flag": "🇱🇸",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "LT": {
+    "name": "Lithuania",
+    "native": "Lietuva",
+    "phone": [
+      370
+    ],
+    "continent": "EU",
+    "capital": "Vilnius",
+    "currency": "EUR",
+    "languages": [
+      "lt"
+    ],
+    "symbol": "€",
+    "dateFormat": "yyyy.M.d",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Europe",
+    "flag": "🇱🇹",
+    "officialLanguageCode": "lt",
+    "officialLanguageName": "Lithuanian"
+  },
+  "LU": {
+    "name": "Luxembourg",
+    "native": "Luxembourg",
+    "phone": [
+      352
+    ],
+    "continent": "EU",
+    "capital": "Luxembourg",
+    "currency": "EUR",
+    "languages": [
+      "fr",
+      "de",
+      "lb"
+    ],
+    "symbol": "€",
+    "dateFormat": "dd.MM.yyyy",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Europe",
+    "flag": "🇱🇺",
+    "officialLanguageCode": "lb",
+    "officialLanguageName": "Luxembourgish, Letzeburgesch"
+  },
+  "LV": {
+    "name": "Latvia",
+    "native": "Latvija",
+    "phone": [
+      371
+    ],
+    "continent": "EU",
+    "capital": "Riga",
+    "currency": "EUR",
+    "languages": [
+      "lv"
+    ],
+    "symbol": "€",
+    "dateFormat": "yyyy.d.M",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Europe",
+    "flag": "🇱🇻",
+    "officialLanguageCode": "lv",
+    "officialLanguageName": "Latvian"
+  },
+  "LY": {
+    "name": "Libya",
+    "native": "‏ليبيا",
+    "phone": [
+      218
+    ],
+    "continent": "AF",
+    "capital": "Tripoli",
+    "currency": "LYD",
+    "languages": [
+      "ar"
+    ],
+    "symbol": "LD",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 434,
+    "currencyName": "Libyan dinar",
+    "region": "Arab States",
+    "flag": "🇱🇾",
+    "officialLanguageCode": "ar",
+    "officialLanguageName": "Arabic"
+  },
+  "MA": {
+    "name": "Morocco",
+    "native": "المغرب",
+    "phone": [
+      212
+    ],
+    "continent": "AF",
+    "capital": "Rabat",
+    "currency": "MAD",
+    "languages": [
+      "ar"
+    ],
+    "symbol": "MAD",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 504,
+    "currencyName": "Moroccan dirham",
+    "region": "Arab States",
+    "flag": "🇲🇦",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "MC": {
+    "name": "Monaco",
+    "native": "Monaco",
+    "phone": [
+      377
+    ],
+    "continent": "EU",
+    "capital": "Monaco",
+    "currency": "EUR",
+    "languages": [
+      "fr"
+    ],
+    "symbol": "€",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Europe",
+    "flag": "🇲🇨",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "MD": {
+    "name": "Moldova",
+    "native": "Moldova",
+    "phone": [
+      373
+    ],
+    "continent": "EU",
+    "capital": "Chișinău",
+    "currency": "MDL",
+    "languages": [
+      "ro"
+    ],
+    "symbol": "MDL",
+    "numericCode": 498,
+    "currencyName": "Moldovan leu",
+    "region": "Europe",
+    "flag": "🇲🇩",
+    "officialLanguageCode": "ro",
+    "officialLanguageName": "Romanian, Moldavian, Moldovan"
+  },
+  "ME": {
+    "name": "Montenegro",
+    "native": "Црна Гора",
+    "phone": [
+      382
+    ],
+    "continent": "EU",
+    "capital": "Podgorica",
+    "currency": "EUR",
+    "languages": [
+      "sr",
+      "bs",
+      "sq",
+      "hr"
+    ],
+    "symbol": "€",
+    "dateFormat": "d.M.yyyy.",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Europe",
+    "flag": "🇲🇪",
+    "officialLanguageCode": "srp",
+    "officialLanguageName": "српски језик"
+  },
+  "MF": {
+    "name": "Saint Martin",
+    "native": "Saint-Martin",
+    "phone": [
+      590
+    ],
+    "continent": "NA",
+    "capital": "Marigot",
+    "currency": "EUR",
+    "languages": [
+      "en",
+      "fr",
+      "nl"
+    ],
+    "symbol": "€",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "South/Latin America",
+    "flag": "🇲🇫",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "MG": {
+    "name": "Madagascar",
+    "native": "Madagasikara",
+    "phone": [
+      261
+    ],
+    "continent": "AF",
+    "capital": "Antananarivo",
+    "currency": "MGA",
+    "languages": [
+      "fr",
+      "mg"
+    ],
+    "symbol": "MGA",
+    "numericCode": 969,
+    "currencyName": "Malagasy ariary",
+    "region": "Africa",
+    "flag": "🇲🇬",
+    "officialLanguageCode": "mg",
+    "officialLanguageName": "Malagasy"
+  },
+  "MH": {
+    "name": "Marshall Islands",
+    "native": "M̧ajeļ",
+    "phone": [
+      692
+    ],
+    "continent": "OC",
+    "capital": "Majuro",
+    "currency": "USD",
+    "languages": [
+      "en",
+      "mh"
+    ],
+    "symbol": "$",
+    "numericCode": 840,
+    "currencyName": "United States dollar",
+    "region": "Pacific Ocean",
+    "flag": "🇲🇭",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "MK": {
+    "name": "North Macedonia",
+    "native": "Северна Македонија",
+    "phone": [
+      389
+    ],
+    "continent": "EU",
+    "capital": "Skopje",
+    "currency": "MKD",
+    "languages": [
+      "mk"
+    ],
+    "symbol": "MKD",
+    "dateFormat": "d.M.yyyy",
+    "numericCode": 807,
+    "currencyName": "Macedonian denar",
+    "region": "Europe",
+    "flag": "🇲🇰",
+    "officialLanguageCode": "mk",
+    "officialLanguageName": "Macedonian"
+  },
+  "ML": {
+    "name": "Mali",
+    "native": "Mali",
+    "phone": [
+      223
+    ],
+    "continent": "AF",
+    "capital": "Bamako",
+    "currency": "XOF",
+    "languages": [
+      "fr"
+    ],
+    "symbol": "CFA",
+    "numericCode": 952,
+    "currencyName": "CFA franc BCEAO",
+    "region": "Africa",
+    "flag": "🇲🇱",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "MM": {
+    "name": "Myanmar (Burma)",
+    "native": "မြန်မာ",
+    "phone": [
+      95
+    ],
+    "continent": "AS",
+    "capital": "Naypyidaw",
+    "currency": "MMK",
+    "languages": [
+      "my"
+    ],
+    "symbol": "MMK",
+    "numericCode": 104,
+    "currencyName": "Myanmar kyat",
+    "region": "Asia & Pacific",
+    "flag": "🇲🇲",
+    "officialLanguageCode": "my",
+    "officialLanguageName": "Burmese"
+  },
+  "MN": {
+    "name": "Mongolia",
+    "native": "Монгол улс",
+    "phone": [
+      976
+    ],
+    "continent": "AS",
+    "capital": "Ulan Bator",
+    "currency": "MNT",
+    "languages": [
+      "mn"
+    ],
+    "symbol": "MNT",
+    "numericCode": 496,
+    "currencyName": "Mongolian tögrög",
+    "region": "Asia & Pacific",
+    "flag": "🇲🇳",
+    "officialLanguageCode": "mn",
+    "officialLanguageName": "Mongolian"
+  },
+  "MO": {
+    "name": "Macao",
+    "native": "澳門",
+    "phone": [
+      853
+    ],
+    "continent": "AS",
+    "capital": "",
+    "currency": "MOP",
+    "languages": [
+      "zh",
+      "pt"
+    ],
+    "symbol": "MOP$",
+    "numericCode": 446,
+    "currencyName": "Macanese pataca",
+    "region": "Asia & Pacific",
+    "flag": "🇲🇴",
+    "officialLanguageCode": "zh-hant",
+    "officialLanguageName": ""
+  },
+  "MP": {
+    "name": "Northern Mariana Islands",
+    "native": "Northern Mariana Islands",
+    "phone": [
+      1670
+    ],
+    "continent": "OC",
+    "capital": "Saipan",
+    "currency": "USD",
+    "languages": [
+      "en",
+      "ch"
+    ],
+    "symbol": "$",
+    "numericCode": 840,
+    "currencyName": "United States dollar",
+    "region": "Pacific Ocean",
+    "flag": "🇲🇵",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "MQ": {
+    "name": "Martinique",
+    "native": "Martinique",
+    "phone": [
+      596
+    ],
+    "continent": "NA",
+    "capital": "Fort-de-France",
+    "currency": "EUR",
+    "languages": [
+      "fr"
+    ],
+    "symbol": "€",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "South/Latin America",
+    "flag": "🇲🇶",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "MR": {
+    "name": "Mauritania",
+    "native": "موريتانيا",
+    "phone": [
+      222
+    ],
+    "continent": "AF",
+    "capital": "Nouakchott",
+    "currency": "MRU",
+    "languages": [
+      "ar"
+    ],
+    "symbol": "MRU",
+    "numericCode": 929,
+    "currencyName": "",
+    "region": "Arab States",
+    "flag": "🇲🇷",
+    "officialLanguageCode": "ar",
+    "officialLanguageName": "Arabic"
+  },
+  "MS": {
+    "name": "Montserrat",
+    "native": "Montserrat",
+    "phone": [
+      1664
+    ],
+    "continent": "NA",
+    "capital": "Plymouth",
+    "currency": "XCD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "XCD",
+    "numericCode": 951,
+    "currencyName": "East Caribbean dollar",
+    "region": "South/Latin America",
+    "flag": "🇲🇸",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "MT": {
+    "name": "Malta",
+    "native": "Malta",
+    "phone": [
+      356
+    ],
+    "continent": "EU",
+    "capital": "Valletta",
+    "currency": "EUR",
+    "languages": [
+      "mt",
+      "en"
+    ],
+    "symbol": "€",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Europe",
+    "flag": "🇲🇹",
+    "officialLanguageCode": "mt",
+    "officialLanguageName": "Maltese"
+  },
+  "MU": {
+    "name": "Mauritius",
+    "native": "Maurice",
+    "phone": [
+      230
+    ],
+    "continent": "AF",
+    "capital": "Port Louis",
+    "currency": "MUR",
+    "languages": [
+      "en"
+    ],
+    "symbol": "MURs",
+    "numericCode": 480,
+    "currencyName": "Mauritian rupee",
+    "region": "Africa",
+    "flag": "🇲🇺",
+    "officialLanguageCode": "mfe",
+    "officialLanguageName": ""
+  },
+  "MV": {
+    "name": "Maldives",
+    "native": "Maldives",
+    "phone": [
+      960
+    ],
+    "continent": "AS",
+    "capital": "Malé",
+    "currency": "MVR",
+    "languages": [
+      "dv"
+    ],
+    "symbol": "MVR",
+    "numericCode": 462,
+    "currencyName": "Maldivian rufiyaa",
+    "region": "Asia & Pacific",
+    "flag": "🇲🇻",
+    "officialLanguageCode": "dv",
+    "officialLanguageName": "Divehi, Dhivehi, Maldivian"
+  },
+  "MW": {
+    "name": "Malawi",
+    "native": "Malawi",
+    "phone": [
+      265
+    ],
+    "continent": "AF",
+    "capital": "Lilongwe",
+    "currency": "MWK",
+    "languages": [
+      "en",
+      "ny"
+    ],
+    "symbol": "MWK",
+    "numericCode": 454,
+    "currencyName": "Malawian kwacha",
+    "region": "Africa",
+    "flag": "🇲🇼",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "MX": {
+    "name": "Mexico",
+    "native": "México",
+    "phone": [
+      52
+    ],
+    "continent": "NA",
+    "capital": "Mexico City",
+    "currency": "MXN",
+    "languages": [
+      "es"
+    ],
+    "symbol": "MX$",
+    "dateFormat": "d/MM/yyyy",
+    "numericCode": 484,
+    "currencyName": "Mexican peso",
+    "region": "South/Latin America",
+    "flag": "🇲🇽",
+    "officialLanguageCode": "es",
+    "officialLanguageName": "Spanish, Castilian"
+  },
+  "MY": {
+    "name": "Malaysia",
+    "native": "Malaysia",
+    "phone": [
+      60
+    ],
+    "continent": "AS",
+    "capital": "Kuala Lumpur",
+    "currency": "MYR",
+    "languages": [
+      "ms"
+    ],
+    "symbol": "RM",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 458,
+    "currencyName": "Malaysian ringgit",
+    "region": "Asia & Pacific",
+    "flag": "🇲🇾",
+    "officialLanguageCode": "ms",
+    "officialLanguageName": "Malay"
+  },
+  "MZ": {
+    "name": "Mozambique",
+    "native": "Moçambique",
+    "phone": [
+      258
+    ],
+    "continent": "AF",
+    "capital": "Maputo",
+    "currency": "MZN",
+    "languages": [
+      "pt"
+    ],
+    "symbol": "MTn",
+    "numericCode": 943,
+    "currencyName": "Mozambican metical",
+    "region": "Africa",
+    "flag": "🇲🇿",
+    "officialLanguageCode": "pt",
+    "officialLanguageName": "Portuguese"
+  },
+  "NA": {
+    "name": "Namibia",
+    "native": "Namibia",
+    "phone": [
+      264
+    ],
+    "continent": "AF",
+    "capital": "Windhoek",
+    "currency": "NAD",
+    "languages": [
+      "en",
+      "af"
+    ],
+    "symbol": "N$",
+    "numericCode": 516,
+    "currencyName": "Namibian dollar",
+    "region": "Africa",
+    "flag": "🇳🇦",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "NC": {
+    "name": "New Caledonia",
+    "native": "Nouvelle-Calédonie",
+    "phone": [
+      687
+    ],
+    "continent": "OC",
+    "capital": "Nouméa",
+    "currency": "XPF",
+    "languages": [
+      "fr"
+    ],
+    "symbol": "XPF",
+    "numericCode": 953,
+    "currencyName": "CFP franc (franc Pacifique)",
+    "region": "Asia & Pacific",
+    "flag": "🇳🇨",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "NE": {
+    "name": "Niger",
+    "native": "Niger",
+    "phone": [
+      227
+    ],
+    "continent": "AF",
+    "capital": "Niamey",
+    "currency": "XOF",
+    "languages": [
+      "fr"
+    ],
+    "symbol": "CFA",
+    "numericCode": 952,
+    "currencyName": "CFA franc BCEAO",
+    "region": "Africa",
+    "flag": "🇳🇪",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "NF": {
+    "name": "Norfolk Island",
+    "native": "Norfolk Island",
+    "phone": [
+      672
+    ],
+    "continent": "OC",
+    "capital": "Kingston",
+    "currency": "AUD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "AU$",
+    "numericCode": 36,
+    "currencyName": "Australian dollar",
+    "region": "Asia & Pacific",
+    "flag": "🇳🇫",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "NG": {
+    "name": "Nigeria",
+    "native": "Nigeria",
+    "phone": [
+      234
+    ],
+    "continent": "AF",
+    "capital": "Abuja",
+    "currency": "NGN",
+    "languages": [
+      "en"
+    ],
+    "symbol": "₦",
+    "numericCode": 566,
+    "currencyName": "Nigerian naira",
+    "region": "Africa",
+    "flag": "🇳🇬",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "NI": {
+    "name": "Nicaragua",
+    "native": "Nicaragua",
+    "phone": [
+      505
+    ],
+    "continent": "NA",
+    "capital": "Managua",
+    "currency": "NIO",
+    "languages": [
+      "es"
+    ],
+    "symbol": "C$",
+    "dateFormat": "MM-dd-yyyy",
+    "numericCode": 558,
+    "currencyName": "Nicaraguan córdoba",
+    "region": "South/Latin America",
+    "flag": "🇳🇮",
+    "officialLanguageCode": "es",
+    "officialLanguageName": "Spanish, Castilian"
+  },
+  "NL": {
+    "name": "Netherlands",
+    "native": "Nederland",
+    "phone": [
+      31
+    ],
+    "continent": "EU",
+    "capital": "Amsterdam",
+    "currency": "EUR",
+    "languages": [
+      "nl"
+    ],
+    "symbol": "€",
+    "dateFormat": "d-M-yyyy",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Europe",
+    "flag": "🇳🇱",
+    "officialLanguageCode": "nl",
+    "officialLanguageName": "Dutch, Flemish"
+  },
+  "NO": {
+    "name": "Norway",
+    "native": "Norge",
+    "phone": [
+      47
+    ],
+    "continent": "EU",
+    "capital": "Oslo",
+    "currency": "NOK",
+    "languages": [
+      "no",
+      "nb",
+      "nn"
+    ],
+    "symbol": "Nkr",
+    "dateFormat": "dd.MM.yyyy",
+    "numericCode": 578,
+    "currencyName": "Norwegian krone",
+    "region": "Europe",
+    "flag": "🇳🇴",
+    "officialLanguageCode": "nb",
+    "officialLanguageName": "Norwegian Bokmål"
+  },
+  "NP": {
+    "name": "Nepal",
+    "native": "नेपाल",
+    "phone": [
+      977
+    ],
+    "continent": "AS",
+    "capital": "Kathmandu",
+    "currency": "NPR",
+    "languages": [
+      "ne"
+    ],
+    "symbol": "NPRs",
+    "numericCode": 524,
+    "currencyName": "Nepalese rupee",
+    "region": "Asia & Pacific",
+    "flag": "🇳🇵",
+    "officialLanguageCode": "ne",
+    "officialLanguageName": "Nepali"
+  },
+  "NR": {
+    "name": "Nauru",
+    "native": "Nauru",
+    "phone": [
+      674
+    ],
+    "continent": "OC",
+    "capital": "Yaren",
+    "currency": "AUD",
+    "languages": [
+      "en",
+      "na"
+    ],
+    "symbol": "AU$",
+    "numericCode": 36,
+    "currencyName": "Australian dollar",
+    "region": "Asia & Pacific",
+    "flag": "🇳🇷",
+    "officialLanguageCode": "na",
+    "officialLanguageName": "Nauru"
+  },
+  "NU": {
+    "name": "Niue",
+    "native": "Niuē",
+    "phone": [
+      683
+    ],
+    "continent": "OC",
+    "capital": "Alofi",
+    "currency": "NZD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "NZ$",
+    "numericCode": 554,
+    "currencyName": "New Zealand dollar",
+    "region": "Asia & Pacific",
+    "flag": "🇳🇺",
+    "officialLanguageCode": "niu",
+    "officialLanguageName": ""
+  },
+  "NZ": {
+    "name": "New Zealand",
+    "native": "New Zealand",
+    "phone": [
+      64
+    ],
+    "continent": "OC",
+    "capital": "Wellington",
+    "currency": "NZD",
+    "languages": [
+      "en",
+      "mi"
+    ],
+    "symbol": "NZ$",
+    "dateFormat": "d/MM/yyyy",
+    "numericCode": 554,
+    "currencyName": "New Zealand dollar",
+    "region": "Asia & Pacific",
+    "flag": "🇳🇿",
+    "officialLanguageCode": "mi",
+    "officialLanguageName": "Maori"
+  },
+  "OM": {
+    "name": "Oman",
+    "native": "عمان",
+    "phone": [
+      968
+    ],
+    "continent": "AS",
+    "capital": "Muscat",
+    "currency": "OMR",
+    "languages": [
+      "ar"
+    ],
+    "symbol": "OMR",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 512,
+    "currencyName": "Omani rial",
+    "region": "Arab States",
+    "flag": "🇴🇲",
+    "officialLanguageCode": "ar",
+    "officialLanguageName": "Arabic"
+  },
+  "PA": {
+    "name": "Panama",
+    "native": "Panamá",
+    "phone": [
+      507
+    ],
+    "continent": "NA",
+    "capital": "Panama City",
+    "currency": "PAB",
+    "languages": [
+      "es"
+    ],
+    "symbol": "B/.",
+    "dateFormat": "MM/dd/yyyy",
+    "numericCode": 590,
+    "currencyName": "Panamanian balboa",
+    "region": "South/Latin America",
+    "flag": "🇵🇦",
+    "officialLanguageCode": "es",
+    "officialLanguageName": "Spanish, Castilian"
+  },
+  "PE": {
+    "name": "Peru",
+    "native": "Perú",
+    "phone": [
+      51
+    ],
+    "continent": "SA",
+    "capital": "Lima",
+    "currency": "PEN",
+    "languages": [
+      "es"
+    ],
+    "symbol": "S/.",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 604,
+    "currencyName": "Peruvian sol",
+    "region": "South/Latin America",
+    "flag": "🇵🇪",
+    "officialLanguageCode": "es",
+    "officialLanguageName": "Spanish, Castilian"
+  },
+  "PF": {
+    "name": "French Polynesia",
+    "native": "Polynésie française",
+    "phone": [
+      689
+    ],
+    "continent": "OC",
+    "capital": "Papeetē",
+    "currency": "XPF",
+    "languages": [
+      "fr"
+    ],
+    "symbol": "XPF",
+    "numericCode": 953,
+    "currencyName": "CFP franc (franc Pacifique)",
+    "region": "Asia & Pacific",
+    "flag": "🇵🇫",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "PG": {
+    "name": "Papua New Guinea",
+    "native": "Papua Niugini",
+    "phone": [
+      675
+    ],
+    "continent": "OC",
+    "capital": "Port Moresby",
+    "currency": "PGK",
+    "languages": [
+      "en"
+    ],
+    "symbol": "PGK",
+    "numericCode": 598,
+    "currencyName": "Papua New Guinean kina",
+    "region": "Asia & Pacific",
+    "flag": "🇵🇬",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "PH": {
+    "name": "Philippines",
+    "native": "Pilipinas",
+    "phone": [
+      63
+    ],
+    "continent": "AS",
+    "capital": "Manila",
+    "currency": "PHP",
+    "languages": [
+      "en",
+      "tl"
+    ],
+    "symbol": "₱",
+    "dateFormat": "M/d/yyyy",
+    "numericCode": 608,
+    "currencyName": "Philippine peso",
+    "region": "Asia & Pacific",
+    "flag": "🇵🇭",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "PK": {
+    "name": "Pakistan",
+    "native": "Pakistan",
+    "phone": [
+      92
+    ],
+    "continent": "AS",
+    "capital": "Islamabad",
+    "currency": "PKR",
+    "languages": [
+      "en",
+      "ur"
+    ],
+    "symbol": "PKRs",
+    "numericCode": 586,
+    "currencyName": "Pakistani rupee",
+    "region": "Asia & Pacific",
+    "flag": "🇵🇰",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "PL": {
+    "name": "Poland",
+    "native": "Polska",
+    "phone": [
+      48
+    ],
+    "continent": "EU",
+    "capital": "Warsaw",
+    "currency": "PLN",
+    "languages": [
+      "pl"
+    ],
+    "symbol": "zł",
+    "dateFormat": "dd.MM.yyyy",
+    "numericCode": 985,
+    "currencyName": "Polish złoty",
+    "region": "Europe",
+    "flag": "🇵🇱",
+    "officialLanguageCode": "pl",
+    "officialLanguageName": "Polish"
+  },
+  "PM": {
+    "name": "Saint Pierre and Miquelon",
+    "native": "Saint-Pierre-et-Miquelon",
+    "phone": [
+      508
+    ],
+    "continent": "NA",
+    "capital": "Saint-Pierre",
+    "currency": "EUR",
+    "languages": [
+      "fr"
+    ],
+    "symbol": "€",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "North America",
+    "flag": "🇵🇲",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "PN": {
+    "name": "Pitcairn Islands",
+    "native": "Pitcairn Islands",
+    "phone": [
+      64
+    ],
+    "continent": "OC",
+    "capital": "Adamstown",
+    "currency": "NZD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "NZ$",
+    "numericCode": 554,
+    "currencyName": "New Zealand dollar",
+    "region": "Asia & Pacific",
+    "flag": "🇵🇳",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "PR": {
+    "name": "Puerto Rico",
+    "native": "Puerto Rico",
+    "phone": [
+      1787,
+      1939
+    ],
+    "continent": "NA",
+    "capital": "San Juan",
+    "currency": "USD",
+    "languages": [
+      "es",
+      "en"
+    ],
+    "symbol": "$",
+    "dateFormat": "MM-dd-yyyy",
+    "numericCode": 840,
+    "currencyName": "United States dollar",
+    "region": "South/Latin America",
+    "flag": "🇵🇷",
+    "officialLanguageCode": "es",
+    "officialLanguageName": "Spanish, Castilian"
+  },
+  "PS": {
+    "name": "Palestine",
+    "native": "فلسطين",
+    "phone": [
+      970
+    ],
+    "continent": "AS",
+    "capital": "Ramallah",
+    "currency": "ILS",
+    "languages": [
+      "ar"
+    ],
+    "symbol": "₪",
+    "numericCode": 376,
+    "currencyName": "",
+    "region": "Arab States",
+    "flag": "🇵🇸",
+    "officialLanguageCode": "ar",
+    "officialLanguageName": "Arabic"
+  },
+  "PT": {
+    "name": "Portugal",
+    "native": "Portugal",
+    "phone": [
+      351
+    ],
+    "continent": "EU",
+    "capital": "Lisbon",
+    "currency": "EUR",
+    "languages": [
+      "pt"
+    ],
+    "symbol": "€",
+    "dateFormat": "dd-MM-yyyy",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Europe",
+    "flag": "🇵🇹",
+    "officialLanguageCode": "pt",
+    "officialLanguageName": "Portuguese"
+  },
+  "PW": {
+    "name": "Palau",
+    "native": "Palau",
+    "phone": [
+      680
+    ],
+    "continent": "OC",
+    "capital": "Ngerulmud",
+    "currency": "USD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "$",
+    "numericCode": 840,
+    "currencyName": "United States dollar",
+    "region": "Asia & Pacific",
+    "flag": "🇵🇼",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "PY": {
+    "name": "Paraguay",
+    "native": "Paraguay",
+    "phone": [
+      595
+    ],
+    "continent": "SA",
+    "capital": "Asunción",
+    "currency": "PYG",
+    "languages": [
+      "es",
+      "gn"
+    ],
+    "symbol": "₲",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 600,
+    "currencyName": "Paraguayan guaraní",
+    "region": "South/Latin America",
+    "flag": "🇵🇾",
+    "officialLanguageCode": "es",
+    "officialLanguageName": "Spanish, Castilian"
+  },
+  "QA": {
+    "name": "Qatar",
+    "native": "قطر",
+    "phone": [
+      974
+    ],
+    "continent": "AS",
+    "capital": "Doha",
+    "currency": "QAR",
+    "languages": [
+      "ar"
+    ],
+    "symbol": "QR",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 634,
+    "currencyName": "Qatari riyal",
+    "region": "Arab States",
+    "flag": "🇶🇦",
+    "officialLanguageCode": "ar",
+    "officialLanguageName": "Arabic"
+  },
+  "RE": {
+    "name": "Reunion",
+    "native": "La Réunion",
+    "phone": [
+      262
+    ],
+    "continent": "AF",
+    "capital": "Saint-Denis",
+    "currency": "EUR",
+    "languages": [
+      "fr"
+    ],
+    "symbol": "€",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Asia & Pacific",
+    "flag": "🇷🇪",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "RO": {
+    "name": "Romania",
+    "native": "România",
+    "phone": [
+      40
+    ],
+    "continent": "EU",
+    "capital": "Bucharest",
+    "currency": "RON",
+    "languages": [
+      "ro"
+    ],
+    "symbol": "RON",
+    "dateFormat": "dd.MM.yyyy",
+    "numericCode": 946,
+    "currencyName": "Romanian leu",
+    "region": "Europe",
+    "flag": "🇷🇴",
+    "officialLanguageCode": "ro",
+    "officialLanguageName": "Romanian, Moldavian, Moldovan"
+  },
+  "RS": {
+    "name": "Serbia",
+    "native": "Србија",
+    "phone": [
+      381
+    ],
+    "continent": "EU",
+    "capital": "Belgrade",
+    "currency": "RSD",
+    "languages": [
+      "sr"
+    ],
+    "symbol": "din.",
+    "dateFormat": "d.M.yyyy.",
+    "numericCode": 941,
+    "currencyName": "Serbian dinar",
+    "region": "Europe",
+    "flag": "🇷🇸",
+    "officialLanguageCode": "sr",
+    "officialLanguageName": "Serbian"
+  },
+  "RU": {
+    "name": "Russia",
+    "native": "Россия",
+    "phone": [
+      7
+    ],
+    "continent": "AS",
+    "continents": [
+      "AS",
+      "EU"
+    ],
+    "capital": "Moscow",
+    "currency": "RUB",
+    "languages": [
+      "ru"
+    ],
+    "symbol": "RUB",
+    "dateFormat": "dd.MM.yyyy",
+    "numericCode": 643,
+    "currencyName": "Russian ruble",
+    "region": "Europe",
+    "flag": "🇷🇺",
+    "officialLanguageCode": "ru",
+    "officialLanguageName": "Russian"
+  },
+  "RW": {
+    "name": "Rwanda",
+    "native": "Rwanda",
+    "phone": [
+      250
+    ],
+    "continent": "AF",
+    "capital": "Kigali",
+    "currency": "RWF",
+    "languages": [
+      "rw",
+      "en",
+      "fr"
+    ],
+    "symbol": "RWF",
+    "numericCode": 646,
+    "currencyName": "Rwandan franc",
+    "region": "Africa",
+    "flag": "🇷🇼",
+    "officialLanguageCode": "rw",
+    "officialLanguageName": "Kinyarwanda"
+  },
+  "SA": {
+    "name": "Saudi Arabia",
+    "native": "المملكة العربية السعودية",
+    "phone": [
+      966
+    ],
+    "continent": "AS",
+    "capital": "Riyadh",
+    "currency": "SAR",
+    "languages": [
+      "ar"
+    ],
+    "symbol": "SR",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 682,
+    "currencyName": "Saudi riyal",
+    "region": "Arab States",
+    "flag": "🇸🇦",
+    "officialLanguageCode": "ar",
+    "officialLanguageName": "Arabic"
+  },
+  "SB": {
+    "name": "Solomon Islands",
+    "native": "Solomon Islands",
+    "phone": [
+      677
+    ],
+    "continent": "OC",
+    "capital": "Honiara",
+    "currency": "SBD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "SBD",
+    "numericCode": 90,
+    "currencyName": "Solomon Islands dollar",
+    "region": "Asia & Pacific",
+    "flag": "🇸🇧",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "SC": {
+    "name": "Seychelles",
+    "native": "Seychelles",
+    "phone": [
+      248
+    ],
+    "continent": "AF",
+    "capital": "Victoria",
+    "currency": "SCR",
+    "languages": [
+      "fr",
+      "en"
+    ],
+    "symbol": "SCR",
+    "numericCode": 690,
+    "currencyName": "Seychelles rupee",
+    "region": "Africa",
+    "flag": "🇸🇨",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "SD": {
+    "name": "Sudan",
+    "native": "السودان",
+    "phone": [
+      249
+    ],
+    "continent": "AF",
+    "capital": "Khartoum",
+    "currency": "SDG",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "symbol": "SDG",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 938,
+    "currencyName": "Sudanese pound",
+    "region": "Arab States",
+    "flag": "🇸🇩",
+    "officialLanguageCode": "ar",
+    "officialLanguageName": "Arabic"
+  },
+  "SE": {
+    "name": "Sweden",
+    "native": "Sverige",
+    "phone": [
+      46
+    ],
+    "continent": "EU",
+    "capital": "Stockholm",
+    "currency": "SEK",
+    "languages": [
+      "sv"
+    ],
+    "symbol": "Skr",
+    "dateFormat": "yyyy-MM-dd",
+    "numericCode": 752,
+    "currencyName": "Swedish krona/kronor",
+    "region": "Europe",
+    "flag": "🇸🇪",
+    "officialLanguageCode": "sv",
+    "officialLanguageName": "Swedish"
+  },
+  "SG": {
+    "name": "Singapore",
+    "native": "Singapore",
+    "phone": [
+      65
+    ],
+    "continent": "AS",
+    "capital": "Singapore",
+    "currency": "SGD",
+    "languages": [
+      "en",
+      "ms",
+      "ta",
+      "zh"
+    ],
+    "symbol": "S$",
+    "dateFormat": "M/d/yyyy",
+    "numericCode": 702,
+    "currencyName": "Singapore dollar",
+    "region": "Asia & Pacific",
+    "flag": "🇸🇬",
+    "officialLanguageCode": "zh-hans",
+    "officialLanguageName": ""
+  },
+  "SH": {
+    "name": "Saint Helena",
+    "native": "Saint Helena",
+    "phone": [
+      290
+    ],
+    "continent": "AF",
+    "capital": "Jamestown",
+    "currency": "SHP",
+    "languages": [
+      "en"
+    ],
+    "symbol": "SHP",
+    "numericCode": 654,
+    "currencyName": "Saint Helena pound",
+    "region": "Africa",
+    "flag": "🇸🇭",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "SI": {
+    "name": "Slovenia",
+    "native": "Slovenija",
+    "phone": [
+      386
+    ],
+    "continent": "EU",
+    "capital": "Ljubljana",
+    "currency": "EUR",
+    "languages": [
+      "sl"
+    ],
+    "symbol": "€",
+    "dateFormat": "d.M.yyyy",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Europe",
+    "flag": "🇸🇮",
+    "officialLanguageCode": "sl",
+    "officialLanguageName": "Slovenian"
+  },
+  "SJ": {
+    "name": "Svalbard and Jan Mayen",
+    "native": "Svalbard og Jan Mayen",
+    "phone": [
+      4779
+    ],
+    "continent": "EU",
+    "capital": "Longyearbyen",
+    "currency": "NOK",
+    "languages": [
+      "no"
+    ],
+    "symbol": "Nkr",
+    "numericCode": 578,
+    "currencyName": "Norwegian krone",
+    "region": "Europe",
+    "flag": "🇸🇯",
+    "officialLanguageCode": "no",
+    "officialLanguageName": "Norwegian"
+  },
+  "SK": {
+    "name": "Slovakia",
+    "native": "Slovensko",
+    "phone": [
+      421
+    ],
+    "continent": "EU",
+    "capital": "Bratislava",
+    "currency": "EUR",
+    "languages": [
+      "sk"
+    ],
+    "symbol": "€",
+    "dateFormat": "d.M.yyyy",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Europe",
+    "flag": "🇸🇰",
+    "officialLanguageCode": "sk",
+    "officialLanguageName": "Slovak"
+  },
+  "SL": {
+    "name": "Sierra Leone",
+    "native": "Sierra Leone",
+    "phone": [
+      232
+    ],
+    "continent": "AF",
+    "capital": "Freetown",
+    "currency": "SLL",
+    "languages": [
+      "en"
+    ],
+    "symbol": "SLL",
+    "numericCode": 694,
+    "currencyName": "Sierra Leonean leone",
+    "region": "Africa",
+    "flag": "🇸🇱",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "SM": {
+    "name": "San Marino",
+    "native": "San Marino",
+    "phone": [
+      378
+    ],
+    "continent": "EU",
+    "capital": "City of San Marino",
+    "currency": "EUR",
+    "languages": [
+      "it"
+    ],
+    "symbol": "€",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Europe",
+    "flag": "🇸🇲",
+    "officialLanguageCode": "it",
+    "officialLanguageName": "Italian"
+  },
+  "SN": {
+    "name": "Senegal",
+    "native": "Sénégal",
+    "phone": [
+      221
+    ],
+    "continent": "AF",
+    "capital": "Dakar",
+    "currency": "XOF",
+    "languages": [
+      "fr"
+    ],
+    "symbol": "CFA",
+    "numericCode": 952,
+    "currencyName": "CFA franc BCEAO",
+    "region": "Africa",
+    "flag": "🇸🇳",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "SO": {
+    "name": "Somalia",
+    "native": "Soomaaliya",
+    "phone": [
+      252
+    ],
+    "continent": "AF",
+    "capital": "Mogadishu",
+    "currency": "SOS",
+    "languages": [
+      "so",
+      "ar"
+    ],
+    "symbol": "Ssh",
+    "numericCode": 706,
+    "currencyName": "Somali shilling",
+    "region": "Arab States",
+    "flag": "🇸🇴",
+    "officialLanguageCode": "so",
+    "officialLanguageName": "Somali"
+  },
+  "SR": {
+    "name": "Suriname",
+    "native": "Suriname",
+    "phone": [
+      597
+    ],
+    "continent": "SA",
+    "capital": "Paramaribo",
+    "currency": "SRD",
+    "languages": [
+      "nl"
+    ],
+    "symbol": "SRD",
+    "numericCode": 968,
+    "currencyName": "Surinamese dollar",
+    "region": "South/Latin America",
+    "flag": "🇸🇷",
+    "officialLanguageCode": "nl",
+    "officialLanguageName": "Dutch, Flemish"
+  },
+  "SS": {
+    "name": "South Sudan",
+    "native": "South Sudan",
+    "phone": [
+      211
+    ],
+    "continent": "AF",
+    "capital": "Juba",
+    "currency": "SSP",
+    "languages": [
+      "en"
+    ],
+    "symbol": "SSP",
+    "numericCode": 728,
+    "currencyName": "South Sudanese pound",
+    "region": "Africa",
+    "flag": "🇸🇸",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "ST": {
+    "name": "Sao Tome and Principe",
+    "native": "São Tomé e Príncipe",
+    "phone": [
+      239
+    ],
+    "continent": "AF",
+    "capital": "São Tomé",
+    "currency": "STD",
+    "languages": [
+      "pt"
+    ],
+    "symbol": "STD",
+    "numericCode": 678,
+    "currencyName": "",
+    "region": "Africa",
+    "flag": "🇸🇹",
+    "officialLanguageCode": "pt",
+    "officialLanguageName": "Portuguese"
+  },
+  "SV": {
+    "name": "El Salvador",
+    "native": "El Salvador",
+    "phone": [
+      503
+    ],
+    "continent": "NA",
+    "capital": "San Salvador",
+    "currency": "USD",
+    "languages": [
+      "es"
+    ],
+    "symbol": "$",
+    "dateFormat": "MM-dd-yyyy",
+    "numericCode": 840,
+    "currencyName": "Salvadoran colón",
+    "region": "South/Latin America",
+    "flag": "🇸🇻",
+    "officialLanguageCode": "es",
+    "officialLanguageName": "Spanish, Castilian"
+  },
+  "SX": {
+    "name": "Sint Maarten",
+    "native": "Sint Maarten",
+    "phone": [
+      1721
+    ],
+    "continent": "NA",
+    "capital": "Philipsburg",
+    "currency": "ANG",
+    "languages": [
+      "nl",
+      "en"
+    ],
+    "symbol": "ANG",
+    "numericCode": 532,
+    "currencyName": "Netherlands Antillean guilder",
+    "region": "Unknown",
+    "flag": "🇸🇽",
+    "officialLanguageCode": "nl",
+    "officialLanguageName": "Dutch, Flemish"
+  },
+  "SY": {
+    "name": "Syria",
+    "native": "سوريا",
+    "phone": [
+      963
+    ],
+    "continent": "AS",
+    "capital": "Damascus",
+    "currency": "SYP",
+    "languages": [
+      "ar"
+    ],
+    "symbol": "SY£",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 760,
+    "currencyName": "Syrian pound",
+    "region": "Asia & Pacific",
+    "flag": "🇸🇾",
+    "officialLanguageCode": "ar",
+    "officialLanguageName": "Arabic"
+  },
+  "SZ": {
+    "name": "Eswatini",
+    "native": "Eswatini",
+    "phone": [
+      268
+    ],
+    "continent": "AF",
+    "capital": "Lobamba",
+    "currency": "SZL",
+    "languages": [
+      "en",
+      "ss"
+    ],
+    "symbol": "SZL",
+    "numericCode": 748,
+    "currencyName": "Swazi lilangeni",
+    "region": "Africa",
+    "flag": "🇸🇿",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "TC": {
+    "name": "Turks and Caicos Islands",
+    "native": "Turks and Caicos Islands",
+    "phone": [
+      1649
+    ],
+    "continent": "NA",
+    "capital": "Cockburn Town",
+    "currency": "USD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "$",
+    "numericCode": 840,
+    "currencyName": "United States dollar",
+    "region": "Atlantic Ocean",
+    "flag": "🇹🇨",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "TD": {
+    "name": "Chad",
+    "native": "Tchad",
+    "phone": [
+      235
+    ],
+    "continent": "AF",
+    "capital": "N'Djamena",
+    "currency": "XAF",
+    "languages": [
+      "fr",
+      "ar"
+    ],
+    "symbol": "FCFA",
+    "numericCode": 950,
+    "currencyName": "CFA franc BEAC",
+    "region": "Africa",
+    "flag": "🇹🇩",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "TF": {
+    "name": "French Southern Territories",
+    "native": "Territoire des Terres australes et antarctiques fr",
+    "phone": [
+      262
+    ],
+    "continent": "AN",
+    "capital": "Port-aux-Français",
+    "currency": "EUR",
+    "languages": [
+      "fr"
+    ],
+    "symbol": "€",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Indian Ocean",
+    "flag": "🇹🇫",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "TG": {
+    "name": "Togo",
+    "native": "Togo",
+    "phone": [
+      228
+    ],
+    "continent": "AF",
+    "capital": "Lomé",
+    "currency": "XOF",
+    "languages": [
+      "fr"
+    ],
+    "symbol": "CFA",
+    "numericCode": 952,
+    "currencyName": "CFA franc BCEAO",
+    "region": "Africa",
+    "flag": "🇹🇬",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "TH": {
+    "name": "Thailand",
+    "native": "ประเทศไทย",
+    "phone": [
+      66
+    ],
+    "continent": "AS",
+    "capital": "Bangkok",
+    "currency": "THB",
+    "languages": [
+      "th"
+    ],
+    "symbol": "฿",
+    "dateFormat": "๓/๖/๒๕๕๕",
+    "numericCode": 764,
+    "currencyName": "Thai baht",
+    "region": "Asia & Pacific",
+    "flag": "🇹🇭",
+    "officialLanguageCode": "th",
+    "officialLanguageName": "Thai"
+  },
+  "TJ": {
+    "name": "Tajikistan",
+    "native": "Тоҷикистон",
+    "phone": [
+      992
+    ],
+    "continent": "AS",
+    "capital": "Dushanbe",
+    "currency": "TJS",
+    "languages": [
+      "tg",
+      "ru"
+    ],
+    "symbol": "TJS",
+    "numericCode": 972,
+    "currencyName": "Tajikistani somoni",
+    "region": "Asia & Pacific",
+    "flag": "🇹🇯",
+    "officialLanguageCode": "tg",
+    "officialLanguageName": "Tajik"
+  },
+  "TK": {
+    "name": "Tokelau",
+    "native": "Tokelau",
+    "phone": [
+      690
+    ],
+    "continent": "OC",
+    "capital": "Fakaofo",
+    "currency": "NZD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "NZ$",
+    "numericCode": 554,
+    "currencyName": "New Zealand dollar",
+    "region": "Asia & Pacific",
+    "flag": "🇹🇰",
+    "officialLanguageCode": "tkl",
+    "officialLanguageName": ""
+  },
+  "TL": {
+    "name": "East Timor",
+    "native": "Timor-Leste",
+    "phone": [
+      670
+    ],
+    "continent": "OC",
+    "capital": "Dili",
+    "currency": "USD",
+    "languages": [
+      "pt"
+    ],
+    "symbol": "$",
+    "numericCode": 840,
+    "currencyName": "United States dollar",
+    "region": "Asia & Pacific",
+    "flag": "🇹🇱",
+    "officialLanguageCode": "pt",
+    "officialLanguageName": "Portuguese"
+  },
+  "TM": {
+    "name": "Turkmenistan",
+    "native": "Türkmenistan",
+    "phone": [
+      993
+    ],
+    "continent": "AS",
+    "capital": "Ashgabat",
+    "currency": "TMT",
+    "languages": [
+      "tk",
+      "ru"
+    ],
+    "symbol": "TMT",
+    "numericCode": 934,
+    "currencyName": "Turkmenistan manat",
+    "region": "Asia & Pacific",
+    "flag": "🇹🇲",
+    "officialLanguageCode": "tk",
+    "officialLanguageName": "Turkmen"
+  },
+  "TN": {
+    "name": "Tunisia",
+    "native": "تونس",
+    "phone": [
+      216
+    ],
+    "continent": "AF",
+    "capital": "Tunis",
+    "currency": "TND",
+    "languages": [
+      "ar"
+    ],
+    "symbol": "DT",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 788,
+    "currencyName": "Tunisian dinar",
+    "region": "Arab States",
+    "flag": "🇹🇳",
+    "officialLanguageCode": "ar",
+    "officialLanguageName": "Arabic"
+  },
+  "TO": {
+    "name": "Tonga",
+    "native": "Tonga",
+    "phone": [
+      676
+    ],
+    "continent": "OC",
+    "capital": "Nuku'alofa",
+    "currency": "TOP",
+    "languages": [
+      "en",
+      "to"
+    ],
+    "symbol": "T$",
+    "numericCode": 776,
+    "currencyName": "Tongan paʻanga",
+    "region": "Asia & Pacific",
+    "flag": "🇹🇴",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "TR": {
+    "name": "Turkey",
+    "native": "Türkiye",
+    "phone": [
+      90
+    ],
+    "continent": "AS",
+    "continents": [
+      "AS",
+      "EU"
+    ],
+    "capital": "Ankara",
+    "currency": "TRY",
+    "languages": [
+      "tr"
+    ],
+    "symbol": "₺",
+    "dateFormat": "dd.MM.yyyy",
+    "numericCode": 949,
+    "currencyName": "Turkish lira",
+    "region": "Europe",
+    "flag": "🇹🇷",
+    "officialLanguageCode": "tr",
+    "officialLanguageName": "Turkish"
+  },
+  "TT": {
+    "name": "Trinidad and Tobago",
+    "native": "Trinidad and Tobago",
+    "phone": [
+      1868
+    ],
+    "continent": "NA",
+    "capital": "Port of Spain",
+    "currency": "TTD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "TT$",
+    "numericCode": 780,
+    "currencyName": "Trinidad and Tobago dollar",
+    "region": "South/Latin America",
+    "flag": "🇹🇹",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "TV": {
+    "name": "Tuvalu",
+    "native": "Tuvalu",
+    "phone": [
+      688
+    ],
+    "continent": "OC",
+    "capital": "Funafuti",
+    "currency": "AUD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "AU$",
+    "numericCode": 36,
+    "currencyName": "Australian dollar",
+    "region": "Asia & Pacific",
+    "flag": "🇹🇻",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "TW": {
+    "name": "Taiwan",
+    "native": "臺灣",
+    "phone": [
+      886
+    ],
+    "continent": "AS",
+    "capital": "Taipei",
+    "currency": "TWD",
+    "languages": [
+      "zh"
+    ],
+    "symbol": "NT$",
+    "dateFormat": "yyyy/M/d",
+    "numericCode": 901,
+    "currencyName": "New Taiwan dollar",
+    "region": "Asia & Pacific",
+    "flag": "🇹🇼",
+    "officialLanguageCode": "zh-hant",
+    "officialLanguageName": ""
+  },
+  "TZ": {
+    "name": "Tanzania",
+    "native": "Tanzania",
+    "phone": [
+      255
+    ],
+    "continent": "AF",
+    "capital": "Dodoma",
+    "currency": "TZS",
+    "languages": [
+      "sw",
+      "en"
+    ],
+    "symbol": "TSh",
+    "numericCode": 834,
+    "currencyName": "Tanzanian shilling",
+    "region": "Africa",
+    "flag": "🇹🇿",
+    "officialLanguageCode": "sw",
+    "officialLanguageName": "Swahili"
+  },
+  "UA": {
+    "name": "Ukraine",
+    "native": "Україна",
+    "phone": [
+      380
+    ],
+    "continent": "EU",
+    "capital": "Kyiv",
+    "currency": "UAH",
+    "languages": [
+      "uk"
+    ],
+    "symbol": "₴",
+    "dateFormat": "dd.MM.yyyy",
+    "numericCode": 980,
+    "currencyName": "Ukrainian hryvnia",
+    "region": "Europe",
+    "flag": "🇺🇦",
+    "officialLanguageCode": "uk",
+    "officialLanguageName": "Ukrainian"
+  },
+  "UG": {
+    "name": "Uganda",
+    "native": "Uganda",
+    "phone": [
+      256
+    ],
+    "continent": "AF",
+    "capital": "Kampala",
+    "currency": "UGX",
+    "languages": [
+      "en",
+      "sw"
+    ],
+    "symbol": "USh",
+    "numericCode": 800,
+    "currencyName": "Ugandan shilling",
+    "region": "Africa",
+    "flag": "🇺🇬",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "UM": {
+    "name": "U.S. Minor Outlying Islands",
+    "native": "United States Minor Outlying Islands",
+    "phone": [
+      1
+    ],
+    "continent": "OC",
+    "capital": "",
+    "currency": "USD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "$",
+    "numericCode": 840,
+    "currencyName": "United States dollar",
+    "region": "Pacific Ocean",
+    "flag": "🇺🇲",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "US": {
+    "name": "United States",
+    "native": "United States",
+    "phone": [
+      1
+    ],
+    "continent": "NA",
+    "capital": "Washington D.C.",
+    "currency": "USD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "$",
+    "dateFormat": "M/d/yyyy",
+    "numericCode": 840,
+    "currencyName": "United States dollar",
+    "region": "North America",
+    "flag": "🇺🇸",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "UY": {
+    "name": "Uruguay",
+    "native": "Uruguay",
+    "phone": [
+      598
+    ],
+    "continent": "SA",
+    "capital": "Montevideo",
+    "currency": "UYU",
+    "languages": [
+      "es"
+    ],
+    "symbol": "$U",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 858,
+    "currencyName": "Uruguayan peso",
+    "region": "South/Latin America",
+    "flag": "🇺🇾",
+    "officialLanguageCode": "es",
+    "officialLanguageName": "Spanish, Castilian"
+  },
+  "UZ": {
+    "name": "Uzbekistan",
+    "native": "O'zbekiston",
+    "phone": [
+      998
+    ],
+    "continent": "AS",
+    "capital": "Tashkent",
+    "currency": "UZS",
+    "languages": [
+      "uz",
+      "ru"
+    ],
+    "symbol": "UZS",
+    "numericCode": 860,
+    "currencyName": "Uzbekistan som",
+    "region": "Asia & Pacific",
+    "flag": "🇺🇿",
+    "officialLanguageCode": "uz",
+    "officialLanguageName": "Uzbek"
+  },
+  "VA": {
+    "name": "Vatican City",
+    "native": "Vaticano",
+    "phone": [
+      379
+    ],
+    "continent": "EU",
+    "capital": "Vatican City",
+    "currency": "EUR",
+    "languages": [
+      "it",
+      "la"
+    ],
+    "symbol": "€",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Europe",
+    "flag": "🇻🇦",
+    "officialLanguageCode": "la",
+    "officialLanguageName": "Latin"
+  },
+  "VC": {
+    "name": "Saint Vincent and the Grenadines",
+    "native": "Saint Vincent and the Grenadines",
+    "phone": [
+      1784
+    ],
+    "continent": "NA",
+    "capital": "Kingstown",
+    "currency": "XCD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "XCD",
+    "numericCode": 951,
+    "currencyName": "East Caribbean dollar",
+    "region": "South/Latin America",
+    "flag": "🇻🇨",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "VE": {
+    "name": "Venezuela",
+    "native": "Venezuela",
+    "phone": [
+      58
+    ],
+    "continent": "SA",
+    "capital": "Caracas",
+    "currency": "VEF",
+    "languages": [
+      "es"
+    ],
+    "symbol": "Bs.F.",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 937,
+    "currencyName": "",
+    "region": "South/Latin America",
+    "flag": "🇻🇪",
+    "officialLanguageCode": "es",
+    "officialLanguageName": "Spanish, Castilian"
+  },
+  "VG": {
+    "name": "British Virgin Islands",
+    "native": "British Virgin Islands",
+    "phone": [
+      1284
+    ],
+    "continent": "NA",
+    "capital": "Road Town",
+    "currency": "USD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "$",
+    "numericCode": 840,
+    "currencyName": "United States dollar",
+    "region": "South/Latin America",
+    "flag": "🇻🇬",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "VI": {
+    "name": "U.S. Virgin Islands",
+    "native": "United States Virgin Islands",
+    "phone": [
+      1340
+    ],
+    "continent": "NA",
+    "capital": "Charlotte Amalie",
+    "currency": "USD",
+    "languages": [
+      "en"
+    ],
+    "symbol": "$",
+    "numericCode": 840,
+    "currencyName": "United States dollar",
+    "region": "South/Latin America",
+    "flag": "🇻🇮",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "VN": {
+    "name": "Vietnam",
+    "native": "Việt Nam",
+    "phone": [
+      84
+    ],
+    "continent": "AS",
+    "capital": "Hanoi",
+    "currency": "VND",
+    "languages": [
+      "vi"
+    ],
+    "symbol": "₫",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 704,
+    "currencyName": "Vietnamese đồng",
+    "region": "Asia & Pacific",
+    "flag": "🇻🇳",
+    "officialLanguageCode": "vi",
+    "officialLanguageName": "Vietnamese"
+  },
+  "VU": {
+    "name": "Vanuatu",
+    "native": "Vanuatu",
+    "phone": [
+      678
+    ],
+    "continent": "OC",
+    "capital": "Port Vila",
+    "currency": "VUV",
+    "languages": [
+      "bi",
+      "en",
+      "fr"
+    ],
+    "symbol": "VUV",
+    "numericCode": 548,
+    "currencyName": "Vanuatu vatu",
+    "region": "Asia & Pacific",
+    "flag": "🇻🇺",
+    "officialLanguageCode": "bi",
+    "officialLanguageName": "Bislama"
+  },
+  "WF": {
+    "name": "Wallis and Futuna",
+    "native": "Wallis et Futuna",
+    "phone": [
+      681
+    ],
+    "continent": "OC",
+    "capital": "Mata-Utu",
+    "currency": "XPF",
+    "languages": [
+      "fr"
+    ],
+    "symbol": "XPF",
+    "numericCode": 953,
+    "currencyName": "CFP franc (franc Pacifique)",
+    "region": "Asia & Pacific",
+    "flag": "🇼🇫",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "WS": {
+    "name": "Samoa",
+    "native": "Samoa",
+    "phone": [
+      685
+    ],
+    "continent": "OC",
+    "capital": "Apia",
+    "currency": "WST",
+    "languages": [
+      "sm",
+      "en"
+    ],
+    "symbol": "WST",
+    "numericCode": 882,
+    "currencyName": "Samoan tala",
+    "region": "Asia & Pacific",
+    "flag": "🇼🇸",
+    "officialLanguageCode": "sm",
+    "officialLanguageName": "Samoan"
+  },
+  "XK": {
+    "name": "Kosovo",
+    "native": "Republika e Kosovës",
+    "phone": [
+      377,
+      381,
+      383,
+      386
+    ],
+    "continent": "EU",
+    "capital": "Pristina",
+    "currency": "EUR",
+    "languages": [
+      "sq",
+      "sr"
+    ],
+    "symbol": "€",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Europe",
+    "flag": "🇽🇰",
+    "officialLanguageCode": "sq",
+    "officialLanguageName": "Albanian"
+  },
+  "YE": {
+    "name": "Yemen",
+    "native": "اليَمَن",
+    "phone": [
+      967
+    ],
+    "continent": "AS",
+    "capital": "Sana'a",
+    "currency": "YER",
+    "languages": [
+      "ar"
+    ],
+    "symbol": "YR",
+    "dateFormat": "dd/MM/yyyy",
+    "numericCode": 886,
+    "currencyName": "Yemeni rial",
+    "region": "Arab States",
+    "flag": "🇾🇪",
+    "officialLanguageCode": "ar",
+    "officialLanguageName": "Arabic"
+  },
+  "YT": {
+    "name": "Mayotte",
+    "native": "Mayotte",
+    "phone": [
+      262
+    ],
+    "continent": "AF",
+    "capital": "Mamoudzou",
+    "currency": "EUR",
+    "languages": [
+      "fr"
+    ],
+    "symbol": "€",
+    "numericCode": 978,
+    "currencyName": "Euro",
+    "region": "Africa",
+    "flag": "🇾🇹",
+    "officialLanguageCode": "fr",
+    "officialLanguageName": "French"
+  },
+  "ZA": {
+    "name": "South Africa",
+    "native": "South Africa",
+    "phone": [
+      27
+    ],
+    "continent": "AF",
+    "capital": "Pretoria",
+    "currency": "ZAR",
+    "languages": [
+      "af",
+      "en",
+      "nr",
+      "st",
+      "ss",
+      "tn",
+      "ts",
+      "ve",
+      "xh",
+      "zu"
+    ],
+    "symbol": "R",
+    "dateFormat": "yyyy/MM/dd",
+    "numericCode": 710,
+    "currencyName": "South African rand",
+    "region": "Africa",
+    "flag": "🇿🇦",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "ZM": {
+    "name": "Zambia",
+    "native": "Zambia",
+    "phone": [
+      260
+    ],
+    "continent": "AF",
+    "capital": "Lusaka",
+    "currency": "ZMW",
+    "languages": [
+      "en"
+    ],
+    "symbol": "ZK",
+    "numericCode": 967,
+    "currencyName": "Zambian kwacha",
+    "region": "Africa",
+    "flag": "🇿🇲",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  },
+  "ZW": {
+    "name": "Zimbabwe",
+    "native": "Zimbabwe",
+    "phone": [
+      263
+    ],
+    "continent": "AF",
+    "capital": "Harare",
+    "currency": "ZWL",
+    "languages": [
+      "en",
+      "sn",
+      "nd"
+    ],
+    "symbol": "ZWL",
+    "numericCode": 932,
+    "currencyName": "Zimbabwean dollar",
+    "region": "Africa",
+    "flag": "🇿🇼",
+    "officialLanguageCode": "en",
+    "officialLanguageName": "English"
+  }
+}
+  
