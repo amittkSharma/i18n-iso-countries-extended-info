@@ -12,7 +12,7 @@ import {
 	numericToAlpha3,
 } from "i18n-iso-countries";
 import { BASIC_LANGUAGE } from "./constants";
-import { getCurrencyInformationByCountryIso2Code } from "./countryCurrencyInformation";
+import { getCurrencyInfoByCountryIso2Code } from "./services";
 import type {
 	CountryIsoCodePreview,
 	DetailedCountryInformation,
@@ -44,7 +44,7 @@ export const getCountryIsoCodeByName = (
 		case "iso-3":
 			return getAlpha3Code(countryName, BASIC_LANGUAGE);
 		case "both":
-			return `${getAlpha2Code(countryName, BASIC_LANGUAGE)},${getAlpha3Code(countryName, BASIC_LANGUAGE)}`;
+			return `${getAlpha2Code(countryName, BASIC_LANGUAGE)}, ${getAlpha3Code(countryName, BASIC_LANGUAGE)}`;
 	}
 };
 
@@ -63,8 +63,7 @@ export const getDetailedCountryInformationByIso2Code = (
 	const countryName = getCountryOfficialNameByCode(countryIso2ode);
 
 	const countryIso3Code = alpha2ToAlpha3(countryIso2ode);
-	const countryCurrencyInfo =
-		getCurrencyInformationByCountryIso2Code(countryIso2ode);
+	const countryCurrencyInfo = getCurrencyInfoByCountryIso2Code(countryIso2ode);
 
 	const detailedCountryInfo: DetailedCountryInformation = {
 		name: countryName!,
@@ -81,7 +80,7 @@ export const getDetailedCountryInformationByIso3Code = (
 ) => {
 	const countryName = getCountryOfficialNameByCode(countryIso3Code);
 	const countryIso2Code = alpha3ToAlpha2(countryIso3Code);
-	const countryCurrencyInfo = getCurrencyInformationByCountryIso2Code(
+	const countryCurrencyInfo = getCurrencyInfoByCountryIso2Code(
 		countryIso2Code!,
 	);
 
@@ -101,7 +100,7 @@ export const getDetailedCountryInformationByNumericCode = (
 	const countryIso2Code = numericToAlpha2(countryNumericCode);
 	const countryIso3Code = numericToAlpha3(countryNumericCode);
 	const countryName = getCountryOfficialNameByCode(countryIso2Code!);
-	const countryCurrencyInfo = getCurrencyInformationByCountryIso2Code(
+	const countryCurrencyInfo = getCurrencyInfoByCountryIso2Code(
 		countryIso2Code!,
 	);
 

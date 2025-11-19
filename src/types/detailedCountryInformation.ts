@@ -12,21 +12,21 @@ export interface CurrencyInfo {
 }
 
 export interface LocationInfo {
-	continent: string;
-	region: string;
-	continents: string[];
+	continent?: string;
+	region?: string;
+	continents?: string[];
 }
 
 export interface CountryInfo {
-	name: string;
-	native: string;
-	capital: string;
-	flag: string;
-	isdCodes: string[];
+	name?: string;
+	native?: string;
+	capital?: string;
+	flag?: string;
+	isdCodes?: number[];
 	language: {
-		code: string;
-		official: string;
-		others: string[];
+		code?: string;
+		official?: string;
+		others?: string[];
 	};
 }
 
@@ -36,7 +36,7 @@ interface AlphaCodes {
 	numericCode?: number;
 }
 
-export interface DetailedCountryInformation extends AlphaCodes {
+export interface DetailedCountryInformation extends CurrencyInfo, AlphaCodes {
 	name: string;
 }
 

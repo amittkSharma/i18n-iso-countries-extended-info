@@ -12,13 +12,13 @@ describe("country iso information service ", () => {
 
 	beforeEach(() => {
 		expectedInfo = {
-			countryName: "India",
+			name: "India",
 			iso2Code: "IN",
 			iso3Code: "IND",
 			currency: "INR",
 			symbol: "₹",
-			dateFormat: "d/M/yyyy",
-			numericCode: 356,
+			currencyName: "Indian rupee",
+			// numericCode: 356,
 		};
 	});
 	describe("country validation", () => {
@@ -72,7 +72,7 @@ describe("country iso information service ", () => {
 				const result = getCountryIsoCodeByName(name, "iso-2");
 
 				expect(result).toBeDefined();
-				expect(result).toEqual({ iso2Code: indiaIso2Code });
+				expect(result).toEqual(indiaIso2Code);
 			});
 		});
 
@@ -84,7 +84,7 @@ describe("country iso information service ", () => {
 				const result = getCountryIsoCodeByName(name, "iso-3");
 
 				expect(result).toBeDefined();
-				expect(result).toEqual({ iso3Code: indiaIso3Code });
+				expect(result).toEqual(indiaIso3Code);
 			});
 		});
 
@@ -92,15 +92,13 @@ describe("country iso information service ", () => {
 			const countryNames = ["India", "india"];
 			const indiaIso2Code = "IN";
 			const indiaIso3Code = "IND";
+			const expectedCodes = `${indiaIso2Code}, ${indiaIso3Code}`;
 
 			countryNames.forEach((name) => {
 				const result = getCountryIsoCodeByName(name, "both");
 
 				expect(result).toBeDefined();
-				expect(result).toEqual({
-					iso2Code: indiaIso2Code,
-					iso3Code: indiaIso3Code,
-				});
+				expect(result).toEqual(expectedCodes);
 			});
 		});
 	});

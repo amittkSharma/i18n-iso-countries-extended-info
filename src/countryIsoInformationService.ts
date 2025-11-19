@@ -1,4 +1,3 @@
-import { getCurrencyInformationByCountryIso2Code } from "./countryCurrencyInformation";
 import {
 	getAllCountriesWithIsoCodes,
 	getCountryIsoCodeByName,
@@ -7,6 +6,7 @@ import {
 	getDetailedCountryInformationByNumericCode,
 	isCountryIsoOrNumericCodeValid,
 } from "./i18nIsoCountriesService";
+import { getCurrencyInfoByCountryIso2Code } from "./services";
 
 export { isCountryIsoOrNumericCodeValid } from "./i18nIsoCountriesService";
 
@@ -19,7 +19,7 @@ export const getCountryInformationByName = (countryName: string) => {
 			countryName,
 			iso2Code,
 			iso3Code: getCountryIsoCodeByName(countryName, "iso-3"),
-			...getCurrencyInformationByCountryIso2Code(iso2Code),
+			...getCurrencyInfoByCountryIso2Code(iso2Code),
 		};
 	}
 
