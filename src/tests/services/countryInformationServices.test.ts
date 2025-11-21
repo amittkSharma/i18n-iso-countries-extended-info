@@ -2,7 +2,7 @@ import {
 	getCurrencyInfoByCountryIso2Code,
 	getInfoByCountryIso2Code,
 	getLocationInfoByCountryIso2Code,
-} from "../../services";
+} from "../../services/countryInfoServices";
 import type {
 	CountryInfo,
 	CurrencyInfo,

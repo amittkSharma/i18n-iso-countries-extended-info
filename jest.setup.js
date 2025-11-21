@@ -2,7 +2,7 @@
 jest.mock("i18n-iso-countries", () => {
 	return {
 		isValid: jest.fn((code) => {
-			return code !== "invalidCode";
+			return code !== "XX";
 		}),
 		getAlpha2Code: jest.fn((countryName) => {
 			return countryName.toLowerCase() === "india" ? "IN" : undefined;

@@ -36,6 +36,11 @@ interface AlphaCodes {
 	numericCode?: number;
 }
 
+export interface CountryDetailInformation
+	extends CountryInfo,
+		LocationInfo,
+		CurrencyInfo {}
+
 export interface DetailedCountryInformation extends CurrencyInfo, AlphaCodes {
 	name: string;
 }

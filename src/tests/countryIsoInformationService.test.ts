@@ -53,7 +53,7 @@ describe("country iso information service ", () => {
 		});
 
 		it("invalid country code is provided", () => {
-			const invalidCodesForIndia = ["invalidCode"];
+			const invalidCodesForIndia = ["XX"];
 
 			invalidCodesForIndia.forEach((invalidCode) => {
 				expect(() => {
