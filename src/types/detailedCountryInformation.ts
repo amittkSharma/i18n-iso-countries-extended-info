@@ -30,20 +30,10 @@ export interface CountryInfo {
 	};
 }
 
-interface AlphaCodes {
-	iso2Code: string;
-	iso3Code: string;
-	numericCode?: number;
-}
-
 export interface CountryDetailInformation
 	extends CountryInfo,
 		LocationInfo,
 		CurrencyInfo {}
-
-export interface DetailedCountryInformation extends CurrencyInfo, AlphaCodes {
-	name: string;
-}
 
 export interface CountryIsoCodePreview {
 	countryName?: string;

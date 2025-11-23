@@ -8,33 +8,26 @@ export interface CurrencyInfo {
     symbol?: string;
 }
 export interface LocationInfo {
-    continent: string;
-    region: string;
-    continents: string[];
+    continent?: string;
+    region?: string;
+    continents?: string[];
 }
 export interface CountryInfo {
-    name: string;
-    native: string;
-    capital: string;
-    flag: string;
-    isdCodes: string[];
+    name?: string;
+    native?: string;
+    capital?: string;
+    flag?: string;
+    isdCodes?: number[];
     language: {
-        code: string;
-        official: string;
-        others: string[];
+        code?: string;
+        official?: string;
+        others?: string[];
     };
 }
-interface AlphaCodes {
-    iso2Code: string;
-    iso3Code: string;
-    numericCode?: number;
-}
-export interface DetailedCountryInformation extends AlphaCodes {
-    name: string;
+export interface CountryDetailInformation extends CountryInfo, LocationInfo, CurrencyInfo {
 }
 export interface CountryIsoCodePreview {
     countryName?: string;
     code: string;
 }
-export {};
 //# sourceMappingURL=detailedCountryInformation.d.ts.map

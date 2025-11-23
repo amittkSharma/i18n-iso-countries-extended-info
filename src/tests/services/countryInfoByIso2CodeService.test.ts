@@ -1,9 +1,4 @@
-import {
-	getCountryCurrencyInfoByIso2Code,
-	getCountryDetailInfoByIso2Code,
-	getCountryGeneralInfoByIso2Code,
-	getCountryLocationInfoByIso2Code,
-} from "../../services/countryInfoByIso2CodeService";
+import { iso2CodeService } from "../../services/iso2CodeCountryInfoService";
 import type {
 	CountryDetailInformation,
 	CountryInfo,
@@ -22,7 +17,8 @@ describe("country information by iso-2 code service", () => {
 			};
 
 			iso2CodesForIndia.forEach((iso2CodeForIndia) => {
-				const locationInfo = getCountryLocationInfoByIso2Code(iso2CodeForIndia);
+				const locationInfo =
+					iso2CodeService.getCountryLocationInfo(iso2CodeForIndia);
 
 				expect(locationInfo).toBeDefined();
 				expect(locationInfo).toEqual(expectedLocationInfo);
@@ -35,7 +31,9 @@ describe("country information by iso-2 code service", () => {
 			inValidIso2CodesLengthForIndia.forEach(
 				(inValidIso2CodeLengthForIndia) => {
 					expect(() => {
-						getCountryLocationInfoByIso2Code(inValidIso2CodeLengthForIndia);
+						iso2CodeService.getCountryLocationInfo(
+							inValidIso2CodeLengthForIndia,
+						);
 					}).toThrow(
 						"Iso-code length is not appropriate, ISO-2 code must have length of 2 characters",
 					);
@@ -48,7 +46,7 @@ describe("country information by iso-2 code service", () => {
 
 			inValidIso2CodesForIndia.forEach((inValidIso2CodeForIndia) => {
 				expect(() => {
-					getCountryLocationInfoByIso2Code(inValidIso2CodeForIndia);
+					iso2CodeService.getCountryLocationInfo(inValidIso2CodeForIndia);
 				}).toThrow("Iso Code/Numeric Code: XX is not valid");
 			});
 		});
@@ -64,7 +62,8 @@ describe("country information by iso-2 code service", () => {
 			};
 
 			iso2CodesForIndia.forEach((iso2CodeForIndia) => {
-				const currencyInfo = getCountryCurrencyInfoByIso2Code(iso2CodeForIndia);
+				const currencyInfo =
+					iso2CodeService.getCountryCurrencyInfo(iso2CodeForIndia);
 
 				expect(currencyInfo).toBeDefined();
 				expect(currencyInfo).toEqual(expectedCurrencyInfo);
@@ -77,7 +76,9 @@ describe("country information by iso-2 code service", () => {
 			inValidIso2CodesLengthForIndia.forEach(
 				(inValidIso2CodeLengthForIndia) => {
 					expect(() => {
-						getCountryCurrencyInfoByIso2Code(inValidIso2CodeLengthForIndia);
+						iso2CodeService.getCountryCurrencyInfo(
+							inValidIso2CodeLengthForIndia,
+						);
 					}).toThrow(
 						"Iso-code length is not appropriate, ISO-2 code must have length of 2 characters",
 					);
@@ -90,7 +91,7 @@ describe("country information by iso-2 code service", () => {
 
 			inValidIso2CodesForIndia.forEach((inValidIso2CodeForIndia) => {
 				expect(() => {
-					getCountryCurrencyInfoByIso2Code(inValidIso2CodeForIndia);
+					iso2CodeService.getCountryCurrencyInfo(inValidIso2CodeForIndia);
 				}).toThrow("Iso Code/Numeric Code: XX is not valid");
 			});
 		});
@@ -113,7 +114,8 @@ describe("country information by iso-2 code service", () => {
 			};
 
 			iso2CodesForIndia.forEach((iso2CodeForIndia) => {
-				const generalInfo = getCountryGeneralInfoByIso2Code(iso2CodeForIndia);
+				const generalInfo =
+					iso2CodeService.getCountryGeneralInfo(iso2CodeForIndia);
 
 				expect(generalInfo).toBeDefined();
 				expect(generalInfo).toEqual(expectedGeneralInfo);
@@ -126,7 +128,9 @@ describe("country information by iso-2 code service", () => {
 			inValidIso2CodesLengthForIndia.forEach(
 				(inValidIso2CodeLengthForIndia) => {
 					expect(() => {
-						getCountryGeneralInfoByIso2Code(inValidIso2CodeLengthForIndia);
+						iso2CodeService.getCountryGeneralInfo(
+							inValidIso2CodeLengthForIndia,
+						);
 					}).toThrow(
 						"Iso-code length is not appropriate, ISO-2 code must have length of 2 characters",
 					);
@@ -139,7 +143,7 @@ describe("country information by iso-2 code service", () => {
 
 			inValidIso2CodesForIndia.forEach((inValidIso2CodeForIndia) => {
 				expect(() => {
-					getCountryGeneralInfoByIso2Code(inValidIso2CodeForIndia);
+					iso2CodeService.getCountryGeneralInfo(inValidIso2CodeForIndia);
 				}).toThrow("Iso Code/Numeric Code: XX is not valid");
 			});
 		});
@@ -168,7 +172,8 @@ describe("country information by iso-2 code service", () => {
 			};
 
 			iso2CodesForIndia.forEach((iso2CodeForIndia) => {
-				const detailInfo = getCountryDetailInfoByIso2Code(iso2CodeForIndia);
+				const detailInfo =
+					iso2CodeService.getCountryDetailInfo(iso2CodeForIndia);
 
 				expect(detailInfo).toBeDefined();
 				expect(detailInfo).toEqual(expectedDetailInfo);
