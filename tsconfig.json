@@ -40,7 +40,8 @@
 		// go to js file when using IDE functions like
 		// "Go to Definition" in VSCode
 		"declarationMap": true,
-		"composite": true
+		"composite": false,
+		"noEmit": false
 	},
 	"include": ["src/**/*", "src/**/*.json"],
 	"exclude": [
