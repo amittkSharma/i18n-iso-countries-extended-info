@@ -1,4 +1,4 @@
-import { iso2CodeService } from "../../services/iso2CodeCountryInfoService";
+import { iso2CodeService } from "../../services";
 import type {
 	CountryDetailInformation,
 	CountryInfo,

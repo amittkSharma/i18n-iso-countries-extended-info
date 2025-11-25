@@ -1,3 +1,4 @@
+/** biome-ignore-all lint/suspicious/noExplicitAny: off */
 import {
 	getAllCountriesIsoCodes,
 	getCountryInformationByIso2Code,
@@ -32,8 +33,15 @@ const launchApp = async () => {
 		log.error(`Error: ${(error as Error).message}`);
 	}
 
-	printObj(getAllCountriesIsoCodes(), "all alpha-2 codes");
-	printObj(getAllCountriesIsoCodes("iso-3"), "all alpha-3 codes");
+	printObj(
+		getAllCountriesIsoCodes().length.toString() as any,
+		"all alpha-2 codes",
+	);
+
+	printObj(
+		getAllCountriesIsoCodes("iso-3").length.toString() as any,
+		"all alpha-3 codes",
+	);
 };
 
 launchApp();

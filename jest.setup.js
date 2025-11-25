@@ -25,6 +25,11 @@ jest.mock("i18n-iso-countries", () => {
 		numericToAlpha2: jest.fn((code) => {
 			return code.toLowerCase() === "356" ? "IN" : undefined;
 		}),
+		toAlpha2: jest.fn((code) => {
+			return code.toLowerCase() === "ind" || code.toLowerCase() === "356"
+				? "IN"
+				: undefined;
+		}),
 	};
 });
 

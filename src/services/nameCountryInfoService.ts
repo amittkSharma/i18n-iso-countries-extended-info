@@ -10,7 +10,7 @@ class NameCountryInfoService implements CountryInfoService {
 		if (iso2Code) {
 			return iso2Code;
 		} else {
-			throw new Error(`Iso2 code can not be found for: ${name}`);
+			throw new Error(`Iso-2 code can not be found for: ${name}`);
 		}
 	};
 

@@ -17,7 +17,7 @@ class Iso3CodeCountryInfoService implements CountryInfoService {
 		if (iso2Code) {
 			return iso2Code;
 		} else {
-			throw new Error(`Iso2 code can not be found for: ${iso3Code}`);
+			throw new Error(`Iso-2 code can not be found for: ${iso3Code}`);
 		}
 	};
 
