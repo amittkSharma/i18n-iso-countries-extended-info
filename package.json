@@ -15,7 +15,9 @@
 		"format": "biome format --write",
 		"lint": "biome lint --write",
 		"check": "biome check --write",
-		"test": "jest"
+		"test": "jest",
+		"docs": "npx readme-tsdoc",
+		"prepublishOnly": "npm run docs"
 	},
 	"keywords": [
 		"i18n",
@@ -48,6 +50,7 @@
 		"jest": "^30.2.0",
 		"pino": "^10.1.0",
 		"pino-pretty": "^13.1.2",
+		"readme-tsdoc": "^1.1.4",
 		"ts-jest": "^29.4.5",
 		"ts-node": "^10.9.2",
 		"tslib": "^2.8.1",
