@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.5.2](https://github.com/amittkSharma/i18n-iso-countries-extended-info/compare/v1.5.1...v1.5.2) (2025-11-26)
+
+
+### Bug Fixes
+
+* update build folder ([27b6b55](https://github.com/amittkSharma/i18n-iso-countries-extended-info/commit/27b6b55c94497942da2ff020146b413a665e2fcb))
+
 ## [1.5.1](https://github.com/amittkSharma/i18n-iso-countries-extended-info/compare/v1.5.0...v1.5.1) (2025-11-13)
 
 ## 1.5.0 (2025-11-12)
