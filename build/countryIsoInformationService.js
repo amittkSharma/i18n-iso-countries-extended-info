@@ -1,28 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getAllCountriesIsoCodes = exports.getCountryInformationByNumericCode = exports.getCountryInformationByIso3Code = exports.getCountryInformationByIso2Code = exports.getCountryInformationByName = void 0;
+exports.getCountryLocationInformationByNumericCode = exports.getCountryGeneralInformationByNumericCode = exports.getCountryDetailInformationByNumericCode = exports.getCountryCurrencyInformationByNumericCode = exports.getCountryLocationInformationByName = exports.getCountryGeneralInformationByName = exports.getCountryDetailInformationByName = exports.getCountryCurrencyInformationByName = exports.getCountryLocationInformationByAlpha3Code = exports.getCountryGeneralInformationByAlpha3Code = exports.getCountryDetailInformationByAlpha3Code = exports.getCountryCurrencyInformationByAlpha3Code = exports.getCountryLocationInformationByAlpha2Code = exports.getCountryGeneralInformationByAlpha2Code = exports.getCountryDetailInformationByAlpha2Code = exports.getCountryCurrencyInformationByAlpha2Code = exports.getCountryAlphaCodeByName = exports.getAllCountriesAlphaCodes = void 0;
 const services_1 = require("./services");
-const getCountryInformationByName = (countryName) => {
-    const info = services_1.nameService.getCountryDetailInfo(countryName);
-    return info;
-};
-exports.getCountryInformationByName = getCountryInformationByName;
-const getCountryInformationByIso2Code = (iso2Code) => {
-    const info = services_1.iso2CodeService.getCountryDetailInfo(iso2Code);
-    return info;
-};
-exports.getCountryInformationByIso2Code = getCountryInformationByIso2Code;
-const getCountryInformationByIso3Code = (iso3Code) => {
-    const info = services_1.iso3CodeService.getCountryDetailInfo(iso3Code);
-    return info;
-};
-exports.getCountryInformationByIso3Code = getCountryInformationByIso3Code;
-const getCountryInformationByNumericCode = (numericCode) => {
-    const info = services_1.numericCodeService.getCountryDetailInfo(numericCode);
-    return info;
-};
-exports.getCountryInformationByNumericCode = getCountryInformationByNumericCode;
-const getAllCountriesIsoCodes = (isoCode = "iso-2") => {
-    return (0, services_1.getAllCountriesWithIsoCodes)(isoCode);
-};
-exports.getAllCountriesIsoCodes = getAllCountriesIsoCodes;
+var services_2 = require("./services");
+Object.defineProperty(exports, "getAllCountriesAlphaCodes", { enumerable: true, get: function () { return services_2.getAllCountriesWithIsoCodes; } });
+Object.defineProperty(exports, "getCountryAlphaCodeByName", { enumerable: true, get: function () { return services_2.getCountryIsoCodeByName; } });
+exports.getCountryCurrencyInformationByAlpha2Code = services_1.iso2CodeService.getCountryCurrencyInfo, exports.getCountryDetailInformationByAlpha2Code = services_1.iso2CodeService.getCountryDetailInfo, exports.getCountryGeneralInformationByAlpha2Code = services_1.iso2CodeService.getCountryGeneralInfo, exports.getCountryLocationInformationByAlpha2Code = services_1.iso2CodeService.getCountryLocationInfo;
+exports.getCountryCurrencyInformationByAlpha3Code = services_1.iso3CodeService.getCountryCurrencyInfo, exports.getCountryDetailInformationByAlpha3Code = services_1.iso3CodeService.getCountryDetailInfo, exports.getCountryGeneralInformationByAlpha3Code = services_1.iso3CodeService.getCountryGeneralInfo, exports.getCountryLocationInformationByAlpha3Code = services_1.iso3CodeService.getCountryLocationInfo;
+exports.getCountryCurrencyInformationByName = services_1.nameService.getCountryCurrencyInfo, exports.getCountryDetailInformationByName = services_1.nameService.getCountryDetailInfo, exports.getCountryGeneralInformationByName = services_1.nameService.getCountryGeneralInfo, exports.getCountryLocationInformationByName = services_1.nameService.getCountryLocationInfo;
+exports.getCountryCurrencyInformationByNumericCode = services_1.numericCodeService.getCountryCurrencyInfo, exports.getCountryDetailInformationByNumericCode = services_1.numericCodeService.getCountryDetailInfo, exports.getCountryGeneralInformationByNumericCode = services_1.numericCodeService.getCountryGeneralInfo, exports.getCountryLocationInformationByNumericCode = services_1.numericCodeService.getCountryLocationInfo;

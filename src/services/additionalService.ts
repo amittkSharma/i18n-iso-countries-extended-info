@@ -8,11 +8,9 @@ import {
 } from "i18n-iso-countries";
 import { BASIC_LANGUAGE } from "../constants";
 import type {
+	AlphaCode,
 	CountryIsoCodePreview,
-	IsoCode,
 } from "../types/detailedCountryInformation";
-
-type IsoCodeType = IsoCode | "both";
 
 type Select = "all" | "official" | "alias";
 
@@ -37,10 +35,10 @@ export const isCountryIsoOrNumericCodeValid = (countryIsoCode: string) => {
 };
 
 export const getAllCountriesWithIsoCodes = (
-	isoCodeType: IsoCodeType,
+	alphaCodeType: AlphaCode,
 ): Array<CountryIsoCodePreview> => {
 	const codes =
-		isoCodeType === "iso-2"
+		alphaCodeType === "Alpha-2"
 			? Object.keys(getAlpha2Codes())
 			: Object.keys(getAlpha3Codes());
 	return codes.map((code) => {
@@ -53,12 +51,12 @@ export const getAllCountriesWithIsoCodes = (
 
 export const getCountryIsoCodeByName = (
 	countryName: string,
-	isoCode: IsoCodeType = "iso-2",
+	alphaCode: AlphaCode | "both" = "Alpha-2",
 ) => {
-	switch (isoCode) {
-		case "iso-2":
+	switch (alphaCode) {
+		case "Alpha-2":
 			return getAlpha2Code(countryName, BASIC_LANGUAGE);
-		case "iso-3":
+		case "Alpha-3":
 			return getAlpha3Code(countryName, BASIC_LANGUAGE);
 		case "both":
 			return `${getAlpha2Code(countryName, BASIC_LANGUAGE)}, ${getAlpha3Code(countryName, BASIC_LANGUAGE)}`;

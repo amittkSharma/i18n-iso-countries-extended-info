@@ -19,8 +19,8 @@ const isCountryIsoOrNumericCodeValid = (countryIsoCode) => {
     }
 };
 exports.isCountryIsoOrNumericCodeValid = isCountryIsoOrNumericCodeValid;
-const getAllCountriesWithIsoCodes = (isoCodeType) => {
-    const codes = isoCodeType === "iso-2"
+const getAllCountriesWithIsoCodes = (alphaCodeType) => {
+    const codes = alphaCodeType === "Alpha-2"
         ? Object.keys((0, i18n_iso_countries_1.getAlpha2Codes)())
         : Object.keys((0, i18n_iso_countries_1.getAlpha3Codes)());
     return codes.map((code) => {
@@ -31,11 +31,11 @@ const getAllCountriesWithIsoCodes = (isoCodeType) => {
     });
 };
 exports.getAllCountriesWithIsoCodes = getAllCountriesWithIsoCodes;
-const getCountryIsoCodeByName = (countryName, isoCode = "iso-2") => {
-    switch (isoCode) {
-        case "iso-2":
+const getCountryIsoCodeByName = (countryName, alphaCode = "Alpha-2") => {
+    switch (alphaCode) {
+        case "Alpha-2":
             return (0, i18n_iso_countries_1.getAlpha2Code)(countryName, constants_1.BASIC_LANGUAGE);
-        case "iso-3":
+        case "Alpha-3":
             return (0, i18n_iso_countries_1.getAlpha3Code)(countryName, constants_1.BASIC_LANGUAGE);
         case "both":
             return `${(0, i18n_iso_countries_1.getAlpha2Code)(countryName, constants_1.BASIC_LANGUAGE)}, ${(0, i18n_iso_countries_1.getAlpha3Code)(countryName, constants_1.BASIC_LANGUAGE)}`;

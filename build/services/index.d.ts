@@ -1,4 +1,4 @@
-export { getAllCountriesWithIsoCodes, isCountryIsoOrNumericCodeValid, } from "./additionalService";
+export { getAllCountriesWithIsoCodes, getCountryIsoCodeByName, isCountryIsoOrNumericCodeValid, } from "./additionalService";
 export * from "./iso2CodeCountryInfoService";
 export * from "./iso3CodeCountryInfoService";
 export * from "./nameCountryInfoService";

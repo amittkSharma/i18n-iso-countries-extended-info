@@ -1,4 +1,4 @@
-export type IsoCode = "iso-2" | "iso-3";
+export type AlphaCode = "Alpha-2" | "Alpha-3";
 export interface Others {
     dateFormat?: string;
 }

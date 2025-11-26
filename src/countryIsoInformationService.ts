@@ -1,33 +1,39 @@
 import {
-	getAllCountriesWithIsoCodes,
 	iso2CodeService,
 	iso3CodeService,
 	nameService,
 	numericCodeService,
 } from "./services";
 
-import type { IsoCode } from "./types/detailedCountryInformation";
+export {
+	getAllCountriesWithIsoCodes as getAllCountriesAlphaCodes,
+	getCountryIsoCodeByName as getCountryAlphaCodeByName,
+} from "./services";
 
-export const getCountryInformationByName = (countryName: string) => {
-	const info = nameService.getCountryDetailInfo(countryName);
-	return info;
-};
+export const {
+	getCountryCurrencyInfo: getCountryCurrencyInformationByAlpha2Code,
+	getCountryDetailInfo: getCountryDetailInformationByAlpha2Code,
+	getCountryGeneralInfo: getCountryGeneralInformationByAlpha2Code,
+	getCountryLocationInfo: getCountryLocationInformationByAlpha2Code,
+} = iso2CodeService;
 
-export const getCountryInformationByIso2Code = (iso2Code: string) => {
-	const info = iso2CodeService.getCountryDetailInfo(iso2Code);
-	return info;
-};
+export const {
+	getCountryCurrencyInfo: getCountryCurrencyInformationByAlpha3Code,
+	getCountryDetailInfo: getCountryDetailInformationByAlpha3Code,
+	getCountryGeneralInfo: getCountryGeneralInformationByAlpha3Code,
+	getCountryLocationInfo: getCountryLocationInformationByAlpha3Code,
+} = iso3CodeService;
 
-export const getCountryInformationByIso3Code = (iso3Code: string) => {
-	const info = iso3CodeService.getCountryDetailInfo(iso3Code);
-	return info;
-};
+export const {
+	getCountryCurrencyInfo: getCountryCurrencyInformationByName,
+	getCountryDetailInfo: getCountryDetailInformationByName,
+	getCountryGeneralInfo: getCountryGeneralInformationByName,
+	getCountryLocationInfo: getCountryLocationInformationByName,
+} = nameService;
 
-export const getCountryInformationByNumericCode = (numericCode: string) => {
-	const info = numericCodeService.getCountryDetailInfo(numericCode);
-	return info;
-};
-
-export const getAllCountriesIsoCodes = (isoCode: IsoCode = "iso-2") => {
-	return getAllCountriesWithIsoCodes(isoCode);
-};
+export const {
+	getCountryCurrencyInfo: getCountryCurrencyInformationByNumericCode,
+	getCountryDetailInfo: getCountryDetailInformationByNumericCode,
+	getCountryGeneralInfo: getCountryGeneralInformationByNumericCode,
+	getCountryLocationInfo: getCountryLocationInformationByNumericCode,
+} = numericCodeService;
