@@ -1,10 +1,10 @@
 import type { CountryInfoService } from "../types/countryInfoSerive";
 declare class NumericCodeCountryInfoService implements CountryInfoService {
     private getIso2CodeFromNumericCode;
-    getCountryLocationInfo: (numericCode: string) => import("../types").LocationInfo | undefined;
-    getCountryCurrencyInfo: (numericCode: string) => import("../types").CurrencyInfo | undefined;
-    getCountryGeneralInfo: (numericCode: string) => import("../types").CountryInfo | undefined;
-    getCountryDetailInfo: (numericCode: string) => import("../types").CountryDetailInformation | undefined;
+    getCountryLocationInfo: (numericCode: string) => import("..").LocationInfo | undefined;
+    getCountryCurrencyInfo: (numericCode: string) => import("..").CurrencyInfo | undefined;
+    getCountryGeneralInfo: (numericCode: string) => import("..").CountryInfo | undefined;
+    getCountryDetailInfo: (numericCode: string) => import("..").CountryDetailInformation | undefined;
 }
 export declare const numericCodeService: NumericCodeCountryInfoService;
 export {};
