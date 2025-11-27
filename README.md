@@ -90,6 +90,11 @@ based on Alpha-2 code identifiers.
 
 ```ts
 const currencyInfo = getCountryCurrencyInformationByAlpha2Code("US");
+result: {
+   "currency": "USD",
+   "symbol": "$",
+   "currencyName": "United States dollar"
+ }
 ```
 
 ### getCountryDetailInformationByAlpha2Code · function
@@ -113,6 +118,27 @@ based on Alpha-2 code identifiers.
 
 ```ts
 const detailInfo = getCountryDetailInformationByAlpha2Code("US");
+result:{
+ "name": "United States",
+ "native": "United States",
+ "capital": "Washington D.C.",
+ "flag": "🇺🇸",
+ "isdCodes": [
+     1
+ ],
+ "language": {
+     "code": "en",
+     "official": "English",
+     "others": [
+       "en"
+     ]
+ },
+ "continent": "NA",
+ "region": "North America",
+ "currency": "USD",
+ "symbol": "$",
+ "currencyName": "United States dollar"
+}
 ```
 
 ### getCountryGeneralInformationByAlpha2Code · function
@@ -136,6 +162,22 @@ based on Alpha-2 code identifiers.
 
 ```ts
 const generalInfo = getCountryGeneralInformationByAlpha2Code("US");
+result: {
+   "name": "United States",
+   "native": "United States",
+   "capital": "Washington D.C.",
+   "flag": "🇺🇸",
+   "isdCodes": [
+       1
+   ],
+   "language": {
+       "code": "en",
+       "official": "English",
+       "others": [
+         "en"
+       ]
+   }
+ }
 ```
 
 ### getCountryLocationInformationByAlpha2Code · function
@@ -159,6 +201,10 @@ based on Alpha-2 code identifiers.
 
 ```ts
 const locationInfo = getCountryLocationInformationByAlpha2Code("US");
+result: {
+ "continent": "NA",
+ "region": "North America"
+}
 ```
 
 ### getCountryCurrencyInformationByAlpha3Code · function
@@ -182,6 +228,11 @@ based on Alpha-3 code identifiers.
 
 ```ts
 const currencyInfo = getCountryCurrencyInformationByAlpha3Code("USA");
+result: {
+   "currency": "USD",
+   "symbol": "$",
+   "currencyName": "United States dollar"
+ }
 ```
 
 ### getCountryDetailInformationByAlpha3Code · function
@@ -205,6 +256,27 @@ based on Alpha-3 code identifiers.
 
 ```ts
 const detailInfo = getCountryDetailInformationByAlpha3Code("USA");
+result:{
+ "name": "United States",
+ "native": "United States",
+ "capital": "Washington D.C.",
+ "flag": "🇺🇸",
+ "isdCodes": [
+     1
+ ],
+ "language": {
+     "code": "en",
+     "official": "English",
+     "others": [
+       "en"
+     ]
+ },
+ "continent": "NA",
+ "region": "North America",
+ "currency": "USD",
+ "symbol": "$",
+ "currencyName": "United States dollar"
+}
 ```
 
 ### getCountryGeneralInformationByAlpha3Code · function
@@ -228,6 +300,22 @@ based on Alpha-3 code identifiers.
 
 ```ts
 const generalInfo = getCountryGeneralInformationByAlpha3Code("USA");
+result: {
+   "name": "United States",
+   "native": "United States",
+   "capital": "Washington D.C.",
+   "flag": "🇺🇸",
+   "isdCodes": [
+       1
+   ],
+   "language": {
+       "code": "en",
+       "official": "English",
+       "others": [
+         "en"
+       ]
+   }
+ }
 ```
 
 ### getCountryLocationInformationByAlpha3Code · function
@@ -251,6 +339,10 @@ based on Alpha-3 code identifiers.
 
 ```ts
 const locationInfo = getCountryLocationInformationByAlpha3Code("USA");
+result: {
+ "continent": "NA",
+ "region": "North America"
+}
 ```
 
 ### getCountryCurrencyInformationByName · function
@@ -274,6 +366,11 @@ based on country names.
 
 ```ts
 const currencyInfo = getCountryCurrencyInformationByName("United States");
+result: {
+   "currency": "USD",
+   "symbol": "$",
+   "currencyName": "United States dollar"
+ }
 ```
 
 ### getCountryDetailInformationByName · function
@@ -297,6 +394,27 @@ based on country names.
 
 ```ts
 const detailInfo = getCountryDetailInformationByName("United States");
+result:{
+ "name": "United States",
+ "native": "United States",
+ "capital": "Washington D.C.",
+ "flag": "🇺🇸",
+ "isdCodes": [
+     1
+ ],
+ "language": {
+     "code": "en",
+     "official": "English",
+     "others": [
+       "en"
+     ]
+ },
+ "continent": "NA",
+ "region": "North America",
+ "currency": "USD",
+ "symbol": "$",
+ "currencyName": "United States dollar"
+}
 ```
 
 ### getCountryGeneralInformationByName · function
@@ -320,6 +438,22 @@ based on country names.
 
 ```ts
 const generalInfo = getCountryGeneralInformationByName("United States");
+result: {
+   "name": "United States",
+   "native": "United States",
+   "capital": "Washington D.C.",
+   "flag": "🇺🇸",
+   "isdCodes": [
+       1
+   ],
+   "language": {
+       "code": "en",
+       "official": "English",
+       "others": [
+         "en"
+       ]
+   }
+ }
 ```
 
 ### getCountryLocationInformationByName · function
@@ -343,6 +477,10 @@ based on country names.
 
 ```ts
 const locationInfo = getCountryLocationInformationByName("United States");
+result: {
+ "continent": "NA",
+ "region": "North America"
+}
 ```
 
 ### getCountryCurrencyInformationByNumericCode · function
@@ -366,6 +504,11 @@ based on Numeric code identifiers.
 
 ```ts
 const currencyInfo = getCountryCurrencyInformationByNumericCode("840");
+result: {
+   "currency": "USD",
+   "symbol": "$",
+   "currencyName": "United States dollar"
+ }
 ```
 
 ### getCountryDetailInformationByNumericCode · function
@@ -389,6 +532,27 @@ based on Numeric code identifiers.
 
 ```ts
 const detailInfo = getCountryDetailInformationByNumericCode("840");
+result:{
+ "name": "United States",
+ "native": "United States",
+ "capital": "Washington D.C.",
+ "flag": "🇺🇸",
+ "isdCodes": [
+     1
+ ],
+ "language": {
+     "code": "en",
+     "official": "English",
+     "others": [
+       "en"
+     ]
+ },
+ "continent": "NA",
+ "region": "North America",
+ "currency": "USD",
+ "symbol": "$",
+ "currencyName": "United States dollar"
+}
 ```
 
 ### getCountryGeneralInformationByNumericCode · function
@@ -412,6 +576,22 @@ based on Numeric code identifiers.
 
 ```ts
 const generalInfo = getCountryGeneralInformationByNumericCode("840");
+result: {
+   "name": "United States",
+   "native": "United States",
+   "capital": "Washington D.C.",
+   "flag": "🇺🇸",
+   "isdCodes": [
+       1
+   ],
+   "language": {
+       "code": "en",
+       "official": "English",
+       "others": [
+         "en"
+       ]
+   }
+ }
 ```
 
 ### getCountryLocationInformationByNumericCode · function
@@ -435,6 +615,10 @@ based on Numeric code identifiers.
 
 ```ts
 const locationInfo = getCountryLocationInformationByNumericCode("840");
+result: {
+ "continent": "NA",
+ "region": "North America"
+}
 ```
 
 ## License

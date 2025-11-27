@@ -55,6 +55,11 @@ export const getCountryAlphaCodeByName = (
  * @example
  * ```ts
  * const currencyInfo = getCountryCurrencyInformationByAlpha2Code("US");
+ * result: {
+      "currency": "USD",
+      "symbol": "$",
+      "currencyName": "United States dollar"
+    }
  * ```
  * @returns Currency information of the country.
  * @throws Will throw an error if the Alpha-2 code is not found.
@@ -71,6 +76,27 @@ export const getCountryCurrencyInformationByAlpha2Code = (
  * @example
  * ```ts
  * const detailInfo = getCountryDetailInformationByAlpha2Code("US");
+ * result:{
+    "name": "United States",
+    "native": "United States",
+    "capital": "Washington D.C.",
+    "flag": "🇺🇸",
+    "isdCodes": [
+        1
+    ],
+    "language": {
+        "code": "en",
+        "official": "English",
+        "others": [
+          "en"
+        ]
+    },
+    "continent": "NA",
+    "region": "North America",
+    "currency": "USD",
+    "symbol": "$",
+    "currencyName": "United States dollar"
+  }
  * ```
  * @returns Detailed information of the country.
  * @throws Will throw an error if the Alpha-2 code is not found.
@@ -85,9 +111,26 @@ export const getCountryDetailInformationByAlpha2Code = (alpha2Code: string) => {
  * @example
  * ```ts
  * const generalInfo = getCountryGeneralInformationByAlpha2Code("US");
+ * result: {
+      "name": "United States",
+      "native": "United States",
+      "capital": "Washington D.C.",
+      "flag": "🇺🇸",
+      "isdCodes": [
+          1
+      ],
+      "language": {
+          "code": "en",
+          "official": "English",
+          "others": [
+            "en"
+          ]
+      }
+    }
  * ```
  * @returns General information of the country.
  * @throws Will throw an error if the Alpha-2 code is not found.
+ *
  */
 export const getCountryGeneralInformationByAlpha2Code = (
 	alpha2Code: string,
@@ -101,6 +144,10 @@ export const getCountryGeneralInformationByAlpha2Code = (
  * @example
  * ```ts
  * const locationInfo = getCountryLocationInformationByAlpha2Code("US");
+ * result: {
+    "continent": "NA",
+    "region": "North America"
+   }
  * ```
  * @returns Location information of the country.
  * @throws Will throw an error if the Alpha-2 code is not found.
@@ -117,6 +164,11 @@ export const getCountryLocationInformationByAlpha2Code = (
  * @example
  * ```ts
  * const currencyInfo = getCountryCurrencyInformationByAlpha3Code("USA");
+ * result: {
+      "currency": "USD",
+      "symbol": "$",
+      "currencyName": "United States dollar"
+    }
  * ```
  * @returns Currency information of the country.
  * @throws Will throw an error if the Alpha-3 code is not found.
@@ -133,6 +185,27 @@ export const getCountryCurrencyInformationByAlpha3Code = (
  * @example
  * ```ts
  * const detailInfo = getCountryDetailInformationByAlpha3Code("USA");
+ * result:{
+    "name": "United States",
+    "native": "United States",
+    "capital": "Washington D.C.",
+    "flag": "🇺🇸",
+    "isdCodes": [
+        1
+    ],
+    "language": {
+        "code": "en",
+        "official": "English",
+        "others": [
+          "en"
+        ]
+    },
+    "continent": "NA",
+    "region": "North America",
+    "currency": "USD",
+    "symbol": "$",
+    "currencyName": "United States dollar"
+  }
  * ```
  * @returns Detailed information of the country.
  * @throws Will throw an error if the Alpha-3 code is not found.
@@ -147,6 +220,22 @@ export const getCountryDetailInformationByAlpha3Code = (alpha3Code: string) => {
  * @example
  * ```ts
  * const generalInfo = getCountryGeneralInformationByAlpha3Code("USA");
+ * result: {
+      "name": "United States",
+      "native": "United States",
+      "capital": "Washington D.C.",
+      "flag": "🇺🇸",
+      "isdCodes": [
+          1
+      ],
+      "language": {
+          "code": "en",
+          "official": "English",
+          "others": [
+            "en"
+          ]
+      }
+    }
  * ```
  * @returns General information of the country.
  * @throws Will throw an error if the Alpha-3 code is not found.
@@ -163,6 +252,10 @@ export const getCountryGeneralInformationByAlpha3Code = (
  * @example
  * ```ts
  * const locationInfo = getCountryLocationInformationByAlpha3Code("USA");
+ * result: {
+    "continent": "NA",
+    "region": "North America"
+   }
  * ```
  * @returns Location information of the country.
  * @throws Will throw an error if the Alpha-3 code is not found.
@@ -180,6 +273,11 @@ export const getCountryLocationInformationByAlpha3Code = (
  * @example
  * ```ts
  * const currencyInfo = getCountryCurrencyInformationByName("United States");
+ * result: {
+      "currency": "USD",
+      "symbol": "$",
+      "currencyName": "United States dollar"
+    }
  * ```
  * @returns Currency information of the country.
  * @throws Will throw an error if the country name is not found.
@@ -194,6 +292,27 @@ export const getCountryCurrencyInformationByName = (name: string) => {
  * @example
  * ```ts
  * const detailInfo = getCountryDetailInformationByName("United States");
+ * result:{
+    "name": "United States",
+    "native": "United States",
+    "capital": "Washington D.C.",
+    "flag": "🇺🇸",
+    "isdCodes": [
+        1
+    ],
+    "language": {
+        "code": "en",
+        "official": "English",
+        "others": [
+          "en"
+        ]
+    },
+    "continent": "NA",
+    "region": "North America",
+    "currency": "USD",
+    "symbol": "$",
+    "currencyName": "United States dollar"
+  }
  * ```
  * @returns Detailed information of the country.
  * @throws Will throw an error if the country name is not found.
@@ -208,6 +327,22 @@ export const getCountryDetailInformationByName = (name: string) => {
  * @example
  * ```ts
  * const generalInfo = getCountryGeneralInformationByName("United States");
+ * result: {
+      "name": "United States",
+      "native": "United States",
+      "capital": "Washington D.C.",
+      "flag": "🇺🇸",
+      "isdCodes": [
+          1
+      ],
+      "language": {
+          "code": "en",
+          "official": "English",
+          "others": [
+            "en"
+          ]
+      }
+    }
  * ```
  * @returns General information of the country.
  * @throws Will throw an error if the country name is not found.
@@ -222,6 +357,10 @@ export const getCountryGeneralInformationByName = (name: string) => {
  * @example
  * ```ts
  * const locationInfo = getCountryLocationInformationByName("United States");
+ * result: {
+    "continent": "NA",
+    "region": "North America"
+   }
  * ```
  * @returns Location information of the country.
  * @throws Will throw an error if the country name is not found.
@@ -236,6 +375,11 @@ export const getCountryLocationInformationByName = (name: string) => {
  * @example
  * ```ts
  * const currencyInfo = getCountryCurrencyInformationByNumericCode("840");
+ * result: {
+      "currency": "USD",
+      "symbol": "$",
+      "currencyName": "United States dollar"
+    }
  * ```
  * @returns Currency information of the country.
  * @throws Will throw an error if the Numeric code is not found.
@@ -251,6 +395,27 @@ export const getCountryCurrencyInformationByNumericCode = (
  * @example
  * ```ts
  * const detailInfo = getCountryDetailInformationByNumericCode("840");
+ * result:{
+    "name": "United States",
+    "native": "United States",
+    "capital": "Washington D.C.",
+    "flag": "🇺🇸",
+    "isdCodes": [
+        1
+    ],
+    "language": {
+        "code": "en",
+        "official": "English",
+        "others": [
+          "en"
+        ]
+    },
+    "continent": "NA",
+    "region": "North America",
+    "currency": "USD",
+    "symbol": "$",
+    "currencyName": "United States dollar"
+  }
  * ```
  * @returns Detailed information of the country.
  * @throws Will throw an error if the Numeric code is not found.
@@ -266,6 +431,22 @@ export const getCountryDetailInformationByNumericCode = (
  * @example
  * ```ts
  * const generalInfo = getCountryGeneralInformationByNumericCode("840");
+ * result: {
+      "name": "United States",
+      "native": "United States",
+      "capital": "Washington D.C.",
+      "flag": "🇺🇸",
+      "isdCodes": [
+          1
+      ],
+      "language": {
+          "code": "en",
+          "official": "English",
+          "others": [
+            "en"
+          ]
+      }
+    }
  * ```
  * @returns General information of the country.
  * @throws Will throw an error if the Numeric code is not found.
@@ -281,6 +462,10 @@ export const getCountryGeneralInformationByNumericCode = (
  * @example
  * ```ts
  * const locationInfo = getCountryLocationInformationByNumericCode("840");
+ * result: {
+    "continent": "NA",
+    "region": "North America"
+   }
  * ```
  * @returns Location information of the country.
  * @throws Will throw an error if the Numeric code is not found.
