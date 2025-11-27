@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.6.0](https://github.com/amittkSharma/i18n-iso-countries-extended-info/compare/v1.5.2...v1.6.0) (2025-11-27)
+
+
+### Features
+
+* expose interfaces ([ad5eeb3](https://github.com/amittkSharma/i18n-iso-countries-extended-info/commit/ad5eeb3de5317f545a9f045f46ca38755e0c3f9d))
+* update documentation ([4976561](https://github.com/amittkSharma/i18n-iso-countries-extended-info/commit/4976561f93025dd9b1e49b441c012af22a292fe9))
+
 ## [1.5.2](https://github.com/amittkSharma/i18n-iso-countries-extended-info/compare/v1.5.1...v1.5.2) (2025-11-26)
 
 
