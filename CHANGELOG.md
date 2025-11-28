@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.8.0](https://github.com/amittkSharma/i18n-iso-countries-extended-info/compare/v1.7.0...v1.8.0) (2025-11-28)
+
+
+### Features
+
+* update version from 1.6.0 to 1.7.0 ([0329bcd](https://github.com/amittkSharma/i18n-iso-countries-extended-info/commit/0329bcdd762c36287332acfab505ee3966fed6bb))
+
+
+### Bug Fixes
+
+* typings export ([4082b7e](https://github.com/amittkSharma/i18n-iso-countries-extended-info/commit/4082b7e22439ccb20fb459ee2ebb7e9d156d6f53))
+
 ## [1.7.0](https://github.com/amittkSharma/i18n-iso-countries-extended-info/compare/v1.6.0...v1.7.0) (2025-11-27)
 
 
