@@ -7,6 +7,8 @@ import {
 	numericCodeService,
 } from "./services";
 
+export * from "./types";
+
 /**
  * This function retrieves all countries' ISO codes based on the specified alpha code type.
  * @param alphaCodeType - The type of alpha code ("Alpha-2" or "Alpha-3") to filter the countries by.
