@@ -7,6 +7,7 @@ import { COUNTRY_DATASET_JSON_FILENAME } from "./constants";
 import { currenciesInfo } from "./rawCountryData/currencyInformation";
 import { countriesData } from "./rawCountryData/flagInformation";
 import { countriesWithRegionalInfo } from "./rawCountryData/regionalInformation";
+import { timeZoneInformation } from "./rawCountryData/timeZoneInformation";
 
 const validateCurrencyDetails = () => {
 	log.info(`Validating Currency Data Sync`);
@@ -72,6 +73,29 @@ const validateFlagInformation = () => {
 	}
 };
 
+const validateTimeZoneInformation = () => {
+	log.info(`Validating TimeZone Sync`);
+
+	const countries = Object.keys(getAlpha2Codes());
+	const countriesRegionalInfo = Object.keys(timeZoneInformation);
+
+	const missingInfos = countries.filter(
+		(item) => countriesRegionalInfo.indexOf(item) < 0,
+	);
+
+	if (missingInfos && missingInfos.length !== 0) {
+		log.error(
+			`Data is out of sync, missing information are ${missingInfos.join(", ")}`,
+		);
+
+		return false;
+	} else {
+		log.info(`TimeZone Data is completely synced`);
+
+		return true;
+	}
+};
+
 const generateCountrySourceFile = () => {
 	// biome-ignore lint/suspicious/noExplicitAny: off
 	const merged: any = {};
@@ -80,6 +104,7 @@ const generateCountrySourceFile = () => {
 		.forEach((alpha2Code) => {
 			const regionalInfo = countriesWithRegionalInfo[alpha2Code];
 			const currency = currenciesInfo[alpha2Code];
+			const timeZone = timeZoneInformation[alpha2Code];
 
 			const data = countriesData.find(
 				(data) => data.countryCode === alpha2Code,
@@ -93,6 +118,7 @@ const generateCountrySourceFile = () => {
 				flag: data ? data.flag : undefined,
 				officialLanguageCode: data ? data.officialLanguageCode : undefined,
 				officialLanguageName: data ? data.officialLanguageNameEn : undefined,
+				timeZones: timeZone ? timeZone.timezones : undefined,
 			};
 
 			merged[alpha2Code] = {
@@ -111,8 +137,9 @@ export const validateDataSources = () => {
 	const res1 = validateCurrencyDetails();
 	const res2 = validateCountryCapital();
 	const res3 = validateFlagInformation();
+	const res4 = validateTimeZoneInformation();
 
-	if (res1 && res2 && res3) {
+	if (res1 && res2 && res3 && res4) {
 		generateCountrySourceFile();
 	} else {
 		throw new Error("Country Source file can not be generated");

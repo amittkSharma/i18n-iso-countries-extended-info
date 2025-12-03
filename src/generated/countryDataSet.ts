@@ -20,7 +20,10 @@
     "region": "Europe",
     "flag": "🇦🇩",
     "officialLanguageCode": "ca",
-    "officialLanguageName": "Catalan, Valencian"
+    "officialLanguageName": "Catalan, Valencian",
+    "timeZones": [
+      "Europe/Andorra"
+    ]
   },
   "AE": {
     "name": "United Arab Emirates",
@@ -41,7 +44,10 @@
     "region": "Arab States",
     "flag": "🇦🇪",
     "officialLanguageCode": "ar",
-    "officialLanguageName": "Arabic"
+    "officialLanguageName": "Arabic",
+    "timeZones": [
+      "Asia/Dubai"
+    ]
   },
   "AF": {
     "name": "Afghanistan",
@@ -64,7 +70,10 @@
     "region": "Asia & Pacific",
     "flag": "🇦🇫",
     "officialLanguageCode": "fa",
-    "officialLanguageName": "Persian"
+    "officialLanguageName": "Persian",
+    "timeZones": [
+      "Asia/Kabul"
+    ]
   },
   "AG": {
     "name": "Antigua and Barbuda",
@@ -84,7 +93,10 @@
     "region": "South/Latin America",
     "flag": "🇦🇬",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "America/Puerto_Rico"
+    ]
   },
   "AI": {
     "name": "Anguilla",
@@ -104,7 +116,10 @@
     "region": "South/Latin America",
     "flag": "🇦🇮",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "America/Puerto_Rico"
+    ]
   },
   "AL": {
     "name": "Albania",
@@ -125,7 +140,10 @@
     "region": "Europe",
     "flag": "🇦🇱",
     "officialLanguageCode": "sq",
-    "officialLanguageName": "Albanian"
+    "officialLanguageName": "Albanian",
+    "timeZones": [
+      "Europe/Tirane"
+    ]
   },
   "AM": {
     "name": "Armenia",
@@ -146,7 +164,10 @@
     "region": "Europe",
     "flag": "🇦🇲",
     "officialLanguageCode": "hy",
-    "officialLanguageName": "Armenian"
+    "officialLanguageName": "Armenian",
+    "timeZones": [
+      "Asia/Yerevan"
+    ]
   },
   "AO": {
     "name": "Angola",
@@ -166,7 +187,10 @@
     "region": "Africa",
     "flag": "🇦🇴",
     "officialLanguageCode": "pt",
-    "officialLanguageName": "Portuguese"
+    "officialLanguageName": "Portuguese",
+    "timeZones": [
+      "Africa/Lagos"
+    ]
   },
   "AQ": {
     "name": "Antarctica",
@@ -184,7 +208,20 @@
     "region": "Asia & Pacific",
     "flag": "🇦🇶",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Antarctica/Casey",
+      "Antarctica/Davis",
+      "Antarctica/Mawson",
+      "Antarctica/Palmer",
+      "Antarctica/Rothera",
+      "Antarctica/Troll",
+      "Antarctica/Vostok",
+      "Asia/Riyadh",
+      "Asia/Singapore",
+      "Pacific/Auckland",
+      "Pacific/Port_Moresby"
+    ]
   },
   "AR": {
     "name": "Argentina",
@@ -206,7 +243,21 @@
     "region": "South/Latin America",
     "flag": "🇦🇷",
     "officialLanguageCode": "es",
-    "officialLanguageName": "Spanish, Castilian"
+    "officialLanguageName": "Spanish, Castilian",
+    "timeZones": [
+      "America/Argentina/Buenos_Aires",
+      "America/Argentina/Catamarca",
+      "America/Argentina/Cordoba",
+      "America/Argentina/Jujuy",
+      "America/Argentina/La_Rioja",
+      "America/Argentina/Mendoza",
+      "America/Argentina/Rio_Gallegos",
+      "America/Argentina/Salta",
+      "America/Argentina/San_Juan",
+      "America/Argentina/San_Luis",
+      "America/Argentina/Tucuman",
+      "America/Argentina/Ushuaia"
+    ]
   },
   "AS": {
     "name": "American Samoa",
@@ -227,7 +278,10 @@
     "region": "Asia & Pacific",
     "flag": "🇦🇸",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Pacific/Pago_Pago"
+    ]
   },
   "AT": {
     "name": "Austria",
@@ -248,7 +302,10 @@
     "region": "Europe",
     "flag": "🇦🇹",
     "officialLanguageCode": "de",
-    "officialLanguageName": "German"
+    "officialLanguageName": "German",
+    "timeZones": [
+      "Europe/Vienna"
+    ]
   },
   "AU": {
     "name": "Australia",
@@ -269,7 +326,22 @@
     "region": "Asia & Pacific",
     "flag": "🇦🇺",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Antarctica/Macquarie",
+      "Asia/Tokyo",
+      "Australia/Adelaide",
+      "Australia/Brisbane",
+      "Australia/Broken_Hill",
+      "Australia/Darwin",
+      "Australia/Eucla",
+      "Australia/Hobart",
+      "Australia/Lindeman",
+      "Australia/Lord_Howe",
+      "Australia/Melbourne",
+      "Australia/Perth",
+      "Australia/Sydney"
+    ]
   },
   "AW": {
     "name": "Aruba",
@@ -290,7 +362,10 @@
     "region": "South/Latin America",
     "flag": "🇦🇼",
     "officialLanguageCode": "nl",
-    "officialLanguageName": "Dutch, Flemish"
+    "officialLanguageName": "Dutch, Flemish",
+    "timeZones": [
+      "America/Puerto_Rico"
+    ]
   },
   "AX": {
     "name": "Aland",
@@ -310,7 +385,10 @@
     "region": "Europe",
     "flag": "🇦🇽",
     "officialLanguageCode": "sv",
-    "officialLanguageName": "Swedish"
+    "officialLanguageName": "Swedish",
+    "timeZones": [
+      "Europe/Helsinki"
+    ]
   },
   "AZ": {
     "name": "Azerbaijan",
@@ -334,7 +412,10 @@
     "region": "Asia & Pacific",
     "flag": "🇦🇿",
     "officialLanguageCode": "az",
-    "officialLanguageName": "Azerbaijani"
+    "officialLanguageName": "Azerbaijani",
+    "timeZones": [
+      "Asia/Baku"
+    ]
   },
   "BA": {
     "name": "Bosnia and Herzegovina",
@@ -357,7 +438,10 @@
     "region": "Europe",
     "flag": "🇧🇦",
     "officialLanguageCode": "bs",
-    "officialLanguageName": "Bosnian"
+    "officialLanguageName": "Bosnian",
+    "timeZones": [
+      "Europe/Belgrade"
+    ]
   },
   "BB": {
     "name": "Barbados",
@@ -377,7 +461,10 @@
     "region": "South/Latin America",
     "flag": "🇧🇧",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "America/Barbados"
+    ]
   },
   "BD": {
     "name": "Bangladesh",
@@ -397,7 +484,10 @@
     "region": "Asia & Pacific",
     "flag": "🇧🇩",
     "officialLanguageCode": "bn",
-    "officialLanguageName": "Bengali"
+    "officialLanguageName": "Bengali",
+    "timeZones": [
+      "Asia/Dhaka"
+    ]
   },
   "BE": {
     "name": "Belgium",
@@ -420,7 +510,10 @@
     "region": "Europe",
     "flag": "🇧🇪",
     "officialLanguageCode": "nl",
-    "officialLanguageName": "Dutch, Flemish"
+    "officialLanguageName": "Dutch, Flemish",
+    "timeZones": [
+      "Europe/Brussels"
+    ]
   },
   "BF": {
     "name": "Burkina Faso",
@@ -441,7 +534,10 @@
     "region": "Africa",
     "flag": "🇧🇫",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "Africa/Abidjan"
+    ]
   },
   "BG": {
     "name": "Bulgaria",
@@ -462,7 +558,10 @@
     "region": "Europe",
     "flag": "🇧🇬",
     "officialLanguageCode": "bg",
-    "officialLanguageName": "Bulgarian"
+    "officialLanguageName": "Bulgarian",
+    "timeZones": [
+      "Europe/Sofia"
+    ]
   },
   "BH": {
     "name": "Bahrain",
@@ -483,7 +582,10 @@
     "region": "Arab States",
     "flag": "🇧🇭",
     "officialLanguageCode": "ar",
-    "officialLanguageName": "Arabic"
+    "officialLanguageName": "Arabic",
+    "timeZones": [
+      "Asia/Qatar"
+    ]
   },
   "BI": {
     "name": "Burundi",
@@ -504,7 +606,10 @@
     "region": "Africa",
     "flag": "🇧🇮",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "Africa/Maputo"
+    ]
   },
   "BJ": {
     "name": "Benin",
@@ -524,7 +629,10 @@
     "region": "Africa",
     "flag": "🇧🇯",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "Africa/Lagos"
+    ]
   },
   "BL": {
     "name": "Saint Barthelemy",
@@ -544,7 +652,10 @@
     "region": "South/Latin America",
     "flag": "🇧🇱",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "America/Puerto_Rico"
+    ]
   },
   "BM": {
     "name": "Bermuda",
@@ -564,7 +675,10 @@
     "region": "North America",
     "flag": "🇧🇲",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Atlantic/Bermuda"
+    ]
   },
   "BN": {
     "name": "Brunei",
@@ -584,7 +698,10 @@
     "region": "Asia & Pacific",
     "flag": "🇧🇳",
     "officialLanguageCode": "ms",
-    "officialLanguageName": "Malay"
+    "officialLanguageName": "Malay",
+    "timeZones": [
+      "Asia/Kuching"
+    ]
   },
   "BO": {
     "name": "Bolivia",
@@ -607,7 +724,10 @@
     "region": "South/Latin America",
     "flag": "🇧🇴",
     "officialLanguageCode": "es",
-    "officialLanguageName": "Spanish, Castilian"
+    "officialLanguageName": "Spanish, Castilian",
+    "timeZones": [
+      "America/La_Paz"
+    ]
   },
   "BQ": {
     "name": "Bonaire",
@@ -627,7 +747,10 @@
     "region": "Unknown",
     "flag": "🇧🇶",
     "officialLanguageCode": "nl",
-    "officialLanguageName": "Dutch, Flemish"
+    "officialLanguageName": "Dutch, Flemish",
+    "timeZones": [
+      "America/Puerto_Rico"
+    ]
   },
   "BR": {
     "name": "Brazil",
@@ -648,7 +771,25 @@
     "region": "South/Latin America",
     "flag": "🇧🇷",
     "officialLanguageCode": "pt",
-    "officialLanguageName": "Portuguese"
+    "officialLanguageName": "Portuguese",
+    "timeZones": [
+      "America/Araguaina",
+      "America/Bahia",
+      "America/Belem",
+      "America/Boa_Vista",
+      "America/Campo_Grande",
+      "America/Cuiaba",
+      "America/Eirunepe",
+      "America/Fortaleza",
+      "America/Maceio",
+      "America/Manaus",
+      "America/Noronha",
+      "America/Porto_Velho",
+      "America/Recife",
+      "America/Rio_Branco",
+      "America/Santarem",
+      "America/Sao_Paulo"
+    ]
   },
   "BS": {
     "name": "Bahamas",
@@ -668,7 +809,10 @@
     "region": "Caribbean",
     "flag": "🇧🇸",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "America/Toronto"
+    ]
   },
   "BT": {
     "name": "Bhutan",
@@ -688,7 +832,10 @@
     "region": "Asia & Pacific",
     "flag": "🇧🇹",
     "officialLanguageCode": "dz",
-    "officialLanguageName": "Dzongkha"
+    "officialLanguageName": "Dzongkha",
+    "timeZones": [
+      "Asia/Thimphu"
+    ]
   },
   "BV": {
     "name": "Bouvet Island",
@@ -710,7 +857,10 @@
     "region": "South/Latin America",
     "flag": "🇧🇻",
     "officialLanguageCode": "no",
-    "officialLanguageName": "Norwegian"
+    "officialLanguageName": "Norwegian",
+    "timeZones": [
+      "Europe/Berlin"
+    ]
   },
   "BW": {
     "name": "Botswana",
@@ -731,7 +881,10 @@
     "region": "Africa",
     "flag": "🇧🇼",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Africa/Maputo"
+    ]
   },
   "BY": {
     "name": "Belarus",
@@ -753,7 +906,10 @@
     "region": "Europe",
     "flag": "🇧🇾",
     "officialLanguageCode": "be",
-    "officialLanguageName": "Belarusian"
+    "officialLanguageName": "Belarusian",
+    "timeZones": [
+      "Europe/Minsk"
+    ]
   },
   "BZ": {
     "name": "Belize",
@@ -774,7 +930,10 @@
     "region": "South/Latin America",
     "flag": "🇧🇿",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "America/Belize"
+    ]
   },
   "CA": {
     "name": "Canada",
@@ -796,7 +955,32 @@
     "region": "North America",
     "flag": "🇨🇦",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "America/Cambridge_Bay",
+      "America/Dawson",
+      "America/Dawson_Creek",
+      "America/Edmonton",
+      "America/Fort_Nelson",
+      "America/Glace_Bay",
+      "America/Goose_Bay",
+      "America/Halifax",
+      "America/Inuvik",
+      "America/Iqaluit",
+      "America/Moncton",
+      "America/Panama",
+      "America/Phoenix",
+      "America/Puerto_Rico",
+      "America/Rankin_Inlet",
+      "America/Regina",
+      "America/Resolute",
+      "America/St_Johns",
+      "America/Swift_Current",
+      "America/Toronto",
+      "America/Vancouver",
+      "America/Whitehorse",
+      "America/Winnipeg"
+    ]
   },
   "CC": {
     "name": "Cocos (Keeling) Islands",
@@ -816,7 +1000,10 @@
     "region": "Australia",
     "flag": "🇨🇨",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Asia/Yangon"
+    ]
   },
   "CD": {
     "name": "Democratic Republic of the Congo",
@@ -840,7 +1027,11 @@
     "region": "Africa",
     "flag": "🇨🇩",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "Africa/Lagos",
+      "Africa/Maputo"
+    ]
   },
   "CF": {
     "name": "Central African Republic",
@@ -861,7 +1052,10 @@
     "region": "Africa",
     "flag": "🇨🇫",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "Africa/Lagos"
+    ]
   },
   "CG": {
     "name": "Republic of the Congo",
@@ -882,7 +1076,10 @@
     "region": "Africa",
     "flag": "🇨🇬",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "Africa/Lagos"
+    ]
   },
   "CH": {
     "name": "Switzerland",
@@ -905,7 +1102,10 @@
     "region": "Europe",
     "flag": "🇨🇭",
     "officialLanguageCode": "de",
-    "officialLanguageName": "German"
+    "officialLanguageName": "German",
+    "timeZones": [
+      "Europe/Zurich"
+    ]
   },
   "CI": {
     "name": "Ivory Coast",
@@ -925,7 +1125,10 @@
     "region": "Africa",
     "flag": "🇨🇮",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "Africa/Abidjan"
+    ]
   },
   "CK": {
     "name": "Cook Islands",
@@ -945,7 +1148,10 @@
     "region": "South Pacific Ocean",
     "flag": "🇨🇰",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Pacific/Rarotonga"
+    ]
   },
   "CL": {
     "name": "Chile",
@@ -966,7 +1172,13 @@
     "region": "South/Latin America",
     "flag": "🇨🇱",
     "officialLanguageCode": "es",
-    "officialLanguageName": "Spanish, Castilian"
+    "officialLanguageName": "Spanish, Castilian",
+    "timeZones": [
+      "America/Coyhaique",
+      "America/Punta_Arenas",
+      "America/Santiago",
+      "Pacific/Easter"
+    ]
   },
   "CM": {
     "name": "Cameroon",
@@ -987,7 +1199,10 @@
     "region": "Africa",
     "flag": "🇨🇲",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "Africa/Lagos"
+    ]
   },
   "CN": {
     "name": "China",
@@ -1008,7 +1223,11 @@
     "region": "Asia & Pacific",
     "flag": "🇨🇳",
     "officialLanguageCode": "zh-hans",
-    "officialLanguageName": ""
+    "officialLanguageName": "",
+    "timeZones": [
+      "Asia/Shanghai",
+      "Asia/Urumqi"
+    ]
   },
   "CO": {
     "name": "Colombia",
@@ -1029,7 +1248,10 @@
     "region": "South/Latin America",
     "flag": "🇨🇴",
     "officialLanguageCode": "es",
-    "officialLanguageName": "Spanish, Castilian"
+    "officialLanguageName": "Spanish, Castilian",
+    "timeZones": [
+      "America/Bogota"
+    ]
   },
   "CR": {
     "name": "Costa Rica",
@@ -1050,7 +1272,10 @@
     "region": "South/Latin America",
     "flag": "🇨🇷",
     "officialLanguageCode": "es",
-    "officialLanguageName": "Spanish, Castilian"
+    "officialLanguageName": "Spanish, Castilian",
+    "timeZones": [
+      "America/Costa_Rica"
+    ]
   },
   "CU": {
     "name": "Cuba",
@@ -1070,7 +1295,10 @@
     "region": "South/Latin America",
     "flag": "🇨🇺",
     "officialLanguageCode": "es",
-    "officialLanguageName": "Spanish, Castilian"
+    "officialLanguageName": "Spanish, Castilian",
+    "timeZones": [
+      "America/Havana"
+    ]
   },
   "CV": {
     "name": "Cape Verde",
@@ -1090,7 +1318,10 @@
     "region": "Africa",
     "flag": "🇨🇻",
     "officialLanguageCode": "pt",
-    "officialLanguageName": "Portuguese"
+    "officialLanguageName": "Portuguese",
+    "timeZones": [
+      "Atlantic/Cape_Verde"
+    ]
   },
   "CW": {
     "name": "Curacao",
@@ -1112,7 +1343,10 @@
     "region": "Unknown",
     "flag": "🇨🇼",
     "officialLanguageCode": "nl",
-    "officialLanguageName": "Dutch, Flemish"
+    "officialLanguageName": "Dutch, Flemish",
+    "timeZones": [
+      "America/Puerto_Rico"
+    ]
   },
   "CX": {
     "name": "Christmas Island",
@@ -1132,7 +1366,10 @@
     "region": "Asia & Pacific",
     "flag": "🇨🇽",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Asia/Bangkok"
+    ]
   },
   "CY": {
     "name": "Cyprus",
@@ -1155,7 +1392,11 @@
     "region": "Europe",
     "flag": "🇨🇾",
     "officialLanguageCode": "el",
-    "officialLanguageName": "Greek, Modern (1453-)"
+    "officialLanguageName": "Greek, Modern (1453-)",
+    "timeZones": [
+      "Asia/Famagusta",
+      "Asia/Nicosia"
+    ]
   },
   "CZ": {
     "name": "Czech Republic",
@@ -1176,7 +1417,10 @@
     "region": "Europe",
     "flag": "🇨🇿",
     "officialLanguageCode": "cs",
-    "officialLanguageName": "Czech"
+    "officialLanguageName": "Czech",
+    "timeZones": [
+      "Europe/Prague"
+    ]
   },
   "DE": {
     "name": "Germany",
@@ -1197,7 +1441,11 @@
     "region": "Europe",
     "flag": "🇩🇪",
     "officialLanguageCode": "de",
-    "officialLanguageName": "German"
+    "officialLanguageName": "German",
+    "timeZones": [
+      "Europe/Berlin",
+      "Europe/Zurich"
+    ]
   },
   "DJ": {
     "name": "Djibouti",
@@ -1218,7 +1466,10 @@
     "region": "Arab States",
     "flag": "🇩🇯",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "Africa/Nairobi"
+    ]
   },
   "DK": {
     "name": "Denmark",
@@ -1243,7 +1494,10 @@
     "region": "Europe",
     "flag": "🇩🇰",
     "officialLanguageCode": "da",
-    "officialLanguageName": "Danish"
+    "officialLanguageName": "Danish",
+    "timeZones": [
+      "Europe/Berlin"
+    ]
   },
   "DM": {
     "name": "Dominica",
@@ -1263,7 +1517,10 @@
     "region": "South/Latin America",
     "flag": "🇩🇲",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "America/Puerto_Rico"
+    ]
   },
   "DO": {
     "name": "Dominican Republic",
@@ -1286,7 +1543,10 @@
     "region": "South/Latin America",
     "flag": "🇩🇴",
     "officialLanguageCode": "es",
-    "officialLanguageName": "Spanish, Castilian"
+    "officialLanguageName": "Spanish, Castilian",
+    "timeZones": [
+      "America/Santo_Domingo"
+    ]
   },
   "DZ": {
     "name": "Algeria",
@@ -1307,7 +1567,10 @@
     "region": "Arab States",
     "flag": "🇩🇿",
     "officialLanguageCode": "ar",
-    "officialLanguageName": "Arabic"
+    "officialLanguageName": "Arabic",
+    "timeZones": [
+      "Africa/Algiers"
+    ]
   },
   "EC": {
     "name": "Ecuador",
@@ -1328,7 +1591,11 @@
     "region": "South/Latin America",
     "flag": "🇪🇨",
     "officialLanguageCode": "es",
-    "officialLanguageName": "Spanish, Castilian"
+    "officialLanguageName": "Spanish, Castilian",
+    "timeZones": [
+      "America/Guayaquil",
+      "Pacific/Galapagos"
+    ]
   },
   "EE": {
     "name": "Estonia",
@@ -1349,7 +1616,10 @@
     "region": "Europe",
     "flag": "🇪🇪",
     "officialLanguageCode": "et",
-    "officialLanguageName": "Estonian"
+    "officialLanguageName": "Estonian",
+    "timeZones": [
+      "Europe/Tallinn"
+    ]
   },
   "EG": {
     "name": "Egypt",
@@ -1374,7 +1644,10 @@
     "region": "Arab States",
     "flag": "🇪🇬",
     "officialLanguageCode": "ar",
-    "officialLanguageName": "Arabic"
+    "officialLanguageName": "Arabic",
+    "timeZones": [
+      "Africa/Cairo"
+    ]
   },
   "EH": {
     "name": "Western Sahara",
@@ -1394,7 +1667,10 @@
     "region": "Africa",
     "flag": "🇪🇭",
     "officialLanguageCode": "ar",
-    "officialLanguageName": "Arabic"
+    "officialLanguageName": "Arabic",
+    "timeZones": [
+      "Africa/El_Aaiun"
+    ]
   },
   "ER": {
     "name": "Eritrea",
@@ -1416,7 +1692,10 @@
     "region": "Africa",
     "flag": "🇪🇷",
     "officialLanguageCode": "ti",
-    "officialLanguageName": "Tigrinya"
+    "officialLanguageName": "Tigrinya",
+    "timeZones": [
+      "Africa/Nairobi"
+    ]
   },
   "ES": {
     "name": "Spain",
@@ -1441,7 +1720,12 @@
     "region": "Europe",
     "flag": "🇪🇸",
     "officialLanguageCode": "es",
-    "officialLanguageName": "Spanish, Castilian"
+    "officialLanguageName": "Spanish, Castilian",
+    "timeZones": [
+      "Africa/Ceuta",
+      "Atlantic/Canary",
+      "Europe/Madrid"
+    ]
   },
   "ET": {
     "name": "Ethiopia",
@@ -1461,7 +1745,10 @@
     "region": "Africa",
     "flag": "🇪🇹",
     "officialLanguageCode": "am",
-    "officialLanguageName": "Amharic"
+    "officialLanguageName": "Amharic",
+    "timeZones": [
+      "Africa/Nairobi"
+    ]
   },
   "FI": {
     "name": "Finland",
@@ -1483,7 +1770,10 @@
     "region": "Europe",
     "flag": "🇫🇮",
     "officialLanguageCode": "fi",
-    "officialLanguageName": "Finnish"
+    "officialLanguageName": "Finnish",
+    "timeZones": [
+      "Europe/Helsinki"
+    ]
   },
   "FJ": {
     "name": "Fiji",
@@ -1506,7 +1796,10 @@
     "region": "Asia & Pacific",
     "flag": "🇫🇯",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Pacific/Fiji"
+    ]
   },
   "FK": {
     "name": "Falkland Islands",
@@ -1526,7 +1819,10 @@
     "region": "South Atlantic Ocean",
     "flag": "🇫🇰",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Atlantic/Stanley"
+    ]
   },
   "FM": {
     "name": "Micronesia",
@@ -1546,7 +1842,12 @@
     "region": "Asia & Pacific",
     "flag": "🇫🇲",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Pacific/Guadalcanal",
+      "Pacific/Kosrae",
+      "Pacific/Port_Moresby"
+    ]
   },
   "FO": {
     "name": "Faroe Islands",
@@ -1566,7 +1867,10 @@
     "region": "Europe",
     "flag": "🇫🇴",
     "officialLanguageCode": "da",
-    "officialLanguageName": "Danish"
+    "officialLanguageName": "Danish",
+    "timeZones": [
+      "Atlantic/Faroe"
+    ]
   },
   "FR": {
     "name": "France",
@@ -1587,7 +1891,10 @@
     "region": "Europe",
     "flag": "🇫🇷",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "Europe/Paris"
+    ]
   },
   "GA": {
     "name": "Gabon",
@@ -1607,7 +1914,10 @@
     "region": "Africa",
     "flag": "🇬🇦",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "Africa/Lagos"
+    ]
   },
   "GB": {
     "name": "United Kingdom",
@@ -1628,7 +1938,10 @@
     "region": "Europe",
     "flag": "🇬🇧",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Europe/London"
+    ]
   },
   "GD": {
     "name": "Grenada",
@@ -1648,7 +1961,10 @@
     "region": "South/Latin America",
     "flag": "🇬🇩",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "America/Puerto_Rico"
+    ]
   },
   "GE": {
     "name": "Georgia",
@@ -1672,7 +1988,10 @@
     "region": "Europe",
     "flag": "🇬🇪",
     "officialLanguageCode": "ka",
-    "officialLanguageName": "Georgian"
+    "officialLanguageName": "Georgian",
+    "timeZones": [
+      "Asia/Tbilisi"
+    ]
   },
   "GF": {
     "name": "French Guiana",
@@ -1692,7 +2011,10 @@
     "region": "South/Latin America",
     "flag": "🇬🇫",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "America/Cayenne"
+    ]
   },
   "GG": {
     "name": "Guernsey",
@@ -1713,7 +2035,10 @@
     "region": "Europe",
     "flag": "🇬🇬",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Europe/London"
+    ]
   },
   "GH": {
     "name": "Ghana",
@@ -1733,7 +2058,10 @@
     "region": "Africa",
     "flag": "🇬🇭",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Africa/Abidjan"
+    ]
   },
   "GI": {
     "name": "Gibraltar",
@@ -1753,7 +2081,10 @@
     "region": "Europe",
     "flag": "🇬🇮",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Europe/Gibraltar"
+    ]
   },
   "GL": {
     "name": "Greenland",
@@ -1773,7 +2104,13 @@
     "region": "Europe",
     "flag": "🇬🇱",
     "officialLanguageCode": "kl",
-    "officialLanguageName": "Kalaallisut, Greenlandic"
+    "officialLanguageName": "Kalaallisut, Greenlandic",
+    "timeZones": [
+      "America/Danmarkshavn",
+      "America/Nuuk",
+      "America/Scoresbysund",
+      "America/Thule"
+    ]
   },
   "GM": {
     "name": "Gambia",
@@ -1793,7 +2130,10 @@
     "region": "Africa",
     "flag": "🇬🇲",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Africa/Abidjan"
+    ]
   },
   "GN": {
     "name": "Guinea",
@@ -1814,7 +2154,10 @@
     "region": "Africa",
     "flag": "🇬🇳",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "Africa/Abidjan"
+    ]
   },
   "GP": {
     "name": "Guadeloupe",
@@ -1834,7 +2177,10 @@
     "region": "South/Latin America",
     "flag": "🇬🇵",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "America/Puerto_Rico"
+    ]
   },
   "GQ": {
     "name": "Equatorial Guinea",
@@ -1855,7 +2201,10 @@
     "region": "Africa",
     "flag": "🇬🇶",
     "officialLanguageCode": "es",
-    "officialLanguageName": "Spanish, Castilian"
+    "officialLanguageName": "Spanish, Castilian",
+    "timeZones": [
+      "Africa/Lagos"
+    ]
   },
   "GR": {
     "name": "Greece",
@@ -1876,7 +2225,10 @@
     "region": "Europe",
     "flag": "🇬🇷",
     "officialLanguageCode": "el",
-    "officialLanguageName": "Greek, Modern (1453-)"
+    "officialLanguageName": "Greek, Modern (1453-)",
+    "timeZones": [
+      "Europe/Athens"
+    ]
   },
   "GS": {
     "name": "South Georgia and the South Sandwich Islands",
@@ -1896,7 +2248,10 @@
     "region": "South/Latin America",
     "flag": "🇬🇸",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Atlantic/South_Georgia"
+    ]
   },
   "GT": {
     "name": "Guatemala",
@@ -1917,7 +2272,10 @@
     "region": "South/Latin America",
     "flag": "🇬🇹",
     "officialLanguageCode": "es",
-    "officialLanguageName": "Spanish, Castilian"
+    "officialLanguageName": "Spanish, Castilian",
+    "timeZones": [
+      "America/Guatemala"
+    ]
   },
   "GU": {
     "name": "Guam",
@@ -1939,7 +2297,10 @@
     "region": "Asia & Pacific",
     "flag": "🇬🇺",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Pacific/Guam"
+    ]
   },
   "GW": {
     "name": "Guinea-Bissau",
@@ -1959,7 +2320,10 @@
     "region": "Africa",
     "flag": "🇬🇼",
     "officialLanguageCode": "pt",
-    "officialLanguageName": "Portuguese"
+    "officialLanguageName": "Portuguese",
+    "timeZones": [
+      "Africa/Bissau"
+    ]
   },
   "GY": {
     "name": "Guyana",
@@ -1979,7 +2343,10 @@
     "region": "South/Latin America",
     "flag": "🇬🇾",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "America/Guyana"
+    ]
   },
   "HK": {
     "name": "Hong Kong",
@@ -2001,7 +2368,10 @@
     "region": "Asia & Pacific",
     "flag": "🇭🇰",
     "officialLanguageCode": "zh-hant",
-    "officialLanguageName": ""
+    "officialLanguageName": "",
+    "timeZones": [
+      "Asia/Hong_Kong"
+    ]
   },
   "HM": {
     "name": "Heard Island and McDonald Islands",
@@ -2021,7 +2391,10 @@
     "region": "Indian Ocean",
     "flag": "🇭🇲",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Indian/Maldives"
+    ]
   },
   "HN": {
     "name": "Honduras",
@@ -2042,7 +2415,10 @@
     "region": "South/Latin America",
     "flag": "🇭🇳",
     "officialLanguageCode": "es",
-    "officialLanguageName": "Spanish, Castilian"
+    "officialLanguageName": "Spanish, Castilian",
+    "timeZones": [
+      "America/Tegucigalpa"
+    ]
   },
   "HR": {
     "name": "Croatia",
@@ -2063,7 +2439,10 @@
     "region": "Europe",
     "flag": "🇭🇷",
     "officialLanguageCode": "hr",
-    "officialLanguageName": "Croatian"
+    "officialLanguageName": "Croatian",
+    "timeZones": [
+      "Europe/Belgrade"
+    ]
   },
   "HT": {
     "name": "Haiti",
@@ -2084,7 +2463,10 @@
     "region": "South/Latin America",
     "flag": "🇭🇹",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "America/Port-au-Prince"
+    ]
   },
   "HU": {
     "name": "Hungary",
@@ -2105,7 +2487,10 @@
     "region": "Europe",
     "flag": "🇭🇺",
     "officialLanguageCode": "hu",
-    "officialLanguageName": "Hungarian"
+    "officialLanguageName": "Hungarian",
+    "timeZones": [
+      "Europe/Budapest"
+    ]
   },
   "ID": {
     "name": "Indonesia",
@@ -2126,7 +2511,13 @@
     "region": "Asia & Pacific",
     "flag": "🇮🇩",
     "officialLanguageCode": "id",
-    "officialLanguageName": "Indonesian"
+    "officialLanguageName": "Indonesian",
+    "timeZones": [
+      "Asia/Jakarta",
+      "Asia/Jayapura",
+      "Asia/Makassar",
+      "Asia/Pontianak"
+    ]
   },
   "IE": {
     "name": "Ireland",
@@ -2148,7 +2539,10 @@
     "region": "Europe",
     "flag": "🇮🇪",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Europe/Dublin"
+    ]
   },
   "IL": {
     "name": "Israel",
@@ -2170,7 +2564,10 @@
     "region": "Europe",
     "flag": "🇮🇱",
     "officialLanguageCode": "he",
-    "officialLanguageName": "Hebrew"
+    "officialLanguageName": "Hebrew",
+    "timeZones": [
+      "Asia/Jerusalem"
+    ]
   },
   "IM": {
     "name": "Isle of Man",
@@ -2191,7 +2588,10 @@
     "region": "Europe",
     "flag": "🇮🇲",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Europe/London"
+    ]
   },
   "IN": {
     "name": "India",
@@ -2213,7 +2613,10 @@
     "region": "Asia & Pacific",
     "flag": "🇮🇳",
     "officialLanguageCode": "hi",
-    "officialLanguageName": "Hindi"
+    "officialLanguageName": "Hindi",
+    "timeZones": [
+      "Asia/Kolkata"
+    ]
   },
   "IO": {
     "name": "British Indian Ocean Territory",
@@ -2233,7 +2636,10 @@
     "region": "Indian Ocean",
     "flag": "🇮🇴",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Indian/Chagos"
+    ]
   },
   "IQ": {
     "name": "Iraq",
@@ -2255,7 +2661,10 @@
     "region": "Arab States",
     "flag": "🇮🇶",
     "officialLanguageCode": "ar",
-    "officialLanguageName": "Arabic"
+    "officialLanguageName": "Arabic",
+    "timeZones": [
+      "Asia/Baghdad"
+    ]
   },
   "IR": {
     "name": "Iran",
@@ -2275,7 +2684,10 @@
     "region": "Asia & Pacific",
     "flag": "🇮🇷",
     "officialLanguageCode": "fa",
-    "officialLanguageName": "Persian"
+    "officialLanguageName": "Persian",
+    "timeZones": [
+      "Asia/Tehran"
+    ]
   },
   "IS": {
     "name": "Iceland",
@@ -2296,7 +2708,10 @@
     "region": "Europe",
     "flag": "🇮🇸",
     "officialLanguageCode": "is",
-    "officialLanguageName": "Icelandic"
+    "officialLanguageName": "Icelandic",
+    "timeZones": [
+      "Africa/Abidjan"
+    ]
   },
   "IT": {
     "name": "Italy",
@@ -2317,7 +2732,10 @@
     "region": "Europe",
     "flag": "🇮🇹",
     "officialLanguageCode": "it",
-    "officialLanguageName": "Italian"
+    "officialLanguageName": "Italian",
+    "timeZones": [
+      "Europe/Rome"
+    ]
   },
   "JE": {
     "name": "Jersey",
@@ -2338,7 +2756,10 @@
     "region": "Europe",
     "flag": "🇯🇪",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Europe/London"
+    ]
   },
   "JM": {
     "name": "Jamaica",
@@ -2358,7 +2779,10 @@
     "region": "South/Latin America",
     "flag": "🇯🇲",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "America/Jamaica"
+    ]
   },
   "JO": {
     "name": "Jordan",
@@ -2379,7 +2803,10 @@
     "region": "Arab States",
     "flag": "🇯🇴",
     "officialLanguageCode": "ar",
-    "officialLanguageName": "Arabic"
+    "officialLanguageName": "Arabic",
+    "timeZones": [
+      "Asia/Amman"
+    ]
   },
   "JP": {
     "name": "Japan",
@@ -2400,7 +2827,10 @@
     "region": "Asia & Pacific",
     "flag": "🇯🇵",
     "officialLanguageCode": "ja",
-    "officialLanguageName": "Japanese"
+    "officialLanguageName": "Japanese",
+    "timeZones": [
+      "Asia/Tokyo"
+    ]
   },
   "KE": {
     "name": "Kenya",
@@ -2421,7 +2851,10 @@
     "region": "Africa",
     "flag": "🇰🇪",
     "officialLanguageCode": "sw",
-    "officialLanguageName": "Swahili"
+    "officialLanguageName": "Swahili",
+    "timeZones": [
+      "Africa/Nairobi"
+    ]
   },
   "KG": {
     "name": "Kyrgyzstan",
@@ -2442,7 +2875,10 @@
     "region": "Asia & Pacific",
     "flag": "🇰🇬",
     "officialLanguageCode": "ky",
-    "officialLanguageName": "Kirghiz, Kyrgyz"
+    "officialLanguageName": "Kirghiz, Kyrgyz",
+    "timeZones": [
+      "Asia/Bishkek"
+    ]
   },
   "KH": {
     "name": "Cambodia",
@@ -2462,7 +2898,10 @@
     "region": "Asia & Pacific",
     "flag": "🇰🇭",
     "officialLanguageCode": "km",
-    "officialLanguageName": "Central Khmer"
+    "officialLanguageName": "Central Khmer",
+    "timeZones": [
+      "Asia/Bangkok"
+    ]
   },
   "KI": {
     "name": "Kiribati",
@@ -2482,7 +2921,12 @@
     "region": "Asia & Pacific",
     "flag": "🇰🇮",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Pacific/Kanton",
+      "Pacific/Kiritimati",
+      "Pacific/Tarawa"
+    ]
   },
   "KM": {
     "name": "Comoros",
@@ -2503,7 +2947,10 @@
     "region": "Indian Ocean",
     "flag": "🇰🇲",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "Africa/Nairobi"
+    ]
   },
   "KN": {
     "name": "Saint Kitts and Nevis",
@@ -2523,7 +2970,10 @@
     "region": "South/Latin America",
     "flag": "🇰🇳",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "America/Puerto_Rico"
+    ]
   },
   "KP": {
     "name": "North Korea",
@@ -2543,7 +2993,10 @@
     "region": "Asia",
     "flag": "🇰🇵",
     "officialLanguageCode": "ko",
-    "officialLanguageName": "Korean"
+    "officialLanguageName": "Korean",
+    "timeZones": [
+      "Asia/Pyongyang"
+    ]
   },
   "KR": {
     "name": "South Korea",
@@ -2564,7 +3017,10 @@
     "region": "Asia",
     "flag": "🇰🇷",
     "officialLanguageCode": "ko",
-    "officialLanguageName": "Korean"
+    "officialLanguageName": "Korean",
+    "timeZones": [
+      "Asia/Seoul"
+    ]
   },
   "KW": {
     "name": "Kuwait",
@@ -2585,7 +3041,10 @@
     "region": "Arab States",
     "flag": "🇰🇼",
     "officialLanguageCode": "ar",
-    "officialLanguageName": "Arabic"
+    "officialLanguageName": "Arabic",
+    "timeZones": [
+      "Asia/Riyadh"
+    ]
   },
   "KY": {
     "name": "Cayman Islands",
@@ -2605,7 +3064,10 @@
     "region": "Caribbean Sea",
     "flag": "🇰🇾",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "America/Panama"
+    ]
   },
   "KZ": {
     "name": "Kazakhstan",
@@ -2630,7 +3092,16 @@
     "region": "Asia & Pacific",
     "flag": "🇰🇿",
     "officialLanguageCode": "kk",
-    "officialLanguageName": "Kazakh"
+    "officialLanguageName": "Kazakh",
+    "timeZones": [
+      "Asia/Almaty",
+      "Asia/Aqtau",
+      "Asia/Aqtobe",
+      "Asia/Atyrau",
+      "Asia/Oral",
+      "Asia/Qostanay",
+      "Asia/Qyzylorda"
+    ]
   },
   "LA": {
     "name": "Laos",
@@ -2650,7 +3121,10 @@
     "region": "Asia & Pacific",
     "flag": "🇱🇦",
     "officialLanguageCode": "lo",
-    "officialLanguageName": "Lao"
+    "officialLanguageName": "Lao",
+    "timeZones": [
+      "Asia/Bangkok"
+    ]
   },
   "LB": {
     "name": "Lebanon",
@@ -2672,7 +3146,10 @@
     "region": "Arab States",
     "flag": "🇱🇧",
     "officialLanguageCode": "ar",
-    "officialLanguageName": "Arabic"
+    "officialLanguageName": "Arabic",
+    "timeZones": [
+      "Asia/Beirut"
+    ]
   },
   "LC": {
     "name": "Saint Lucia",
@@ -2692,7 +3169,10 @@
     "region": "South/Latin America",
     "flag": "🇱🇨",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "America/Puerto_Rico"
+    ]
   },
   "LI": {
     "name": "Liechtenstein",
@@ -2712,7 +3192,10 @@
     "region": "Europe",
     "flag": "🇱🇮",
     "officialLanguageCode": "de",
-    "officialLanguageName": "German"
+    "officialLanguageName": "German",
+    "timeZones": [
+      "Europe/Zurich"
+    ]
   },
   "LK": {
     "name": "Sri Lanka",
@@ -2733,7 +3216,10 @@
     "region": "Asia & Pacific",
     "flag": "🇱🇰",
     "officialLanguageCode": "si",
-    "officialLanguageName": "Sinhala, Sinhalese"
+    "officialLanguageName": "Sinhala, Sinhalese",
+    "timeZones": [
+      "Asia/Colombo"
+    ]
   },
   "LR": {
     "name": "Liberia",
@@ -2753,7 +3239,10 @@
     "region": "Africa",
     "flag": "🇱🇷",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Africa/Monrovia"
+    ]
   },
   "LS": {
     "name": "Lesotho",
@@ -2774,7 +3263,10 @@
     "region": "Africa",
     "flag": "🇱🇸",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Africa/Johannesburg"
+    ]
   },
   "LT": {
     "name": "Lithuania",
@@ -2795,7 +3287,10 @@
     "region": "Europe",
     "flag": "🇱🇹",
     "officialLanguageCode": "lt",
-    "officialLanguageName": "Lithuanian"
+    "officialLanguageName": "Lithuanian",
+    "timeZones": [
+      "Europe/Vilnius"
+    ]
   },
   "LU": {
     "name": "Luxembourg",
@@ -2818,7 +3313,10 @@
     "region": "Europe",
     "flag": "🇱🇺",
     "officialLanguageCode": "lb",
-    "officialLanguageName": "Luxembourgish, Letzeburgesch"
+    "officialLanguageName": "Luxembourgish, Letzeburgesch",
+    "timeZones": [
+      "Europe/Brussels"
+    ]
   },
   "LV": {
     "name": "Latvia",
@@ -2839,7 +3337,10 @@
     "region": "Europe",
     "flag": "🇱🇻",
     "officialLanguageCode": "lv",
-    "officialLanguageName": "Latvian"
+    "officialLanguageName": "Latvian",
+    "timeZones": [
+      "Europe/Riga"
+    ]
   },
   "LY": {
     "name": "Libya",
@@ -2860,7 +3361,10 @@
     "region": "Arab States",
     "flag": "🇱🇾",
     "officialLanguageCode": "ar",
-    "officialLanguageName": "Arabic"
+    "officialLanguageName": "Arabic",
+    "timeZones": [
+      "Africa/Tripoli"
+    ]
   },
   "MA": {
     "name": "Morocco",
@@ -2881,7 +3385,10 @@
     "region": "Arab States",
     "flag": "🇲🇦",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "Africa/Casablanca"
+    ]
   },
   "MC": {
     "name": "Monaco",
@@ -2901,7 +3408,10 @@
     "region": "Europe",
     "flag": "🇲🇨",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "Europe/Paris"
+    ]
   },
   "MD": {
     "name": "Moldova",
@@ -2921,7 +3431,10 @@
     "region": "Europe",
     "flag": "🇲🇩",
     "officialLanguageCode": "ro",
-    "officialLanguageName": "Romanian, Moldavian, Moldovan"
+    "officialLanguageName": "Romanian, Moldavian, Moldovan",
+    "timeZones": [
+      "Europe/Chisinau"
+    ]
   },
   "ME": {
     "name": "Montenegro",
@@ -2945,7 +3458,10 @@
     "region": "Europe",
     "flag": "🇲🇪",
     "officialLanguageCode": "srp",
-    "officialLanguageName": "српски језик"
+    "officialLanguageName": "српски језик",
+    "timeZones": [
+      "Europe/Belgrade"
+    ]
   },
   "MF": {
     "name": "Saint Martin",
@@ -2967,7 +3483,10 @@
     "region": "South/Latin America",
     "flag": "🇲🇫",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "America/Puerto_Rico"
+    ]
   },
   "MG": {
     "name": "Madagascar",
@@ -2988,7 +3507,10 @@
     "region": "Africa",
     "flag": "🇲🇬",
     "officialLanguageCode": "mg",
-    "officialLanguageName": "Malagasy"
+    "officialLanguageName": "Malagasy",
+    "timeZones": [
+      "Africa/Nairobi"
+    ]
   },
   "MH": {
     "name": "Marshall Islands",
@@ -3009,7 +3531,11 @@
     "region": "Pacific Ocean",
     "flag": "🇲🇭",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Pacific/Kwajalein",
+      "Pacific/Tarawa"
+    ]
   },
   "MK": {
     "name": "North Macedonia",
@@ -3030,7 +3556,10 @@
     "region": "Europe",
     "flag": "🇲🇰",
     "officialLanguageCode": "mk",
-    "officialLanguageName": "Macedonian"
+    "officialLanguageName": "Macedonian",
+    "timeZones": [
+      "Europe/Belgrade"
+    ]
   },
   "ML": {
     "name": "Mali",
@@ -3050,7 +3579,10 @@
     "region": "Africa",
     "flag": "🇲🇱",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "Africa/Abidjan"
+    ]
   },
   "MM": {
     "name": "Myanmar (Burma)",
@@ -3070,7 +3602,10 @@
     "region": "Asia & Pacific",
     "flag": "🇲🇲",
     "officialLanguageCode": "my",
-    "officialLanguageName": "Burmese"
+    "officialLanguageName": "Burmese",
+    "timeZones": [
+      "Asia/Yangon"
+    ]
   },
   "MN": {
     "name": "Mongolia",
@@ -3090,7 +3625,11 @@
     "region": "Asia & Pacific",
     "flag": "🇲🇳",
     "officialLanguageCode": "mn",
-    "officialLanguageName": "Mongolian"
+    "officialLanguageName": "Mongolian",
+    "timeZones": [
+      "Asia/Hovd",
+      "Asia/Ulaanbaatar"
+    ]
   },
   "MO": {
     "name": "Macao",
@@ -3111,7 +3650,10 @@
     "region": "Asia & Pacific",
     "flag": "🇲🇴",
     "officialLanguageCode": "zh-hant",
-    "officialLanguageName": ""
+    "officialLanguageName": "",
+    "timeZones": [
+      "Asia/Macau"
+    ]
   },
   "MP": {
     "name": "Northern Mariana Islands",
@@ -3132,7 +3674,10 @@
     "region": "Pacific Ocean",
     "flag": "🇲🇵",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Pacific/Guam"
+    ]
   },
   "MQ": {
     "name": "Martinique",
@@ -3152,7 +3697,10 @@
     "region": "South/Latin America",
     "flag": "🇲🇶",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "America/Martinique"
+    ]
   },
   "MR": {
     "name": "Mauritania",
@@ -3172,7 +3720,10 @@
     "region": "Arab States",
     "flag": "🇲🇷",
     "officialLanguageCode": "ar",
-    "officialLanguageName": "Arabic"
+    "officialLanguageName": "Arabic",
+    "timeZones": [
+      "Africa/Abidjan"
+    ]
   },
   "MS": {
     "name": "Montserrat",
@@ -3192,7 +3743,10 @@
     "region": "South/Latin America",
     "flag": "🇲🇸",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "America/Puerto_Rico"
+    ]
   },
   "MT": {
     "name": "Malta",
@@ -3214,7 +3768,10 @@
     "region": "Europe",
     "flag": "🇲🇹",
     "officialLanguageCode": "mt",
-    "officialLanguageName": "Maltese"
+    "officialLanguageName": "Maltese",
+    "timeZones": [
+      "Europe/Malta"
+    ]
   },
   "MU": {
     "name": "Mauritius",
@@ -3234,7 +3791,10 @@
     "region": "Africa",
     "flag": "🇲🇺",
     "officialLanguageCode": "mfe",
-    "officialLanguageName": ""
+    "officialLanguageName": "",
+    "timeZones": [
+      "Indian/Mauritius"
+    ]
   },
   "MV": {
     "name": "Maldives",
@@ -3254,7 +3814,10 @@
     "region": "Asia & Pacific",
     "flag": "🇲🇻",
     "officialLanguageCode": "dv",
-    "officialLanguageName": "Divehi, Dhivehi, Maldivian"
+    "officialLanguageName": "Divehi, Dhivehi, Maldivian",
+    "timeZones": [
+      "Indian/Maldives"
+    ]
   },
   "MW": {
     "name": "Malawi",
@@ -3275,7 +3838,10 @@
     "region": "Africa",
     "flag": "🇲🇼",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Africa/Maputo"
+    ]
   },
   "MX": {
     "name": "Mexico",
@@ -3296,7 +3862,21 @@
     "region": "South/Latin America",
     "flag": "🇲🇽",
     "officialLanguageCode": "es",
-    "officialLanguageName": "Spanish, Castilian"
+    "officialLanguageName": "Spanish, Castilian",
+    "timeZones": [
+      "America/Bahia_Banderas",
+      "America/Cancun",
+      "America/Chihuahua",
+      "America/Ciudad_Juarez",
+      "America/Hermosillo",
+      "America/Matamoros",
+      "America/Mazatlan",
+      "America/Merida",
+      "America/Mexico_City",
+      "America/Monterrey",
+      "America/Ojinaga",
+      "America/Tijuana"
+    ]
   },
   "MY": {
     "name": "Malaysia",
@@ -3317,7 +3897,11 @@
     "region": "Asia & Pacific",
     "flag": "🇲🇾",
     "officialLanguageCode": "ms",
-    "officialLanguageName": "Malay"
+    "officialLanguageName": "Malay",
+    "timeZones": [
+      "Asia/Kuching",
+      "Asia/Singapore"
+    ]
   },
   "MZ": {
     "name": "Mozambique",
@@ -3337,7 +3921,10 @@
     "region": "Africa",
     "flag": "🇲🇿",
     "officialLanguageCode": "pt",
-    "officialLanguageName": "Portuguese"
+    "officialLanguageName": "Portuguese",
+    "timeZones": [
+      "Africa/Maputo"
+    ]
   },
   "NA": {
     "name": "Namibia",
@@ -3358,7 +3945,10 @@
     "region": "Africa",
     "flag": "🇳🇦",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Africa/Windhoek"
+    ]
   },
   "NC": {
     "name": "New Caledonia",
@@ -3378,7 +3968,10 @@
     "region": "Asia & Pacific",
     "flag": "🇳🇨",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "Pacific/Noumea"
+    ]
   },
   "NE": {
     "name": "Niger",
@@ -3398,7 +3991,10 @@
     "region": "Africa",
     "flag": "🇳🇪",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "Africa/Lagos"
+    ]
   },
   "NF": {
     "name": "Norfolk Island",
@@ -3418,7 +4014,10 @@
     "region": "Asia & Pacific",
     "flag": "🇳🇫",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Pacific/Norfolk"
+    ]
   },
   "NG": {
     "name": "Nigeria",
@@ -3438,7 +4037,10 @@
     "region": "Africa",
     "flag": "🇳🇬",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Africa/Lagos"
+    ]
   },
   "NI": {
     "name": "Nicaragua",
@@ -3459,7 +4061,10 @@
     "region": "South/Latin America",
     "flag": "🇳🇮",
     "officialLanguageCode": "es",
-    "officialLanguageName": "Spanish, Castilian"
+    "officialLanguageName": "Spanish, Castilian",
+    "timeZones": [
+      "America/Managua"
+    ]
   },
   "NL": {
     "name": "Netherlands",
@@ -3480,7 +4085,10 @@
     "region": "Europe",
     "flag": "🇳🇱",
     "officialLanguageCode": "nl",
-    "officialLanguageName": "Dutch, Flemish"
+    "officialLanguageName": "Dutch, Flemish",
+    "timeZones": [
+      "Europe/Brussels"
+    ]
   },
   "NO": {
     "name": "Norway",
@@ -3503,7 +4111,10 @@
     "region": "Europe",
     "flag": "🇳🇴",
     "officialLanguageCode": "nb",
-    "officialLanguageName": "Norwegian Bokmål"
+    "officialLanguageName": "Norwegian Bokmål",
+    "timeZones": [
+      "Europe/Berlin"
+    ]
   },
   "NP": {
     "name": "Nepal",
@@ -3523,7 +4134,10 @@
     "region": "Asia & Pacific",
     "flag": "🇳🇵",
     "officialLanguageCode": "ne",
-    "officialLanguageName": "Nepali"
+    "officialLanguageName": "Nepali",
+    "timeZones": [
+      "Asia/Kathmandu"
+    ]
   },
   "NR": {
     "name": "Nauru",
@@ -3544,7 +4158,10 @@
     "region": "Asia & Pacific",
     "flag": "🇳🇷",
     "officialLanguageCode": "na",
-    "officialLanguageName": "Nauru"
+    "officialLanguageName": "Nauru",
+    "timeZones": [
+      "Pacific/Nauru"
+    ]
   },
   "NU": {
     "name": "Niue",
@@ -3564,7 +4181,10 @@
     "region": "Asia & Pacific",
     "flag": "🇳🇺",
     "officialLanguageCode": "niu",
-    "officialLanguageName": ""
+    "officialLanguageName": "",
+    "timeZones": [
+      "Pacific/Niue"
+    ]
   },
   "NZ": {
     "name": "New Zealand",
@@ -3586,7 +4206,11 @@
     "region": "Asia & Pacific",
     "flag": "🇳🇿",
     "officialLanguageCode": "mi",
-    "officialLanguageName": "Maori"
+    "officialLanguageName": "Maori",
+    "timeZones": [
+      "Pacific/Auckland",
+      "Pacific/Chatham"
+    ]
   },
   "OM": {
     "name": "Oman",
@@ -3607,7 +4231,10 @@
     "region": "Arab States",
     "flag": "🇴🇲",
     "officialLanguageCode": "ar",
-    "officialLanguageName": "Arabic"
+    "officialLanguageName": "Arabic",
+    "timeZones": [
+      "Asia/Dubai"
+    ]
   },
   "PA": {
     "name": "Panama",
@@ -3628,7 +4255,10 @@
     "region": "South/Latin America",
     "flag": "🇵🇦",
     "officialLanguageCode": "es",
-    "officialLanguageName": "Spanish, Castilian"
+    "officialLanguageName": "Spanish, Castilian",
+    "timeZones": [
+      "America/Panama"
+    ]
   },
   "PE": {
     "name": "Peru",
@@ -3649,7 +4279,10 @@
     "region": "South/Latin America",
     "flag": "🇵🇪",
     "officialLanguageCode": "es",
-    "officialLanguageName": "Spanish, Castilian"
+    "officialLanguageName": "Spanish, Castilian",
+    "timeZones": [
+      "America/Lima"
+    ]
   },
   "PF": {
     "name": "French Polynesia",
@@ -3669,7 +4302,12 @@
     "region": "Asia & Pacific",
     "flag": "🇵🇫",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "Pacific/Gambier",
+      "Pacific/Marquesas",
+      "Pacific/Tahiti"
+    ]
   },
   "PG": {
     "name": "Papua New Guinea",
@@ -3689,7 +4327,11 @@
     "region": "Asia & Pacific",
     "flag": "🇵🇬",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Pacific/Bougainville",
+      "Pacific/Port_Moresby"
+    ]
   },
   "PH": {
     "name": "Philippines",
@@ -3711,7 +4353,10 @@
     "region": "Asia & Pacific",
     "flag": "🇵🇭",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Asia/Manila"
+    ]
   },
   "PK": {
     "name": "Pakistan",
@@ -3732,7 +4377,10 @@
     "region": "Asia & Pacific",
     "flag": "🇵🇰",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Asia/Karachi"
+    ]
   },
   "PL": {
     "name": "Poland",
@@ -3753,7 +4401,10 @@
     "region": "Europe",
     "flag": "🇵🇱",
     "officialLanguageCode": "pl",
-    "officialLanguageName": "Polish"
+    "officialLanguageName": "Polish",
+    "timeZones": [
+      "Europe/Warsaw"
+    ]
   },
   "PM": {
     "name": "Saint Pierre and Miquelon",
@@ -3773,7 +4424,10 @@
     "region": "North America",
     "flag": "🇵🇲",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "America/Miquelon"
+    ]
   },
   "PN": {
     "name": "Pitcairn Islands",
@@ -3793,7 +4447,10 @@
     "region": "Asia & Pacific",
     "flag": "🇵🇳",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Pacific/Pitcairn"
+    ]
   },
   "PR": {
     "name": "Puerto Rico",
@@ -3816,7 +4473,10 @@
     "region": "South/Latin America",
     "flag": "🇵🇷",
     "officialLanguageCode": "es",
-    "officialLanguageName": "Spanish, Castilian"
+    "officialLanguageName": "Spanish, Castilian",
+    "timeZones": [
+      "America/Puerto_Rico"
+    ]
   },
   "PS": {
     "name": "Palestine",
@@ -3836,7 +4496,11 @@
     "region": "Arab States",
     "flag": "🇵🇸",
     "officialLanguageCode": "ar",
-    "officialLanguageName": "Arabic"
+    "officialLanguageName": "Arabic",
+    "timeZones": [
+      "Asia/Gaza",
+      "Asia/Hebron"
+    ]
   },
   "PT": {
     "name": "Portugal",
@@ -3857,7 +4521,12 @@
     "region": "Europe",
     "flag": "🇵🇹",
     "officialLanguageCode": "pt",
-    "officialLanguageName": "Portuguese"
+    "officialLanguageName": "Portuguese",
+    "timeZones": [
+      "Atlantic/Azores",
+      "Atlantic/Madeira",
+      "Europe/Lisbon"
+    ]
   },
   "PW": {
     "name": "Palau",
@@ -3877,7 +4546,10 @@
     "region": "Asia & Pacific",
     "flag": "🇵🇼",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Pacific/Palau"
+    ]
   },
   "PY": {
     "name": "Paraguay",
@@ -3899,7 +4571,10 @@
     "region": "South/Latin America",
     "flag": "🇵🇾",
     "officialLanguageCode": "es",
-    "officialLanguageName": "Spanish, Castilian"
+    "officialLanguageName": "Spanish, Castilian",
+    "timeZones": [
+      "America/Asuncion"
+    ]
   },
   "QA": {
     "name": "Qatar",
@@ -3920,7 +4595,10 @@
     "region": "Arab States",
     "flag": "🇶🇦",
     "officialLanguageCode": "ar",
-    "officialLanguageName": "Arabic"
+    "officialLanguageName": "Arabic",
+    "timeZones": [
+      "Asia/Qatar"
+    ]
   },
   "RE": {
     "name": "Reunion",
@@ -3940,7 +4618,10 @@
     "region": "Asia & Pacific",
     "flag": "🇷🇪",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "Asia/Dubai"
+    ]
   },
   "RO": {
     "name": "Romania",
@@ -3961,7 +4642,10 @@
     "region": "Europe",
     "flag": "🇷🇴",
     "officialLanguageCode": "ro",
-    "officialLanguageName": "Romanian, Moldavian, Moldovan"
+    "officialLanguageName": "Romanian, Moldavian, Moldovan",
+    "timeZones": [
+      "Europe/Bucharest"
+    ]
   },
   "RS": {
     "name": "Serbia",
@@ -3982,7 +4666,10 @@
     "region": "Europe",
     "flag": "🇷🇸",
     "officialLanguageCode": "sr",
-    "officialLanguageName": "Serbian"
+    "officialLanguageName": "Serbian",
+    "timeZones": [
+      "Europe/Belgrade"
+    ]
   },
   "RU": {
     "name": "Russia",
@@ -4007,7 +4694,36 @@
     "region": "Europe",
     "flag": "🇷🇺",
     "officialLanguageCode": "ru",
-    "officialLanguageName": "Russian"
+    "officialLanguageName": "Russian",
+    "timeZones": [
+      "Asia/Anadyr",
+      "Asia/Barnaul",
+      "Asia/Chita",
+      "Asia/Irkutsk",
+      "Asia/Kamchatka",
+      "Asia/Khandyga",
+      "Asia/Krasnoyarsk",
+      "Asia/Magadan",
+      "Asia/Novokuznetsk",
+      "Asia/Novosibirsk",
+      "Asia/Omsk",
+      "Asia/Sakhalin",
+      "Asia/Srednekolymsk",
+      "Asia/Tomsk",
+      "Asia/Ust-Nera",
+      "Asia/Vladivostok",
+      "Asia/Yakutsk",
+      "Asia/Yekaterinburg",
+      "Europe/Astrakhan",
+      "Europe/Kaliningrad",
+      "Europe/Kirov",
+      "Europe/Moscow",
+      "Europe/Samara",
+      "Europe/Saratov",
+      "Europe/Simferopol",
+      "Europe/Ulyanovsk",
+      "Europe/Volgograd"
+    ]
   },
   "RW": {
     "name": "Rwanda",
@@ -4029,7 +4745,10 @@
     "region": "Africa",
     "flag": "🇷🇼",
     "officialLanguageCode": "rw",
-    "officialLanguageName": "Kinyarwanda"
+    "officialLanguageName": "Kinyarwanda",
+    "timeZones": [
+      "Africa/Maputo"
+    ]
   },
   "SA": {
     "name": "Saudi Arabia",
@@ -4050,7 +4769,10 @@
     "region": "Arab States",
     "flag": "🇸🇦",
     "officialLanguageCode": "ar",
-    "officialLanguageName": "Arabic"
+    "officialLanguageName": "Arabic",
+    "timeZones": [
+      "Asia/Riyadh"
+    ]
   },
   "SB": {
     "name": "Solomon Islands",
@@ -4070,7 +4792,10 @@
     "region": "Asia & Pacific",
     "flag": "🇸🇧",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Pacific/Guadalcanal"
+    ]
   },
   "SC": {
     "name": "Seychelles",
@@ -4091,7 +4816,10 @@
     "region": "Africa",
     "flag": "🇸🇨",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "Asia/Dubai"
+    ]
   },
   "SD": {
     "name": "Sudan",
@@ -4113,7 +4841,10 @@
     "region": "Arab States",
     "flag": "🇸🇩",
     "officialLanguageCode": "ar",
-    "officialLanguageName": "Arabic"
+    "officialLanguageName": "Arabic",
+    "timeZones": [
+      "Africa/Khartoum"
+    ]
   },
   "SE": {
     "name": "Sweden",
@@ -4134,7 +4865,10 @@
     "region": "Europe",
     "flag": "🇸🇪",
     "officialLanguageCode": "sv",
-    "officialLanguageName": "Swedish"
+    "officialLanguageName": "Swedish",
+    "timeZones": [
+      "Europe/Berlin"
+    ]
   },
   "SG": {
     "name": "Singapore",
@@ -4158,7 +4892,10 @@
     "region": "Asia & Pacific",
     "flag": "🇸🇬",
     "officialLanguageCode": "zh-hans",
-    "officialLanguageName": ""
+    "officialLanguageName": "",
+    "timeZones": [
+      "Asia/Singapore"
+    ]
   },
   "SH": {
     "name": "Saint Helena",
@@ -4178,7 +4915,10 @@
     "region": "Africa",
     "flag": "🇸🇭",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Africa/Abidjan"
+    ]
   },
   "SI": {
     "name": "Slovenia",
@@ -4199,7 +4939,10 @@
     "region": "Europe",
     "flag": "🇸🇮",
     "officialLanguageCode": "sl",
-    "officialLanguageName": "Slovenian"
+    "officialLanguageName": "Slovenian",
+    "timeZones": [
+      "Europe/Belgrade"
+    ]
   },
   "SJ": {
     "name": "Svalbard and Jan Mayen",
@@ -4219,7 +4962,10 @@
     "region": "Europe",
     "flag": "🇸🇯",
     "officialLanguageCode": "no",
-    "officialLanguageName": "Norwegian"
+    "officialLanguageName": "Norwegian",
+    "timeZones": [
+      "Europe/Berlin"
+    ]
   },
   "SK": {
     "name": "Slovakia",
@@ -4240,7 +4986,10 @@
     "region": "Europe",
     "flag": "🇸🇰",
     "officialLanguageCode": "sk",
-    "officialLanguageName": "Slovak"
+    "officialLanguageName": "Slovak",
+    "timeZones": [
+      "Europe/Prague"
+    ]
   },
   "SL": {
     "name": "Sierra Leone",
@@ -4260,7 +5009,10 @@
     "region": "Africa",
     "flag": "🇸🇱",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Africa/Abidjan"
+    ]
   },
   "SM": {
     "name": "San Marino",
@@ -4280,7 +5032,10 @@
     "region": "Europe",
     "flag": "🇸🇲",
     "officialLanguageCode": "it",
-    "officialLanguageName": "Italian"
+    "officialLanguageName": "Italian",
+    "timeZones": [
+      "Europe/Rome"
+    ]
   },
   "SN": {
     "name": "Senegal",
@@ -4300,7 +5055,10 @@
     "region": "Africa",
     "flag": "🇸🇳",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "Africa/Abidjan"
+    ]
   },
   "SO": {
     "name": "Somalia",
@@ -4321,7 +5079,10 @@
     "region": "Arab States",
     "flag": "🇸🇴",
     "officialLanguageCode": "so",
-    "officialLanguageName": "Somali"
+    "officialLanguageName": "Somali",
+    "timeZones": [
+      "Africa/Nairobi"
+    ]
   },
   "SR": {
     "name": "Suriname",
@@ -4341,7 +5102,10 @@
     "region": "South/Latin America",
     "flag": "🇸🇷",
     "officialLanguageCode": "nl",
-    "officialLanguageName": "Dutch, Flemish"
+    "officialLanguageName": "Dutch, Flemish",
+    "timeZones": [
+      "America/Paramaribo"
+    ]
   },
   "SS": {
     "name": "South Sudan",
@@ -4361,7 +5125,10 @@
     "region": "Africa",
     "flag": "🇸🇸",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Africa/Juba"
+    ]
   },
   "ST": {
     "name": "Sao Tome and Principe",
@@ -4381,7 +5148,10 @@
     "region": "Africa",
     "flag": "🇸🇹",
     "officialLanguageCode": "pt",
-    "officialLanguageName": "Portuguese"
+    "officialLanguageName": "Portuguese",
+    "timeZones": [
+      "Africa/Sao_Tome"
+    ]
   },
   "SV": {
     "name": "El Salvador",
@@ -4402,7 +5172,10 @@
     "region": "South/Latin America",
     "flag": "🇸🇻",
     "officialLanguageCode": "es",
-    "officialLanguageName": "Spanish, Castilian"
+    "officialLanguageName": "Spanish, Castilian",
+    "timeZones": [
+      "America/El_Salvador"
+    ]
   },
   "SX": {
     "name": "Sint Maarten",
@@ -4423,7 +5196,10 @@
     "region": "Unknown",
     "flag": "🇸🇽",
     "officialLanguageCode": "nl",
-    "officialLanguageName": "Dutch, Flemish"
+    "officialLanguageName": "Dutch, Flemish",
+    "timeZones": [
+      "America/Puerto_Rico"
+    ]
   },
   "SY": {
     "name": "Syria",
@@ -4444,7 +5220,10 @@
     "region": "Asia & Pacific",
     "flag": "🇸🇾",
     "officialLanguageCode": "ar",
-    "officialLanguageName": "Arabic"
+    "officialLanguageName": "Arabic",
+    "timeZones": [
+      "Asia/Damascus"
+    ]
   },
   "SZ": {
     "name": "Eswatini",
@@ -4465,7 +5244,10 @@
     "region": "Africa",
     "flag": "🇸🇿",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Africa/Johannesburg"
+    ]
   },
   "TC": {
     "name": "Turks and Caicos Islands",
@@ -4485,7 +5267,10 @@
     "region": "Atlantic Ocean",
     "flag": "🇹🇨",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "America/Grand_Turk"
+    ]
   },
   "TD": {
     "name": "Chad",
@@ -4506,7 +5291,10 @@
     "region": "Africa",
     "flag": "🇹🇩",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "Africa/Ndjamena"
+    ]
   },
   "TF": {
     "name": "French Southern Territories",
@@ -4526,7 +5314,11 @@
     "region": "Indian Ocean",
     "flag": "🇹🇫",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "Asia/Dubai",
+      "Indian/Maldives"
+    ]
   },
   "TG": {
     "name": "Togo",
@@ -4546,7 +5338,10 @@
     "region": "Africa",
     "flag": "🇹🇬",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "Africa/Abidjan"
+    ]
   },
   "TH": {
     "name": "Thailand",
@@ -4567,7 +5362,10 @@
     "region": "Asia & Pacific",
     "flag": "🇹🇭",
     "officialLanguageCode": "th",
-    "officialLanguageName": "Thai"
+    "officialLanguageName": "Thai",
+    "timeZones": [
+      "Asia/Bangkok"
+    ]
   },
   "TJ": {
     "name": "Tajikistan",
@@ -4588,7 +5386,10 @@
     "region": "Asia & Pacific",
     "flag": "🇹🇯",
     "officialLanguageCode": "tg",
-    "officialLanguageName": "Tajik"
+    "officialLanguageName": "Tajik",
+    "timeZones": [
+      "Asia/Dushanbe"
+    ]
   },
   "TK": {
     "name": "Tokelau",
@@ -4608,7 +5409,10 @@
     "region": "Asia & Pacific",
     "flag": "🇹🇰",
     "officialLanguageCode": "tkl",
-    "officialLanguageName": ""
+    "officialLanguageName": "",
+    "timeZones": [
+      "Pacific/Fakaofo"
+    ]
   },
   "TL": {
     "name": "East Timor",
@@ -4628,7 +5432,10 @@
     "region": "Asia & Pacific",
     "flag": "🇹🇱",
     "officialLanguageCode": "pt",
-    "officialLanguageName": "Portuguese"
+    "officialLanguageName": "Portuguese",
+    "timeZones": [
+      "Asia/Dili"
+    ]
   },
   "TM": {
     "name": "Turkmenistan",
@@ -4649,7 +5456,10 @@
     "region": "Asia & Pacific",
     "flag": "🇹🇲",
     "officialLanguageCode": "tk",
-    "officialLanguageName": "Turkmen"
+    "officialLanguageName": "Turkmen",
+    "timeZones": [
+      "Asia/Ashgabat"
+    ]
   },
   "TN": {
     "name": "Tunisia",
@@ -4670,7 +5480,10 @@
     "region": "Arab States",
     "flag": "🇹🇳",
     "officialLanguageCode": "ar",
-    "officialLanguageName": "Arabic"
+    "officialLanguageName": "Arabic",
+    "timeZones": [
+      "Africa/Tunis"
+    ]
   },
   "TO": {
     "name": "Tonga",
@@ -4691,7 +5504,10 @@
     "region": "Asia & Pacific",
     "flag": "🇹🇴",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Pacific/Tongatapu"
+    ]
   },
   "TR": {
     "name": "Turkey",
@@ -4716,7 +5532,10 @@
     "region": "Europe",
     "flag": "🇹🇷",
     "officialLanguageCode": "tr",
-    "officialLanguageName": "Turkish"
+    "officialLanguageName": "Turkish",
+    "timeZones": [
+      "Europe/Istanbul"
+    ]
   },
   "TT": {
     "name": "Trinidad and Tobago",
@@ -4736,7 +5555,10 @@
     "region": "South/Latin America",
     "flag": "🇹🇹",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "America/Puerto_Rico"
+    ]
   },
   "TV": {
     "name": "Tuvalu",
@@ -4756,7 +5578,10 @@
     "region": "Asia & Pacific",
     "flag": "🇹🇻",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Pacific/Tarawa"
+    ]
   },
   "TW": {
     "name": "Taiwan",
@@ -4777,7 +5602,10 @@
     "region": "Asia & Pacific",
     "flag": "🇹🇼",
     "officialLanguageCode": "zh-hant",
-    "officialLanguageName": ""
+    "officialLanguageName": "",
+    "timeZones": [
+      "Asia/Taipei"
+    ]
   },
   "TZ": {
     "name": "Tanzania",
@@ -4798,7 +5626,10 @@
     "region": "Africa",
     "flag": "🇹🇿",
     "officialLanguageCode": "sw",
-    "officialLanguageName": "Swahili"
+    "officialLanguageName": "Swahili",
+    "timeZones": [
+      "Africa/Nairobi"
+    ]
   },
   "UA": {
     "name": "Ukraine",
@@ -4819,7 +5650,11 @@
     "region": "Europe",
     "flag": "🇺🇦",
     "officialLanguageCode": "uk",
-    "officialLanguageName": "Ukrainian"
+    "officialLanguageName": "Ukrainian",
+    "timeZones": [
+      "Europe/Kyiv",
+      "Europe/Simferopol"
+    ]
   },
   "UG": {
     "name": "Uganda",
@@ -4840,7 +5675,10 @@
     "region": "Africa",
     "flag": "🇺🇬",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Africa/Nairobi"
+    ]
   },
   "UM": {
     "name": "U.S. Minor Outlying Islands",
@@ -4860,7 +5698,11 @@
     "region": "Pacific Ocean",
     "flag": "🇺🇲",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Pacific/Pago_Pago",
+      "Pacific/Tarawa"
+    ]
   },
   "US": {
     "name": "United States",
@@ -4881,7 +5723,38 @@
     "region": "North America",
     "flag": "🇺🇸",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "America/Adak",
+      "America/Anchorage",
+      "America/Boise",
+      "America/Chicago",
+      "America/Denver",
+      "America/Detroit",
+      "America/Indiana/Indianapolis",
+      "America/Indiana/Knox",
+      "America/Indiana/Marengo",
+      "America/Indiana/Petersburg",
+      "America/Indiana/Tell_City",
+      "America/Indiana/Vevay",
+      "America/Indiana/Vincennes",
+      "America/Indiana/Winamac",
+      "America/Juneau",
+      "America/Kentucky/Louisville",
+      "America/Kentucky/Monticello",
+      "America/Los_Angeles",
+      "America/Menominee",
+      "America/Metlakatla",
+      "America/New_York",
+      "America/Nome",
+      "America/North_Dakota/Beulah",
+      "America/North_Dakota/Center",
+      "America/North_Dakota/New_Salem",
+      "America/Phoenix",
+      "America/Sitka",
+      "America/Yakutat",
+      "Pacific/Honolulu"
+    ]
   },
   "UY": {
     "name": "Uruguay",
@@ -4902,7 +5775,10 @@
     "region": "South/Latin America",
     "flag": "🇺🇾",
     "officialLanguageCode": "es",
-    "officialLanguageName": "Spanish, Castilian"
+    "officialLanguageName": "Spanish, Castilian",
+    "timeZones": [
+      "America/Montevideo"
+    ]
   },
   "UZ": {
     "name": "Uzbekistan",
@@ -4923,7 +5799,11 @@
     "region": "Asia & Pacific",
     "flag": "🇺🇿",
     "officialLanguageCode": "uz",
-    "officialLanguageName": "Uzbek"
+    "officialLanguageName": "Uzbek",
+    "timeZones": [
+      "Asia/Samarkand",
+      "Asia/Tashkent"
+    ]
   },
   "VA": {
     "name": "Vatican City",
@@ -4944,7 +5824,10 @@
     "region": "Europe",
     "flag": "🇻🇦",
     "officialLanguageCode": "la",
-    "officialLanguageName": "Latin"
+    "officialLanguageName": "Latin",
+    "timeZones": [
+      "Europe/Rome"
+    ]
   },
   "VC": {
     "name": "Saint Vincent and the Grenadines",
@@ -4964,7 +5847,10 @@
     "region": "South/Latin America",
     "flag": "🇻🇨",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "America/Puerto_Rico"
+    ]
   },
   "VE": {
     "name": "Venezuela",
@@ -4985,7 +5871,10 @@
     "region": "South/Latin America",
     "flag": "🇻🇪",
     "officialLanguageCode": "es",
-    "officialLanguageName": "Spanish, Castilian"
+    "officialLanguageName": "Spanish, Castilian",
+    "timeZones": [
+      "America/Caracas"
+    ]
   },
   "VG": {
     "name": "British Virgin Islands",
@@ -5005,7 +5894,10 @@
     "region": "South/Latin America",
     "flag": "🇻🇬",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "America/Puerto_Rico"
+    ]
   },
   "VI": {
     "name": "U.S. Virgin Islands",
@@ -5025,7 +5917,10 @@
     "region": "South/Latin America",
     "flag": "🇻🇮",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "America/Puerto_Rico"
+    ]
   },
   "VN": {
     "name": "Vietnam",
@@ -5046,7 +5941,11 @@
     "region": "Asia & Pacific",
     "flag": "🇻🇳",
     "officialLanguageCode": "vi",
-    "officialLanguageName": "Vietnamese"
+    "officialLanguageName": "Vietnamese",
+    "timeZones": [
+      "Asia/Bangkok",
+      "Asia/Ho_Chi_Minh"
+    ]
   },
   "VU": {
     "name": "Vanuatu",
@@ -5068,7 +5967,10 @@
     "region": "Asia & Pacific",
     "flag": "🇻🇺",
     "officialLanguageCode": "bi",
-    "officialLanguageName": "Bislama"
+    "officialLanguageName": "Bislama",
+    "timeZones": [
+      "Pacific/Efate"
+    ]
   },
   "WF": {
     "name": "Wallis and Futuna",
@@ -5088,7 +5990,10 @@
     "region": "Asia & Pacific",
     "flag": "🇼🇫",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "Pacific/Tarawa"
+    ]
   },
   "WS": {
     "name": "Samoa",
@@ -5109,7 +6014,10 @@
     "region": "Asia & Pacific",
     "flag": "🇼🇸",
     "officialLanguageCode": "sm",
-    "officialLanguageName": "Samoan"
+    "officialLanguageName": "Samoan",
+    "timeZones": [
+      "Pacific/Apia"
+    ]
   },
   "XK": {
     "name": "Kosovo",
@@ -5133,7 +6041,11 @@
     "region": "Europe",
     "flag": "🇽🇰",
     "officialLanguageCode": "sq",
-    "officialLanguageName": "Albanian"
+    "officialLanguageName": "Albanian",
+    "timeZones": [
+      "Europe/Berlin",
+      "Europe/Zurich"
+    ]
   },
   "YE": {
     "name": "Yemen",
@@ -5154,7 +6066,10 @@
     "region": "Arab States",
     "flag": "🇾🇪",
     "officialLanguageCode": "ar",
-    "officialLanguageName": "Arabic"
+    "officialLanguageName": "Arabic",
+    "timeZones": [
+      "Asia/Riyadh"
+    ]
   },
   "YT": {
     "name": "Mayotte",
@@ -5174,7 +6089,10 @@
     "region": "Africa",
     "flag": "🇾🇹",
     "officialLanguageCode": "fr",
-    "officialLanguageName": "French"
+    "officialLanguageName": "French",
+    "timeZones": [
+      "Africa/Nairobi"
+    ]
   },
   "ZA": {
     "name": "South Africa",
@@ -5204,7 +6122,10 @@
     "region": "Africa",
     "flag": "🇿🇦",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Africa/Johannesburg"
+    ]
   },
   "ZM": {
     "name": "Zambia",
@@ -5224,7 +6145,10 @@
     "region": "Africa",
     "flag": "🇿🇲",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Africa/Maputo"
+    ]
   },
   "ZW": {
     "name": "Zimbabwe",
@@ -5246,7 +6170,10 @@
     "region": "Africa",
     "flag": "🇿🇼",
     "officialLanguageCode": "en",
-    "officialLanguageName": "English"
+    "officialLanguageName": "English",
+    "timeZones": [
+      "Africa/Maputo"
+    ]
   }
 }
   

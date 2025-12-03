@@ -44,6 +44,7 @@
 		"@types/node": "^20.19.14",
 		"@types/pino": "^7.0.5",
 		"commit-and-tag-version": "^12.4.1",
+		"countries-and-timezones": "^3.8.0",
 		"jest": "^30.2.0",
 		"pino": "^10.1.0",
 		"pino-pretty": "^13.1.2",

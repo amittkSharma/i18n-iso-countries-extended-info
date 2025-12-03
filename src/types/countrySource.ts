@@ -15,4 +15,5 @@ export interface CountrySource {
 	officialLanguageName: string;
 	dateFormat?: string;
 	continents?: string[];
+	timeZones?: string[];
 }

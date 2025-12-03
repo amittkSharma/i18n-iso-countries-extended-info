@@ -16,3 +16,9 @@ export interface ICountry {
 	currency: Array<string>;
 	languages: Array<string>;
 }
+
+export type CountryTimeZoneData = {
+	id: string;
+	name: string;
+	timezones: string[];
+};
