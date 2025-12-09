@@ -16,4 +16,5 @@ export interface CountrySource {
 	dateFormat?: string;
 	continents?: string[];
 	timeZones?: string[];
+	domain?: string;
 }

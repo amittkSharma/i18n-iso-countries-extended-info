@@ -4,14 +4,20 @@ import fs from "node:fs";
 import path from "node:path";
 import { log } from "../devUtils/logger";
 import { COUNTRY_DATASET_JSON_FILENAME } from "./constants";
+import { fetchCountryDomains } from "./fetchCountryDomain";
+import { fetchCountryTimeZones } from "./fetchCountryTimeZones";
 import { currenciesInfo } from "./rawCountryData/currencyInformation";
 import { countriesData } from "./rawCountryData/flagInformation";
 import { countriesWithRegionalInfo } from "./rawCountryData/regionalInformation";
-import { timeZoneInformation } from "./rawCountryData/timeZoneInformation";
 
-const validateCurrencyDetails = () => {
+import type {
+	CountryDomainInfo,
+	CountryTimeZoneInfo,
+} from "./types/countryCurrencyInfo";
+
+const validateCurrencyDetails = (countries: Array<string>) => {
 	log.info(`Validating Currency Data Sync`);
-	const countries = Object.keys(getAlpha2Codes());
+
 	const currencies = Object.keys(currenciesInfo);
 
 	const missing = countries.filter((item) => currencies.indexOf(item) < 0);
@@ -27,10 +33,9 @@ const validateCurrencyDetails = () => {
 	}
 };
 
-const validateCountryCapital = () => {
+const validateCountryCapital = (countries: Array<string>) => {
 	log.info(`Validating Capitals Data Sync`);
 
-	const countries = Object.keys(getAlpha2Codes());
 	const countriesRegionalInfo = Object.keys(countriesWithRegionalInfo);
 
 	const missingInfos = countries.filter(
@@ -50,10 +55,9 @@ const validateCountryCapital = () => {
 	}
 };
 
-const validateFlagInformation = () => {
+const validateFlagInformation = (countries: Array<string>) => {
 	log.info(`Validating Flags Data Sync`);
 
-	const countries = Object.keys(getAlpha2Codes());
 	const countriesRegionalInfo = countriesData.map((c) => c.countryCode);
 
 	const missingInfos = countries.filter(
@@ -73,11 +77,13 @@ const validateFlagInformation = () => {
 	}
 };
 
-const validateTimeZoneInformation = () => {
+const validateTimeZoneInformation = (
+	countries: Array<string>,
+	timeZones: Array<CountryTimeZoneInfo>,
+) => {
 	log.info(`Validating TimeZone Sync`);
 
-	const countries = Object.keys(getAlpha2Codes());
-	const countriesRegionalInfo = Object.keys(timeZoneInformation);
+	const countriesRegionalInfo = timeZones.map((c) => c.countryCode);
 
 	const missingInfos = countries.filter(
 		(item) => countriesRegionalInfo.indexOf(item) < 0,
@@ -96,36 +102,36 @@ const validateTimeZoneInformation = () => {
 	}
 };
 
-const generateCountrySourceFile = () => {
+const generateCountrySourceFile = (
+	countries: Array<string>,
+	domains: Array<CountryDomainInfo>,
+	timeZones: Array<CountryTimeZoneInfo>,
+) => {
 	// biome-ignore lint/suspicious/noExplicitAny: off
 	const merged: any = {};
-	Object.keys(getAlpha2Codes())
-		.sort()
-		.forEach((alpha2Code) => {
-			const regionalInfo = countriesWithRegionalInfo[alpha2Code];
-			const currency = currenciesInfo[alpha2Code];
-			const timeZone = timeZoneInformation[alpha2Code];
+	countries.sort().forEach((alpha2Code) => {
+		const regionalInfo = countriesWithRegionalInfo[alpha2Code];
+		const currency = currenciesInfo[alpha2Code];
 
-			const data = countriesData.find(
-				(data) => data.countryCode === alpha2Code,
-			);
+		const data = countriesData.find((data) => data.countryCode === alpha2Code);
 
-			merged[alpha2Code] = {
-				...regionalInfo,
-				...currency,
-				currencyName: data ? data.currencyNameEn : undefined,
-				region: data ? data.region : undefined,
-				flag: data ? data.flag : undefined,
-				officialLanguageCode: data ? data.officialLanguageCode : undefined,
-				officialLanguageName: data ? data.officialLanguageNameEn : undefined,
-				timeZones: timeZone ? timeZone.timezones : undefined,
-			};
+		merged[alpha2Code] = {
+			...regionalInfo,
+			...currency,
+			currencyName: data ? data.currencyNameEn : undefined,
+			region: data ? data.region : undefined,
+			flag: data ? data.flag : undefined,
+			officialLanguageCode: data ? data.officialLanguageCode : undefined,
+			officialLanguageName: data ? data.officialLanguageNameEn : undefined,
+			timeZones: timeZones.find((d) => d.countryCode === alpha2Code)?.timeZones,
+			domain: domains.find((d) => d.countryCode === alpha2Code)?.domain,
+		};
 
-			merged[alpha2Code] = {
-				...merged[alpha2Code],
-				countryName: undefined,
-			};
-		});
+		merged[alpha2Code] = {
+			...merged[alpha2Code],
+			countryName: undefined,
+		};
+	});
 
 	fs.writeFileSync(
 		path.join(__dirname, "/data/", COUNTRY_DATASET_JSON_FILENAME),
@@ -134,13 +140,18 @@ const generateCountrySourceFile = () => {
 };
 
 export const validateDataSources = () => {
-	const res1 = validateCurrencyDetails();
-	const res2 = validateCountryCapital();
-	const res3 = validateFlagInformation();
-	const res4 = validateTimeZoneInformation();
+	const countriesIsoCodes = Object.keys(getAlpha2Codes());
+
+	const timeZones = fetchCountryTimeZones(countriesIsoCodes);
+	const domains = fetchCountryDomains(countriesIsoCodes);
+
+	const res1 = validateCurrencyDetails(countriesIsoCodes);
+	const res2 = validateCountryCapital(countriesIsoCodes);
+	const res3 = validateFlagInformation(countriesIsoCodes);
+	const res4 = validateTimeZoneInformation(countriesIsoCodes, timeZones);
 
 	if (res1 && res2 && res3 && res4) {
-		generateCountrySourceFile();
+		generateCountrySourceFile(countriesIsoCodes, domains, timeZones);
 	} else {
 		throw new Error("Country Source file can not be generated");
 	}

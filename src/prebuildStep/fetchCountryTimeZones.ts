@@ -1,16 +1,33 @@
-// biome-ignore assist/source/organizeImports: off
-import { getAllCountries } from "countries-and-timezones";
-import fs from "node:fs";
-import * as path from "node:path";
+import { type Country, getAllCountries } from "countries-and-timezones";
 import { log } from "../devUtils/logger";
+import type { CountryTimeZoneInfo } from "./types/countryCurrencyInfo";
 
-// !!Note: This function is not called automatically, it is to be run manually when time zone data needs to be updated!!
-export const fetchCountryTimeZones = () => {
+const missingTimeZones: Record<string, string[]> = {
+	BV: ["Europe/Berlin"],
+	HM: ["Indian/Maldives"],
+	XK: ["Europe/Berlin", "Europe/Zurich"],
+};
+
+export const fetchCountryTimeZones = (countries: Array<string>) => {
 	log.info;
 	("Fetching Country Time Zone Information");
-	const timeZoneData = getAllCountries();
-	fs.writeFileSync(
-		path.join(__dirname, "./data/countryTimeZoneInformation.json"),
-		JSON.stringify(timeZoneData, null, 2),
-	);
+
+	const data: CountryTimeZoneInfo[] = countries.map((code) => {
+		const timeZoneData: Record<string, Country> = getAllCountries();
+
+		if (code in timeZoneData) {
+			return {
+				countryCode: code,
+				timeZones: timeZoneData[code].timezones,
+			};
+		} else {
+			log.warn(`No time zone information found for country code: ${code}`);
+			return {
+				countryCode: code,
+				timeZones: missingTimeZones[code],
+			};
+		}
+	});
+
+	return data;
 };

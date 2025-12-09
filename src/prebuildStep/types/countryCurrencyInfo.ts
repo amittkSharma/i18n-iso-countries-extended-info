@@ -17,8 +17,12 @@ export interface ICountry {
 	languages: Array<string>;
 }
 
-export type CountryTimeZoneData = {
-	id: string;
-	name: string;
-	timezones: string[];
-};
+export interface CountryDomainInfo {
+	countryCode: string;
+	domain: string;
+}
+
+export interface CountryTimeZoneInfo {
+	countryCode: string;
+	timeZones: Array<string>;
+}

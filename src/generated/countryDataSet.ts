@@ -23,7 +23,8 @@
     "officialLanguageName": "Catalan, Valencian",
     "timeZones": [
       "Europe/Andorra"
-    ]
+    ],
+    "domain": ".ad"
   },
   "AE": {
     "name": "United Arab Emirates",
@@ -47,7 +48,8 @@
     "officialLanguageName": "Arabic",
     "timeZones": [
       "Asia/Dubai"
-    ]
+    ],
+    "domain": ".ae"
   },
   "AF": {
     "name": "Afghanistan",
@@ -73,7 +75,8 @@
     "officialLanguageName": "Persian",
     "timeZones": [
       "Asia/Kabul"
-    ]
+    ],
+    "domain": ".af"
   },
   "AG": {
     "name": "Antigua and Barbuda",
@@ -96,7 +99,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "America/Puerto_Rico"
-    ]
+    ],
+    "domain": ".ag"
   },
   "AI": {
     "name": "Anguilla",
@@ -119,7 +123,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "America/Puerto_Rico"
-    ]
+    ],
+    "domain": ".ai"
   },
   "AL": {
     "name": "Albania",
@@ -143,7 +148,8 @@
     "officialLanguageName": "Albanian",
     "timeZones": [
       "Europe/Tirane"
-    ]
+    ],
+    "domain": ".al"
   },
   "AM": {
     "name": "Armenia",
@@ -167,7 +173,8 @@
     "officialLanguageName": "Armenian",
     "timeZones": [
       "Asia/Yerevan"
-    ]
+    ],
+    "domain": ".am"
   },
   "AO": {
     "name": "Angola",
@@ -190,7 +197,8 @@
     "officialLanguageName": "Portuguese",
     "timeZones": [
       "Africa/Lagos"
-    ]
+    ],
+    "domain": ".ao"
   },
   "AQ": {
     "name": "Antarctica",
@@ -221,7 +229,8 @@
       "Asia/Singapore",
       "Pacific/Auckland",
       "Pacific/Port_Moresby"
-    ]
+    ],
+    "domain": ".aq"
   },
   "AR": {
     "name": "Argentina",
@@ -257,7 +266,8 @@
       "America/Argentina/San_Luis",
       "America/Argentina/Tucuman",
       "America/Argentina/Ushuaia"
-    ]
+    ],
+    "domain": ".ar"
   },
   "AS": {
     "name": "American Samoa",
@@ -281,7 +291,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Pacific/Pago_Pago"
-    ]
+    ],
+    "domain": ".as"
   },
   "AT": {
     "name": "Austria",
@@ -305,7 +316,8 @@
     "officialLanguageName": "German",
     "timeZones": [
       "Europe/Vienna"
-    ]
+    ],
+    "domain": ".at"
   },
   "AU": {
     "name": "Australia",
@@ -341,7 +353,8 @@
       "Australia/Melbourne",
       "Australia/Perth",
       "Australia/Sydney"
-    ]
+    ],
+    "domain": ".au"
   },
   "AW": {
     "name": "Aruba",
@@ -365,7 +378,8 @@
     "officialLanguageName": "Dutch, Flemish",
     "timeZones": [
       "America/Puerto_Rico"
-    ]
+    ],
+    "domain": ".aw"
   },
   "AX": {
     "name": "Aland",
@@ -388,7 +402,8 @@
     "officialLanguageName": "Swedish",
     "timeZones": [
       "Europe/Helsinki"
-    ]
+    ],
+    "domain": ".ax"
   },
   "AZ": {
     "name": "Azerbaijan",
@@ -415,7 +430,8 @@
     "officialLanguageName": "Azerbaijani",
     "timeZones": [
       "Asia/Baku"
-    ]
+    ],
+    "domain": ".az"
   },
   "BA": {
     "name": "Bosnia and Herzegovina",
@@ -441,7 +457,8 @@
     "officialLanguageName": "Bosnian",
     "timeZones": [
       "Europe/Belgrade"
-    ]
+    ],
+    "domain": ".ba"
   },
   "BB": {
     "name": "Barbados",
@@ -464,7 +481,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "America/Barbados"
-    ]
+    ],
+    "domain": ".bb"
   },
   "BD": {
     "name": "Bangladesh",
@@ -487,7 +505,8 @@
     "officialLanguageName": "Bengali",
     "timeZones": [
       "Asia/Dhaka"
-    ]
+    ],
+    "domain": ".bd"
   },
   "BE": {
     "name": "Belgium",
@@ -513,7 +532,8 @@
     "officialLanguageName": "Dutch, Flemish",
     "timeZones": [
       "Europe/Brussels"
-    ]
+    ],
+    "domain": ".be"
   },
   "BF": {
     "name": "Burkina Faso",
@@ -537,7 +557,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "Africa/Abidjan"
-    ]
+    ],
+    "domain": ".bf"
   },
   "BG": {
     "name": "Bulgaria",
@@ -561,7 +582,8 @@
     "officialLanguageName": "Bulgarian",
     "timeZones": [
       "Europe/Sofia"
-    ]
+    ],
+    "domain": ".bg"
   },
   "BH": {
     "name": "Bahrain",
@@ -585,7 +607,8 @@
     "officialLanguageName": "Arabic",
     "timeZones": [
       "Asia/Qatar"
-    ]
+    ],
+    "domain": ".bh"
   },
   "BI": {
     "name": "Burundi",
@@ -609,7 +632,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "Africa/Maputo"
-    ]
+    ],
+    "domain": ".bi"
   },
   "BJ": {
     "name": "Benin",
@@ -632,7 +656,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "Africa/Lagos"
-    ]
+    ],
+    "domain": ".bj"
   },
   "BL": {
     "name": "Saint Barthelemy",
@@ -655,7 +680,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "America/Puerto_Rico"
-    ]
+    ],
+    "domain": ".bl"
   },
   "BM": {
     "name": "Bermuda",
@@ -678,7 +704,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Atlantic/Bermuda"
-    ]
+    ],
+    "domain": ".bm"
   },
   "BN": {
     "name": "Brunei",
@@ -701,7 +728,8 @@
     "officialLanguageName": "Malay",
     "timeZones": [
       "Asia/Kuching"
-    ]
+    ],
+    "domain": ".bn"
   },
   "BO": {
     "name": "Bolivia",
@@ -727,7 +755,8 @@
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
       "America/La_Paz"
-    ]
+    ],
+    "domain": ".bo"
   },
   "BQ": {
     "name": "Bonaire",
@@ -750,7 +779,8 @@
     "officialLanguageName": "Dutch, Flemish",
     "timeZones": [
       "America/Puerto_Rico"
-    ]
+    ],
+    "domain": ".bq"
   },
   "BR": {
     "name": "Brazil",
@@ -789,7 +819,8 @@
       "America/Rio_Branco",
       "America/Santarem",
       "America/Sao_Paulo"
-    ]
+    ],
+    "domain": ".br"
   },
   "BS": {
     "name": "Bahamas",
@@ -812,7 +843,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "America/Toronto"
-    ]
+    ],
+    "domain": ".bs"
   },
   "BT": {
     "name": "Bhutan",
@@ -835,7 +867,8 @@
     "officialLanguageName": "Dzongkha",
     "timeZones": [
       "Asia/Thimphu"
-    ]
+    ],
+    "domain": ".bt"
   },
   "BV": {
     "name": "Bouvet Island",
@@ -860,7 +893,8 @@
     "officialLanguageName": "Norwegian",
     "timeZones": [
       "Europe/Berlin"
-    ]
+    ],
+    "domain": ".bv (unofficial)"
   },
   "BW": {
     "name": "Botswana",
@@ -884,7 +918,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Africa/Maputo"
-    ]
+    ],
+    "domain": ".bw"
   },
   "BY": {
     "name": "Belarus",
@@ -909,7 +944,8 @@
     "officialLanguageName": "Belarusian",
     "timeZones": [
       "Europe/Minsk"
-    ]
+    ],
+    "domain": ".by"
   },
   "BZ": {
     "name": "Belize",
@@ -933,7 +969,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "America/Belize"
-    ]
+    ],
+    "domain": ".bz"
   },
   "CA": {
     "name": "Canada",
@@ -980,7 +1017,8 @@
       "America/Vancouver",
       "America/Whitehorse",
       "America/Winnipeg"
-    ]
+    ],
+    "domain": ".ca"
   },
   "CC": {
     "name": "Cocos (Keeling) Islands",
@@ -1003,7 +1041,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Asia/Yangon"
-    ]
+    ],
+    "domain": ".cc"
   },
   "CD": {
     "name": "Democratic Republic of the Congo",
@@ -1031,7 +1070,8 @@
     "timeZones": [
       "Africa/Lagos",
       "Africa/Maputo"
-    ]
+    ],
+    "domain": ".cd"
   },
   "CF": {
     "name": "Central African Republic",
@@ -1055,7 +1095,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "Africa/Lagos"
-    ]
+    ],
+    "domain": ".cf"
   },
   "CG": {
     "name": "Republic of the Congo",
@@ -1079,7 +1120,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "Africa/Lagos"
-    ]
+    ],
+    "domain": ".cg"
   },
   "CH": {
     "name": "Switzerland",
@@ -1105,7 +1147,8 @@
     "officialLanguageName": "German",
     "timeZones": [
       "Europe/Zurich"
-    ]
+    ],
+    "domain": ".ch"
   },
   "CI": {
     "name": "Ivory Coast",
@@ -1128,7 +1171,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "Africa/Abidjan"
-    ]
+    ],
+    "domain": ".ci"
   },
   "CK": {
     "name": "Cook Islands",
@@ -1151,7 +1195,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Pacific/Rarotonga"
-    ]
+    ],
+    "domain": ".ck"
   },
   "CL": {
     "name": "Chile",
@@ -1178,7 +1223,8 @@
       "America/Punta_Arenas",
       "America/Santiago",
       "Pacific/Easter"
-    ]
+    ],
+    "domain": ".cl"
   },
   "CM": {
     "name": "Cameroon",
@@ -1202,7 +1248,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "Africa/Lagos"
-    ]
+    ],
+    "domain": ".cm"
   },
   "CN": {
     "name": "China",
@@ -1227,7 +1274,8 @@
     "timeZones": [
       "Asia/Shanghai",
       "Asia/Urumqi"
-    ]
+    ],
+    "domain": ".cn"
   },
   "CO": {
     "name": "Colombia",
@@ -1251,7 +1299,8 @@
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
       "America/Bogota"
-    ]
+    ],
+    "domain": ".co"
   },
   "CR": {
     "name": "Costa Rica",
@@ -1275,7 +1324,8 @@
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
       "America/Costa_Rica"
-    ]
+    ],
+    "domain": ".cr"
   },
   "CU": {
     "name": "Cuba",
@@ -1298,7 +1348,8 @@
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
       "America/Havana"
-    ]
+    ],
+    "domain": ".cu"
   },
   "CV": {
     "name": "Cape Verde",
@@ -1321,7 +1372,8 @@
     "officialLanguageName": "Portuguese",
     "timeZones": [
       "Atlantic/Cape_Verde"
-    ]
+    ],
+    "domain": ".cv"
   },
   "CW": {
     "name": "Curacao",
@@ -1346,7 +1398,8 @@
     "officialLanguageName": "Dutch, Flemish",
     "timeZones": [
       "America/Puerto_Rico"
-    ]
+    ],
+    "domain": ".cw"
   },
   "CX": {
     "name": "Christmas Island",
@@ -1369,7 +1422,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Asia/Bangkok"
-    ]
+    ],
+    "domain": ".cx"
   },
   "CY": {
     "name": "Cyprus",
@@ -1396,7 +1450,8 @@
     "timeZones": [
       "Asia/Famagusta",
       "Asia/Nicosia"
-    ]
+    ],
+    "domain": ".cy"
   },
   "CZ": {
     "name": "Czech Republic",
@@ -1420,7 +1475,8 @@
     "officialLanguageName": "Czech",
     "timeZones": [
       "Europe/Prague"
-    ]
+    ],
+    "domain": ".cz"
   },
   "DE": {
     "name": "Germany",
@@ -1445,7 +1501,8 @@
     "timeZones": [
       "Europe/Berlin",
       "Europe/Zurich"
-    ]
+    ],
+    "domain": ".de"
   },
   "DJ": {
     "name": "Djibouti",
@@ -1469,7 +1526,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "Africa/Nairobi"
-    ]
+    ],
+    "domain": ".dj"
   },
   "DK": {
     "name": "Denmark",
@@ -1497,7 +1555,8 @@
     "officialLanguageName": "Danish",
     "timeZones": [
       "Europe/Berlin"
-    ]
+    ],
+    "domain": ".dk"
   },
   "DM": {
     "name": "Dominica",
@@ -1520,7 +1579,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "America/Puerto_Rico"
-    ]
+    ],
+    "domain": ".dm"
   },
   "DO": {
     "name": "Dominican Republic",
@@ -1546,7 +1606,8 @@
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
       "America/Santo_Domingo"
-    ]
+    ],
+    "domain": ".do"
   },
   "DZ": {
     "name": "Algeria",
@@ -1570,7 +1631,8 @@
     "officialLanguageName": "Arabic",
     "timeZones": [
       "Africa/Algiers"
-    ]
+    ],
+    "domain": ".dz"
   },
   "EC": {
     "name": "Ecuador",
@@ -1595,7 +1657,8 @@
     "timeZones": [
       "America/Guayaquil",
       "Pacific/Galapagos"
-    ]
+    ],
+    "domain": ".ec"
   },
   "EE": {
     "name": "Estonia",
@@ -1619,7 +1682,8 @@
     "officialLanguageName": "Estonian",
     "timeZones": [
       "Europe/Tallinn"
-    ]
+    ],
+    "domain": ".ee"
   },
   "EG": {
     "name": "Egypt",
@@ -1647,7 +1711,8 @@
     "officialLanguageName": "Arabic",
     "timeZones": [
       "Africa/Cairo"
-    ]
+    ],
+    "domain": ".eg"
   },
   "EH": {
     "name": "Western Sahara",
@@ -1670,7 +1735,8 @@
     "officialLanguageName": "Arabic",
     "timeZones": [
       "Africa/El_Aaiun"
-    ]
+    ],
+    "domain": ".eh (unofficial)"
   },
   "ER": {
     "name": "Eritrea",
@@ -1695,7 +1761,8 @@
     "officialLanguageName": "Tigrinya",
     "timeZones": [
       "Africa/Nairobi"
-    ]
+    ],
+    "domain": ".er"
   },
   "ES": {
     "name": "Spain",
@@ -1725,7 +1792,8 @@
       "Africa/Ceuta",
       "Atlantic/Canary",
       "Europe/Madrid"
-    ]
+    ],
+    "domain": ".es"
   },
   "ET": {
     "name": "Ethiopia",
@@ -1748,7 +1816,8 @@
     "officialLanguageName": "Amharic",
     "timeZones": [
       "Africa/Nairobi"
-    ]
+    ],
+    "domain": ".et"
   },
   "FI": {
     "name": "Finland",
@@ -1773,7 +1842,8 @@
     "officialLanguageName": "Finnish",
     "timeZones": [
       "Europe/Helsinki"
-    ]
+    ],
+    "domain": ".fi"
   },
   "FJ": {
     "name": "Fiji",
@@ -1799,7 +1869,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Pacific/Fiji"
-    ]
+    ],
+    "domain": ".fj"
   },
   "FK": {
     "name": "Falkland Islands",
@@ -1822,7 +1893,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Atlantic/Stanley"
-    ]
+    ],
+    "domain": ".fk"
   },
   "FM": {
     "name": "Micronesia",
@@ -1847,7 +1919,8 @@
       "Pacific/Guadalcanal",
       "Pacific/Kosrae",
       "Pacific/Port_Moresby"
-    ]
+    ],
+    "domain": ".fm"
   },
   "FO": {
     "name": "Faroe Islands",
@@ -1870,7 +1943,8 @@
     "officialLanguageName": "Danish",
     "timeZones": [
       "Atlantic/Faroe"
-    ]
+    ],
+    "domain": ".fo"
   },
   "FR": {
     "name": "France",
@@ -1894,7 +1968,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "Europe/Paris"
-    ]
+    ],
+    "domain": ".fr"
   },
   "GA": {
     "name": "Gabon",
@@ -1917,7 +1992,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "Africa/Lagos"
-    ]
+    ],
+    "domain": ".ga"
   },
   "GB": {
     "name": "United Kingdom",
@@ -1941,7 +2017,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Europe/London"
-    ]
+    ],
+    "domain": ".gb"
   },
   "GD": {
     "name": "Grenada",
@@ -1964,7 +2041,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "America/Puerto_Rico"
-    ]
+    ],
+    "domain": ".gd"
   },
   "GE": {
     "name": "Georgia",
@@ -1991,7 +2069,8 @@
     "officialLanguageName": "Georgian",
     "timeZones": [
       "Asia/Tbilisi"
-    ]
+    ],
+    "domain": ".ge"
   },
   "GF": {
     "name": "French Guiana",
@@ -2014,7 +2093,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "America/Cayenne"
-    ]
+    ],
+    "domain": ".gf"
   },
   "GG": {
     "name": "Guernsey",
@@ -2038,7 +2118,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Europe/London"
-    ]
+    ],
+    "domain": ".gg"
   },
   "GH": {
     "name": "Ghana",
@@ -2061,7 +2142,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Africa/Abidjan"
-    ]
+    ],
+    "domain": ".gh"
   },
   "GI": {
     "name": "Gibraltar",
@@ -2084,7 +2166,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Europe/Gibraltar"
-    ]
+    ],
+    "domain": ".gi"
   },
   "GL": {
     "name": "Greenland",
@@ -2110,7 +2193,8 @@
       "America/Nuuk",
       "America/Scoresbysund",
       "America/Thule"
-    ]
+    ],
+    "domain": ".gl"
   },
   "GM": {
     "name": "Gambia",
@@ -2133,7 +2217,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Africa/Abidjan"
-    ]
+    ],
+    "domain": ".gm"
   },
   "GN": {
     "name": "Guinea",
@@ -2157,7 +2242,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "Africa/Abidjan"
-    ]
+    ],
+    "domain": ".gn"
   },
   "GP": {
     "name": "Guadeloupe",
@@ -2180,7 +2266,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "America/Puerto_Rico"
-    ]
+    ],
+    "domain": ".gp"
   },
   "GQ": {
     "name": "Equatorial Guinea",
@@ -2204,7 +2291,8 @@
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
       "Africa/Lagos"
-    ]
+    ],
+    "domain": ".gq"
   },
   "GR": {
     "name": "Greece",
@@ -2228,7 +2316,8 @@
     "officialLanguageName": "Greek, Modern (1453-)",
     "timeZones": [
       "Europe/Athens"
-    ]
+    ],
+    "domain": ".gr"
   },
   "GS": {
     "name": "South Georgia and the South Sandwich Islands",
@@ -2251,7 +2340,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Atlantic/South_Georgia"
-    ]
+    ],
+    "domain": ".gs"
   },
   "GT": {
     "name": "Guatemala",
@@ -2275,7 +2365,8 @@
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
       "America/Guatemala"
-    ]
+    ],
+    "domain": ".gt"
   },
   "GU": {
     "name": "Guam",
@@ -2300,7 +2391,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Pacific/Guam"
-    ]
+    ],
+    "domain": ".gu"
   },
   "GW": {
     "name": "Guinea-Bissau",
@@ -2323,7 +2415,8 @@
     "officialLanguageName": "Portuguese",
     "timeZones": [
       "Africa/Bissau"
-    ]
+    ],
+    "domain": ".gw"
   },
   "GY": {
     "name": "Guyana",
@@ -2346,7 +2439,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "America/Guyana"
-    ]
+    ],
+    "domain": ".gy"
   },
   "HK": {
     "name": "Hong Kong",
@@ -2371,7 +2465,8 @@
     "officialLanguageName": "",
     "timeZones": [
       "Asia/Hong_Kong"
-    ]
+    ],
+    "domain": ".hk"
   },
   "HM": {
     "name": "Heard Island and McDonald Islands",
@@ -2394,7 +2489,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Indian/Maldives"
-    ]
+    ],
+    "domain": ".hm"
   },
   "HN": {
     "name": "Honduras",
@@ -2418,7 +2514,8 @@
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
       "America/Tegucigalpa"
-    ]
+    ],
+    "domain": ".hn"
   },
   "HR": {
     "name": "Croatia",
@@ -2442,7 +2539,8 @@
     "officialLanguageName": "Croatian",
     "timeZones": [
       "Europe/Belgrade"
-    ]
+    ],
+    "domain": ".hr"
   },
   "HT": {
     "name": "Haiti",
@@ -2466,7 +2564,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "America/Port-au-Prince"
-    ]
+    ],
+    "domain": ".ht"
   },
   "HU": {
     "name": "Hungary",
@@ -2490,7 +2589,8 @@
     "officialLanguageName": "Hungarian",
     "timeZones": [
       "Europe/Budapest"
-    ]
+    ],
+    "domain": ".hu"
   },
   "ID": {
     "name": "Indonesia",
@@ -2517,7 +2617,8 @@
       "Asia/Jayapura",
       "Asia/Makassar",
       "Asia/Pontianak"
-    ]
+    ],
+    "domain": ".id"
   },
   "IE": {
     "name": "Ireland",
@@ -2542,7 +2643,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Europe/Dublin"
-    ]
+    ],
+    "domain": ".ie"
   },
   "IL": {
     "name": "Israel",
@@ -2567,7 +2669,8 @@
     "officialLanguageName": "Hebrew",
     "timeZones": [
       "Asia/Jerusalem"
-    ]
+    ],
+    "domain": ".il"
   },
   "IM": {
     "name": "Isle of Man",
@@ -2591,7 +2694,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Europe/London"
-    ]
+    ],
+    "domain": ".im"
   },
   "IN": {
     "name": "India",
@@ -2616,7 +2720,8 @@
     "officialLanguageName": "Hindi",
     "timeZones": [
       "Asia/Kolkata"
-    ]
+    ],
+    "domain": ".in"
   },
   "IO": {
     "name": "British Indian Ocean Territory",
@@ -2639,7 +2744,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Indian/Chagos"
-    ]
+    ],
+    "domain": ".io"
   },
   "IQ": {
     "name": "Iraq",
@@ -2664,7 +2770,8 @@
     "officialLanguageName": "Arabic",
     "timeZones": [
       "Asia/Baghdad"
-    ]
+    ],
+    "domain": ".iq"
   },
   "IR": {
     "name": "Iran",
@@ -2687,7 +2794,8 @@
     "officialLanguageName": "Persian",
     "timeZones": [
       "Asia/Tehran"
-    ]
+    ],
+    "domain": ".ir"
   },
   "IS": {
     "name": "Iceland",
@@ -2711,7 +2819,8 @@
     "officialLanguageName": "Icelandic",
     "timeZones": [
       "Africa/Abidjan"
-    ]
+    ],
+    "domain": ".is"
   },
   "IT": {
     "name": "Italy",
@@ -2735,7 +2844,8 @@
     "officialLanguageName": "Italian",
     "timeZones": [
       "Europe/Rome"
-    ]
+    ],
+    "domain": ".it"
   },
   "JE": {
     "name": "Jersey",
@@ -2759,7 +2869,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Europe/London"
-    ]
+    ],
+    "domain": ".je"
   },
   "JM": {
     "name": "Jamaica",
@@ -2782,7 +2893,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "America/Jamaica"
-    ]
+    ],
+    "domain": ".jm"
   },
   "JO": {
     "name": "Jordan",
@@ -2806,7 +2918,8 @@
     "officialLanguageName": "Arabic",
     "timeZones": [
       "Asia/Amman"
-    ]
+    ],
+    "domain": ".jo"
   },
   "JP": {
     "name": "Japan",
@@ -2830,7 +2943,8 @@
     "officialLanguageName": "Japanese",
     "timeZones": [
       "Asia/Tokyo"
-    ]
+    ],
+    "domain": ".jp"
   },
   "KE": {
     "name": "Kenya",
@@ -2854,7 +2968,8 @@
     "officialLanguageName": "Swahili",
     "timeZones": [
       "Africa/Nairobi"
-    ]
+    ],
+    "domain": ".ke"
   },
   "KG": {
     "name": "Kyrgyzstan",
@@ -2878,7 +2993,8 @@
     "officialLanguageName": "Kirghiz, Kyrgyz",
     "timeZones": [
       "Asia/Bishkek"
-    ]
+    ],
+    "domain": ".kg"
   },
   "KH": {
     "name": "Cambodia",
@@ -2901,7 +3017,8 @@
     "officialLanguageName": "Central Khmer",
     "timeZones": [
       "Asia/Bangkok"
-    ]
+    ],
+    "domain": ".kh"
   },
   "KI": {
     "name": "Kiribati",
@@ -2926,7 +3043,8 @@
       "Pacific/Kanton",
       "Pacific/Kiritimati",
       "Pacific/Tarawa"
-    ]
+    ],
+    "domain": ".ki"
   },
   "KM": {
     "name": "Comoros",
@@ -2950,7 +3068,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "Africa/Nairobi"
-    ]
+    ],
+    "domain": ".km"
   },
   "KN": {
     "name": "Saint Kitts and Nevis",
@@ -2973,7 +3092,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "America/Puerto_Rico"
-    ]
+    ],
+    "domain": ".kn"
   },
   "KP": {
     "name": "North Korea",
@@ -2996,7 +3116,8 @@
     "officialLanguageName": "Korean",
     "timeZones": [
       "Asia/Pyongyang"
-    ]
+    ],
+    "domain": ".kp"
   },
   "KR": {
     "name": "South Korea",
@@ -3020,7 +3141,8 @@
     "officialLanguageName": "Korean",
     "timeZones": [
       "Asia/Seoul"
-    ]
+    ],
+    "domain": ".kr"
   },
   "KW": {
     "name": "Kuwait",
@@ -3044,7 +3166,8 @@
     "officialLanguageName": "Arabic",
     "timeZones": [
       "Asia/Riyadh"
-    ]
+    ],
+    "domain": ".kw"
   },
   "KY": {
     "name": "Cayman Islands",
@@ -3067,7 +3190,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "America/Panama"
-    ]
+    ],
+    "domain": ".ky"
   },
   "KZ": {
     "name": "Kazakhstan",
@@ -3101,7 +3225,8 @@
       "Asia/Oral",
       "Asia/Qostanay",
       "Asia/Qyzylorda"
-    ]
+    ],
+    "domain": ".kz"
   },
   "LA": {
     "name": "Laos",
@@ -3124,7 +3249,8 @@
     "officialLanguageName": "Lao",
     "timeZones": [
       "Asia/Bangkok"
-    ]
+    ],
+    "domain": ".la"
   },
   "LB": {
     "name": "Lebanon",
@@ -3149,7 +3275,8 @@
     "officialLanguageName": "Arabic",
     "timeZones": [
       "Asia/Beirut"
-    ]
+    ],
+    "domain": ".lb"
   },
   "LC": {
     "name": "Saint Lucia",
@@ -3172,7 +3299,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "America/Puerto_Rico"
-    ]
+    ],
+    "domain": ".lc"
   },
   "LI": {
     "name": "Liechtenstein",
@@ -3195,7 +3323,8 @@
     "officialLanguageName": "German",
     "timeZones": [
       "Europe/Zurich"
-    ]
+    ],
+    "domain": ".li"
   },
   "LK": {
     "name": "Sri Lanka",
@@ -3219,7 +3348,8 @@
     "officialLanguageName": "Sinhala, Sinhalese",
     "timeZones": [
       "Asia/Colombo"
-    ]
+    ],
+    "domain": ".lk"
   },
   "LR": {
     "name": "Liberia",
@@ -3242,7 +3372,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Africa/Monrovia"
-    ]
+    ],
+    "domain": ".lr"
   },
   "LS": {
     "name": "Lesotho",
@@ -3266,7 +3397,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Africa/Johannesburg"
-    ]
+    ],
+    "domain": ".ls"
   },
   "LT": {
     "name": "Lithuania",
@@ -3290,7 +3422,8 @@
     "officialLanguageName": "Lithuanian",
     "timeZones": [
       "Europe/Vilnius"
-    ]
+    ],
+    "domain": ".lt"
   },
   "LU": {
     "name": "Luxembourg",
@@ -3316,7 +3449,8 @@
     "officialLanguageName": "Luxembourgish, Letzeburgesch",
     "timeZones": [
       "Europe/Brussels"
-    ]
+    ],
+    "domain": ".lu"
   },
   "LV": {
     "name": "Latvia",
@@ -3340,7 +3474,8 @@
     "officialLanguageName": "Latvian",
     "timeZones": [
       "Europe/Riga"
-    ]
+    ],
+    "domain": ".lv"
   },
   "LY": {
     "name": "Libya",
@@ -3364,7 +3499,8 @@
     "officialLanguageName": "Arabic",
     "timeZones": [
       "Africa/Tripoli"
-    ]
+    ],
+    "domain": ".ly"
   },
   "MA": {
     "name": "Morocco",
@@ -3388,7 +3524,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "Africa/Casablanca"
-    ]
+    ],
+    "domain": ".ma"
   },
   "MC": {
     "name": "Monaco",
@@ -3411,7 +3548,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "Europe/Paris"
-    ]
+    ],
+    "domain": ".mc"
   },
   "MD": {
     "name": "Moldova",
@@ -3434,7 +3572,8 @@
     "officialLanguageName": "Romanian, Moldavian, Moldovan",
     "timeZones": [
       "Europe/Chisinau"
-    ]
+    ],
+    "domain": ".md"
   },
   "ME": {
     "name": "Montenegro",
@@ -3461,7 +3600,8 @@
     "officialLanguageName": "српски језик",
     "timeZones": [
       "Europe/Belgrade"
-    ]
+    ],
+    "domain": ".me"
   },
   "MF": {
     "name": "Saint Martin",
@@ -3486,7 +3626,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "America/Puerto_Rico"
-    ]
+    ],
+    "domain": ".mf"
   },
   "MG": {
     "name": "Madagascar",
@@ -3510,7 +3651,8 @@
     "officialLanguageName": "Malagasy",
     "timeZones": [
       "Africa/Nairobi"
-    ]
+    ],
+    "domain": ".mg"
   },
   "MH": {
     "name": "Marshall Islands",
@@ -3535,7 +3677,8 @@
     "timeZones": [
       "Pacific/Kwajalein",
       "Pacific/Tarawa"
-    ]
+    ],
+    "domain": ".mh"
   },
   "MK": {
     "name": "North Macedonia",
@@ -3559,7 +3702,8 @@
     "officialLanguageName": "Macedonian",
     "timeZones": [
       "Europe/Belgrade"
-    ]
+    ],
+    "domain": ".mk"
   },
   "ML": {
     "name": "Mali",
@@ -3582,7 +3726,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "Africa/Abidjan"
-    ]
+    ],
+    "domain": ".ml"
   },
   "MM": {
     "name": "Myanmar (Burma)",
@@ -3605,7 +3750,8 @@
     "officialLanguageName": "Burmese",
     "timeZones": [
       "Asia/Yangon"
-    ]
+    ],
+    "domain": ".mm"
   },
   "MN": {
     "name": "Mongolia",
@@ -3629,7 +3775,8 @@
     "timeZones": [
       "Asia/Hovd",
       "Asia/Ulaanbaatar"
-    ]
+    ],
+    "domain": ".mn"
   },
   "MO": {
     "name": "Macao",
@@ -3653,7 +3800,8 @@
     "officialLanguageName": "",
     "timeZones": [
       "Asia/Macau"
-    ]
+    ],
+    "domain": ".mo"
   },
   "MP": {
     "name": "Northern Mariana Islands",
@@ -3677,7 +3825,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Pacific/Guam"
-    ]
+    ],
+    "domain": ".mp"
   },
   "MQ": {
     "name": "Martinique",
@@ -3700,7 +3849,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "America/Martinique"
-    ]
+    ],
+    "domain": ".mq"
   },
   "MR": {
     "name": "Mauritania",
@@ -3723,7 +3873,8 @@
     "officialLanguageName": "Arabic",
     "timeZones": [
       "Africa/Abidjan"
-    ]
+    ],
+    "domain": ".mr"
   },
   "MS": {
     "name": "Montserrat",
@@ -3746,7 +3897,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "America/Puerto_Rico"
-    ]
+    ],
+    "domain": ".ms"
   },
   "MT": {
     "name": "Malta",
@@ -3771,7 +3923,8 @@
     "officialLanguageName": "Maltese",
     "timeZones": [
       "Europe/Malta"
-    ]
+    ],
+    "domain": ".mt"
   },
   "MU": {
     "name": "Mauritius",
@@ -3794,7 +3947,8 @@
     "officialLanguageName": "",
     "timeZones": [
       "Indian/Mauritius"
-    ]
+    ],
+    "domain": ".mu"
   },
   "MV": {
     "name": "Maldives",
@@ -3817,7 +3971,8 @@
     "officialLanguageName": "Divehi, Dhivehi, Maldivian",
     "timeZones": [
       "Indian/Maldives"
-    ]
+    ],
+    "domain": ".mv"
   },
   "MW": {
     "name": "Malawi",
@@ -3841,7 +3996,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Africa/Maputo"
-    ]
+    ],
+    "domain": ".mw"
   },
   "MX": {
     "name": "Mexico",
@@ -3876,7 +4032,8 @@
       "America/Monterrey",
       "America/Ojinaga",
       "America/Tijuana"
-    ]
+    ],
+    "domain": ".mx"
   },
   "MY": {
     "name": "Malaysia",
@@ -3901,7 +4058,8 @@
     "timeZones": [
       "Asia/Kuching",
       "Asia/Singapore"
-    ]
+    ],
+    "domain": ".my"
   },
   "MZ": {
     "name": "Mozambique",
@@ -3924,7 +4082,8 @@
     "officialLanguageName": "Portuguese",
     "timeZones": [
       "Africa/Maputo"
-    ]
+    ],
+    "domain": ".mz"
   },
   "NA": {
     "name": "Namibia",
@@ -3948,7 +4107,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Africa/Windhoek"
-    ]
+    ],
+    "domain": ".na"
   },
   "NC": {
     "name": "New Caledonia",
@@ -3971,7 +4131,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "Pacific/Noumea"
-    ]
+    ],
+    "domain": ".nc"
   },
   "NE": {
     "name": "Niger",
@@ -3994,7 +4155,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "Africa/Lagos"
-    ]
+    ],
+    "domain": ".ne"
   },
   "NF": {
     "name": "Norfolk Island",
@@ -4017,7 +4179,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Pacific/Norfolk"
-    ]
+    ],
+    "domain": ".nf"
   },
   "NG": {
     "name": "Nigeria",
@@ -4040,7 +4203,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Africa/Lagos"
-    ]
+    ],
+    "domain": ".ng"
   },
   "NI": {
     "name": "Nicaragua",
@@ -4064,7 +4228,8 @@
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
       "America/Managua"
-    ]
+    ],
+    "domain": ".ni"
   },
   "NL": {
     "name": "Netherlands",
@@ -4088,7 +4253,8 @@
     "officialLanguageName": "Dutch, Flemish",
     "timeZones": [
       "Europe/Brussels"
-    ]
+    ],
+    "domain": ".nl"
   },
   "NO": {
     "name": "Norway",
@@ -4114,7 +4280,8 @@
     "officialLanguageName": "Norwegian Bokmål",
     "timeZones": [
       "Europe/Berlin"
-    ]
+    ],
+    "domain": ".no"
   },
   "NP": {
     "name": "Nepal",
@@ -4137,7 +4304,8 @@
     "officialLanguageName": "Nepali",
     "timeZones": [
       "Asia/Kathmandu"
-    ]
+    ],
+    "domain": ".np"
   },
   "NR": {
     "name": "Nauru",
@@ -4161,7 +4329,8 @@
     "officialLanguageName": "Nauru",
     "timeZones": [
       "Pacific/Nauru"
-    ]
+    ],
+    "domain": ".nr"
   },
   "NU": {
     "name": "Niue",
@@ -4184,7 +4353,8 @@
     "officialLanguageName": "",
     "timeZones": [
       "Pacific/Niue"
-    ]
+    ],
+    "domain": ".nu"
   },
   "NZ": {
     "name": "New Zealand",
@@ -4210,7 +4380,8 @@
     "timeZones": [
       "Pacific/Auckland",
       "Pacific/Chatham"
-    ]
+    ],
+    "domain": ".nz"
   },
   "OM": {
     "name": "Oman",
@@ -4234,7 +4405,8 @@
     "officialLanguageName": "Arabic",
     "timeZones": [
       "Asia/Dubai"
-    ]
+    ],
+    "domain": ".om"
   },
   "PA": {
     "name": "Panama",
@@ -4258,7 +4430,8 @@
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
       "America/Panama"
-    ]
+    ],
+    "domain": ".pa"
   },
   "PE": {
     "name": "Peru",
@@ -4282,7 +4455,8 @@
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
       "America/Lima"
-    ]
+    ],
+    "domain": ".pe"
   },
   "PF": {
     "name": "French Polynesia",
@@ -4307,7 +4481,8 @@
       "Pacific/Gambier",
       "Pacific/Marquesas",
       "Pacific/Tahiti"
-    ]
+    ],
+    "domain": ".pf"
   },
   "PG": {
     "name": "Papua New Guinea",
@@ -4331,7 +4506,8 @@
     "timeZones": [
       "Pacific/Bougainville",
       "Pacific/Port_Moresby"
-    ]
+    ],
+    "domain": ".pg"
   },
   "PH": {
     "name": "Philippines",
@@ -4356,7 +4532,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Asia/Manila"
-    ]
+    ],
+    "domain": ".ph"
   },
   "PK": {
     "name": "Pakistan",
@@ -4380,7 +4557,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Asia/Karachi"
-    ]
+    ],
+    "domain": ".pk"
   },
   "PL": {
     "name": "Poland",
@@ -4404,7 +4582,8 @@
     "officialLanguageName": "Polish",
     "timeZones": [
       "Europe/Warsaw"
-    ]
+    ],
+    "domain": ".pl"
   },
   "PM": {
     "name": "Saint Pierre and Miquelon",
@@ -4427,7 +4606,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "America/Miquelon"
-    ]
+    ],
+    "domain": ".pm"
   },
   "PN": {
     "name": "Pitcairn Islands",
@@ -4450,7 +4630,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Pacific/Pitcairn"
-    ]
+    ],
+    "domain": ".pn"
   },
   "PR": {
     "name": "Puerto Rico",
@@ -4476,7 +4657,8 @@
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
       "America/Puerto_Rico"
-    ]
+    ],
+    "domain": ".pr"
   },
   "PS": {
     "name": "Palestine",
@@ -4500,7 +4682,8 @@
     "timeZones": [
       "Asia/Gaza",
       "Asia/Hebron"
-    ]
+    ],
+    "domain": ".ps"
   },
   "PT": {
     "name": "Portugal",
@@ -4526,7 +4709,8 @@
       "Atlantic/Azores",
       "Atlantic/Madeira",
       "Europe/Lisbon"
-    ]
+    ],
+    "domain": ".pt"
   },
   "PW": {
     "name": "Palau",
@@ -4549,7 +4733,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Pacific/Palau"
-    ]
+    ],
+    "domain": ".pw"
   },
   "PY": {
     "name": "Paraguay",
@@ -4574,7 +4759,8 @@
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
       "America/Asuncion"
-    ]
+    ],
+    "domain": ".py"
   },
   "QA": {
     "name": "Qatar",
@@ -4598,7 +4784,8 @@
     "officialLanguageName": "Arabic",
     "timeZones": [
       "Asia/Qatar"
-    ]
+    ],
+    "domain": ".qa"
   },
   "RE": {
     "name": "Reunion",
@@ -4621,7 +4808,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "Asia/Dubai"
-    ]
+    ],
+    "domain": ".re"
   },
   "RO": {
     "name": "Romania",
@@ -4645,7 +4833,8 @@
     "officialLanguageName": "Romanian, Moldavian, Moldovan",
     "timeZones": [
       "Europe/Bucharest"
-    ]
+    ],
+    "domain": ".ro"
   },
   "RS": {
     "name": "Serbia",
@@ -4669,7 +4858,8 @@
     "officialLanguageName": "Serbian",
     "timeZones": [
       "Europe/Belgrade"
-    ]
+    ],
+    "domain": ".rs"
   },
   "RU": {
     "name": "Russia",
@@ -4723,7 +4913,8 @@
       "Europe/Simferopol",
       "Europe/Ulyanovsk",
       "Europe/Volgograd"
-    ]
+    ],
+    "domain": ".ru"
   },
   "RW": {
     "name": "Rwanda",
@@ -4748,7 +4939,8 @@
     "officialLanguageName": "Kinyarwanda",
     "timeZones": [
       "Africa/Maputo"
-    ]
+    ],
+    "domain": ".rw"
   },
   "SA": {
     "name": "Saudi Arabia",
@@ -4772,7 +4964,8 @@
     "officialLanguageName": "Arabic",
     "timeZones": [
       "Asia/Riyadh"
-    ]
+    ],
+    "domain": ".sa"
   },
   "SB": {
     "name": "Solomon Islands",
@@ -4795,7 +4988,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Pacific/Guadalcanal"
-    ]
+    ],
+    "domain": ".sb"
   },
   "SC": {
     "name": "Seychelles",
@@ -4819,7 +5013,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "Asia/Dubai"
-    ]
+    ],
+    "domain": ".sc"
   },
   "SD": {
     "name": "Sudan",
@@ -4844,7 +5039,8 @@
     "officialLanguageName": "Arabic",
     "timeZones": [
       "Africa/Khartoum"
-    ]
+    ],
+    "domain": ".sd"
   },
   "SE": {
     "name": "Sweden",
@@ -4868,7 +5064,8 @@
     "officialLanguageName": "Swedish",
     "timeZones": [
       "Europe/Berlin"
-    ]
+    ],
+    "domain": ".se"
   },
   "SG": {
     "name": "Singapore",
@@ -4895,7 +5092,8 @@
     "officialLanguageName": "",
     "timeZones": [
       "Asia/Singapore"
-    ]
+    ],
+    "domain": ".sg"
   },
   "SH": {
     "name": "Saint Helena",
@@ -4918,7 +5116,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Africa/Abidjan"
-    ]
+    ],
+    "domain": ".sh"
   },
   "SI": {
     "name": "Slovenia",
@@ -4942,7 +5141,8 @@
     "officialLanguageName": "Slovenian",
     "timeZones": [
       "Europe/Belgrade"
-    ]
+    ],
+    "domain": ".si"
   },
   "SJ": {
     "name": "Svalbard and Jan Mayen",
@@ -4965,7 +5165,8 @@
     "officialLanguageName": "Norwegian",
     "timeZones": [
       "Europe/Berlin"
-    ]
+    ],
+    "domain": ".sj (unofficial)"
   },
   "SK": {
     "name": "Slovakia",
@@ -4989,7 +5190,8 @@
     "officialLanguageName": "Slovak",
     "timeZones": [
       "Europe/Prague"
-    ]
+    ],
+    "domain": ".sk"
   },
   "SL": {
     "name": "Sierra Leone",
@@ -5012,7 +5214,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Africa/Abidjan"
-    ]
+    ],
+    "domain": ".sl"
   },
   "SM": {
     "name": "San Marino",
@@ -5035,7 +5238,8 @@
     "officialLanguageName": "Italian",
     "timeZones": [
       "Europe/Rome"
-    ]
+    ],
+    "domain": ".sm"
   },
   "SN": {
     "name": "Senegal",
@@ -5058,7 +5262,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "Africa/Abidjan"
-    ]
+    ],
+    "domain": ".sn"
   },
   "SO": {
     "name": "Somalia",
@@ -5082,7 +5287,8 @@
     "officialLanguageName": "Somali",
     "timeZones": [
       "Africa/Nairobi"
-    ]
+    ],
+    "domain": ".so"
   },
   "SR": {
     "name": "Suriname",
@@ -5105,7 +5311,8 @@
     "officialLanguageName": "Dutch, Flemish",
     "timeZones": [
       "America/Paramaribo"
-    ]
+    ],
+    "domain": ".sr"
   },
   "SS": {
     "name": "South Sudan",
@@ -5128,7 +5335,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Africa/Juba"
-    ]
+    ],
+    "domain": ".ss"
   },
   "ST": {
     "name": "Sao Tome and Principe",
@@ -5151,7 +5359,8 @@
     "officialLanguageName": "Portuguese",
     "timeZones": [
       "Africa/Sao_Tome"
-    ]
+    ],
+    "domain": ".st"
   },
   "SV": {
     "name": "El Salvador",
@@ -5175,7 +5384,8 @@
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
       "America/El_Salvador"
-    ]
+    ],
+    "domain": ".sv"
   },
   "SX": {
     "name": "Sint Maarten",
@@ -5199,7 +5409,8 @@
     "officialLanguageName": "Dutch, Flemish",
     "timeZones": [
       "America/Puerto_Rico"
-    ]
+    ],
+    "domain": ".sx"
   },
   "SY": {
     "name": "Syria",
@@ -5223,7 +5434,8 @@
     "officialLanguageName": "Arabic",
     "timeZones": [
       "Asia/Damascus"
-    ]
+    ],
+    "domain": ".sy"
   },
   "SZ": {
     "name": "Eswatini",
@@ -5247,7 +5459,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Africa/Johannesburg"
-    ]
+    ],
+    "domain": ".sz"
   },
   "TC": {
     "name": "Turks and Caicos Islands",
@@ -5270,7 +5483,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "America/Grand_Turk"
-    ]
+    ],
+    "domain": ".tc"
   },
   "TD": {
     "name": "Chad",
@@ -5294,7 +5508,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "Africa/Ndjamena"
-    ]
+    ],
+    "domain": ".td"
   },
   "TF": {
     "name": "French Southern Territories",
@@ -5318,7 +5533,8 @@
     "timeZones": [
       "Asia/Dubai",
       "Indian/Maldives"
-    ]
+    ],
+    "domain": ".tf"
   },
   "TG": {
     "name": "Togo",
@@ -5341,7 +5557,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "Africa/Abidjan"
-    ]
+    ],
+    "domain": ".tg"
   },
   "TH": {
     "name": "Thailand",
@@ -5365,7 +5582,8 @@
     "officialLanguageName": "Thai",
     "timeZones": [
       "Asia/Bangkok"
-    ]
+    ],
+    "domain": ".th"
   },
   "TJ": {
     "name": "Tajikistan",
@@ -5389,7 +5607,8 @@
     "officialLanguageName": "Tajik",
     "timeZones": [
       "Asia/Dushanbe"
-    ]
+    ],
+    "domain": ".tj"
   },
   "TK": {
     "name": "Tokelau",
@@ -5412,7 +5631,8 @@
     "officialLanguageName": "",
     "timeZones": [
       "Pacific/Fakaofo"
-    ]
+    ],
+    "domain": ".tk"
   },
   "TL": {
     "name": "East Timor",
@@ -5435,7 +5655,8 @@
     "officialLanguageName": "Portuguese",
     "timeZones": [
       "Asia/Dili"
-    ]
+    ],
+    "domain": ".tl"
   },
   "TM": {
     "name": "Turkmenistan",
@@ -5459,7 +5680,8 @@
     "officialLanguageName": "Turkmen",
     "timeZones": [
       "Asia/Ashgabat"
-    ]
+    ],
+    "domain": ".tm"
   },
   "TN": {
     "name": "Tunisia",
@@ -5483,7 +5705,8 @@
     "officialLanguageName": "Arabic",
     "timeZones": [
       "Africa/Tunis"
-    ]
+    ],
+    "domain": ".tn"
   },
   "TO": {
     "name": "Tonga",
@@ -5507,7 +5730,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Pacific/Tongatapu"
-    ]
+    ],
+    "domain": ".to"
   },
   "TR": {
     "name": "Turkey",
@@ -5535,7 +5759,8 @@
     "officialLanguageName": "Turkish",
     "timeZones": [
       "Europe/Istanbul"
-    ]
+    ],
+    "domain": ".tr"
   },
   "TT": {
     "name": "Trinidad and Tobago",
@@ -5558,7 +5783,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "America/Puerto_Rico"
-    ]
+    ],
+    "domain": ".tt"
   },
   "TV": {
     "name": "Tuvalu",
@@ -5581,7 +5807,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Pacific/Tarawa"
-    ]
+    ],
+    "domain": ".tv"
   },
   "TW": {
     "name": "Taiwan",
@@ -5605,7 +5832,8 @@
     "officialLanguageName": "",
     "timeZones": [
       "Asia/Taipei"
-    ]
+    ],
+    "domain": ".tw"
   },
   "TZ": {
     "name": "Tanzania",
@@ -5629,7 +5857,8 @@
     "officialLanguageName": "Swahili",
     "timeZones": [
       "Africa/Nairobi"
-    ]
+    ],
+    "domain": ".tz"
   },
   "UA": {
     "name": "Ukraine",
@@ -5654,7 +5883,8 @@
     "timeZones": [
       "Europe/Kyiv",
       "Europe/Simferopol"
-    ]
+    ],
+    "domain": ".ua"
   },
   "UG": {
     "name": "Uganda",
@@ -5678,7 +5908,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Africa/Nairobi"
-    ]
+    ],
+    "domain": ".ug"
   },
   "UM": {
     "name": "U.S. Minor Outlying Islands",
@@ -5702,7 +5933,8 @@
     "timeZones": [
       "Pacific/Pago_Pago",
       "Pacific/Tarawa"
-    ]
+    ],
+    "domain": ".um (unofficial)"
   },
   "US": {
     "name": "United States",
@@ -5754,7 +5986,8 @@
       "America/Sitka",
       "America/Yakutat",
       "Pacific/Honolulu"
-    ]
+    ],
+    "domain": ".us"
   },
   "UY": {
     "name": "Uruguay",
@@ -5778,7 +6011,8 @@
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
       "America/Montevideo"
-    ]
+    ],
+    "domain": ".uy"
   },
   "UZ": {
     "name": "Uzbekistan",
@@ -5803,7 +6037,8 @@
     "timeZones": [
       "Asia/Samarkand",
       "Asia/Tashkent"
-    ]
+    ],
+    "domain": ".uz"
   },
   "VA": {
     "name": "Vatican City",
@@ -5827,7 +6062,8 @@
     "officialLanguageName": "Latin",
     "timeZones": [
       "Europe/Rome"
-    ]
+    ],
+    "domain": ".va"
   },
   "VC": {
     "name": "Saint Vincent and the Grenadines",
@@ -5850,7 +6086,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "America/Puerto_Rico"
-    ]
+    ],
+    "domain": ".vc"
   },
   "VE": {
     "name": "Venezuela",
@@ -5874,7 +6111,8 @@
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
       "America/Caracas"
-    ]
+    ],
+    "domain": ".ve"
   },
   "VG": {
     "name": "British Virgin Islands",
@@ -5897,7 +6135,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "America/Puerto_Rico"
-    ]
+    ],
+    "domain": ".vg"
   },
   "VI": {
     "name": "U.S. Virgin Islands",
@@ -5920,7 +6159,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "America/Puerto_Rico"
-    ]
+    ],
+    "domain": ".vi"
   },
   "VN": {
     "name": "Vietnam",
@@ -5945,7 +6185,8 @@
     "timeZones": [
       "Asia/Bangkok",
       "Asia/Ho_Chi_Minh"
-    ]
+    ],
+    "domain": ".vn"
   },
   "VU": {
     "name": "Vanuatu",
@@ -5970,7 +6211,8 @@
     "officialLanguageName": "Bislama",
     "timeZones": [
       "Pacific/Efate"
-    ]
+    ],
+    "domain": ".vu"
   },
   "WF": {
     "name": "Wallis and Futuna",
@@ -5993,7 +6235,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "Pacific/Tarawa"
-    ]
+    ],
+    "domain": ".wf"
   },
   "WS": {
     "name": "Samoa",
@@ -6017,7 +6260,8 @@
     "officialLanguageName": "Samoan",
     "timeZones": [
       "Pacific/Apia"
-    ]
+    ],
+    "domain": ".ws"
   },
   "XK": {
     "name": "Kosovo",
@@ -6045,7 +6289,8 @@
     "timeZones": [
       "Europe/Berlin",
       "Europe/Zurich"
-    ]
+    ],
+    "domain": ".xk (unofficial)"
   },
   "YE": {
     "name": "Yemen",
@@ -6069,7 +6314,8 @@
     "officialLanguageName": "Arabic",
     "timeZones": [
       "Asia/Riyadh"
-    ]
+    ],
+    "domain": ".ye"
   },
   "YT": {
     "name": "Mayotte",
@@ -6092,7 +6338,8 @@
     "officialLanguageName": "French",
     "timeZones": [
       "Africa/Nairobi"
-    ]
+    ],
+    "domain": ".yt"
   },
   "ZA": {
     "name": "South Africa",
@@ -6125,7 +6372,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Africa/Johannesburg"
-    ]
+    ],
+    "domain": ".za"
   },
   "ZM": {
     "name": "Zambia",
@@ -6148,7 +6396,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Africa/Maputo"
-    ]
+    ],
+    "domain": ".zm"
   },
   "ZW": {
     "name": "Zimbabwe",
@@ -6173,7 +6422,8 @@
     "officialLanguageName": "English",
     "timeZones": [
       "Africa/Maputo"
-    ]
+    ],
+    "domain": ".zw"
   }
 }
   
