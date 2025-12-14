@@ -20,7 +20,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇦🇩",
         "officialLanguageCode": "ca",
-        "officialLanguageName": "Catalan, Valencian"
+        "officialLanguageName": "Catalan, Valencian",
+        "timeZones": [
+            {
+                "name": "Europe/Andorra",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".ad"
     },
     "AE": {
         "name": "United Arab Emirates",
@@ -41,7 +51,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Arab States",
         "flag": "🇦🇪",
         "officialLanguageCode": "ar",
-        "officialLanguageName": "Arabic"
+        "officialLanguageName": "Arabic",
+        "timeZones": [
+            {
+                "name": "Asia/Dubai",
+                "utcOffset": 240,
+                "utcOffsetStr": "+04:00",
+                "dstOffset": 240,
+                "dstOffsetStr": "+04:00"
+            }
+        ],
+        "domain": ".ae"
     },
     "AF": {
         "name": "Afghanistan",
@@ -64,7 +84,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇦🇫",
         "officialLanguageCode": "fa",
-        "officialLanguageName": "Persian"
+        "officialLanguageName": "Persian",
+        "timeZones": [
+            {
+                "name": "Asia/Kabul",
+                "utcOffset": 270,
+                "utcOffsetStr": "+04:30",
+                "dstOffset": 270,
+                "dstOffsetStr": "+04:30"
+            }
+        ],
+        "domain": ".af"
     },
     "AG": {
         "name": "Antigua and Barbuda",
@@ -84,7 +114,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇦🇬",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "America/Puerto_Rico",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".ag"
     },
     "AI": {
         "name": "Anguilla",
@@ -104,7 +144,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇦🇮",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "America/Puerto_Rico",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".ai"
     },
     "AL": {
         "name": "Albania",
@@ -125,7 +175,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇦🇱",
         "officialLanguageCode": "sq",
-        "officialLanguageName": "Albanian"
+        "officialLanguageName": "Albanian",
+        "timeZones": [
+            {
+                "name": "Europe/Tirane",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".al"
     },
     "AM": {
         "name": "Armenia",
@@ -146,7 +206,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇦🇲",
         "officialLanguageCode": "hy",
-        "officialLanguageName": "Armenian"
+        "officialLanguageName": "Armenian",
+        "timeZones": [
+            {
+                "name": "Asia/Yerevan",
+                "utcOffset": 240,
+                "utcOffsetStr": "+04:00",
+                "dstOffset": 240,
+                "dstOffsetStr": "+04:00"
+            }
+        ],
+        "domain": ".am"
     },
     "AO": {
         "name": "Angola",
@@ -166,7 +236,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇦🇴",
         "officialLanguageCode": "pt",
-        "officialLanguageName": "Portuguese"
+        "officialLanguageName": "Portuguese",
+        "timeZones": [
+            {
+                "name": "Africa/Lagos",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 60,
+                "dstOffsetStr": "+01:00"
+            }
+        ],
+        "domain": ".ao"
     },
     "AQ": {
         "name": "Antarctica",
@@ -184,7 +264,87 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇦🇶",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Antarctica/Casey",
+                "utcOffset": 480,
+                "utcOffsetStr": "+08:00",
+                "dstOffset": 480,
+                "dstOffsetStr": "+08:00"
+            },
+            {
+                "name": "Antarctica/Davis",
+                "utcOffset": 420,
+                "utcOffsetStr": "+07:00",
+                "dstOffset": 420,
+                "dstOffsetStr": "+07:00"
+            },
+            {
+                "name": "Antarctica/Mawson",
+                "utcOffset": 300,
+                "utcOffsetStr": "+05:00",
+                "dstOffset": 300,
+                "dstOffsetStr": "+05:00"
+            },
+            {
+                "name": "Antarctica/Palmer",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            },
+            {
+                "name": "Antarctica/Rothera",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            },
+            {
+                "name": "Antarctica/Troll",
+                "utcOffset": 0,
+                "utcOffsetStr": "+00:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            },
+            {
+                "name": "Antarctica/Vostok",
+                "utcOffset": 300,
+                "utcOffsetStr": "+05:00",
+                "dstOffset": 300,
+                "dstOffsetStr": "+05:00"
+            },
+            {
+                "name": "Asia/Riyadh",
+                "utcOffset": 180,
+                "utcOffsetStr": "+03:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            },
+            {
+                "name": "Asia/Singapore",
+                "utcOffset": 480,
+                "utcOffsetStr": "+08:00",
+                "dstOffset": 480,
+                "dstOffsetStr": "+08:00"
+            },
+            {
+                "name": "Pacific/Auckland",
+                "utcOffset": 720,
+                "utcOffsetStr": "+12:00",
+                "dstOffset": 780,
+                "dstOffsetStr": "+13:00"
+            },
+            {
+                "name": "Pacific/Port_Moresby",
+                "utcOffset": 600,
+                "utcOffsetStr": "+10:00",
+                "dstOffset": 600,
+                "dstOffsetStr": "+10:00"
+            }
+        ],
+        "domain": ".aq"
     },
     "AR": {
         "name": "Argentina",
@@ -206,7 +366,94 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇦🇷",
         "officialLanguageCode": "es",
-        "officialLanguageName": "Spanish, Castilian"
+        "officialLanguageName": "Spanish, Castilian",
+        "timeZones": [
+            {
+                "name": "America/Argentina/Buenos_Aires",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            },
+            {
+                "name": "America/Argentina/Catamarca",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            },
+            {
+                "name": "America/Argentina/Cordoba",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            },
+            {
+                "name": "America/Argentina/Jujuy",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            },
+            {
+                "name": "America/Argentina/La_Rioja",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            },
+            {
+                "name": "America/Argentina/Mendoza",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            },
+            {
+                "name": "America/Argentina/Rio_Gallegos",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            },
+            {
+                "name": "America/Argentina/Salta",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            },
+            {
+                "name": "America/Argentina/San_Juan",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            },
+            {
+                "name": "America/Argentina/San_Luis",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            },
+            {
+                "name": "America/Argentina/Tucuman",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            },
+            {
+                "name": "America/Argentina/Ushuaia",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            }
+        ],
+        "domain": ".ar"
     },
     "AS": {
         "name": "American Samoa",
@@ -227,7 +474,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇦🇸",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Pacific/Pago_Pago",
+                "utcOffset": -660,
+                "utcOffsetStr": "-11:00",
+                "dstOffset": -660,
+                "dstOffsetStr": "-11:00"
+            }
+        ],
+        "domain": ".as"
     },
     "AT": {
         "name": "Austria",
@@ -248,7 +505,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇦🇹",
         "officialLanguageCode": "de",
-        "officialLanguageName": "German"
+        "officialLanguageName": "German",
+        "timeZones": [
+            {
+                "name": "Europe/Vienna",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".at"
     },
     "AU": {
         "name": "Australia",
@@ -269,7 +536,101 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇦🇺",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Antarctica/Macquarie",
+                "utcOffset": 600,
+                "utcOffsetStr": "+10:00",
+                "dstOffset": 660,
+                "dstOffsetStr": "+11:00"
+            },
+            {
+                "name": "Asia/Tokyo",
+                "utcOffset": 540,
+                "utcOffsetStr": "+09:00",
+                "dstOffset": 540,
+                "dstOffsetStr": "+09:00"
+            },
+            {
+                "name": "Australia/Adelaide",
+                "utcOffset": 570,
+                "utcOffsetStr": "+09:30",
+                "dstOffset": 630,
+                "dstOffsetStr": "+10:30"
+            },
+            {
+                "name": "Australia/Brisbane",
+                "utcOffset": 600,
+                "utcOffsetStr": "+10:00",
+                "dstOffset": 600,
+                "dstOffsetStr": "+10:00"
+            },
+            {
+                "name": "Australia/Broken_Hill",
+                "utcOffset": 570,
+                "utcOffsetStr": "+09:30",
+                "dstOffset": 630,
+                "dstOffsetStr": "+10:30"
+            },
+            {
+                "name": "Australia/Darwin",
+                "utcOffset": 570,
+                "utcOffsetStr": "+09:30",
+                "dstOffset": 570,
+                "dstOffsetStr": "+09:30"
+            },
+            {
+                "name": "Australia/Eucla",
+                "utcOffset": 525,
+                "utcOffsetStr": "+08:45",
+                "dstOffset": 525,
+                "dstOffsetStr": "+08:45"
+            },
+            {
+                "name": "Australia/Hobart",
+                "utcOffset": 600,
+                "utcOffsetStr": "+10:00",
+                "dstOffset": 660,
+                "dstOffsetStr": "+11:00"
+            },
+            {
+                "name": "Australia/Lindeman",
+                "utcOffset": 600,
+                "utcOffsetStr": "+10:00",
+                "dstOffset": 600,
+                "dstOffsetStr": "+10:00"
+            },
+            {
+                "name": "Australia/Lord_Howe",
+                "utcOffset": 630,
+                "utcOffsetStr": "+10:30",
+                "dstOffset": 660,
+                "dstOffsetStr": "+11:00"
+            },
+            {
+                "name": "Australia/Melbourne",
+                "utcOffset": 600,
+                "utcOffsetStr": "+10:00",
+                "dstOffset": 660,
+                "dstOffsetStr": "+11:00"
+            },
+            {
+                "name": "Australia/Perth",
+                "utcOffset": 480,
+                "utcOffsetStr": "+08:00",
+                "dstOffset": 480,
+                "dstOffsetStr": "+08:00"
+            },
+            {
+                "name": "Australia/Sydney",
+                "utcOffset": 600,
+                "utcOffsetStr": "+10:00",
+                "dstOffset": 660,
+                "dstOffsetStr": "+11:00"
+            }
+        ],
+        "domain": ".au"
     },
     "AW": {
         "name": "Aruba",
@@ -290,7 +651,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇦🇼",
         "officialLanguageCode": "nl",
-        "officialLanguageName": "Dutch, Flemish"
+        "officialLanguageName": "Dutch, Flemish",
+        "timeZones": [
+            {
+                "name": "America/Puerto_Rico",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".aw"
     },
     "AX": {
         "name": "Aland",
@@ -310,7 +681,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇦🇽",
         "officialLanguageCode": "sv",
-        "officialLanguageName": "Swedish"
+        "officialLanguageName": "Swedish",
+        "timeZones": [
+            {
+                "name": "Europe/Helsinki",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".ax"
     },
     "AZ": {
         "name": "Azerbaijan",
@@ -334,7 +715,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇦🇿",
         "officialLanguageCode": "az",
-        "officialLanguageName": "Azerbaijani"
+        "officialLanguageName": "Azerbaijani",
+        "timeZones": [
+            {
+                "name": "Asia/Baku",
+                "utcOffset": 240,
+                "utcOffsetStr": "+04:00",
+                "dstOffset": 240,
+                "dstOffsetStr": "+04:00"
+            }
+        ],
+        "domain": ".az"
     },
     "BA": {
         "name": "Bosnia and Herzegovina",
@@ -357,7 +748,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇧🇦",
         "officialLanguageCode": "bs",
-        "officialLanguageName": "Bosnian"
+        "officialLanguageName": "Bosnian",
+        "timeZones": [
+            {
+                "name": "Europe/Belgrade",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".ba"
     },
     "BB": {
         "name": "Barbados",
@@ -377,7 +778,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇧🇧",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "America/Barbados",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".bb"
     },
     "BD": {
         "name": "Bangladesh",
@@ -397,7 +808,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇧🇩",
         "officialLanguageCode": "bn",
-        "officialLanguageName": "Bengali"
+        "officialLanguageName": "Bengali",
+        "timeZones": [
+            {
+                "name": "Asia/Dhaka",
+                "utcOffset": 360,
+                "utcOffsetStr": "+06:00",
+                "dstOffset": 360,
+                "dstOffsetStr": "+06:00"
+            }
+        ],
+        "domain": ".bd"
     },
     "BE": {
         "name": "Belgium",
@@ -420,7 +841,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇧🇪",
         "officialLanguageCode": "nl",
-        "officialLanguageName": "Dutch, Flemish"
+        "officialLanguageName": "Dutch, Flemish",
+        "timeZones": [
+            {
+                "name": "Europe/Brussels",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".be"
     },
     "BF": {
         "name": "Burkina Faso",
@@ -441,7 +872,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇧🇫",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "Africa/Abidjan",
+                "utcOffset": 0,
+                "utcOffsetStr": "+00:00",
+                "dstOffset": 0,
+                "dstOffsetStr": "+00:00"
+            }
+        ],
+        "domain": ".bf"
     },
     "BG": {
         "name": "Bulgaria",
@@ -462,7 +903,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇧🇬",
         "officialLanguageCode": "bg",
-        "officialLanguageName": "Bulgarian"
+        "officialLanguageName": "Bulgarian",
+        "timeZones": [
+            {
+                "name": "Europe/Sofia",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".bg"
     },
     "BH": {
         "name": "Bahrain",
@@ -483,7 +934,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Arab States",
         "flag": "🇧🇭",
         "officialLanguageCode": "ar",
-        "officialLanguageName": "Arabic"
+        "officialLanguageName": "Arabic",
+        "timeZones": [
+            {
+                "name": "Asia/Qatar",
+                "utcOffset": 180,
+                "utcOffsetStr": "+03:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".bh"
     },
     "BI": {
         "name": "Burundi",
@@ -504,7 +965,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇧🇮",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "Africa/Maputo",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".bi"
     },
     "BJ": {
         "name": "Benin",
@@ -524,7 +995,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇧🇯",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "Africa/Lagos",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 60,
+                "dstOffsetStr": "+01:00"
+            }
+        ],
+        "domain": ".bj"
     },
     "BL": {
         "name": "Saint Barthelemy",
@@ -544,7 +1025,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇧🇱",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "America/Puerto_Rico",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".bl"
     },
     "BM": {
         "name": "Bermuda",
@@ -564,7 +1055,17 @@ exports.countriesWithRegionalInfo = {
         "region": "North America",
         "flag": "🇧🇲",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Atlantic/Bermuda",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            }
+        ],
+        "domain": ".bm"
     },
     "BN": {
         "name": "Brunei",
@@ -584,7 +1085,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇧🇳",
         "officialLanguageCode": "ms",
-        "officialLanguageName": "Malay"
+        "officialLanguageName": "Malay",
+        "timeZones": [
+            {
+                "name": "Asia/Kuching",
+                "utcOffset": 480,
+                "utcOffsetStr": "+08:00",
+                "dstOffset": 480,
+                "dstOffsetStr": "+08:00"
+            }
+        ],
+        "domain": ".bn"
     },
     "BO": {
         "name": "Bolivia",
@@ -607,7 +1118,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇧🇴",
         "officialLanguageCode": "es",
-        "officialLanguageName": "Spanish, Castilian"
+        "officialLanguageName": "Spanish, Castilian",
+        "timeZones": [
+            {
+                "name": "America/La_Paz",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".bo"
     },
     "BQ": {
         "name": "Bonaire",
@@ -627,7 +1148,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Unknown",
         "flag": "🇧🇶",
         "officialLanguageCode": "nl",
-        "officialLanguageName": "Dutch, Flemish"
+        "officialLanguageName": "Dutch, Flemish",
+        "timeZones": [
+            {
+                "name": "America/Puerto_Rico",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".bq"
     },
     "BR": {
         "name": "Brazil",
@@ -648,7 +1179,122 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇧🇷",
         "officialLanguageCode": "pt",
-        "officialLanguageName": "Portuguese"
+        "officialLanguageName": "Portuguese",
+        "timeZones": [
+            {
+                "name": "America/Araguaina",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            },
+            {
+                "name": "America/Bahia",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            },
+            {
+                "name": "America/Belem",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            },
+            {
+                "name": "America/Boa_Vista",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            },
+            {
+                "name": "America/Campo_Grande",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            },
+            {
+                "name": "America/Cuiaba",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            },
+            {
+                "name": "America/Eirunepe",
+                "utcOffset": -300,
+                "utcOffsetStr": "-05:00",
+                "dstOffset": -300,
+                "dstOffsetStr": "-05:00"
+            },
+            {
+                "name": "America/Fortaleza",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            },
+            {
+                "name": "America/Maceio",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            },
+            {
+                "name": "America/Manaus",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            },
+            {
+                "name": "America/Noronha",
+                "utcOffset": -120,
+                "utcOffsetStr": "-02:00",
+                "dstOffset": -120,
+                "dstOffsetStr": "-02:00"
+            },
+            {
+                "name": "America/Porto_Velho",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            },
+            {
+                "name": "America/Recife",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            },
+            {
+                "name": "America/Rio_Branco",
+                "utcOffset": -300,
+                "utcOffsetStr": "-05:00",
+                "dstOffset": -300,
+                "dstOffsetStr": "-05:00"
+            },
+            {
+                "name": "America/Santarem",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            },
+            {
+                "name": "America/Sao_Paulo",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            }
+        ],
+        "domain": ".br"
     },
     "BS": {
         "name": "Bahamas",
@@ -668,7 +1314,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Caribbean",
         "flag": "🇧🇸",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "America/Toronto",
+                "utcOffset": -300,
+                "utcOffsetStr": "-05:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".bs"
     },
     "BT": {
         "name": "Bhutan",
@@ -688,7 +1344,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇧🇹",
         "officialLanguageCode": "dz",
-        "officialLanguageName": "Dzongkha"
+        "officialLanguageName": "Dzongkha",
+        "timeZones": [
+            {
+                "name": "Asia/Thimphu",
+                "utcOffset": 360,
+                "utcOffsetStr": "+06:00",
+                "dstOffset": 360,
+                "dstOffsetStr": "+06:00"
+            }
+        ],
+        "domain": ".bt"
     },
     "BV": {
         "name": "Bouvet Island",
@@ -710,7 +1376,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇧🇻",
         "officialLanguageCode": "no",
-        "officialLanguageName": "Norwegian"
+        "officialLanguageName": "Norwegian",
+        "timeZones": [
+            {
+                "name": "Europe/Berlin",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".bv (unofficial)"
     },
     "BW": {
         "name": "Botswana",
@@ -731,7 +1407,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇧🇼",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Africa/Maputo",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".bw"
     },
     "BY": {
         "name": "Belarus",
@@ -753,7 +1439,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇧🇾",
         "officialLanguageCode": "be",
-        "officialLanguageName": "Belarusian"
+        "officialLanguageName": "Belarusian",
+        "timeZones": [
+            {
+                "name": "Europe/Minsk",
+                "utcOffset": 180,
+                "utcOffsetStr": "+03:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".by"
     },
     "BZ": {
         "name": "Belize",
@@ -774,7 +1470,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇧🇿",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "America/Belize",
+                "utcOffset": -360,
+                "utcOffsetStr": "-06:00",
+                "dstOffset": -360,
+                "dstOffsetStr": "-06:00"
+            }
+        ],
+        "domain": ".bz"
     },
     "CA": {
         "name": "Canada",
@@ -796,7 +1502,171 @@ exports.countriesWithRegionalInfo = {
         "region": "North America",
         "flag": "🇨🇦",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "America/Cambridge_Bay",
+                "utcOffset": -420,
+                "utcOffsetStr": "-07:00",
+                "dstOffset": -360,
+                "dstOffsetStr": "-06:00"
+            },
+            {
+                "name": "America/Dawson",
+                "utcOffset": -420,
+                "utcOffsetStr": "-07:00",
+                "dstOffset": -420,
+                "dstOffsetStr": "-07:00"
+            },
+            {
+                "name": "America/Dawson_Creek",
+                "utcOffset": -420,
+                "utcOffsetStr": "-07:00",
+                "dstOffset": -420,
+                "dstOffsetStr": "-07:00"
+            },
+            {
+                "name": "America/Edmonton",
+                "utcOffset": -420,
+                "utcOffsetStr": "-07:00",
+                "dstOffset": -360,
+                "dstOffsetStr": "-06:00"
+            },
+            {
+                "name": "America/Fort_Nelson",
+                "utcOffset": -420,
+                "utcOffsetStr": "-07:00",
+                "dstOffset": -420,
+                "dstOffsetStr": "-07:00"
+            },
+            {
+                "name": "America/Glace_Bay",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            },
+            {
+                "name": "America/Goose_Bay",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            },
+            {
+                "name": "America/Halifax",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            },
+            {
+                "name": "America/Inuvik",
+                "utcOffset": -420,
+                "utcOffsetStr": "-07:00",
+                "dstOffset": -360,
+                "dstOffsetStr": "-06:00"
+            },
+            {
+                "name": "America/Iqaluit",
+                "utcOffset": -300,
+                "utcOffsetStr": "-05:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            },
+            {
+                "name": "America/Moncton",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            },
+            {
+                "name": "America/Panama",
+                "utcOffset": -300,
+                "utcOffsetStr": "-05:00",
+                "dstOffset": -300,
+                "dstOffsetStr": "-05:00"
+            },
+            {
+                "name": "America/Phoenix",
+                "utcOffset": -420,
+                "utcOffsetStr": "-07:00",
+                "dstOffset": -420,
+                "dstOffsetStr": "-07:00"
+            },
+            {
+                "name": "America/Puerto_Rico",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            },
+            {
+                "name": "America/Rankin_Inlet",
+                "utcOffset": -360,
+                "utcOffsetStr": "-06:00",
+                "dstOffset": -300,
+                "dstOffsetStr": "-05:00"
+            },
+            {
+                "name": "America/Regina",
+                "utcOffset": -360,
+                "utcOffsetStr": "-06:00",
+                "dstOffset": -360,
+                "dstOffsetStr": "-06:00"
+            },
+            {
+                "name": "America/Resolute",
+                "utcOffset": -360,
+                "utcOffsetStr": "-06:00",
+                "dstOffset": -300,
+                "dstOffsetStr": "-05:00"
+            },
+            {
+                "name": "America/St_Johns",
+                "utcOffset": -210,
+                "utcOffsetStr": "-03:30",
+                "dstOffset": -150,
+                "dstOffsetStr": "-02:30"
+            },
+            {
+                "name": "America/Swift_Current",
+                "utcOffset": -360,
+                "utcOffsetStr": "-06:00",
+                "dstOffset": -360,
+                "dstOffsetStr": "-06:00"
+            },
+            {
+                "name": "America/Toronto",
+                "utcOffset": -300,
+                "utcOffsetStr": "-05:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            },
+            {
+                "name": "America/Vancouver",
+                "utcOffset": -480,
+                "utcOffsetStr": "-08:00",
+                "dstOffset": -420,
+                "dstOffsetStr": "-07:00"
+            },
+            {
+                "name": "America/Whitehorse",
+                "utcOffset": -420,
+                "utcOffsetStr": "-07:00",
+                "dstOffset": -420,
+                "dstOffsetStr": "-07:00"
+            },
+            {
+                "name": "America/Winnipeg",
+                "utcOffset": -360,
+                "utcOffsetStr": "-06:00",
+                "dstOffset": -300,
+                "dstOffsetStr": "-05:00"
+            }
+        ],
+        "domain": ".ca"
     },
     "CC": {
         "name": "Cocos (Keeling) Islands",
@@ -816,7 +1686,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Australia",
         "flag": "🇨🇨",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Asia/Yangon",
+                "utcOffset": 390,
+                "utcOffsetStr": "+06:30",
+                "dstOffset": 390,
+                "dstOffsetStr": "+06:30"
+            }
+        ],
+        "domain": ".cc"
     },
     "CD": {
         "name": "Democratic Republic of the Congo",
@@ -840,7 +1720,24 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇨🇩",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "Africa/Lagos",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 60,
+                "dstOffsetStr": "+01:00"
+            },
+            {
+                "name": "Africa/Maputo",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".cd"
     },
     "CF": {
         "name": "Central African Republic",
@@ -861,7 +1758,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇨🇫",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "Africa/Lagos",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 60,
+                "dstOffsetStr": "+01:00"
+            }
+        ],
+        "domain": ".cf"
     },
     "CG": {
         "name": "Republic of the Congo",
@@ -882,7 +1789,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇨🇬",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "Africa/Lagos",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 60,
+                "dstOffsetStr": "+01:00"
+            }
+        ],
+        "domain": ".cg"
     },
     "CH": {
         "name": "Switzerland",
@@ -905,7 +1822,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇨🇭",
         "officialLanguageCode": "de",
-        "officialLanguageName": "German"
+        "officialLanguageName": "German",
+        "timeZones": [
+            {
+                "name": "Europe/Zurich",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".ch"
     },
     "CI": {
         "name": "Ivory Coast",
@@ -925,7 +1852,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇨🇮",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "Africa/Abidjan",
+                "utcOffset": 0,
+                "utcOffsetStr": "+00:00",
+                "dstOffset": 0,
+                "dstOffsetStr": "+00:00"
+            }
+        ],
+        "domain": ".ci"
     },
     "CK": {
         "name": "Cook Islands",
@@ -945,7 +1882,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South Pacific Ocean",
         "flag": "🇨🇰",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Pacific/Rarotonga",
+                "utcOffset": -600,
+                "utcOffsetStr": "-10:00",
+                "dstOffset": -600,
+                "dstOffsetStr": "-10:00"
+            }
+        ],
+        "domain": ".ck"
     },
     "CL": {
         "name": "Chile",
@@ -966,7 +1913,38 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇨🇱",
         "officialLanguageCode": "es",
-        "officialLanguageName": "Spanish, Castilian"
+        "officialLanguageName": "Spanish, Castilian",
+        "timeZones": [
+            {
+                "name": "America/Coyhaique",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            },
+            {
+                "name": "America/Punta_Arenas",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            },
+            {
+                "name": "America/Santiago",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            },
+            {
+                "name": "Pacific/Easter",
+                "utcOffset": -360,
+                "utcOffsetStr": "-06:00",
+                "dstOffset": -300,
+                "dstOffsetStr": "-05:00"
+            }
+        ],
+        "domain": ".cl"
     },
     "CM": {
         "name": "Cameroon",
@@ -987,7 +1965,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇨🇲",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "Africa/Lagos",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 60,
+                "dstOffsetStr": "+01:00"
+            }
+        ],
+        "domain": ".cm"
     },
     "CN": {
         "name": "China",
@@ -1008,7 +1996,24 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇨🇳",
         "officialLanguageCode": "zh-hans",
-        "officialLanguageName": ""
+        "officialLanguageName": "",
+        "timeZones": [
+            {
+                "name": "Asia/Shanghai",
+                "utcOffset": 480,
+                "utcOffsetStr": "+08:00",
+                "dstOffset": 480,
+                "dstOffsetStr": "+08:00"
+            },
+            {
+                "name": "Asia/Urumqi",
+                "utcOffset": 360,
+                "utcOffsetStr": "+06:00",
+                "dstOffset": 360,
+                "dstOffsetStr": "+06:00"
+            }
+        ],
+        "domain": ".cn"
     },
     "CO": {
         "name": "Colombia",
@@ -1029,7 +2034,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇨🇴",
         "officialLanguageCode": "es",
-        "officialLanguageName": "Spanish, Castilian"
+        "officialLanguageName": "Spanish, Castilian",
+        "timeZones": [
+            {
+                "name": "America/Bogota",
+                "utcOffset": -300,
+                "utcOffsetStr": "-05:00",
+                "dstOffset": -300,
+                "dstOffsetStr": "-05:00"
+            }
+        ],
+        "domain": ".co"
     },
     "CR": {
         "name": "Costa Rica",
@@ -1050,7 +2065,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇨🇷",
         "officialLanguageCode": "es",
-        "officialLanguageName": "Spanish, Castilian"
+        "officialLanguageName": "Spanish, Castilian",
+        "timeZones": [
+            {
+                "name": "America/Costa_Rica",
+                "utcOffset": -360,
+                "utcOffsetStr": "-06:00",
+                "dstOffset": -360,
+                "dstOffsetStr": "-06:00"
+            }
+        ],
+        "domain": ".cr"
     },
     "CU": {
         "name": "Cuba",
@@ -1070,7 +2095,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇨🇺",
         "officialLanguageCode": "es",
-        "officialLanguageName": "Spanish, Castilian"
+        "officialLanguageName": "Spanish, Castilian",
+        "timeZones": [
+            {
+                "name": "America/Havana",
+                "utcOffset": -300,
+                "utcOffsetStr": "-05:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".cu"
     },
     "CV": {
         "name": "Cape Verde",
@@ -1090,7 +2125,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇨🇻",
         "officialLanguageCode": "pt",
-        "officialLanguageName": "Portuguese"
+        "officialLanguageName": "Portuguese",
+        "timeZones": [
+            {
+                "name": "Atlantic/Cape_Verde",
+                "utcOffset": -60,
+                "utcOffsetStr": "-01:00",
+                "dstOffset": -60,
+                "dstOffsetStr": "-01:00"
+            }
+        ],
+        "domain": ".cv"
     },
     "CW": {
         "name": "Curacao",
@@ -1112,7 +2157,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Unknown",
         "flag": "🇨🇼",
         "officialLanguageCode": "nl",
-        "officialLanguageName": "Dutch, Flemish"
+        "officialLanguageName": "Dutch, Flemish",
+        "timeZones": [
+            {
+                "name": "America/Puerto_Rico",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".cw"
     },
     "CX": {
         "name": "Christmas Island",
@@ -1132,7 +2187,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇨🇽",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Asia/Bangkok",
+                "utcOffset": 420,
+                "utcOffsetStr": "+07:00",
+                "dstOffset": 420,
+                "dstOffsetStr": "+07:00"
+            }
+        ],
+        "domain": ".cx"
     },
     "CY": {
         "name": "Cyprus",
@@ -1155,7 +2220,24 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇨🇾",
         "officialLanguageCode": "el",
-        "officialLanguageName": "Greek, Modern (1453-)"
+        "officialLanguageName": "Greek, Modern (1453-)",
+        "timeZones": [
+            {
+                "name": "Asia/Famagusta",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            },
+            {
+                "name": "Asia/Nicosia",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".cy"
     },
     "CZ": {
         "name": "Czech Republic",
@@ -1176,7 +2258,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇨🇿",
         "officialLanguageCode": "cs",
-        "officialLanguageName": "Czech"
+        "officialLanguageName": "Czech",
+        "timeZones": [
+            {
+                "name": "Europe/Prague",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".cz"
     },
     "DE": {
         "name": "Germany",
@@ -1197,7 +2289,24 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇩🇪",
         "officialLanguageCode": "de",
-        "officialLanguageName": "German"
+        "officialLanguageName": "German",
+        "timeZones": [
+            {
+                "name": "Europe/Berlin",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            },
+            {
+                "name": "Europe/Zurich",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".de"
     },
     "DJ": {
         "name": "Djibouti",
@@ -1218,7 +2327,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Arab States",
         "flag": "🇩🇯",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "Africa/Nairobi",
+                "utcOffset": 180,
+                "utcOffsetStr": "+03:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".dj"
     },
     "DK": {
         "name": "Denmark",
@@ -1243,7 +2362,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇩🇰",
         "officialLanguageCode": "da",
-        "officialLanguageName": "Danish"
+        "officialLanguageName": "Danish",
+        "timeZones": [
+            {
+                "name": "Europe/Berlin",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".dk"
     },
     "DM": {
         "name": "Dominica",
@@ -1263,7 +2392,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇩🇲",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "America/Puerto_Rico",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".dm"
     },
     "DO": {
         "name": "Dominican Republic",
@@ -1286,7 +2425,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇩🇴",
         "officialLanguageCode": "es",
-        "officialLanguageName": "Spanish, Castilian"
+        "officialLanguageName": "Spanish, Castilian",
+        "timeZones": [
+            {
+                "name": "America/Santo_Domingo",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".do"
     },
     "DZ": {
         "name": "Algeria",
@@ -1307,7 +2456,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Arab States",
         "flag": "🇩🇿",
         "officialLanguageCode": "ar",
-        "officialLanguageName": "Arabic"
+        "officialLanguageName": "Arabic",
+        "timeZones": [
+            {
+                "name": "Africa/Algiers",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 60,
+                "dstOffsetStr": "+01:00"
+            }
+        ],
+        "domain": ".dz"
     },
     "EC": {
         "name": "Ecuador",
@@ -1328,7 +2487,24 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇪🇨",
         "officialLanguageCode": "es",
-        "officialLanguageName": "Spanish, Castilian"
+        "officialLanguageName": "Spanish, Castilian",
+        "timeZones": [
+            {
+                "name": "America/Guayaquil",
+                "utcOffset": -300,
+                "utcOffsetStr": "-05:00",
+                "dstOffset": -300,
+                "dstOffsetStr": "-05:00"
+            },
+            {
+                "name": "Pacific/Galapagos",
+                "utcOffset": -360,
+                "utcOffsetStr": "-06:00",
+                "dstOffset": -360,
+                "dstOffsetStr": "-06:00"
+            }
+        ],
+        "domain": ".ec"
     },
     "EE": {
         "name": "Estonia",
@@ -1349,7 +2525,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇪🇪",
         "officialLanguageCode": "et",
-        "officialLanguageName": "Estonian"
+        "officialLanguageName": "Estonian",
+        "timeZones": [
+            {
+                "name": "Europe/Tallinn",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".ee"
     },
     "EG": {
         "name": "Egypt",
@@ -1374,7 +2560,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Arab States",
         "flag": "🇪🇬",
         "officialLanguageCode": "ar",
-        "officialLanguageName": "Arabic"
+        "officialLanguageName": "Arabic",
+        "timeZones": [
+            {
+                "name": "Africa/Cairo",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".eg"
     },
     "EH": {
         "name": "Western Sahara",
@@ -1394,7 +2590,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇪🇭",
         "officialLanguageCode": "ar",
-        "officialLanguageName": "Arabic"
+        "officialLanguageName": "Arabic",
+        "timeZones": [
+            {
+                "name": "Africa/El_Aaiun",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 0,
+                "dstOffsetStr": "+00:00"
+            }
+        ],
+        "domain": ".eh (unofficial)"
     },
     "ER": {
         "name": "Eritrea",
@@ -1416,7 +2622,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇪🇷",
         "officialLanguageCode": "ti",
-        "officialLanguageName": "Tigrinya"
+        "officialLanguageName": "Tigrinya",
+        "timeZones": [
+            {
+                "name": "Africa/Nairobi",
+                "utcOffset": 180,
+                "utcOffsetStr": "+03:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".er"
     },
     "ES": {
         "name": "Spain",
@@ -1441,7 +2657,31 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇪🇸",
         "officialLanguageCode": "es",
-        "officialLanguageName": "Spanish, Castilian"
+        "officialLanguageName": "Spanish, Castilian",
+        "timeZones": [
+            {
+                "name": "Africa/Ceuta",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            },
+            {
+                "name": "Atlantic/Canary",
+                "utcOffset": 0,
+                "utcOffsetStr": "+00:00",
+                "dstOffset": 60,
+                "dstOffsetStr": "+01:00"
+            },
+            {
+                "name": "Europe/Madrid",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".es"
     },
     "ET": {
         "name": "Ethiopia",
@@ -1461,7 +2701,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇪🇹",
         "officialLanguageCode": "am",
-        "officialLanguageName": "Amharic"
+        "officialLanguageName": "Amharic",
+        "timeZones": [
+            {
+                "name": "Africa/Nairobi",
+                "utcOffset": 180,
+                "utcOffsetStr": "+03:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".et"
     },
     "FI": {
         "name": "Finland",
@@ -1483,7 +2733,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇫🇮",
         "officialLanguageCode": "fi",
-        "officialLanguageName": "Finnish"
+        "officialLanguageName": "Finnish",
+        "timeZones": [
+            {
+                "name": "Europe/Helsinki",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".fi"
     },
     "FJ": {
         "name": "Fiji",
@@ -1506,7 +2766,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇫🇯",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Pacific/Fiji",
+                "utcOffset": 720,
+                "utcOffsetStr": "+12:00",
+                "dstOffset": 720,
+                "dstOffsetStr": "+12:00"
+            }
+        ],
+        "domain": ".fj"
     },
     "FK": {
         "name": "Falkland Islands",
@@ -1526,7 +2796,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South Atlantic Ocean",
         "flag": "🇫🇰",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Atlantic/Stanley",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            }
+        ],
+        "domain": ".fk"
     },
     "FM": {
         "name": "Micronesia",
@@ -1546,7 +2826,31 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇫🇲",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Pacific/Guadalcanal",
+                "utcOffset": 660,
+                "utcOffsetStr": "+11:00",
+                "dstOffset": 660,
+                "dstOffsetStr": "+11:00"
+            },
+            {
+                "name": "Pacific/Kosrae",
+                "utcOffset": 660,
+                "utcOffsetStr": "+11:00",
+                "dstOffset": 660,
+                "dstOffsetStr": "+11:00"
+            },
+            {
+                "name": "Pacific/Port_Moresby",
+                "utcOffset": 600,
+                "utcOffsetStr": "+10:00",
+                "dstOffset": 600,
+                "dstOffsetStr": "+10:00"
+            }
+        ],
+        "domain": ".fm"
     },
     "FO": {
         "name": "Faroe Islands",
@@ -1566,7 +2870,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇫🇴",
         "officialLanguageCode": "da",
-        "officialLanguageName": "Danish"
+        "officialLanguageName": "Danish",
+        "timeZones": [
+            {
+                "name": "Atlantic/Faroe",
+                "utcOffset": 0,
+                "utcOffsetStr": "+00:00",
+                "dstOffset": 60,
+                "dstOffsetStr": "+01:00"
+            }
+        ],
+        "domain": ".fo"
     },
     "FR": {
         "name": "France",
@@ -1587,7 +2901,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇫🇷",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "Europe/Paris",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".fr"
     },
     "GA": {
         "name": "Gabon",
@@ -1607,7 +2931,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇬🇦",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "Africa/Lagos",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 60,
+                "dstOffsetStr": "+01:00"
+            }
+        ],
+        "domain": ".ga"
     },
     "GB": {
         "name": "United Kingdom",
@@ -1628,7 +2962,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇬🇧",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Europe/London",
+                "utcOffset": 0,
+                "utcOffsetStr": "+00:00",
+                "dstOffset": 60,
+                "dstOffsetStr": "+01:00"
+            }
+        ],
+        "domain": ".gb"
     },
     "GD": {
         "name": "Grenada",
@@ -1648,7 +2992,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇬🇩",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "America/Puerto_Rico",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".gd"
     },
     "GE": {
         "name": "Georgia",
@@ -1672,7 +3026,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇬🇪",
         "officialLanguageCode": "ka",
-        "officialLanguageName": "Georgian"
+        "officialLanguageName": "Georgian",
+        "timeZones": [
+            {
+                "name": "Asia/Tbilisi",
+                "utcOffset": 240,
+                "utcOffsetStr": "+04:00",
+                "dstOffset": 240,
+                "dstOffsetStr": "+04:00"
+            }
+        ],
+        "domain": ".ge"
     },
     "GF": {
         "name": "French Guiana",
@@ -1692,7 +3056,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇬🇫",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "America/Cayenne",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            }
+        ],
+        "domain": ".gf"
     },
     "GG": {
         "name": "Guernsey",
@@ -1713,7 +3087,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇬🇬",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Europe/London",
+                "utcOffset": 0,
+                "utcOffsetStr": "+00:00",
+                "dstOffset": 60,
+                "dstOffsetStr": "+01:00"
+            }
+        ],
+        "domain": ".gg"
     },
     "GH": {
         "name": "Ghana",
@@ -1733,7 +3117,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇬🇭",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Africa/Abidjan",
+                "utcOffset": 0,
+                "utcOffsetStr": "+00:00",
+                "dstOffset": 0,
+                "dstOffsetStr": "+00:00"
+            }
+        ],
+        "domain": ".gh"
     },
     "GI": {
         "name": "Gibraltar",
@@ -1753,7 +3147,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇬🇮",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Europe/Gibraltar",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".gi"
     },
     "GL": {
         "name": "Greenland",
@@ -1773,7 +3177,38 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇬🇱",
         "officialLanguageCode": "kl",
-        "officialLanguageName": "Kalaallisut, Greenlandic"
+        "officialLanguageName": "Kalaallisut, Greenlandic",
+        "timeZones": [
+            {
+                "name": "America/Danmarkshavn",
+                "utcOffset": 0,
+                "utcOffsetStr": "+00:00",
+                "dstOffset": 0,
+                "dstOffsetStr": "+00:00"
+            },
+            {
+                "name": "America/Nuuk",
+                "utcOffset": -120,
+                "utcOffsetStr": "-02:00",
+                "dstOffset": -60,
+                "dstOffsetStr": "-01:00"
+            },
+            {
+                "name": "America/Scoresbysund",
+                "utcOffset": -120,
+                "utcOffsetStr": "-02:00",
+                "dstOffset": -60,
+                "dstOffsetStr": "-01:00"
+            },
+            {
+                "name": "America/Thule",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            }
+        ],
+        "domain": ".gl"
     },
     "GM": {
         "name": "Gambia",
@@ -1793,7 +3228,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇬🇲",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Africa/Abidjan",
+                "utcOffset": 0,
+                "utcOffsetStr": "+00:00",
+                "dstOffset": 0,
+                "dstOffsetStr": "+00:00"
+            }
+        ],
+        "domain": ".gm"
     },
     "GN": {
         "name": "Guinea",
@@ -1814,7 +3259,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇬🇳",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "Africa/Abidjan",
+                "utcOffset": 0,
+                "utcOffsetStr": "+00:00",
+                "dstOffset": 0,
+                "dstOffsetStr": "+00:00"
+            }
+        ],
+        "domain": ".gn"
     },
     "GP": {
         "name": "Guadeloupe",
@@ -1834,7 +3289,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇬🇵",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "America/Puerto_Rico",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".gp"
     },
     "GQ": {
         "name": "Equatorial Guinea",
@@ -1855,7 +3320,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇬🇶",
         "officialLanguageCode": "es",
-        "officialLanguageName": "Spanish, Castilian"
+        "officialLanguageName": "Spanish, Castilian",
+        "timeZones": [
+            {
+                "name": "Africa/Lagos",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 60,
+                "dstOffsetStr": "+01:00"
+            }
+        ],
+        "domain": ".gq"
     },
     "GR": {
         "name": "Greece",
@@ -1876,7 +3351,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇬🇷",
         "officialLanguageCode": "el",
-        "officialLanguageName": "Greek, Modern (1453-)"
+        "officialLanguageName": "Greek, Modern (1453-)",
+        "timeZones": [
+            {
+                "name": "Europe/Athens",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".gr"
     },
     "GS": {
         "name": "South Georgia and the South Sandwich Islands",
@@ -1896,7 +3381,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇬🇸",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Atlantic/South_Georgia",
+                "utcOffset": -120,
+                "utcOffsetStr": "-02:00",
+                "dstOffset": -120,
+                "dstOffsetStr": "-02:00"
+            }
+        ],
+        "domain": ".gs"
     },
     "GT": {
         "name": "Guatemala",
@@ -1917,7 +3412,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇬🇹",
         "officialLanguageCode": "es",
-        "officialLanguageName": "Spanish, Castilian"
+        "officialLanguageName": "Spanish, Castilian",
+        "timeZones": [
+            {
+                "name": "America/Guatemala",
+                "utcOffset": -360,
+                "utcOffsetStr": "-06:00",
+                "dstOffset": -360,
+                "dstOffsetStr": "-06:00"
+            }
+        ],
+        "domain": ".gt"
     },
     "GU": {
         "name": "Guam",
@@ -1939,7 +3444,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇬🇺",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Pacific/Guam",
+                "utcOffset": 600,
+                "utcOffsetStr": "+10:00",
+                "dstOffset": 600,
+                "dstOffsetStr": "+10:00"
+            }
+        ],
+        "domain": ".gu"
     },
     "GW": {
         "name": "Guinea-Bissau",
@@ -1959,7 +3474,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇬🇼",
         "officialLanguageCode": "pt",
-        "officialLanguageName": "Portuguese"
+        "officialLanguageName": "Portuguese",
+        "timeZones": [
+            {
+                "name": "Africa/Bissau",
+                "utcOffset": 0,
+                "utcOffsetStr": "+00:00",
+                "dstOffset": 0,
+                "dstOffsetStr": "+00:00"
+            }
+        ],
+        "domain": ".gw"
     },
     "GY": {
         "name": "Guyana",
@@ -1979,7 +3504,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇬🇾",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "America/Guyana",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".gy"
     },
     "HK": {
         "name": "Hong Kong",
@@ -2001,7 +3536,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇭🇰",
         "officialLanguageCode": "zh-hant",
-        "officialLanguageName": ""
+        "officialLanguageName": "",
+        "timeZones": [
+            {
+                "name": "Asia/Hong_Kong",
+                "utcOffset": 480,
+                "utcOffsetStr": "+08:00",
+                "dstOffset": 480,
+                "dstOffsetStr": "+08:00"
+            }
+        ],
+        "domain": ".hk"
     },
     "HM": {
         "name": "Heard Island and McDonald Islands",
@@ -2021,7 +3566,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Indian Ocean",
         "flag": "🇭🇲",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Indian/Maldives",
+                "utcOffset": 300,
+                "utcOffsetStr": "+05:00",
+                "dstOffset": 300,
+                "dstOffsetStr": "+05:00"
+            }
+        ],
+        "domain": ".hm"
     },
     "HN": {
         "name": "Honduras",
@@ -2042,7 +3597,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇭🇳",
         "officialLanguageCode": "es",
-        "officialLanguageName": "Spanish, Castilian"
+        "officialLanguageName": "Spanish, Castilian",
+        "timeZones": [
+            {
+                "name": "America/Tegucigalpa",
+                "utcOffset": -360,
+                "utcOffsetStr": "-06:00",
+                "dstOffset": -360,
+                "dstOffsetStr": "-06:00"
+            }
+        ],
+        "domain": ".hn"
     },
     "HR": {
         "name": "Croatia",
@@ -2063,7 +3628,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇭🇷",
         "officialLanguageCode": "hr",
-        "officialLanguageName": "Croatian"
+        "officialLanguageName": "Croatian",
+        "timeZones": [
+            {
+                "name": "Europe/Belgrade",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".hr"
     },
     "HT": {
         "name": "Haiti",
@@ -2084,7 +3659,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇭🇹",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "America/Port-au-Prince",
+                "utcOffset": -300,
+                "utcOffsetStr": "-05:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".ht"
     },
     "HU": {
         "name": "Hungary",
@@ -2105,7 +3690,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇭🇺",
         "officialLanguageCode": "hu",
-        "officialLanguageName": "Hungarian"
+        "officialLanguageName": "Hungarian",
+        "timeZones": [
+            {
+                "name": "Europe/Budapest",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".hu"
     },
     "ID": {
         "name": "Indonesia",
@@ -2126,7 +3721,38 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇮🇩",
         "officialLanguageCode": "id",
-        "officialLanguageName": "Indonesian"
+        "officialLanguageName": "Indonesian",
+        "timeZones": [
+            {
+                "name": "Asia/Jakarta",
+                "utcOffset": 420,
+                "utcOffsetStr": "+07:00",
+                "dstOffset": 420,
+                "dstOffsetStr": "+07:00"
+            },
+            {
+                "name": "Asia/Jayapura",
+                "utcOffset": 540,
+                "utcOffsetStr": "+09:00",
+                "dstOffset": 540,
+                "dstOffsetStr": "+09:00"
+            },
+            {
+                "name": "Asia/Makassar",
+                "utcOffset": 480,
+                "utcOffsetStr": "+08:00",
+                "dstOffset": 480,
+                "dstOffsetStr": "+08:00"
+            },
+            {
+                "name": "Asia/Pontianak",
+                "utcOffset": 420,
+                "utcOffsetStr": "+07:00",
+                "dstOffset": 420,
+                "dstOffsetStr": "+07:00"
+            }
+        ],
+        "domain": ".id"
     },
     "IE": {
         "name": "Ireland",
@@ -2148,7 +3774,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇮🇪",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Europe/Dublin",
+                "utcOffset": 0,
+                "utcOffsetStr": "+00:00",
+                "dstOffset": 60,
+                "dstOffsetStr": "+01:00"
+            }
+        ],
+        "domain": ".ie"
     },
     "IL": {
         "name": "Israel",
@@ -2170,7 +3806,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇮🇱",
         "officialLanguageCode": "he",
-        "officialLanguageName": "Hebrew"
+        "officialLanguageName": "Hebrew",
+        "timeZones": [
+            {
+                "name": "Asia/Jerusalem",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".il"
     },
     "IM": {
         "name": "Isle of Man",
@@ -2191,7 +3837,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇮🇲",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Europe/London",
+                "utcOffset": 0,
+                "utcOffsetStr": "+00:00",
+                "dstOffset": 60,
+                "dstOffsetStr": "+01:00"
+            }
+        ],
+        "domain": ".im"
     },
     "IN": {
         "name": "India",
@@ -2213,7 +3869,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇮🇳",
         "officialLanguageCode": "hi",
-        "officialLanguageName": "Hindi"
+        "officialLanguageName": "Hindi",
+        "timeZones": [
+            {
+                "name": "Asia/Kolkata",
+                "utcOffset": 330,
+                "utcOffsetStr": "+05:30",
+                "dstOffset": 330,
+                "dstOffsetStr": "+05:30"
+            }
+        ],
+        "domain": ".in"
     },
     "IO": {
         "name": "British Indian Ocean Territory",
@@ -2233,7 +3899,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Indian Ocean",
         "flag": "🇮🇴",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Indian/Chagos",
+                "utcOffset": 360,
+                "utcOffsetStr": "+06:00",
+                "dstOffset": 360,
+                "dstOffsetStr": "+06:00"
+            }
+        ],
+        "domain": ".io"
     },
     "IQ": {
         "name": "Iraq",
@@ -2255,7 +3931,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Arab States",
         "flag": "🇮🇶",
         "officialLanguageCode": "ar",
-        "officialLanguageName": "Arabic"
+        "officialLanguageName": "Arabic",
+        "timeZones": [
+            {
+                "name": "Asia/Baghdad",
+                "utcOffset": 180,
+                "utcOffsetStr": "+03:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".iq"
     },
     "IR": {
         "name": "Iran",
@@ -2275,7 +3961,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇮🇷",
         "officialLanguageCode": "fa",
-        "officialLanguageName": "Persian"
+        "officialLanguageName": "Persian",
+        "timeZones": [
+            {
+                "name": "Asia/Tehran",
+                "utcOffset": 210,
+                "utcOffsetStr": "+03:30",
+                "dstOffset": 210,
+                "dstOffsetStr": "+03:30"
+            }
+        ],
+        "domain": ".ir"
     },
     "IS": {
         "name": "Iceland",
@@ -2296,7 +3992,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇮🇸",
         "officialLanguageCode": "is",
-        "officialLanguageName": "Icelandic"
+        "officialLanguageName": "Icelandic",
+        "timeZones": [
+            {
+                "name": "Africa/Abidjan",
+                "utcOffset": 0,
+                "utcOffsetStr": "+00:00",
+                "dstOffset": 0,
+                "dstOffsetStr": "+00:00"
+            }
+        ],
+        "domain": ".is"
     },
     "IT": {
         "name": "Italy",
@@ -2317,7 +4023,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇮🇹",
         "officialLanguageCode": "it",
-        "officialLanguageName": "Italian"
+        "officialLanguageName": "Italian",
+        "timeZones": [
+            {
+                "name": "Europe/Rome",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".it"
     },
     "JE": {
         "name": "Jersey",
@@ -2338,7 +4054,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇯🇪",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Europe/London",
+                "utcOffset": 0,
+                "utcOffsetStr": "+00:00",
+                "dstOffset": 60,
+                "dstOffsetStr": "+01:00"
+            }
+        ],
+        "domain": ".je"
     },
     "JM": {
         "name": "Jamaica",
@@ -2358,7 +4084,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇯🇲",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "America/Jamaica",
+                "utcOffset": -300,
+                "utcOffsetStr": "-05:00",
+                "dstOffset": -300,
+                "dstOffsetStr": "-05:00"
+            }
+        ],
+        "domain": ".jm"
     },
     "JO": {
         "name": "Jordan",
@@ -2379,7 +4115,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Arab States",
         "flag": "🇯🇴",
         "officialLanguageCode": "ar",
-        "officialLanguageName": "Arabic"
+        "officialLanguageName": "Arabic",
+        "timeZones": [
+            {
+                "name": "Asia/Amman",
+                "utcOffset": 180,
+                "utcOffsetStr": "+03:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".jo"
     },
     "JP": {
         "name": "Japan",
@@ -2400,7 +4146,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇯🇵",
         "officialLanguageCode": "ja",
-        "officialLanguageName": "Japanese"
+        "officialLanguageName": "Japanese",
+        "timeZones": [
+            {
+                "name": "Asia/Tokyo",
+                "utcOffset": 540,
+                "utcOffsetStr": "+09:00",
+                "dstOffset": 540,
+                "dstOffsetStr": "+09:00"
+            }
+        ],
+        "domain": ".jp"
     },
     "KE": {
         "name": "Kenya",
@@ -2421,7 +4177,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇰🇪",
         "officialLanguageCode": "sw",
-        "officialLanguageName": "Swahili"
+        "officialLanguageName": "Swahili",
+        "timeZones": [
+            {
+                "name": "Africa/Nairobi",
+                "utcOffset": 180,
+                "utcOffsetStr": "+03:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".ke"
     },
     "KG": {
         "name": "Kyrgyzstan",
@@ -2442,7 +4208,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇰🇬",
         "officialLanguageCode": "ky",
-        "officialLanguageName": "Kirghiz, Kyrgyz"
+        "officialLanguageName": "Kirghiz, Kyrgyz",
+        "timeZones": [
+            {
+                "name": "Asia/Bishkek",
+                "utcOffset": 360,
+                "utcOffsetStr": "+06:00",
+                "dstOffset": 360,
+                "dstOffsetStr": "+06:00"
+            }
+        ],
+        "domain": ".kg"
     },
     "KH": {
         "name": "Cambodia",
@@ -2462,7 +4238,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇰🇭",
         "officialLanguageCode": "km",
-        "officialLanguageName": "Central Khmer"
+        "officialLanguageName": "Central Khmer",
+        "timeZones": [
+            {
+                "name": "Asia/Bangkok",
+                "utcOffset": 420,
+                "utcOffsetStr": "+07:00",
+                "dstOffset": 420,
+                "dstOffsetStr": "+07:00"
+            }
+        ],
+        "domain": ".kh"
     },
     "KI": {
         "name": "Kiribati",
@@ -2482,7 +4268,31 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇰🇮",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Pacific/Kanton",
+                "utcOffset": 780,
+                "utcOffsetStr": "+13:00",
+                "dstOffset": 780,
+                "dstOffsetStr": "+13:00"
+            },
+            {
+                "name": "Pacific/Kiritimati",
+                "utcOffset": 840,
+                "utcOffsetStr": "+14:00",
+                "dstOffset": 840,
+                "dstOffsetStr": "+14:00"
+            },
+            {
+                "name": "Pacific/Tarawa",
+                "utcOffset": 720,
+                "utcOffsetStr": "+12:00",
+                "dstOffset": 720,
+                "dstOffsetStr": "+12:00"
+            }
+        ],
+        "domain": ".ki"
     },
     "KM": {
         "name": "Comoros",
@@ -2503,7 +4313,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Indian Ocean",
         "flag": "🇰🇲",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "Africa/Nairobi",
+                "utcOffset": 180,
+                "utcOffsetStr": "+03:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".km"
     },
     "KN": {
         "name": "Saint Kitts and Nevis",
@@ -2523,7 +4343,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇰🇳",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "America/Puerto_Rico",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".kn"
     },
     "KP": {
         "name": "North Korea",
@@ -2543,7 +4373,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia",
         "flag": "🇰🇵",
         "officialLanguageCode": "ko",
-        "officialLanguageName": "Korean"
+        "officialLanguageName": "Korean",
+        "timeZones": [
+            {
+                "name": "Asia/Pyongyang",
+                "utcOffset": 540,
+                "utcOffsetStr": "+09:00",
+                "dstOffset": 540,
+                "dstOffsetStr": "+09:00"
+            }
+        ],
+        "domain": ".kp"
     },
     "KR": {
         "name": "South Korea",
@@ -2564,7 +4404,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia",
         "flag": "🇰🇷",
         "officialLanguageCode": "ko",
-        "officialLanguageName": "Korean"
+        "officialLanguageName": "Korean",
+        "timeZones": [
+            {
+                "name": "Asia/Seoul",
+                "utcOffset": 540,
+                "utcOffsetStr": "+09:00",
+                "dstOffset": 540,
+                "dstOffsetStr": "+09:00"
+            }
+        ],
+        "domain": ".kr"
     },
     "KW": {
         "name": "Kuwait",
@@ -2585,7 +4435,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Arab States",
         "flag": "🇰🇼",
         "officialLanguageCode": "ar",
-        "officialLanguageName": "Arabic"
+        "officialLanguageName": "Arabic",
+        "timeZones": [
+            {
+                "name": "Asia/Riyadh",
+                "utcOffset": 180,
+                "utcOffsetStr": "+03:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".kw"
     },
     "KY": {
         "name": "Cayman Islands",
@@ -2605,7 +4465,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Caribbean Sea",
         "flag": "🇰🇾",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "America/Panama",
+                "utcOffset": -300,
+                "utcOffsetStr": "-05:00",
+                "dstOffset": -300,
+                "dstOffsetStr": "-05:00"
+            }
+        ],
+        "domain": ".ky"
     },
     "KZ": {
         "name": "Kazakhstan",
@@ -2630,7 +4500,59 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇰🇿",
         "officialLanguageCode": "kk",
-        "officialLanguageName": "Kazakh"
+        "officialLanguageName": "Kazakh",
+        "timeZones": [
+            {
+                "name": "Asia/Almaty",
+                "utcOffset": 300,
+                "utcOffsetStr": "+05:00",
+                "dstOffset": 300,
+                "dstOffsetStr": "+05:00"
+            },
+            {
+                "name": "Asia/Aqtau",
+                "utcOffset": 300,
+                "utcOffsetStr": "+05:00",
+                "dstOffset": 300,
+                "dstOffsetStr": "+05:00"
+            },
+            {
+                "name": "Asia/Aqtobe",
+                "utcOffset": 300,
+                "utcOffsetStr": "+05:00",
+                "dstOffset": 300,
+                "dstOffsetStr": "+05:00"
+            },
+            {
+                "name": "Asia/Atyrau",
+                "utcOffset": 300,
+                "utcOffsetStr": "+05:00",
+                "dstOffset": 300,
+                "dstOffsetStr": "+05:00"
+            },
+            {
+                "name": "Asia/Oral",
+                "utcOffset": 300,
+                "utcOffsetStr": "+05:00",
+                "dstOffset": 300,
+                "dstOffsetStr": "+05:00"
+            },
+            {
+                "name": "Asia/Qostanay",
+                "utcOffset": 300,
+                "utcOffsetStr": "+05:00",
+                "dstOffset": 300,
+                "dstOffsetStr": "+05:00"
+            },
+            {
+                "name": "Asia/Qyzylorda",
+                "utcOffset": 300,
+                "utcOffsetStr": "+05:00",
+                "dstOffset": 300,
+                "dstOffsetStr": "+05:00"
+            }
+        ],
+        "domain": ".kz"
     },
     "LA": {
         "name": "Laos",
@@ -2650,7 +4572,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇱🇦",
         "officialLanguageCode": "lo",
-        "officialLanguageName": "Lao"
+        "officialLanguageName": "Lao",
+        "timeZones": [
+            {
+                "name": "Asia/Bangkok",
+                "utcOffset": 420,
+                "utcOffsetStr": "+07:00",
+                "dstOffset": 420,
+                "dstOffsetStr": "+07:00"
+            }
+        ],
+        "domain": ".la"
     },
     "LB": {
         "name": "Lebanon",
@@ -2672,7 +4604,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Arab States",
         "flag": "🇱🇧",
         "officialLanguageCode": "ar",
-        "officialLanguageName": "Arabic"
+        "officialLanguageName": "Arabic",
+        "timeZones": [
+            {
+                "name": "Asia/Beirut",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".lb"
     },
     "LC": {
         "name": "Saint Lucia",
@@ -2692,7 +4634,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇱🇨",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "America/Puerto_Rico",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".lc"
     },
     "LI": {
         "name": "Liechtenstein",
@@ -2712,7 +4664,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇱🇮",
         "officialLanguageCode": "de",
-        "officialLanguageName": "German"
+        "officialLanguageName": "German",
+        "timeZones": [
+            {
+                "name": "Europe/Zurich",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".li"
     },
     "LK": {
         "name": "Sri Lanka",
@@ -2733,7 +4695,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇱🇰",
         "officialLanguageCode": "si",
-        "officialLanguageName": "Sinhala, Sinhalese"
+        "officialLanguageName": "Sinhala, Sinhalese",
+        "timeZones": [
+            {
+                "name": "Asia/Colombo",
+                "utcOffset": 330,
+                "utcOffsetStr": "+05:30",
+                "dstOffset": 330,
+                "dstOffsetStr": "+05:30"
+            }
+        ],
+        "domain": ".lk"
     },
     "LR": {
         "name": "Liberia",
@@ -2753,7 +4725,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇱🇷",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Africa/Monrovia",
+                "utcOffset": 0,
+                "utcOffsetStr": "+00:00",
+                "dstOffset": 0,
+                "dstOffsetStr": "+00:00"
+            }
+        ],
+        "domain": ".lr"
     },
     "LS": {
         "name": "Lesotho",
@@ -2774,7 +4756,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇱🇸",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Africa/Johannesburg",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".ls"
     },
     "LT": {
         "name": "Lithuania",
@@ -2795,7 +4787,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇱🇹",
         "officialLanguageCode": "lt",
-        "officialLanguageName": "Lithuanian"
+        "officialLanguageName": "Lithuanian",
+        "timeZones": [
+            {
+                "name": "Europe/Vilnius",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".lt"
     },
     "LU": {
         "name": "Luxembourg",
@@ -2818,7 +4820,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇱🇺",
         "officialLanguageCode": "lb",
-        "officialLanguageName": "Luxembourgish, Letzeburgesch"
+        "officialLanguageName": "Luxembourgish, Letzeburgesch",
+        "timeZones": [
+            {
+                "name": "Europe/Brussels",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".lu"
     },
     "LV": {
         "name": "Latvia",
@@ -2839,7 +4851,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇱🇻",
         "officialLanguageCode": "lv",
-        "officialLanguageName": "Latvian"
+        "officialLanguageName": "Latvian",
+        "timeZones": [
+            {
+                "name": "Europe/Riga",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".lv"
     },
     "LY": {
         "name": "Libya",
@@ -2860,7 +4882,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Arab States",
         "flag": "🇱🇾",
         "officialLanguageCode": "ar",
-        "officialLanguageName": "Arabic"
+        "officialLanguageName": "Arabic",
+        "timeZones": [
+            {
+                "name": "Africa/Tripoli",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".ly"
     },
     "MA": {
         "name": "Morocco",
@@ -2881,7 +4913,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Arab States",
         "flag": "🇲🇦",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "Africa/Casablanca",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 0,
+                "dstOffsetStr": "+00:00"
+            }
+        ],
+        "domain": ".ma"
     },
     "MC": {
         "name": "Monaco",
@@ -2901,7 +4943,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇲🇨",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "Europe/Paris",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".mc"
     },
     "MD": {
         "name": "Moldova",
@@ -2921,7 +4973,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇲🇩",
         "officialLanguageCode": "ro",
-        "officialLanguageName": "Romanian, Moldavian, Moldovan"
+        "officialLanguageName": "Romanian, Moldavian, Moldovan",
+        "timeZones": [
+            {
+                "name": "Europe/Chisinau",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".md"
     },
     "ME": {
         "name": "Montenegro",
@@ -2945,7 +5007,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇲🇪",
         "officialLanguageCode": "srp",
-        "officialLanguageName": "српски језик"
+        "officialLanguageName": "српски језик",
+        "timeZones": [
+            {
+                "name": "Europe/Belgrade",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".me"
     },
     "MF": {
         "name": "Saint Martin",
@@ -2967,7 +5039,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇲🇫",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "America/Puerto_Rico",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".mf"
     },
     "MG": {
         "name": "Madagascar",
@@ -2988,7 +5070,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇲🇬",
         "officialLanguageCode": "mg",
-        "officialLanguageName": "Malagasy"
+        "officialLanguageName": "Malagasy",
+        "timeZones": [
+            {
+                "name": "Africa/Nairobi",
+                "utcOffset": 180,
+                "utcOffsetStr": "+03:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".mg"
     },
     "MH": {
         "name": "Marshall Islands",
@@ -3009,7 +5101,24 @@ exports.countriesWithRegionalInfo = {
         "region": "Pacific Ocean",
         "flag": "🇲🇭",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Pacific/Kwajalein",
+                "utcOffset": 720,
+                "utcOffsetStr": "+12:00",
+                "dstOffset": 720,
+                "dstOffsetStr": "+12:00"
+            },
+            {
+                "name": "Pacific/Tarawa",
+                "utcOffset": 720,
+                "utcOffsetStr": "+12:00",
+                "dstOffset": 720,
+                "dstOffsetStr": "+12:00"
+            }
+        ],
+        "domain": ".mh"
     },
     "MK": {
         "name": "North Macedonia",
@@ -3030,7 +5139,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇲🇰",
         "officialLanguageCode": "mk",
-        "officialLanguageName": "Macedonian"
+        "officialLanguageName": "Macedonian",
+        "timeZones": [
+            {
+                "name": "Europe/Belgrade",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".mk"
     },
     "ML": {
         "name": "Mali",
@@ -3050,7 +5169,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇲🇱",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "Africa/Abidjan",
+                "utcOffset": 0,
+                "utcOffsetStr": "+00:00",
+                "dstOffset": 0,
+                "dstOffsetStr": "+00:00"
+            }
+        ],
+        "domain": ".ml"
     },
     "MM": {
         "name": "Myanmar (Burma)",
@@ -3070,7 +5199,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇲🇲",
         "officialLanguageCode": "my",
-        "officialLanguageName": "Burmese"
+        "officialLanguageName": "Burmese",
+        "timeZones": [
+            {
+                "name": "Asia/Yangon",
+                "utcOffset": 390,
+                "utcOffsetStr": "+06:30",
+                "dstOffset": 390,
+                "dstOffsetStr": "+06:30"
+            }
+        ],
+        "domain": ".mm"
     },
     "MN": {
         "name": "Mongolia",
@@ -3090,7 +5229,24 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇲🇳",
         "officialLanguageCode": "mn",
-        "officialLanguageName": "Mongolian"
+        "officialLanguageName": "Mongolian",
+        "timeZones": [
+            {
+                "name": "Asia/Hovd",
+                "utcOffset": 420,
+                "utcOffsetStr": "+07:00",
+                "dstOffset": 420,
+                "dstOffsetStr": "+07:00"
+            },
+            {
+                "name": "Asia/Ulaanbaatar",
+                "utcOffset": 480,
+                "utcOffsetStr": "+08:00",
+                "dstOffset": 480,
+                "dstOffsetStr": "+08:00"
+            }
+        ],
+        "domain": ".mn"
     },
     "MO": {
         "name": "Macao",
@@ -3111,7 +5267,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇲🇴",
         "officialLanguageCode": "zh-hant",
-        "officialLanguageName": ""
+        "officialLanguageName": "",
+        "timeZones": [
+            {
+                "name": "Asia/Macau",
+                "utcOffset": 480,
+                "utcOffsetStr": "+08:00",
+                "dstOffset": 480,
+                "dstOffsetStr": "+08:00"
+            }
+        ],
+        "domain": ".mo"
     },
     "MP": {
         "name": "Northern Mariana Islands",
@@ -3132,7 +5298,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Pacific Ocean",
         "flag": "🇲🇵",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Pacific/Guam",
+                "utcOffset": 600,
+                "utcOffsetStr": "+10:00",
+                "dstOffset": 600,
+                "dstOffsetStr": "+10:00"
+            }
+        ],
+        "domain": ".mp"
     },
     "MQ": {
         "name": "Martinique",
@@ -3152,7 +5328,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇲🇶",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "America/Martinique",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".mq"
     },
     "MR": {
         "name": "Mauritania",
@@ -3172,7 +5358,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Arab States",
         "flag": "🇲🇷",
         "officialLanguageCode": "ar",
-        "officialLanguageName": "Arabic"
+        "officialLanguageName": "Arabic",
+        "timeZones": [
+            {
+                "name": "Africa/Abidjan",
+                "utcOffset": 0,
+                "utcOffsetStr": "+00:00",
+                "dstOffset": 0,
+                "dstOffsetStr": "+00:00"
+            }
+        ],
+        "domain": ".mr"
     },
     "MS": {
         "name": "Montserrat",
@@ -3192,7 +5388,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇲🇸",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "America/Puerto_Rico",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".ms"
     },
     "MT": {
         "name": "Malta",
@@ -3214,7 +5420,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇲🇹",
         "officialLanguageCode": "mt",
-        "officialLanguageName": "Maltese"
+        "officialLanguageName": "Maltese",
+        "timeZones": [
+            {
+                "name": "Europe/Malta",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".mt"
     },
     "MU": {
         "name": "Mauritius",
@@ -3234,7 +5450,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇲🇺",
         "officialLanguageCode": "mfe",
-        "officialLanguageName": ""
+        "officialLanguageName": "",
+        "timeZones": [
+            {
+                "name": "Indian/Mauritius",
+                "utcOffset": 240,
+                "utcOffsetStr": "+04:00",
+                "dstOffset": 240,
+                "dstOffsetStr": "+04:00"
+            }
+        ],
+        "domain": ".mu"
     },
     "MV": {
         "name": "Maldives",
@@ -3254,7 +5480,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇲🇻",
         "officialLanguageCode": "dv",
-        "officialLanguageName": "Divehi, Dhivehi, Maldivian"
+        "officialLanguageName": "Divehi, Dhivehi, Maldivian",
+        "timeZones": [
+            {
+                "name": "Indian/Maldives",
+                "utcOffset": 300,
+                "utcOffsetStr": "+05:00",
+                "dstOffset": 300,
+                "dstOffsetStr": "+05:00"
+            }
+        ],
+        "domain": ".mv"
     },
     "MW": {
         "name": "Malawi",
@@ -3275,7 +5511,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇲🇼",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Africa/Maputo",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".mw"
     },
     "MX": {
         "name": "Mexico",
@@ -3296,7 +5542,94 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇲🇽",
         "officialLanguageCode": "es",
-        "officialLanguageName": "Spanish, Castilian"
+        "officialLanguageName": "Spanish, Castilian",
+        "timeZones": [
+            {
+                "name": "America/Bahia_Banderas",
+                "utcOffset": -360,
+                "utcOffsetStr": "-06:00",
+                "dstOffset": -360,
+                "dstOffsetStr": "-06:00"
+            },
+            {
+                "name": "America/Cancun",
+                "utcOffset": -300,
+                "utcOffsetStr": "-05:00",
+                "dstOffset": -300,
+                "dstOffsetStr": "-05:00"
+            },
+            {
+                "name": "America/Chihuahua",
+                "utcOffset": -360,
+                "utcOffsetStr": "-06:00",
+                "dstOffset": -360,
+                "dstOffsetStr": "-06:00"
+            },
+            {
+                "name": "America/Ciudad_Juarez",
+                "utcOffset": -420,
+                "utcOffsetStr": "-07:00",
+                "dstOffset": -360,
+                "dstOffsetStr": "-06:00"
+            },
+            {
+                "name": "America/Hermosillo",
+                "utcOffset": -420,
+                "utcOffsetStr": "-07:00",
+                "dstOffset": -420,
+                "dstOffsetStr": "-07:00"
+            },
+            {
+                "name": "America/Matamoros",
+                "utcOffset": -360,
+                "utcOffsetStr": "-06:00",
+                "dstOffset": -300,
+                "dstOffsetStr": "-05:00"
+            },
+            {
+                "name": "America/Mazatlan",
+                "utcOffset": -420,
+                "utcOffsetStr": "-07:00",
+                "dstOffset": -420,
+                "dstOffsetStr": "-07:00"
+            },
+            {
+                "name": "America/Merida",
+                "utcOffset": -360,
+                "utcOffsetStr": "-06:00",
+                "dstOffset": -360,
+                "dstOffsetStr": "-06:00"
+            },
+            {
+                "name": "America/Mexico_City",
+                "utcOffset": -360,
+                "utcOffsetStr": "-06:00",
+                "dstOffset": -360,
+                "dstOffsetStr": "-06:00"
+            },
+            {
+                "name": "America/Monterrey",
+                "utcOffset": -360,
+                "utcOffsetStr": "-06:00",
+                "dstOffset": -360,
+                "dstOffsetStr": "-06:00"
+            },
+            {
+                "name": "America/Ojinaga",
+                "utcOffset": -360,
+                "utcOffsetStr": "-06:00",
+                "dstOffset": -300,
+                "dstOffsetStr": "-05:00"
+            },
+            {
+                "name": "America/Tijuana",
+                "utcOffset": -480,
+                "utcOffsetStr": "-08:00",
+                "dstOffset": -420,
+                "dstOffsetStr": "-07:00"
+            }
+        ],
+        "domain": ".mx"
     },
     "MY": {
         "name": "Malaysia",
@@ -3317,7 +5650,24 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇲🇾",
         "officialLanguageCode": "ms",
-        "officialLanguageName": "Malay"
+        "officialLanguageName": "Malay",
+        "timeZones": [
+            {
+                "name": "Asia/Kuching",
+                "utcOffset": 480,
+                "utcOffsetStr": "+08:00",
+                "dstOffset": 480,
+                "dstOffsetStr": "+08:00"
+            },
+            {
+                "name": "Asia/Singapore",
+                "utcOffset": 480,
+                "utcOffsetStr": "+08:00",
+                "dstOffset": 480,
+                "dstOffsetStr": "+08:00"
+            }
+        ],
+        "domain": ".my"
     },
     "MZ": {
         "name": "Mozambique",
@@ -3337,7 +5687,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇲🇿",
         "officialLanguageCode": "pt",
-        "officialLanguageName": "Portuguese"
+        "officialLanguageName": "Portuguese",
+        "timeZones": [
+            {
+                "name": "Africa/Maputo",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".mz"
     },
     "NA": {
         "name": "Namibia",
@@ -3358,7 +5718,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇳🇦",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Africa/Windhoek",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".na"
     },
     "NC": {
         "name": "New Caledonia",
@@ -3378,7 +5748,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇳🇨",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "Pacific/Noumea",
+                "utcOffset": 660,
+                "utcOffsetStr": "+11:00",
+                "dstOffset": 660,
+                "dstOffsetStr": "+11:00"
+            }
+        ],
+        "domain": ".nc"
     },
     "NE": {
         "name": "Niger",
@@ -3398,7 +5778,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇳🇪",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "Africa/Lagos",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 60,
+                "dstOffsetStr": "+01:00"
+            }
+        ],
+        "domain": ".ne"
     },
     "NF": {
         "name": "Norfolk Island",
@@ -3418,7 +5808,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇳🇫",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Pacific/Norfolk",
+                "utcOffset": 660,
+                "utcOffsetStr": "+11:00",
+                "dstOffset": 720,
+                "dstOffsetStr": "+12:00"
+            }
+        ],
+        "domain": ".nf"
     },
     "NG": {
         "name": "Nigeria",
@@ -3438,7 +5838,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇳🇬",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Africa/Lagos",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 60,
+                "dstOffsetStr": "+01:00"
+            }
+        ],
+        "domain": ".ng"
     },
     "NI": {
         "name": "Nicaragua",
@@ -3459,7 +5869,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇳🇮",
         "officialLanguageCode": "es",
-        "officialLanguageName": "Spanish, Castilian"
+        "officialLanguageName": "Spanish, Castilian",
+        "timeZones": [
+            {
+                "name": "America/Managua",
+                "utcOffset": -360,
+                "utcOffsetStr": "-06:00",
+                "dstOffset": -360,
+                "dstOffsetStr": "-06:00"
+            }
+        ],
+        "domain": ".ni"
     },
     "NL": {
         "name": "Netherlands",
@@ -3480,7 +5900,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇳🇱",
         "officialLanguageCode": "nl",
-        "officialLanguageName": "Dutch, Flemish"
+        "officialLanguageName": "Dutch, Flemish",
+        "timeZones": [
+            {
+                "name": "Europe/Brussels",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".nl"
     },
     "NO": {
         "name": "Norway",
@@ -3503,7 +5933,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇳🇴",
         "officialLanguageCode": "nb",
-        "officialLanguageName": "Norwegian Bokmål"
+        "officialLanguageName": "Norwegian Bokmål",
+        "timeZones": [
+            {
+                "name": "Europe/Berlin",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".no"
     },
     "NP": {
         "name": "Nepal",
@@ -3523,7 +5963,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇳🇵",
         "officialLanguageCode": "ne",
-        "officialLanguageName": "Nepali"
+        "officialLanguageName": "Nepali",
+        "timeZones": [
+            {
+                "name": "Asia/Kathmandu",
+                "utcOffset": 345,
+                "utcOffsetStr": "+05:45",
+                "dstOffset": 345,
+                "dstOffsetStr": "+05:45"
+            }
+        ],
+        "domain": ".np"
     },
     "NR": {
         "name": "Nauru",
@@ -3544,7 +5994,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇳🇷",
         "officialLanguageCode": "na",
-        "officialLanguageName": "Nauru"
+        "officialLanguageName": "Nauru",
+        "timeZones": [
+            {
+                "name": "Pacific/Nauru",
+                "utcOffset": 720,
+                "utcOffsetStr": "+12:00",
+                "dstOffset": 720,
+                "dstOffsetStr": "+12:00"
+            }
+        ],
+        "domain": ".nr"
     },
     "NU": {
         "name": "Niue",
@@ -3564,7 +6024,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇳🇺",
         "officialLanguageCode": "niu",
-        "officialLanguageName": ""
+        "officialLanguageName": "",
+        "timeZones": [
+            {
+                "name": "Pacific/Niue",
+                "utcOffset": -660,
+                "utcOffsetStr": "-11:00",
+                "dstOffset": -660,
+                "dstOffsetStr": "-11:00"
+            }
+        ],
+        "domain": ".nu"
     },
     "NZ": {
         "name": "New Zealand",
@@ -3586,7 +6056,24 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇳🇿",
         "officialLanguageCode": "mi",
-        "officialLanguageName": "Maori"
+        "officialLanguageName": "Maori",
+        "timeZones": [
+            {
+                "name": "Pacific/Auckland",
+                "utcOffset": 720,
+                "utcOffsetStr": "+12:00",
+                "dstOffset": 780,
+                "dstOffsetStr": "+13:00"
+            },
+            {
+                "name": "Pacific/Chatham",
+                "utcOffset": 765,
+                "utcOffsetStr": "+12:45",
+                "dstOffset": 825,
+                "dstOffsetStr": "+13:45"
+            }
+        ],
+        "domain": ".nz"
     },
     "OM": {
         "name": "Oman",
@@ -3607,7 +6094,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Arab States",
         "flag": "🇴🇲",
         "officialLanguageCode": "ar",
-        "officialLanguageName": "Arabic"
+        "officialLanguageName": "Arabic",
+        "timeZones": [
+            {
+                "name": "Asia/Dubai",
+                "utcOffset": 240,
+                "utcOffsetStr": "+04:00",
+                "dstOffset": 240,
+                "dstOffsetStr": "+04:00"
+            }
+        ],
+        "domain": ".om"
     },
     "PA": {
         "name": "Panama",
@@ -3628,7 +6125,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇵🇦",
         "officialLanguageCode": "es",
-        "officialLanguageName": "Spanish, Castilian"
+        "officialLanguageName": "Spanish, Castilian",
+        "timeZones": [
+            {
+                "name": "America/Panama",
+                "utcOffset": -300,
+                "utcOffsetStr": "-05:00",
+                "dstOffset": -300,
+                "dstOffsetStr": "-05:00"
+            }
+        ],
+        "domain": ".pa"
     },
     "PE": {
         "name": "Peru",
@@ -3649,7 +6156,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇵🇪",
         "officialLanguageCode": "es",
-        "officialLanguageName": "Spanish, Castilian"
+        "officialLanguageName": "Spanish, Castilian",
+        "timeZones": [
+            {
+                "name": "America/Lima",
+                "utcOffset": -300,
+                "utcOffsetStr": "-05:00",
+                "dstOffset": -300,
+                "dstOffsetStr": "-05:00"
+            }
+        ],
+        "domain": ".pe"
     },
     "PF": {
         "name": "French Polynesia",
@@ -3669,7 +6186,31 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇵🇫",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "Pacific/Gambier",
+                "utcOffset": -540,
+                "utcOffsetStr": "-09:00",
+                "dstOffset": -540,
+                "dstOffsetStr": "-09:00"
+            },
+            {
+                "name": "Pacific/Marquesas",
+                "utcOffset": -570,
+                "utcOffsetStr": "-09:30",
+                "dstOffset": -570,
+                "dstOffsetStr": "-09:30"
+            },
+            {
+                "name": "Pacific/Tahiti",
+                "utcOffset": -600,
+                "utcOffsetStr": "-10:00",
+                "dstOffset": -600,
+                "dstOffsetStr": "-10:00"
+            }
+        ],
+        "domain": ".pf"
     },
     "PG": {
         "name": "Papua New Guinea",
@@ -3689,7 +6230,24 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇵🇬",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Pacific/Bougainville",
+                "utcOffset": 660,
+                "utcOffsetStr": "+11:00",
+                "dstOffset": 660,
+                "dstOffsetStr": "+11:00"
+            },
+            {
+                "name": "Pacific/Port_Moresby",
+                "utcOffset": 600,
+                "utcOffsetStr": "+10:00",
+                "dstOffset": 600,
+                "dstOffsetStr": "+10:00"
+            }
+        ],
+        "domain": ".pg"
     },
     "PH": {
         "name": "Philippines",
@@ -3711,7 +6269,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇵🇭",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Asia/Manila",
+                "utcOffset": 480,
+                "utcOffsetStr": "+08:00",
+                "dstOffset": 480,
+                "dstOffsetStr": "+08:00"
+            }
+        ],
+        "domain": ".ph"
     },
     "PK": {
         "name": "Pakistan",
@@ -3732,7 +6300,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇵🇰",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Asia/Karachi",
+                "utcOffset": 300,
+                "utcOffsetStr": "+05:00",
+                "dstOffset": 300,
+                "dstOffsetStr": "+05:00"
+            }
+        ],
+        "domain": ".pk"
     },
     "PL": {
         "name": "Poland",
@@ -3753,7 +6331,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇵🇱",
         "officialLanguageCode": "pl",
-        "officialLanguageName": "Polish"
+        "officialLanguageName": "Polish",
+        "timeZones": [
+            {
+                "name": "Europe/Warsaw",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".pl"
     },
     "PM": {
         "name": "Saint Pierre and Miquelon",
@@ -3773,7 +6361,17 @@ exports.countriesWithRegionalInfo = {
         "region": "North America",
         "flag": "🇵🇲",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "America/Miquelon",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -120,
+                "dstOffsetStr": "-02:00"
+            }
+        ],
+        "domain": ".pm"
     },
     "PN": {
         "name": "Pitcairn Islands",
@@ -3793,7 +6391,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇵🇳",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Pacific/Pitcairn",
+                "utcOffset": -480,
+                "utcOffsetStr": "-08:00",
+                "dstOffset": -480,
+                "dstOffsetStr": "-08:00"
+            }
+        ],
+        "domain": ".pn"
     },
     "PR": {
         "name": "Puerto Rico",
@@ -3816,7 +6424,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇵🇷",
         "officialLanguageCode": "es",
-        "officialLanguageName": "Spanish, Castilian"
+        "officialLanguageName": "Spanish, Castilian",
+        "timeZones": [
+            {
+                "name": "America/Puerto_Rico",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".pr"
     },
     "PS": {
         "name": "Palestine",
@@ -3836,7 +6454,24 @@ exports.countriesWithRegionalInfo = {
         "region": "Arab States",
         "flag": "🇵🇸",
         "officialLanguageCode": "ar",
-        "officialLanguageName": "Arabic"
+        "officialLanguageName": "Arabic",
+        "timeZones": [
+            {
+                "name": "Asia/Gaza",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            },
+            {
+                "name": "Asia/Hebron",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".ps"
     },
     "PT": {
         "name": "Portugal",
@@ -3857,7 +6492,31 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇵🇹",
         "officialLanguageCode": "pt",
-        "officialLanguageName": "Portuguese"
+        "officialLanguageName": "Portuguese",
+        "timeZones": [
+            {
+                "name": "Atlantic/Azores",
+                "utcOffset": -60,
+                "utcOffsetStr": "-01:00",
+                "dstOffset": 0,
+                "dstOffsetStr": "+00:00"
+            },
+            {
+                "name": "Atlantic/Madeira",
+                "utcOffset": 0,
+                "utcOffsetStr": "+00:00",
+                "dstOffset": 60,
+                "dstOffsetStr": "+01:00"
+            },
+            {
+                "name": "Europe/Lisbon",
+                "utcOffset": 0,
+                "utcOffsetStr": "+00:00",
+                "dstOffset": 60,
+                "dstOffsetStr": "+01:00"
+            }
+        ],
+        "domain": ".pt"
     },
     "PW": {
         "name": "Palau",
@@ -3877,7 +6536,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇵🇼",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Pacific/Palau",
+                "utcOffset": 540,
+                "utcOffsetStr": "+09:00",
+                "dstOffset": 540,
+                "dstOffsetStr": "+09:00"
+            }
+        ],
+        "domain": ".pw"
     },
     "PY": {
         "name": "Paraguay",
@@ -3899,7 +6568,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇵🇾",
         "officialLanguageCode": "es",
-        "officialLanguageName": "Spanish, Castilian"
+        "officialLanguageName": "Spanish, Castilian",
+        "timeZones": [
+            {
+                "name": "America/Asuncion",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            }
+        ],
+        "domain": ".py"
     },
     "QA": {
         "name": "Qatar",
@@ -3920,7 +6599,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Arab States",
         "flag": "🇶🇦",
         "officialLanguageCode": "ar",
-        "officialLanguageName": "Arabic"
+        "officialLanguageName": "Arabic",
+        "timeZones": [
+            {
+                "name": "Asia/Qatar",
+                "utcOffset": 180,
+                "utcOffsetStr": "+03:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".qa"
     },
     "RE": {
         "name": "Reunion",
@@ -3940,7 +6629,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇷🇪",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "Asia/Dubai",
+                "utcOffset": 240,
+                "utcOffsetStr": "+04:00",
+                "dstOffset": 240,
+                "dstOffsetStr": "+04:00"
+            }
+        ],
+        "domain": ".re"
     },
     "RO": {
         "name": "Romania",
@@ -3961,7 +6660,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇷🇴",
         "officialLanguageCode": "ro",
-        "officialLanguageName": "Romanian, Moldavian, Moldovan"
+        "officialLanguageName": "Romanian, Moldavian, Moldovan",
+        "timeZones": [
+            {
+                "name": "Europe/Bucharest",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".ro"
     },
     "RS": {
         "name": "Serbia",
@@ -3982,7 +6691,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇷🇸",
         "officialLanguageCode": "sr",
-        "officialLanguageName": "Serbian"
+        "officialLanguageName": "Serbian",
+        "timeZones": [
+            {
+                "name": "Europe/Belgrade",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".rs"
     },
     "RU": {
         "name": "Russia",
@@ -4007,7 +6726,199 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇷🇺",
         "officialLanguageCode": "ru",
-        "officialLanguageName": "Russian"
+        "officialLanguageName": "Russian",
+        "timeZones": [
+            {
+                "name": "Asia/Anadyr",
+                "utcOffset": 720,
+                "utcOffsetStr": "+12:00",
+                "dstOffset": 720,
+                "dstOffsetStr": "+12:00"
+            },
+            {
+                "name": "Asia/Barnaul",
+                "utcOffset": 420,
+                "utcOffsetStr": "+07:00",
+                "dstOffset": 420,
+                "dstOffsetStr": "+07:00"
+            },
+            {
+                "name": "Asia/Chita",
+                "utcOffset": 540,
+                "utcOffsetStr": "+09:00",
+                "dstOffset": 540,
+                "dstOffsetStr": "+09:00"
+            },
+            {
+                "name": "Asia/Irkutsk",
+                "utcOffset": 480,
+                "utcOffsetStr": "+08:00",
+                "dstOffset": 480,
+                "dstOffsetStr": "+08:00"
+            },
+            {
+                "name": "Asia/Kamchatka",
+                "utcOffset": 720,
+                "utcOffsetStr": "+12:00",
+                "dstOffset": 720,
+                "dstOffsetStr": "+12:00"
+            },
+            {
+                "name": "Asia/Khandyga",
+                "utcOffset": 540,
+                "utcOffsetStr": "+09:00",
+                "dstOffset": 540,
+                "dstOffsetStr": "+09:00"
+            },
+            {
+                "name": "Asia/Krasnoyarsk",
+                "utcOffset": 420,
+                "utcOffsetStr": "+07:00",
+                "dstOffset": 420,
+                "dstOffsetStr": "+07:00"
+            },
+            {
+                "name": "Asia/Magadan",
+                "utcOffset": 660,
+                "utcOffsetStr": "+11:00",
+                "dstOffset": 660,
+                "dstOffsetStr": "+11:00"
+            },
+            {
+                "name": "Asia/Novokuznetsk",
+                "utcOffset": 420,
+                "utcOffsetStr": "+07:00",
+                "dstOffset": 420,
+                "dstOffsetStr": "+07:00"
+            },
+            {
+                "name": "Asia/Novosibirsk",
+                "utcOffset": 420,
+                "utcOffsetStr": "+07:00",
+                "dstOffset": 420,
+                "dstOffsetStr": "+07:00"
+            },
+            {
+                "name": "Asia/Omsk",
+                "utcOffset": 360,
+                "utcOffsetStr": "+06:00",
+                "dstOffset": 360,
+                "dstOffsetStr": "+06:00"
+            },
+            {
+                "name": "Asia/Sakhalin",
+                "utcOffset": 660,
+                "utcOffsetStr": "+11:00",
+                "dstOffset": 660,
+                "dstOffsetStr": "+11:00"
+            },
+            {
+                "name": "Asia/Srednekolymsk",
+                "utcOffset": 660,
+                "utcOffsetStr": "+11:00",
+                "dstOffset": 660,
+                "dstOffsetStr": "+11:00"
+            },
+            {
+                "name": "Asia/Tomsk",
+                "utcOffset": 420,
+                "utcOffsetStr": "+07:00",
+                "dstOffset": 420,
+                "dstOffsetStr": "+07:00"
+            },
+            {
+                "name": "Asia/Ust-Nera",
+                "utcOffset": 600,
+                "utcOffsetStr": "+10:00",
+                "dstOffset": 600,
+                "dstOffsetStr": "+10:00"
+            },
+            {
+                "name": "Asia/Vladivostok",
+                "utcOffset": 600,
+                "utcOffsetStr": "+10:00",
+                "dstOffset": 600,
+                "dstOffsetStr": "+10:00"
+            },
+            {
+                "name": "Asia/Yakutsk",
+                "utcOffset": 540,
+                "utcOffsetStr": "+09:00",
+                "dstOffset": 540,
+                "dstOffsetStr": "+09:00"
+            },
+            {
+                "name": "Asia/Yekaterinburg",
+                "utcOffset": 300,
+                "utcOffsetStr": "+05:00",
+                "dstOffset": 300,
+                "dstOffsetStr": "+05:00"
+            },
+            {
+                "name": "Europe/Astrakhan",
+                "utcOffset": 240,
+                "utcOffsetStr": "+04:00",
+                "dstOffset": 240,
+                "dstOffsetStr": "+04:00"
+            },
+            {
+                "name": "Europe/Kaliningrad",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            },
+            {
+                "name": "Europe/Kirov",
+                "utcOffset": 180,
+                "utcOffsetStr": "+03:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            },
+            {
+                "name": "Europe/Moscow",
+                "utcOffset": 180,
+                "utcOffsetStr": "+03:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            },
+            {
+                "name": "Europe/Samara",
+                "utcOffset": 240,
+                "utcOffsetStr": "+04:00",
+                "dstOffset": 240,
+                "dstOffsetStr": "+04:00"
+            },
+            {
+                "name": "Europe/Saratov",
+                "utcOffset": 240,
+                "utcOffsetStr": "+04:00",
+                "dstOffset": 240,
+                "dstOffsetStr": "+04:00"
+            },
+            {
+                "name": "Europe/Simferopol",
+                "utcOffset": 180,
+                "utcOffsetStr": "+03:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            },
+            {
+                "name": "Europe/Ulyanovsk",
+                "utcOffset": 240,
+                "utcOffsetStr": "+04:00",
+                "dstOffset": 240,
+                "dstOffsetStr": "+04:00"
+            },
+            {
+                "name": "Europe/Volgograd",
+                "utcOffset": 180,
+                "utcOffsetStr": "+03:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".ru"
     },
     "RW": {
         "name": "Rwanda",
@@ -4029,7 +6940,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇷🇼",
         "officialLanguageCode": "rw",
-        "officialLanguageName": "Kinyarwanda"
+        "officialLanguageName": "Kinyarwanda",
+        "timeZones": [
+            {
+                "name": "Africa/Maputo",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".rw"
     },
     "SA": {
         "name": "Saudi Arabia",
@@ -4050,7 +6971,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Arab States",
         "flag": "🇸🇦",
         "officialLanguageCode": "ar",
-        "officialLanguageName": "Arabic"
+        "officialLanguageName": "Arabic",
+        "timeZones": [
+            {
+                "name": "Asia/Riyadh",
+                "utcOffset": 180,
+                "utcOffsetStr": "+03:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".sa"
     },
     "SB": {
         "name": "Solomon Islands",
@@ -4070,7 +7001,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇸🇧",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Pacific/Guadalcanal",
+                "utcOffset": 660,
+                "utcOffsetStr": "+11:00",
+                "dstOffset": 660,
+                "dstOffsetStr": "+11:00"
+            }
+        ],
+        "domain": ".sb"
     },
     "SC": {
         "name": "Seychelles",
@@ -4091,7 +7032,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇸🇨",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "Asia/Dubai",
+                "utcOffset": 240,
+                "utcOffsetStr": "+04:00",
+                "dstOffset": 240,
+                "dstOffsetStr": "+04:00"
+            }
+        ],
+        "domain": ".sc"
     },
     "SD": {
         "name": "Sudan",
@@ -4113,7 +7064,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Arab States",
         "flag": "🇸🇩",
         "officialLanguageCode": "ar",
-        "officialLanguageName": "Arabic"
+        "officialLanguageName": "Arabic",
+        "timeZones": [
+            {
+                "name": "Africa/Khartoum",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".sd"
     },
     "SE": {
         "name": "Sweden",
@@ -4134,7 +7095,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇸🇪",
         "officialLanguageCode": "sv",
-        "officialLanguageName": "Swedish"
+        "officialLanguageName": "Swedish",
+        "timeZones": [
+            {
+                "name": "Europe/Berlin",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".se"
     },
     "SG": {
         "name": "Singapore",
@@ -4158,7 +7129,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇸🇬",
         "officialLanguageCode": "zh-hans",
-        "officialLanguageName": ""
+        "officialLanguageName": "",
+        "timeZones": [
+            {
+                "name": "Asia/Singapore",
+                "utcOffset": 480,
+                "utcOffsetStr": "+08:00",
+                "dstOffset": 480,
+                "dstOffsetStr": "+08:00"
+            }
+        ],
+        "domain": ".sg"
     },
     "SH": {
         "name": "Saint Helena",
@@ -4178,7 +7159,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇸🇭",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Africa/Abidjan",
+                "utcOffset": 0,
+                "utcOffsetStr": "+00:00",
+                "dstOffset": 0,
+                "dstOffsetStr": "+00:00"
+            }
+        ],
+        "domain": ".sh"
     },
     "SI": {
         "name": "Slovenia",
@@ -4199,7 +7190,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇸🇮",
         "officialLanguageCode": "sl",
-        "officialLanguageName": "Slovenian"
+        "officialLanguageName": "Slovenian",
+        "timeZones": [
+            {
+                "name": "Europe/Belgrade",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".si"
     },
     "SJ": {
         "name": "Svalbard and Jan Mayen",
@@ -4219,7 +7220,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇸🇯",
         "officialLanguageCode": "no",
-        "officialLanguageName": "Norwegian"
+        "officialLanguageName": "Norwegian",
+        "timeZones": [
+            {
+                "name": "Europe/Berlin",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".sj (unofficial)"
     },
     "SK": {
         "name": "Slovakia",
@@ -4240,7 +7251,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇸🇰",
         "officialLanguageCode": "sk",
-        "officialLanguageName": "Slovak"
+        "officialLanguageName": "Slovak",
+        "timeZones": [
+            {
+                "name": "Europe/Prague",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".sk"
     },
     "SL": {
         "name": "Sierra Leone",
@@ -4260,7 +7281,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇸🇱",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Africa/Abidjan",
+                "utcOffset": 0,
+                "utcOffsetStr": "+00:00",
+                "dstOffset": 0,
+                "dstOffsetStr": "+00:00"
+            }
+        ],
+        "domain": ".sl"
     },
     "SM": {
         "name": "San Marino",
@@ -4280,7 +7311,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇸🇲",
         "officialLanguageCode": "it",
-        "officialLanguageName": "Italian"
+        "officialLanguageName": "Italian",
+        "timeZones": [
+            {
+                "name": "Europe/Rome",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".sm"
     },
     "SN": {
         "name": "Senegal",
@@ -4300,7 +7341,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇸🇳",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "Africa/Abidjan",
+                "utcOffset": 0,
+                "utcOffsetStr": "+00:00",
+                "dstOffset": 0,
+                "dstOffsetStr": "+00:00"
+            }
+        ],
+        "domain": ".sn"
     },
     "SO": {
         "name": "Somalia",
@@ -4321,7 +7372,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Arab States",
         "flag": "🇸🇴",
         "officialLanguageCode": "so",
-        "officialLanguageName": "Somali"
+        "officialLanguageName": "Somali",
+        "timeZones": [
+            {
+                "name": "Africa/Nairobi",
+                "utcOffset": 180,
+                "utcOffsetStr": "+03:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".so"
     },
     "SR": {
         "name": "Suriname",
@@ -4341,7 +7402,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇸🇷",
         "officialLanguageCode": "nl",
-        "officialLanguageName": "Dutch, Flemish"
+        "officialLanguageName": "Dutch, Flemish",
+        "timeZones": [
+            {
+                "name": "America/Paramaribo",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            }
+        ],
+        "domain": ".sr"
     },
     "SS": {
         "name": "South Sudan",
@@ -4361,7 +7432,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇸🇸",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Africa/Juba",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".ss"
     },
     "ST": {
         "name": "Sao Tome and Principe",
@@ -4381,7 +7462,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇸🇹",
         "officialLanguageCode": "pt",
-        "officialLanguageName": "Portuguese"
+        "officialLanguageName": "Portuguese",
+        "timeZones": [
+            {
+                "name": "Africa/Sao_Tome",
+                "utcOffset": 0,
+                "utcOffsetStr": "+00:00",
+                "dstOffset": 0,
+                "dstOffsetStr": "+00:00"
+            }
+        ],
+        "domain": ".st"
     },
     "SV": {
         "name": "El Salvador",
@@ -4402,7 +7493,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇸🇻",
         "officialLanguageCode": "es",
-        "officialLanguageName": "Spanish, Castilian"
+        "officialLanguageName": "Spanish, Castilian",
+        "timeZones": [
+            {
+                "name": "America/El_Salvador",
+                "utcOffset": -360,
+                "utcOffsetStr": "-06:00",
+                "dstOffset": -360,
+                "dstOffsetStr": "-06:00"
+            }
+        ],
+        "domain": ".sv"
     },
     "SX": {
         "name": "Sint Maarten",
@@ -4423,7 +7524,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Unknown",
         "flag": "🇸🇽",
         "officialLanguageCode": "nl",
-        "officialLanguageName": "Dutch, Flemish"
+        "officialLanguageName": "Dutch, Flemish",
+        "timeZones": [
+            {
+                "name": "America/Puerto_Rico",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".sx"
     },
     "SY": {
         "name": "Syria",
@@ -4444,7 +7555,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇸🇾",
         "officialLanguageCode": "ar",
-        "officialLanguageName": "Arabic"
+        "officialLanguageName": "Arabic",
+        "timeZones": [
+            {
+                "name": "Asia/Damascus",
+                "utcOffset": 180,
+                "utcOffsetStr": "+03:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".sy"
     },
     "SZ": {
         "name": "Eswatini",
@@ -4465,7 +7586,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇸🇿",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Africa/Johannesburg",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".sz"
     },
     "TC": {
         "name": "Turks and Caicos Islands",
@@ -4485,7 +7616,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Atlantic Ocean",
         "flag": "🇹🇨",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "America/Grand_Turk",
+                "utcOffset": -300,
+                "utcOffsetStr": "-05:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".tc"
     },
     "TD": {
         "name": "Chad",
@@ -4506,7 +7647,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇹🇩",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "Africa/Ndjamena",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 60,
+                "dstOffsetStr": "+01:00"
+            }
+        ],
+        "domain": ".td"
     },
     "TF": {
         "name": "French Southern Territories",
@@ -4526,7 +7677,24 @@ exports.countriesWithRegionalInfo = {
         "region": "Indian Ocean",
         "flag": "🇹🇫",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "Asia/Dubai",
+                "utcOffset": 240,
+                "utcOffsetStr": "+04:00",
+                "dstOffset": 240,
+                "dstOffsetStr": "+04:00"
+            },
+            {
+                "name": "Indian/Maldives",
+                "utcOffset": 300,
+                "utcOffsetStr": "+05:00",
+                "dstOffset": 300,
+                "dstOffsetStr": "+05:00"
+            }
+        ],
+        "domain": ".tf"
     },
     "TG": {
         "name": "Togo",
@@ -4546,7 +7714,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇹🇬",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "Africa/Abidjan",
+                "utcOffset": 0,
+                "utcOffsetStr": "+00:00",
+                "dstOffset": 0,
+                "dstOffsetStr": "+00:00"
+            }
+        ],
+        "domain": ".tg"
     },
     "TH": {
         "name": "Thailand",
@@ -4567,7 +7745,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇹🇭",
         "officialLanguageCode": "th",
-        "officialLanguageName": "Thai"
+        "officialLanguageName": "Thai",
+        "timeZones": [
+            {
+                "name": "Asia/Bangkok",
+                "utcOffset": 420,
+                "utcOffsetStr": "+07:00",
+                "dstOffset": 420,
+                "dstOffsetStr": "+07:00"
+            }
+        ],
+        "domain": ".th"
     },
     "TJ": {
         "name": "Tajikistan",
@@ -4588,7 +7776,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇹🇯",
         "officialLanguageCode": "tg",
-        "officialLanguageName": "Tajik"
+        "officialLanguageName": "Tajik",
+        "timeZones": [
+            {
+                "name": "Asia/Dushanbe",
+                "utcOffset": 300,
+                "utcOffsetStr": "+05:00",
+                "dstOffset": 300,
+                "dstOffsetStr": "+05:00"
+            }
+        ],
+        "domain": ".tj"
     },
     "TK": {
         "name": "Tokelau",
@@ -4608,7 +7806,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇹🇰",
         "officialLanguageCode": "tkl",
-        "officialLanguageName": ""
+        "officialLanguageName": "",
+        "timeZones": [
+            {
+                "name": "Pacific/Fakaofo",
+                "utcOffset": 780,
+                "utcOffsetStr": "+13:00",
+                "dstOffset": 780,
+                "dstOffsetStr": "+13:00"
+            }
+        ],
+        "domain": ".tk"
     },
     "TL": {
         "name": "East Timor",
@@ -4628,7 +7836,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇹🇱",
         "officialLanguageCode": "pt",
-        "officialLanguageName": "Portuguese"
+        "officialLanguageName": "Portuguese",
+        "timeZones": [
+            {
+                "name": "Asia/Dili",
+                "utcOffset": 540,
+                "utcOffsetStr": "+09:00",
+                "dstOffset": 540,
+                "dstOffsetStr": "+09:00"
+            }
+        ],
+        "domain": ".tl"
     },
     "TM": {
         "name": "Turkmenistan",
@@ -4649,7 +7867,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇹🇲",
         "officialLanguageCode": "tk",
-        "officialLanguageName": "Turkmen"
+        "officialLanguageName": "Turkmen",
+        "timeZones": [
+            {
+                "name": "Asia/Ashgabat",
+                "utcOffset": 300,
+                "utcOffsetStr": "+05:00",
+                "dstOffset": 300,
+                "dstOffsetStr": "+05:00"
+            }
+        ],
+        "domain": ".tm"
     },
     "TN": {
         "name": "Tunisia",
@@ -4670,7 +7898,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Arab States",
         "flag": "🇹🇳",
         "officialLanguageCode": "ar",
-        "officialLanguageName": "Arabic"
+        "officialLanguageName": "Arabic",
+        "timeZones": [
+            {
+                "name": "Africa/Tunis",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 60,
+                "dstOffsetStr": "+01:00"
+            }
+        ],
+        "domain": ".tn"
     },
     "TO": {
         "name": "Tonga",
@@ -4691,7 +7929,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇹🇴",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Pacific/Tongatapu",
+                "utcOffset": 780,
+                "utcOffsetStr": "+13:00",
+                "dstOffset": 780,
+                "dstOffsetStr": "+13:00"
+            }
+        ],
+        "domain": ".to"
     },
     "TR": {
         "name": "Turkey",
@@ -4716,7 +7964,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇹🇷",
         "officialLanguageCode": "tr",
-        "officialLanguageName": "Turkish"
+        "officialLanguageName": "Turkish",
+        "timeZones": [
+            {
+                "name": "Europe/Istanbul",
+                "utcOffset": 180,
+                "utcOffsetStr": "+03:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".tr"
     },
     "TT": {
         "name": "Trinidad and Tobago",
@@ -4736,7 +7994,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇹🇹",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "America/Puerto_Rico",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".tt"
     },
     "TV": {
         "name": "Tuvalu",
@@ -4756,7 +8024,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇹🇻",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Pacific/Tarawa",
+                "utcOffset": 720,
+                "utcOffsetStr": "+12:00",
+                "dstOffset": 720,
+                "dstOffsetStr": "+12:00"
+            }
+        ],
+        "domain": ".tv"
     },
     "TW": {
         "name": "Taiwan",
@@ -4777,7 +8055,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇹🇼",
         "officialLanguageCode": "zh-hant",
-        "officialLanguageName": ""
+        "officialLanguageName": "",
+        "timeZones": [
+            {
+                "name": "Asia/Taipei",
+                "utcOffset": 480,
+                "utcOffsetStr": "+08:00",
+                "dstOffset": 480,
+                "dstOffsetStr": "+08:00"
+            }
+        ],
+        "domain": ".tw"
     },
     "TZ": {
         "name": "Tanzania",
@@ -4798,7 +8086,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇹🇿",
         "officialLanguageCode": "sw",
-        "officialLanguageName": "Swahili"
+        "officialLanguageName": "Swahili",
+        "timeZones": [
+            {
+                "name": "Africa/Nairobi",
+                "utcOffset": 180,
+                "utcOffsetStr": "+03:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".tz"
     },
     "UA": {
         "name": "Ukraine",
@@ -4819,7 +8117,24 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇺🇦",
         "officialLanguageCode": "uk",
-        "officialLanguageName": "Ukrainian"
+        "officialLanguageName": "Ukrainian",
+        "timeZones": [
+            {
+                "name": "Europe/Kyiv",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            },
+            {
+                "name": "Europe/Simferopol",
+                "utcOffset": 180,
+                "utcOffsetStr": "+03:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".ua"
     },
     "UG": {
         "name": "Uganda",
@@ -4840,7 +8155,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇺🇬",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Africa/Nairobi",
+                "utcOffset": 180,
+                "utcOffsetStr": "+03:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".ug"
     },
     "UM": {
         "name": "U.S. Minor Outlying Islands",
@@ -4860,7 +8185,24 @@ exports.countriesWithRegionalInfo = {
         "region": "Pacific Ocean",
         "flag": "🇺🇲",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Pacific/Pago_Pago",
+                "utcOffset": -660,
+                "utcOffsetStr": "-11:00",
+                "dstOffset": -660,
+                "dstOffsetStr": "-11:00"
+            },
+            {
+                "name": "Pacific/Tarawa",
+                "utcOffset": 720,
+                "utcOffsetStr": "+12:00",
+                "dstOffset": 720,
+                "dstOffsetStr": "+12:00"
+            }
+        ],
+        "domain": ".um (unofficial)"
     },
     "US": {
         "name": "United States",
@@ -4881,7 +8223,213 @@ exports.countriesWithRegionalInfo = {
         "region": "North America",
         "flag": "🇺🇸",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "America/Adak",
+                "utcOffset": -600,
+                "utcOffsetStr": "-10:00",
+                "dstOffset": -540,
+                "dstOffsetStr": "-09:00"
+            },
+            {
+                "name": "America/Anchorage",
+                "utcOffset": -540,
+                "utcOffsetStr": "-09:00",
+                "dstOffset": -480,
+                "dstOffsetStr": "-08:00"
+            },
+            {
+                "name": "America/Boise",
+                "utcOffset": -420,
+                "utcOffsetStr": "-07:00",
+                "dstOffset": -360,
+                "dstOffsetStr": "-06:00"
+            },
+            {
+                "name": "America/Chicago",
+                "utcOffset": -360,
+                "utcOffsetStr": "-06:00",
+                "dstOffset": -300,
+                "dstOffsetStr": "-05:00"
+            },
+            {
+                "name": "America/Denver",
+                "utcOffset": -420,
+                "utcOffsetStr": "-07:00",
+                "dstOffset": -360,
+                "dstOffsetStr": "-06:00"
+            },
+            {
+                "name": "America/Detroit",
+                "utcOffset": -300,
+                "utcOffsetStr": "-05:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            },
+            {
+                "name": "America/Indiana/Indianapolis",
+                "utcOffset": -300,
+                "utcOffsetStr": "-05:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            },
+            {
+                "name": "America/Indiana/Knox",
+                "utcOffset": -360,
+                "utcOffsetStr": "-06:00",
+                "dstOffset": -300,
+                "dstOffsetStr": "-05:00"
+            },
+            {
+                "name": "America/Indiana/Marengo",
+                "utcOffset": -300,
+                "utcOffsetStr": "-05:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            },
+            {
+                "name": "America/Indiana/Petersburg",
+                "utcOffset": -300,
+                "utcOffsetStr": "-05:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            },
+            {
+                "name": "America/Indiana/Tell_City",
+                "utcOffset": -360,
+                "utcOffsetStr": "-06:00",
+                "dstOffset": -300,
+                "dstOffsetStr": "-05:00"
+            },
+            {
+                "name": "America/Indiana/Vevay",
+                "utcOffset": -300,
+                "utcOffsetStr": "-05:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            },
+            {
+                "name": "America/Indiana/Vincennes",
+                "utcOffset": -300,
+                "utcOffsetStr": "-05:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            },
+            {
+                "name": "America/Indiana/Winamac",
+                "utcOffset": -300,
+                "utcOffsetStr": "-05:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            },
+            {
+                "name": "America/Juneau",
+                "utcOffset": -540,
+                "utcOffsetStr": "-09:00",
+                "dstOffset": -480,
+                "dstOffsetStr": "-08:00"
+            },
+            {
+                "name": "America/Kentucky/Louisville",
+                "utcOffset": -300,
+                "utcOffsetStr": "-05:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            },
+            {
+                "name": "America/Kentucky/Monticello",
+                "utcOffset": -300,
+                "utcOffsetStr": "-05:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            },
+            {
+                "name": "America/Los_Angeles",
+                "utcOffset": -480,
+                "utcOffsetStr": "-08:00",
+                "dstOffset": -420,
+                "dstOffsetStr": "-07:00"
+            },
+            {
+                "name": "America/Menominee",
+                "utcOffset": -360,
+                "utcOffsetStr": "-06:00",
+                "dstOffset": -300,
+                "dstOffsetStr": "-05:00"
+            },
+            {
+                "name": "America/Metlakatla",
+                "utcOffset": -540,
+                "utcOffsetStr": "-09:00",
+                "dstOffset": -480,
+                "dstOffsetStr": "-08:00"
+            },
+            {
+                "name": "America/New_York",
+                "utcOffset": -300,
+                "utcOffsetStr": "-05:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            },
+            {
+                "name": "America/Nome",
+                "utcOffset": -540,
+                "utcOffsetStr": "-09:00",
+                "dstOffset": -480,
+                "dstOffsetStr": "-08:00"
+            },
+            {
+                "name": "America/North_Dakota/Beulah",
+                "utcOffset": -360,
+                "utcOffsetStr": "-06:00",
+                "dstOffset": -300,
+                "dstOffsetStr": "-05:00"
+            },
+            {
+                "name": "America/North_Dakota/Center",
+                "utcOffset": -360,
+                "utcOffsetStr": "-06:00",
+                "dstOffset": -300,
+                "dstOffsetStr": "-05:00"
+            },
+            {
+                "name": "America/North_Dakota/New_Salem",
+                "utcOffset": -360,
+                "utcOffsetStr": "-06:00",
+                "dstOffset": -300,
+                "dstOffsetStr": "-05:00"
+            },
+            {
+                "name": "America/Phoenix",
+                "utcOffset": -420,
+                "utcOffsetStr": "-07:00",
+                "dstOffset": -420,
+                "dstOffsetStr": "-07:00"
+            },
+            {
+                "name": "America/Sitka",
+                "utcOffset": -540,
+                "utcOffsetStr": "-09:00",
+                "dstOffset": -480,
+                "dstOffsetStr": "-08:00"
+            },
+            {
+                "name": "America/Yakutat",
+                "utcOffset": -540,
+                "utcOffsetStr": "-09:00",
+                "dstOffset": -480,
+                "dstOffsetStr": "-08:00"
+            },
+            {
+                "name": "Pacific/Honolulu",
+                "utcOffset": -600,
+                "utcOffsetStr": "-10:00",
+                "dstOffset": -600,
+                "dstOffsetStr": "-10:00"
+            }
+        ],
+        "domain": ".us"
     },
     "UY": {
         "name": "Uruguay",
@@ -4902,7 +8450,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇺🇾",
         "officialLanguageCode": "es",
-        "officialLanguageName": "Spanish, Castilian"
+        "officialLanguageName": "Spanish, Castilian",
+        "timeZones": [
+            {
+                "name": "America/Montevideo",
+                "utcOffset": -180,
+                "utcOffsetStr": "-03:00",
+                "dstOffset": -180,
+                "dstOffsetStr": "-03:00"
+            }
+        ],
+        "domain": ".uy"
     },
     "UZ": {
         "name": "Uzbekistan",
@@ -4923,7 +8481,24 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇺🇿",
         "officialLanguageCode": "uz",
-        "officialLanguageName": "Uzbek"
+        "officialLanguageName": "Uzbek",
+        "timeZones": [
+            {
+                "name": "Asia/Samarkand",
+                "utcOffset": 300,
+                "utcOffsetStr": "+05:00",
+                "dstOffset": 300,
+                "dstOffsetStr": "+05:00"
+            },
+            {
+                "name": "Asia/Tashkent",
+                "utcOffset": 300,
+                "utcOffsetStr": "+05:00",
+                "dstOffset": 300,
+                "dstOffsetStr": "+05:00"
+            }
+        ],
+        "domain": ".uz"
     },
     "VA": {
         "name": "Vatican City",
@@ -4944,7 +8519,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇻🇦",
         "officialLanguageCode": "la",
-        "officialLanguageName": "Latin"
+        "officialLanguageName": "Latin",
+        "timeZones": [
+            {
+                "name": "Europe/Rome",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".va"
     },
     "VC": {
         "name": "Saint Vincent and the Grenadines",
@@ -4964,7 +8549,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇻🇨",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "America/Puerto_Rico",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".vc"
     },
     "VE": {
         "name": "Venezuela",
@@ -4985,7 +8580,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇻🇪",
         "officialLanguageCode": "es",
-        "officialLanguageName": "Spanish, Castilian"
+        "officialLanguageName": "Spanish, Castilian",
+        "timeZones": [
+            {
+                "name": "America/Caracas",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".ve"
     },
     "VG": {
         "name": "British Virgin Islands",
@@ -5005,7 +8610,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇻🇬",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "America/Puerto_Rico",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".vg"
     },
     "VI": {
         "name": "U.S. Virgin Islands",
@@ -5025,7 +8640,17 @@ exports.countriesWithRegionalInfo = {
         "region": "South/Latin America",
         "flag": "🇻🇮",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "America/Puerto_Rico",
+                "utcOffset": -240,
+                "utcOffsetStr": "-04:00",
+                "dstOffset": -240,
+                "dstOffsetStr": "-04:00"
+            }
+        ],
+        "domain": ".vi"
     },
     "VN": {
         "name": "Vietnam",
@@ -5046,7 +8671,24 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇻🇳",
         "officialLanguageCode": "vi",
-        "officialLanguageName": "Vietnamese"
+        "officialLanguageName": "Vietnamese",
+        "timeZones": [
+            {
+                "name": "Asia/Bangkok",
+                "utcOffset": 420,
+                "utcOffsetStr": "+07:00",
+                "dstOffset": 420,
+                "dstOffsetStr": "+07:00"
+            },
+            {
+                "name": "Asia/Ho_Chi_Minh",
+                "utcOffset": 420,
+                "utcOffsetStr": "+07:00",
+                "dstOffset": 420,
+                "dstOffsetStr": "+07:00"
+            }
+        ],
+        "domain": ".vn"
     },
     "VU": {
         "name": "Vanuatu",
@@ -5068,7 +8710,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇻🇺",
         "officialLanguageCode": "bi",
-        "officialLanguageName": "Bislama"
+        "officialLanguageName": "Bislama",
+        "timeZones": [
+            {
+                "name": "Pacific/Efate",
+                "utcOffset": 660,
+                "utcOffsetStr": "+11:00",
+                "dstOffset": 660,
+                "dstOffsetStr": "+11:00"
+            }
+        ],
+        "domain": ".vu"
     },
     "WF": {
         "name": "Wallis and Futuna",
@@ -5088,7 +8740,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇼🇫",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "Pacific/Tarawa",
+                "utcOffset": 720,
+                "utcOffsetStr": "+12:00",
+                "dstOffset": 720,
+                "dstOffsetStr": "+12:00"
+            }
+        ],
+        "domain": ".wf"
     },
     "WS": {
         "name": "Samoa",
@@ -5109,7 +8771,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Asia & Pacific",
         "flag": "🇼🇸",
         "officialLanguageCode": "sm",
-        "officialLanguageName": "Samoan"
+        "officialLanguageName": "Samoan",
+        "timeZones": [
+            {
+                "name": "Pacific/Apia",
+                "utcOffset": 780,
+                "utcOffsetStr": "+13:00",
+                "dstOffset": 780,
+                "dstOffsetStr": "+13:00"
+            }
+        ],
+        "domain": ".ws"
     },
     "XK": {
         "name": "Kosovo",
@@ -5133,7 +8805,24 @@ exports.countriesWithRegionalInfo = {
         "region": "Europe",
         "flag": "🇽🇰",
         "officialLanguageCode": "sq",
-        "officialLanguageName": "Albanian"
+        "officialLanguageName": "Albanian",
+        "timeZones": [
+            {
+                "name": "Europe/Berlin",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            },
+            {
+                "name": "Europe/Zurich",
+                "utcOffset": 60,
+                "utcOffsetStr": "+01:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".xk (unofficial)"
     },
     "YE": {
         "name": "Yemen",
@@ -5154,7 +8843,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Arab States",
         "flag": "🇾🇪",
         "officialLanguageCode": "ar",
-        "officialLanguageName": "Arabic"
+        "officialLanguageName": "Arabic",
+        "timeZones": [
+            {
+                "name": "Asia/Riyadh",
+                "utcOffset": 180,
+                "utcOffsetStr": "+03:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".ye"
     },
     "YT": {
         "name": "Mayotte",
@@ -5174,7 +8873,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇾🇹",
         "officialLanguageCode": "fr",
-        "officialLanguageName": "French"
+        "officialLanguageName": "French",
+        "timeZones": [
+            {
+                "name": "Africa/Nairobi",
+                "utcOffset": 180,
+                "utcOffsetStr": "+03:00",
+                "dstOffset": 180,
+                "dstOffsetStr": "+03:00"
+            }
+        ],
+        "domain": ".yt"
     },
     "ZA": {
         "name": "South Africa",
@@ -5204,7 +8913,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇿🇦",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Africa/Johannesburg",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".za"
     },
     "ZM": {
         "name": "Zambia",
@@ -5224,7 +8943,17 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇿🇲",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Africa/Maputo",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".zm"
     },
     "ZW": {
         "name": "Zimbabwe",
@@ -5246,6 +8975,16 @@ exports.countriesWithRegionalInfo = {
         "region": "Africa",
         "flag": "🇿🇼",
         "officialLanguageCode": "en",
-        "officialLanguageName": "English"
+        "officialLanguageName": "English",
+        "timeZones": [
+            {
+                "name": "Africa/Maputo",
+                "utcOffset": 120,
+                "utcOffsetStr": "+02:00",
+                "dstOffset": 120,
+                "dstOffsetStr": "+02:00"
+            }
+        ],
+        "domain": ".zw"
     }
 };

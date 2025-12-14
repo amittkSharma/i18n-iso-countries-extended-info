@@ -1,3 +1,10 @@
+interface TimeZone {
+    name: string;
+    utcOffset: number;
+    utcOffsetStr: string;
+    dstOffset: number;
+    dstOffsetStr: string;
+}
 export interface CountrySource {
     name: string;
     native: string;
@@ -15,5 +22,8 @@ export interface CountrySource {
     officialLanguageName: string;
     dateFormat?: string;
     continents?: string[];
+    timeZones?: TimeZone[];
+    domain?: string;
 }
+export {};
 //# sourceMappingURL=countrySource.d.ts.map
