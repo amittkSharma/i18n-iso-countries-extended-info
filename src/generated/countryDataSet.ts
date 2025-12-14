@@ -22,7 +22,13 @@
     "officialLanguageCode": "ca",
     "officialLanguageName": "Catalan, Valencian",
     "timeZones": [
-      "Europe/Andorra"
+      {
+        "name": "Europe/Andorra",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".ad"
   },
@@ -47,7 +53,13 @@
     "officialLanguageCode": "ar",
     "officialLanguageName": "Arabic",
     "timeZones": [
-      "Asia/Dubai"
+      {
+        "name": "Asia/Dubai",
+        "utcOffset": 240,
+        "utcOffsetStr": "+04:00",
+        "dstOffset": 240,
+        "dstOffsetStr": "+04:00"
+      }
     ],
     "domain": ".ae"
   },
@@ -74,7 +86,13 @@
     "officialLanguageCode": "fa",
     "officialLanguageName": "Persian",
     "timeZones": [
-      "Asia/Kabul"
+      {
+        "name": "Asia/Kabul",
+        "utcOffset": 270,
+        "utcOffsetStr": "+04:30",
+        "dstOffset": 270,
+        "dstOffsetStr": "+04:30"
+      }
     ],
     "domain": ".af"
   },
@@ -98,7 +116,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "America/Puerto_Rico"
+      {
+        "name": "America/Puerto_Rico",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".ag"
   },
@@ -122,7 +146,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "America/Puerto_Rico"
+      {
+        "name": "America/Puerto_Rico",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".ai"
   },
@@ -147,7 +177,13 @@
     "officialLanguageCode": "sq",
     "officialLanguageName": "Albanian",
     "timeZones": [
-      "Europe/Tirane"
+      {
+        "name": "Europe/Tirane",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".al"
   },
@@ -172,7 +208,13 @@
     "officialLanguageCode": "hy",
     "officialLanguageName": "Armenian",
     "timeZones": [
-      "Asia/Yerevan"
+      {
+        "name": "Asia/Yerevan",
+        "utcOffset": 240,
+        "utcOffsetStr": "+04:00",
+        "dstOffset": 240,
+        "dstOffsetStr": "+04:00"
+      }
     ],
     "domain": ".am"
   },
@@ -196,7 +238,13 @@
     "officialLanguageCode": "pt",
     "officialLanguageName": "Portuguese",
     "timeZones": [
-      "Africa/Lagos"
+      {
+        "name": "Africa/Lagos",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 60,
+        "dstOffsetStr": "+01:00"
+      }
     ],
     "domain": ".ao"
   },
@@ -218,17 +266,83 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Antarctica/Casey",
-      "Antarctica/Davis",
-      "Antarctica/Mawson",
-      "Antarctica/Palmer",
-      "Antarctica/Rothera",
-      "Antarctica/Troll",
-      "Antarctica/Vostok",
-      "Asia/Riyadh",
-      "Asia/Singapore",
-      "Pacific/Auckland",
-      "Pacific/Port_Moresby"
+      {
+        "name": "Antarctica/Casey",
+        "utcOffset": 480,
+        "utcOffsetStr": "+08:00",
+        "dstOffset": 480,
+        "dstOffsetStr": "+08:00"
+      },
+      {
+        "name": "Antarctica/Davis",
+        "utcOffset": 420,
+        "utcOffsetStr": "+07:00",
+        "dstOffset": 420,
+        "dstOffsetStr": "+07:00"
+      },
+      {
+        "name": "Antarctica/Mawson",
+        "utcOffset": 300,
+        "utcOffsetStr": "+05:00",
+        "dstOffset": 300,
+        "dstOffsetStr": "+05:00"
+      },
+      {
+        "name": "Antarctica/Palmer",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      },
+      {
+        "name": "Antarctica/Rothera",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      },
+      {
+        "name": "Antarctica/Troll",
+        "utcOffset": 0,
+        "utcOffsetStr": "+00:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      },
+      {
+        "name": "Antarctica/Vostok",
+        "utcOffset": 300,
+        "utcOffsetStr": "+05:00",
+        "dstOffset": 300,
+        "dstOffsetStr": "+05:00"
+      },
+      {
+        "name": "Asia/Riyadh",
+        "utcOffset": 180,
+        "utcOffsetStr": "+03:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      },
+      {
+        "name": "Asia/Singapore",
+        "utcOffset": 480,
+        "utcOffsetStr": "+08:00",
+        "dstOffset": 480,
+        "dstOffsetStr": "+08:00"
+      },
+      {
+        "name": "Pacific/Auckland",
+        "utcOffset": 720,
+        "utcOffsetStr": "+12:00",
+        "dstOffset": 780,
+        "dstOffsetStr": "+13:00"
+      },
+      {
+        "name": "Pacific/Port_Moresby",
+        "utcOffset": 600,
+        "utcOffsetStr": "+10:00",
+        "dstOffset": 600,
+        "dstOffsetStr": "+10:00"
+      }
     ],
     "domain": ".aq"
   },
@@ -254,18 +368,90 @@
     "officialLanguageCode": "es",
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
-      "America/Argentina/Buenos_Aires",
-      "America/Argentina/Catamarca",
-      "America/Argentina/Cordoba",
-      "America/Argentina/Jujuy",
-      "America/Argentina/La_Rioja",
-      "America/Argentina/Mendoza",
-      "America/Argentina/Rio_Gallegos",
-      "America/Argentina/Salta",
-      "America/Argentina/San_Juan",
-      "America/Argentina/San_Luis",
-      "America/Argentina/Tucuman",
-      "America/Argentina/Ushuaia"
+      {
+        "name": "America/Argentina/Buenos_Aires",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      },
+      {
+        "name": "America/Argentina/Catamarca",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      },
+      {
+        "name": "America/Argentina/Cordoba",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      },
+      {
+        "name": "America/Argentina/Jujuy",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      },
+      {
+        "name": "America/Argentina/La_Rioja",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      },
+      {
+        "name": "America/Argentina/Mendoza",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      },
+      {
+        "name": "America/Argentina/Rio_Gallegos",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      },
+      {
+        "name": "America/Argentina/Salta",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      },
+      {
+        "name": "America/Argentina/San_Juan",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      },
+      {
+        "name": "America/Argentina/San_Luis",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      },
+      {
+        "name": "America/Argentina/Tucuman",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      },
+      {
+        "name": "America/Argentina/Ushuaia",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      }
     ],
     "domain": ".ar"
   },
@@ -290,7 +476,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Pacific/Pago_Pago"
+      {
+        "name": "Pacific/Pago_Pago",
+        "utcOffset": -660,
+        "utcOffsetStr": "-11:00",
+        "dstOffset": -660,
+        "dstOffsetStr": "-11:00"
+      }
     ],
     "domain": ".as"
   },
@@ -315,7 +507,13 @@
     "officialLanguageCode": "de",
     "officialLanguageName": "German",
     "timeZones": [
-      "Europe/Vienna"
+      {
+        "name": "Europe/Vienna",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".at"
   },
@@ -340,19 +538,97 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Antarctica/Macquarie",
-      "Asia/Tokyo",
-      "Australia/Adelaide",
-      "Australia/Brisbane",
-      "Australia/Broken_Hill",
-      "Australia/Darwin",
-      "Australia/Eucla",
-      "Australia/Hobart",
-      "Australia/Lindeman",
-      "Australia/Lord_Howe",
-      "Australia/Melbourne",
-      "Australia/Perth",
-      "Australia/Sydney"
+      {
+        "name": "Antarctica/Macquarie",
+        "utcOffset": 600,
+        "utcOffsetStr": "+10:00",
+        "dstOffset": 660,
+        "dstOffsetStr": "+11:00"
+      },
+      {
+        "name": "Asia/Tokyo",
+        "utcOffset": 540,
+        "utcOffsetStr": "+09:00",
+        "dstOffset": 540,
+        "dstOffsetStr": "+09:00"
+      },
+      {
+        "name": "Australia/Adelaide",
+        "utcOffset": 570,
+        "utcOffsetStr": "+09:30",
+        "dstOffset": 630,
+        "dstOffsetStr": "+10:30"
+      },
+      {
+        "name": "Australia/Brisbane",
+        "utcOffset": 600,
+        "utcOffsetStr": "+10:00",
+        "dstOffset": 600,
+        "dstOffsetStr": "+10:00"
+      },
+      {
+        "name": "Australia/Broken_Hill",
+        "utcOffset": 570,
+        "utcOffsetStr": "+09:30",
+        "dstOffset": 630,
+        "dstOffsetStr": "+10:30"
+      },
+      {
+        "name": "Australia/Darwin",
+        "utcOffset": 570,
+        "utcOffsetStr": "+09:30",
+        "dstOffset": 570,
+        "dstOffsetStr": "+09:30"
+      },
+      {
+        "name": "Australia/Eucla",
+        "utcOffset": 525,
+        "utcOffsetStr": "+08:45",
+        "dstOffset": 525,
+        "dstOffsetStr": "+08:45"
+      },
+      {
+        "name": "Australia/Hobart",
+        "utcOffset": 600,
+        "utcOffsetStr": "+10:00",
+        "dstOffset": 660,
+        "dstOffsetStr": "+11:00"
+      },
+      {
+        "name": "Australia/Lindeman",
+        "utcOffset": 600,
+        "utcOffsetStr": "+10:00",
+        "dstOffset": 600,
+        "dstOffsetStr": "+10:00"
+      },
+      {
+        "name": "Australia/Lord_Howe",
+        "utcOffset": 630,
+        "utcOffsetStr": "+10:30",
+        "dstOffset": 660,
+        "dstOffsetStr": "+11:00"
+      },
+      {
+        "name": "Australia/Melbourne",
+        "utcOffset": 600,
+        "utcOffsetStr": "+10:00",
+        "dstOffset": 660,
+        "dstOffsetStr": "+11:00"
+      },
+      {
+        "name": "Australia/Perth",
+        "utcOffset": 480,
+        "utcOffsetStr": "+08:00",
+        "dstOffset": 480,
+        "dstOffsetStr": "+08:00"
+      },
+      {
+        "name": "Australia/Sydney",
+        "utcOffset": 600,
+        "utcOffsetStr": "+10:00",
+        "dstOffset": 660,
+        "dstOffsetStr": "+11:00"
+      }
     ],
     "domain": ".au"
   },
@@ -377,7 +653,13 @@
     "officialLanguageCode": "nl",
     "officialLanguageName": "Dutch, Flemish",
     "timeZones": [
-      "America/Puerto_Rico"
+      {
+        "name": "America/Puerto_Rico",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".aw"
   },
@@ -401,7 +683,13 @@
     "officialLanguageCode": "sv",
     "officialLanguageName": "Swedish",
     "timeZones": [
-      "Europe/Helsinki"
+      {
+        "name": "Europe/Helsinki",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".ax"
   },
@@ -429,7 +717,13 @@
     "officialLanguageCode": "az",
     "officialLanguageName": "Azerbaijani",
     "timeZones": [
-      "Asia/Baku"
+      {
+        "name": "Asia/Baku",
+        "utcOffset": 240,
+        "utcOffsetStr": "+04:00",
+        "dstOffset": 240,
+        "dstOffsetStr": "+04:00"
+      }
     ],
     "domain": ".az"
   },
@@ -456,7 +750,13 @@
     "officialLanguageCode": "bs",
     "officialLanguageName": "Bosnian",
     "timeZones": [
-      "Europe/Belgrade"
+      {
+        "name": "Europe/Belgrade",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".ba"
   },
@@ -480,7 +780,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "America/Barbados"
+      {
+        "name": "America/Barbados",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".bb"
   },
@@ -504,7 +810,13 @@
     "officialLanguageCode": "bn",
     "officialLanguageName": "Bengali",
     "timeZones": [
-      "Asia/Dhaka"
+      {
+        "name": "Asia/Dhaka",
+        "utcOffset": 360,
+        "utcOffsetStr": "+06:00",
+        "dstOffset": 360,
+        "dstOffsetStr": "+06:00"
+      }
     ],
     "domain": ".bd"
   },
@@ -531,7 +843,13 @@
     "officialLanguageCode": "nl",
     "officialLanguageName": "Dutch, Flemish",
     "timeZones": [
-      "Europe/Brussels"
+      {
+        "name": "Europe/Brussels",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".be"
   },
@@ -556,7 +874,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "Africa/Abidjan"
+      {
+        "name": "Africa/Abidjan",
+        "utcOffset": 0,
+        "utcOffsetStr": "+00:00",
+        "dstOffset": 0,
+        "dstOffsetStr": "+00:00"
+      }
     ],
     "domain": ".bf"
   },
@@ -581,7 +905,13 @@
     "officialLanguageCode": "bg",
     "officialLanguageName": "Bulgarian",
     "timeZones": [
-      "Europe/Sofia"
+      {
+        "name": "Europe/Sofia",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".bg"
   },
@@ -606,7 +936,13 @@
     "officialLanguageCode": "ar",
     "officialLanguageName": "Arabic",
     "timeZones": [
-      "Asia/Qatar"
+      {
+        "name": "Asia/Qatar",
+        "utcOffset": 180,
+        "utcOffsetStr": "+03:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".bh"
   },
@@ -631,7 +967,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "Africa/Maputo"
+      {
+        "name": "Africa/Maputo",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".bi"
   },
@@ -655,7 +997,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "Africa/Lagos"
+      {
+        "name": "Africa/Lagos",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 60,
+        "dstOffsetStr": "+01:00"
+      }
     ],
     "domain": ".bj"
   },
@@ -679,7 +1027,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "America/Puerto_Rico"
+      {
+        "name": "America/Puerto_Rico",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".bl"
   },
@@ -703,7 +1057,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Atlantic/Bermuda"
+      {
+        "name": "Atlantic/Bermuda",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      }
     ],
     "domain": ".bm"
   },
@@ -727,7 +1087,13 @@
     "officialLanguageCode": "ms",
     "officialLanguageName": "Malay",
     "timeZones": [
-      "Asia/Kuching"
+      {
+        "name": "Asia/Kuching",
+        "utcOffset": 480,
+        "utcOffsetStr": "+08:00",
+        "dstOffset": 480,
+        "dstOffsetStr": "+08:00"
+      }
     ],
     "domain": ".bn"
   },
@@ -754,7 +1120,13 @@
     "officialLanguageCode": "es",
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
-      "America/La_Paz"
+      {
+        "name": "America/La_Paz",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".bo"
   },
@@ -778,7 +1150,13 @@
     "officialLanguageCode": "nl",
     "officialLanguageName": "Dutch, Flemish",
     "timeZones": [
-      "America/Puerto_Rico"
+      {
+        "name": "America/Puerto_Rico",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".bq"
   },
@@ -803,22 +1181,118 @@
     "officialLanguageCode": "pt",
     "officialLanguageName": "Portuguese",
     "timeZones": [
-      "America/Araguaina",
-      "America/Bahia",
-      "America/Belem",
-      "America/Boa_Vista",
-      "America/Campo_Grande",
-      "America/Cuiaba",
-      "America/Eirunepe",
-      "America/Fortaleza",
-      "America/Maceio",
-      "America/Manaus",
-      "America/Noronha",
-      "America/Porto_Velho",
-      "America/Recife",
-      "America/Rio_Branco",
-      "America/Santarem",
-      "America/Sao_Paulo"
+      {
+        "name": "America/Araguaina",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      },
+      {
+        "name": "America/Bahia",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      },
+      {
+        "name": "America/Belem",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      },
+      {
+        "name": "America/Boa_Vista",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      },
+      {
+        "name": "America/Campo_Grande",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      },
+      {
+        "name": "America/Cuiaba",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      },
+      {
+        "name": "America/Eirunepe",
+        "utcOffset": -300,
+        "utcOffsetStr": "-05:00",
+        "dstOffset": -300,
+        "dstOffsetStr": "-05:00"
+      },
+      {
+        "name": "America/Fortaleza",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      },
+      {
+        "name": "America/Maceio",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      },
+      {
+        "name": "America/Manaus",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      },
+      {
+        "name": "America/Noronha",
+        "utcOffset": -120,
+        "utcOffsetStr": "-02:00",
+        "dstOffset": -120,
+        "dstOffsetStr": "-02:00"
+      },
+      {
+        "name": "America/Porto_Velho",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      },
+      {
+        "name": "America/Recife",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      },
+      {
+        "name": "America/Rio_Branco",
+        "utcOffset": -300,
+        "utcOffsetStr": "-05:00",
+        "dstOffset": -300,
+        "dstOffsetStr": "-05:00"
+      },
+      {
+        "name": "America/Santarem",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      },
+      {
+        "name": "America/Sao_Paulo",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      }
     ],
     "domain": ".br"
   },
@@ -842,7 +1316,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "America/Toronto"
+      {
+        "name": "America/Toronto",
+        "utcOffset": -300,
+        "utcOffsetStr": "-05:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".bs"
   },
@@ -866,7 +1346,13 @@
     "officialLanguageCode": "dz",
     "officialLanguageName": "Dzongkha",
     "timeZones": [
-      "Asia/Thimphu"
+      {
+        "name": "Asia/Thimphu",
+        "utcOffset": 360,
+        "utcOffsetStr": "+06:00",
+        "dstOffset": 360,
+        "dstOffsetStr": "+06:00"
+      }
     ],
     "domain": ".bt"
   },
@@ -892,7 +1378,13 @@
     "officialLanguageCode": "no",
     "officialLanguageName": "Norwegian",
     "timeZones": [
-      "Europe/Berlin"
+      {
+        "name": "Europe/Berlin",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".bv (unofficial)"
   },
@@ -917,7 +1409,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Africa/Maputo"
+      {
+        "name": "Africa/Maputo",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".bw"
   },
@@ -943,7 +1441,13 @@
     "officialLanguageCode": "be",
     "officialLanguageName": "Belarusian",
     "timeZones": [
-      "Europe/Minsk"
+      {
+        "name": "Europe/Minsk",
+        "utcOffset": 180,
+        "utcOffsetStr": "+03:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".by"
   },
@@ -968,7 +1472,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "America/Belize"
+      {
+        "name": "America/Belize",
+        "utcOffset": -360,
+        "utcOffsetStr": "-06:00",
+        "dstOffset": -360,
+        "dstOffsetStr": "-06:00"
+      }
     ],
     "domain": ".bz"
   },
@@ -994,29 +1504,167 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "America/Cambridge_Bay",
-      "America/Dawson",
-      "America/Dawson_Creek",
-      "America/Edmonton",
-      "America/Fort_Nelson",
-      "America/Glace_Bay",
-      "America/Goose_Bay",
-      "America/Halifax",
-      "America/Inuvik",
-      "America/Iqaluit",
-      "America/Moncton",
-      "America/Panama",
-      "America/Phoenix",
-      "America/Puerto_Rico",
-      "America/Rankin_Inlet",
-      "America/Regina",
-      "America/Resolute",
-      "America/St_Johns",
-      "America/Swift_Current",
-      "America/Toronto",
-      "America/Vancouver",
-      "America/Whitehorse",
-      "America/Winnipeg"
+      {
+        "name": "America/Cambridge_Bay",
+        "utcOffset": -420,
+        "utcOffsetStr": "-07:00",
+        "dstOffset": -360,
+        "dstOffsetStr": "-06:00"
+      },
+      {
+        "name": "America/Dawson",
+        "utcOffset": -420,
+        "utcOffsetStr": "-07:00",
+        "dstOffset": -420,
+        "dstOffsetStr": "-07:00"
+      },
+      {
+        "name": "America/Dawson_Creek",
+        "utcOffset": -420,
+        "utcOffsetStr": "-07:00",
+        "dstOffset": -420,
+        "dstOffsetStr": "-07:00"
+      },
+      {
+        "name": "America/Edmonton",
+        "utcOffset": -420,
+        "utcOffsetStr": "-07:00",
+        "dstOffset": -360,
+        "dstOffsetStr": "-06:00"
+      },
+      {
+        "name": "America/Fort_Nelson",
+        "utcOffset": -420,
+        "utcOffsetStr": "-07:00",
+        "dstOffset": -420,
+        "dstOffsetStr": "-07:00"
+      },
+      {
+        "name": "America/Glace_Bay",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      },
+      {
+        "name": "America/Goose_Bay",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      },
+      {
+        "name": "America/Halifax",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      },
+      {
+        "name": "America/Inuvik",
+        "utcOffset": -420,
+        "utcOffsetStr": "-07:00",
+        "dstOffset": -360,
+        "dstOffsetStr": "-06:00"
+      },
+      {
+        "name": "America/Iqaluit",
+        "utcOffset": -300,
+        "utcOffsetStr": "-05:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      },
+      {
+        "name": "America/Moncton",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      },
+      {
+        "name": "America/Panama",
+        "utcOffset": -300,
+        "utcOffsetStr": "-05:00",
+        "dstOffset": -300,
+        "dstOffsetStr": "-05:00"
+      },
+      {
+        "name": "America/Phoenix",
+        "utcOffset": -420,
+        "utcOffsetStr": "-07:00",
+        "dstOffset": -420,
+        "dstOffsetStr": "-07:00"
+      },
+      {
+        "name": "America/Puerto_Rico",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      },
+      {
+        "name": "America/Rankin_Inlet",
+        "utcOffset": -360,
+        "utcOffsetStr": "-06:00",
+        "dstOffset": -300,
+        "dstOffsetStr": "-05:00"
+      },
+      {
+        "name": "America/Regina",
+        "utcOffset": -360,
+        "utcOffsetStr": "-06:00",
+        "dstOffset": -360,
+        "dstOffsetStr": "-06:00"
+      },
+      {
+        "name": "America/Resolute",
+        "utcOffset": -360,
+        "utcOffsetStr": "-06:00",
+        "dstOffset": -300,
+        "dstOffsetStr": "-05:00"
+      },
+      {
+        "name": "America/St_Johns",
+        "utcOffset": -210,
+        "utcOffsetStr": "-03:30",
+        "dstOffset": -150,
+        "dstOffsetStr": "-02:30"
+      },
+      {
+        "name": "America/Swift_Current",
+        "utcOffset": -360,
+        "utcOffsetStr": "-06:00",
+        "dstOffset": -360,
+        "dstOffsetStr": "-06:00"
+      },
+      {
+        "name": "America/Toronto",
+        "utcOffset": -300,
+        "utcOffsetStr": "-05:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      },
+      {
+        "name": "America/Vancouver",
+        "utcOffset": -480,
+        "utcOffsetStr": "-08:00",
+        "dstOffset": -420,
+        "dstOffsetStr": "-07:00"
+      },
+      {
+        "name": "America/Whitehorse",
+        "utcOffset": -420,
+        "utcOffsetStr": "-07:00",
+        "dstOffset": -420,
+        "dstOffsetStr": "-07:00"
+      },
+      {
+        "name": "America/Winnipeg",
+        "utcOffset": -360,
+        "utcOffsetStr": "-06:00",
+        "dstOffset": -300,
+        "dstOffsetStr": "-05:00"
+      }
     ],
     "domain": ".ca"
   },
@@ -1040,7 +1688,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Asia/Yangon"
+      {
+        "name": "Asia/Yangon",
+        "utcOffset": 390,
+        "utcOffsetStr": "+06:30",
+        "dstOffset": 390,
+        "dstOffsetStr": "+06:30"
+      }
     ],
     "domain": ".cc"
   },
@@ -1068,8 +1722,20 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "Africa/Lagos",
-      "Africa/Maputo"
+      {
+        "name": "Africa/Lagos",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 60,
+        "dstOffsetStr": "+01:00"
+      },
+      {
+        "name": "Africa/Maputo",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".cd"
   },
@@ -1094,7 +1760,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "Africa/Lagos"
+      {
+        "name": "Africa/Lagos",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 60,
+        "dstOffsetStr": "+01:00"
+      }
     ],
     "domain": ".cf"
   },
@@ -1119,7 +1791,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "Africa/Lagos"
+      {
+        "name": "Africa/Lagos",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 60,
+        "dstOffsetStr": "+01:00"
+      }
     ],
     "domain": ".cg"
   },
@@ -1146,7 +1824,13 @@
     "officialLanguageCode": "de",
     "officialLanguageName": "German",
     "timeZones": [
-      "Europe/Zurich"
+      {
+        "name": "Europe/Zurich",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".ch"
   },
@@ -1170,7 +1854,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "Africa/Abidjan"
+      {
+        "name": "Africa/Abidjan",
+        "utcOffset": 0,
+        "utcOffsetStr": "+00:00",
+        "dstOffset": 0,
+        "dstOffsetStr": "+00:00"
+      }
     ],
     "domain": ".ci"
   },
@@ -1194,7 +1884,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Pacific/Rarotonga"
+      {
+        "name": "Pacific/Rarotonga",
+        "utcOffset": -600,
+        "utcOffsetStr": "-10:00",
+        "dstOffset": -600,
+        "dstOffsetStr": "-10:00"
+      }
     ],
     "domain": ".ck"
   },
@@ -1219,10 +1915,34 @@
     "officialLanguageCode": "es",
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
-      "America/Coyhaique",
-      "America/Punta_Arenas",
-      "America/Santiago",
-      "Pacific/Easter"
+      {
+        "name": "America/Coyhaique",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      },
+      {
+        "name": "America/Punta_Arenas",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      },
+      {
+        "name": "America/Santiago",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      },
+      {
+        "name": "Pacific/Easter",
+        "utcOffset": -360,
+        "utcOffsetStr": "-06:00",
+        "dstOffset": -300,
+        "dstOffsetStr": "-05:00"
+      }
     ],
     "domain": ".cl"
   },
@@ -1247,7 +1967,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "Africa/Lagos"
+      {
+        "name": "Africa/Lagos",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 60,
+        "dstOffsetStr": "+01:00"
+      }
     ],
     "domain": ".cm"
   },
@@ -1272,8 +1998,20 @@
     "officialLanguageCode": "zh-hans",
     "officialLanguageName": "",
     "timeZones": [
-      "Asia/Shanghai",
-      "Asia/Urumqi"
+      {
+        "name": "Asia/Shanghai",
+        "utcOffset": 480,
+        "utcOffsetStr": "+08:00",
+        "dstOffset": 480,
+        "dstOffsetStr": "+08:00"
+      },
+      {
+        "name": "Asia/Urumqi",
+        "utcOffset": 360,
+        "utcOffsetStr": "+06:00",
+        "dstOffset": 360,
+        "dstOffsetStr": "+06:00"
+      }
     ],
     "domain": ".cn"
   },
@@ -1298,7 +2036,13 @@
     "officialLanguageCode": "es",
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
-      "America/Bogota"
+      {
+        "name": "America/Bogota",
+        "utcOffset": -300,
+        "utcOffsetStr": "-05:00",
+        "dstOffset": -300,
+        "dstOffsetStr": "-05:00"
+      }
     ],
     "domain": ".co"
   },
@@ -1323,7 +2067,13 @@
     "officialLanguageCode": "es",
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
-      "America/Costa_Rica"
+      {
+        "name": "America/Costa_Rica",
+        "utcOffset": -360,
+        "utcOffsetStr": "-06:00",
+        "dstOffset": -360,
+        "dstOffsetStr": "-06:00"
+      }
     ],
     "domain": ".cr"
   },
@@ -1347,7 +2097,13 @@
     "officialLanguageCode": "es",
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
-      "America/Havana"
+      {
+        "name": "America/Havana",
+        "utcOffset": -300,
+        "utcOffsetStr": "-05:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".cu"
   },
@@ -1371,7 +2127,13 @@
     "officialLanguageCode": "pt",
     "officialLanguageName": "Portuguese",
     "timeZones": [
-      "Atlantic/Cape_Verde"
+      {
+        "name": "Atlantic/Cape_Verde",
+        "utcOffset": -60,
+        "utcOffsetStr": "-01:00",
+        "dstOffset": -60,
+        "dstOffsetStr": "-01:00"
+      }
     ],
     "domain": ".cv"
   },
@@ -1397,7 +2159,13 @@
     "officialLanguageCode": "nl",
     "officialLanguageName": "Dutch, Flemish",
     "timeZones": [
-      "America/Puerto_Rico"
+      {
+        "name": "America/Puerto_Rico",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".cw"
   },
@@ -1421,7 +2189,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Asia/Bangkok"
+      {
+        "name": "Asia/Bangkok",
+        "utcOffset": 420,
+        "utcOffsetStr": "+07:00",
+        "dstOffset": 420,
+        "dstOffsetStr": "+07:00"
+      }
     ],
     "domain": ".cx"
   },
@@ -1448,8 +2222,20 @@
     "officialLanguageCode": "el",
     "officialLanguageName": "Greek, Modern (1453-)",
     "timeZones": [
-      "Asia/Famagusta",
-      "Asia/Nicosia"
+      {
+        "name": "Asia/Famagusta",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      },
+      {
+        "name": "Asia/Nicosia",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".cy"
   },
@@ -1474,7 +2260,13 @@
     "officialLanguageCode": "cs",
     "officialLanguageName": "Czech",
     "timeZones": [
-      "Europe/Prague"
+      {
+        "name": "Europe/Prague",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".cz"
   },
@@ -1499,8 +2291,20 @@
     "officialLanguageCode": "de",
     "officialLanguageName": "German",
     "timeZones": [
-      "Europe/Berlin",
-      "Europe/Zurich"
+      {
+        "name": "Europe/Berlin",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      },
+      {
+        "name": "Europe/Zurich",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".de"
   },
@@ -1525,7 +2329,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "Africa/Nairobi"
+      {
+        "name": "Africa/Nairobi",
+        "utcOffset": 180,
+        "utcOffsetStr": "+03:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".dj"
   },
@@ -1554,7 +2364,13 @@
     "officialLanguageCode": "da",
     "officialLanguageName": "Danish",
     "timeZones": [
-      "Europe/Berlin"
+      {
+        "name": "Europe/Berlin",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".dk"
   },
@@ -1578,7 +2394,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "America/Puerto_Rico"
+      {
+        "name": "America/Puerto_Rico",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".dm"
   },
@@ -1605,7 +2427,13 @@
     "officialLanguageCode": "es",
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
-      "America/Santo_Domingo"
+      {
+        "name": "America/Santo_Domingo",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".do"
   },
@@ -1630,7 +2458,13 @@
     "officialLanguageCode": "ar",
     "officialLanguageName": "Arabic",
     "timeZones": [
-      "Africa/Algiers"
+      {
+        "name": "Africa/Algiers",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 60,
+        "dstOffsetStr": "+01:00"
+      }
     ],
     "domain": ".dz"
   },
@@ -1655,8 +2489,20 @@
     "officialLanguageCode": "es",
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
-      "America/Guayaquil",
-      "Pacific/Galapagos"
+      {
+        "name": "America/Guayaquil",
+        "utcOffset": -300,
+        "utcOffsetStr": "-05:00",
+        "dstOffset": -300,
+        "dstOffsetStr": "-05:00"
+      },
+      {
+        "name": "Pacific/Galapagos",
+        "utcOffset": -360,
+        "utcOffsetStr": "-06:00",
+        "dstOffset": -360,
+        "dstOffsetStr": "-06:00"
+      }
     ],
     "domain": ".ec"
   },
@@ -1681,7 +2527,13 @@
     "officialLanguageCode": "et",
     "officialLanguageName": "Estonian",
     "timeZones": [
-      "Europe/Tallinn"
+      {
+        "name": "Europe/Tallinn",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".ee"
   },
@@ -1710,7 +2562,13 @@
     "officialLanguageCode": "ar",
     "officialLanguageName": "Arabic",
     "timeZones": [
-      "Africa/Cairo"
+      {
+        "name": "Africa/Cairo",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".eg"
   },
@@ -1734,7 +2592,13 @@
     "officialLanguageCode": "ar",
     "officialLanguageName": "Arabic",
     "timeZones": [
-      "Africa/El_Aaiun"
+      {
+        "name": "Africa/El_Aaiun",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 0,
+        "dstOffsetStr": "+00:00"
+      }
     ],
     "domain": ".eh (unofficial)"
   },
@@ -1760,7 +2624,13 @@
     "officialLanguageCode": "ti",
     "officialLanguageName": "Tigrinya",
     "timeZones": [
-      "Africa/Nairobi"
+      {
+        "name": "Africa/Nairobi",
+        "utcOffset": 180,
+        "utcOffsetStr": "+03:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".er"
   },
@@ -1789,9 +2659,27 @@
     "officialLanguageCode": "es",
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
-      "Africa/Ceuta",
-      "Atlantic/Canary",
-      "Europe/Madrid"
+      {
+        "name": "Africa/Ceuta",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      },
+      {
+        "name": "Atlantic/Canary",
+        "utcOffset": 0,
+        "utcOffsetStr": "+00:00",
+        "dstOffset": 60,
+        "dstOffsetStr": "+01:00"
+      },
+      {
+        "name": "Europe/Madrid",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".es"
   },
@@ -1815,7 +2703,13 @@
     "officialLanguageCode": "am",
     "officialLanguageName": "Amharic",
     "timeZones": [
-      "Africa/Nairobi"
+      {
+        "name": "Africa/Nairobi",
+        "utcOffset": 180,
+        "utcOffsetStr": "+03:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".et"
   },
@@ -1841,7 +2735,13 @@
     "officialLanguageCode": "fi",
     "officialLanguageName": "Finnish",
     "timeZones": [
-      "Europe/Helsinki"
+      {
+        "name": "Europe/Helsinki",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".fi"
   },
@@ -1868,7 +2768,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Pacific/Fiji"
+      {
+        "name": "Pacific/Fiji",
+        "utcOffset": 720,
+        "utcOffsetStr": "+12:00",
+        "dstOffset": 720,
+        "dstOffsetStr": "+12:00"
+      }
     ],
     "domain": ".fj"
   },
@@ -1892,7 +2798,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Atlantic/Stanley"
+      {
+        "name": "Atlantic/Stanley",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      }
     ],
     "domain": ".fk"
   },
@@ -1916,9 +2828,27 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Pacific/Guadalcanal",
-      "Pacific/Kosrae",
-      "Pacific/Port_Moresby"
+      {
+        "name": "Pacific/Guadalcanal",
+        "utcOffset": 660,
+        "utcOffsetStr": "+11:00",
+        "dstOffset": 660,
+        "dstOffsetStr": "+11:00"
+      },
+      {
+        "name": "Pacific/Kosrae",
+        "utcOffset": 660,
+        "utcOffsetStr": "+11:00",
+        "dstOffset": 660,
+        "dstOffsetStr": "+11:00"
+      },
+      {
+        "name": "Pacific/Port_Moresby",
+        "utcOffset": 600,
+        "utcOffsetStr": "+10:00",
+        "dstOffset": 600,
+        "dstOffsetStr": "+10:00"
+      }
     ],
     "domain": ".fm"
   },
@@ -1942,7 +2872,13 @@
     "officialLanguageCode": "da",
     "officialLanguageName": "Danish",
     "timeZones": [
-      "Atlantic/Faroe"
+      {
+        "name": "Atlantic/Faroe",
+        "utcOffset": 0,
+        "utcOffsetStr": "+00:00",
+        "dstOffset": 60,
+        "dstOffsetStr": "+01:00"
+      }
     ],
     "domain": ".fo"
   },
@@ -1967,7 +2903,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "Europe/Paris"
+      {
+        "name": "Europe/Paris",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".fr"
   },
@@ -1991,7 +2933,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "Africa/Lagos"
+      {
+        "name": "Africa/Lagos",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 60,
+        "dstOffsetStr": "+01:00"
+      }
     ],
     "domain": ".ga"
   },
@@ -2016,7 +2964,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Europe/London"
+      {
+        "name": "Europe/London",
+        "utcOffset": 0,
+        "utcOffsetStr": "+00:00",
+        "dstOffset": 60,
+        "dstOffsetStr": "+01:00"
+      }
     ],
     "domain": ".gb"
   },
@@ -2040,7 +2994,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "America/Puerto_Rico"
+      {
+        "name": "America/Puerto_Rico",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".gd"
   },
@@ -2068,7 +3028,13 @@
     "officialLanguageCode": "ka",
     "officialLanguageName": "Georgian",
     "timeZones": [
-      "Asia/Tbilisi"
+      {
+        "name": "Asia/Tbilisi",
+        "utcOffset": 240,
+        "utcOffsetStr": "+04:00",
+        "dstOffset": 240,
+        "dstOffsetStr": "+04:00"
+      }
     ],
     "domain": ".ge"
   },
@@ -2092,7 +3058,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "America/Cayenne"
+      {
+        "name": "America/Cayenne",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      }
     ],
     "domain": ".gf"
   },
@@ -2117,7 +3089,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Europe/London"
+      {
+        "name": "Europe/London",
+        "utcOffset": 0,
+        "utcOffsetStr": "+00:00",
+        "dstOffset": 60,
+        "dstOffsetStr": "+01:00"
+      }
     ],
     "domain": ".gg"
   },
@@ -2141,7 +3119,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Africa/Abidjan"
+      {
+        "name": "Africa/Abidjan",
+        "utcOffset": 0,
+        "utcOffsetStr": "+00:00",
+        "dstOffset": 0,
+        "dstOffsetStr": "+00:00"
+      }
     ],
     "domain": ".gh"
   },
@@ -2165,7 +3149,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Europe/Gibraltar"
+      {
+        "name": "Europe/Gibraltar",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".gi"
   },
@@ -2189,10 +3179,34 @@
     "officialLanguageCode": "kl",
     "officialLanguageName": "Kalaallisut, Greenlandic",
     "timeZones": [
-      "America/Danmarkshavn",
-      "America/Nuuk",
-      "America/Scoresbysund",
-      "America/Thule"
+      {
+        "name": "America/Danmarkshavn",
+        "utcOffset": 0,
+        "utcOffsetStr": "+00:00",
+        "dstOffset": 0,
+        "dstOffsetStr": "+00:00"
+      },
+      {
+        "name": "America/Nuuk",
+        "utcOffset": -120,
+        "utcOffsetStr": "-02:00",
+        "dstOffset": -60,
+        "dstOffsetStr": "-01:00"
+      },
+      {
+        "name": "America/Scoresbysund",
+        "utcOffset": -120,
+        "utcOffsetStr": "-02:00",
+        "dstOffset": -60,
+        "dstOffsetStr": "-01:00"
+      },
+      {
+        "name": "America/Thule",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      }
     ],
     "domain": ".gl"
   },
@@ -2216,7 +3230,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Africa/Abidjan"
+      {
+        "name": "Africa/Abidjan",
+        "utcOffset": 0,
+        "utcOffsetStr": "+00:00",
+        "dstOffset": 0,
+        "dstOffsetStr": "+00:00"
+      }
     ],
     "domain": ".gm"
   },
@@ -2241,7 +3261,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "Africa/Abidjan"
+      {
+        "name": "Africa/Abidjan",
+        "utcOffset": 0,
+        "utcOffsetStr": "+00:00",
+        "dstOffset": 0,
+        "dstOffsetStr": "+00:00"
+      }
     ],
     "domain": ".gn"
   },
@@ -2265,7 +3291,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "America/Puerto_Rico"
+      {
+        "name": "America/Puerto_Rico",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".gp"
   },
@@ -2290,7 +3322,13 @@
     "officialLanguageCode": "es",
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
-      "Africa/Lagos"
+      {
+        "name": "Africa/Lagos",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 60,
+        "dstOffsetStr": "+01:00"
+      }
     ],
     "domain": ".gq"
   },
@@ -2315,7 +3353,13 @@
     "officialLanguageCode": "el",
     "officialLanguageName": "Greek, Modern (1453-)",
     "timeZones": [
-      "Europe/Athens"
+      {
+        "name": "Europe/Athens",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".gr"
   },
@@ -2339,7 +3383,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Atlantic/South_Georgia"
+      {
+        "name": "Atlantic/South_Georgia",
+        "utcOffset": -120,
+        "utcOffsetStr": "-02:00",
+        "dstOffset": -120,
+        "dstOffsetStr": "-02:00"
+      }
     ],
     "domain": ".gs"
   },
@@ -2364,7 +3414,13 @@
     "officialLanguageCode": "es",
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
-      "America/Guatemala"
+      {
+        "name": "America/Guatemala",
+        "utcOffset": -360,
+        "utcOffsetStr": "-06:00",
+        "dstOffset": -360,
+        "dstOffsetStr": "-06:00"
+      }
     ],
     "domain": ".gt"
   },
@@ -2390,7 +3446,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Pacific/Guam"
+      {
+        "name": "Pacific/Guam",
+        "utcOffset": 600,
+        "utcOffsetStr": "+10:00",
+        "dstOffset": 600,
+        "dstOffsetStr": "+10:00"
+      }
     ],
     "domain": ".gu"
   },
@@ -2414,7 +3476,13 @@
     "officialLanguageCode": "pt",
     "officialLanguageName": "Portuguese",
     "timeZones": [
-      "Africa/Bissau"
+      {
+        "name": "Africa/Bissau",
+        "utcOffset": 0,
+        "utcOffsetStr": "+00:00",
+        "dstOffset": 0,
+        "dstOffsetStr": "+00:00"
+      }
     ],
     "domain": ".gw"
   },
@@ -2438,7 +3506,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "America/Guyana"
+      {
+        "name": "America/Guyana",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".gy"
   },
@@ -2464,7 +3538,13 @@
     "officialLanguageCode": "zh-hant",
     "officialLanguageName": "",
     "timeZones": [
-      "Asia/Hong_Kong"
+      {
+        "name": "Asia/Hong_Kong",
+        "utcOffset": 480,
+        "utcOffsetStr": "+08:00",
+        "dstOffset": 480,
+        "dstOffsetStr": "+08:00"
+      }
     ],
     "domain": ".hk"
   },
@@ -2488,7 +3568,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Indian/Maldives"
+      {
+        "name": "Indian/Maldives",
+        "utcOffset": 300,
+        "utcOffsetStr": "+05:00",
+        "dstOffset": 300,
+        "dstOffsetStr": "+05:00"
+      }
     ],
     "domain": ".hm"
   },
@@ -2513,7 +3599,13 @@
     "officialLanguageCode": "es",
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
-      "America/Tegucigalpa"
+      {
+        "name": "America/Tegucigalpa",
+        "utcOffset": -360,
+        "utcOffsetStr": "-06:00",
+        "dstOffset": -360,
+        "dstOffsetStr": "-06:00"
+      }
     ],
     "domain": ".hn"
   },
@@ -2538,7 +3630,13 @@
     "officialLanguageCode": "hr",
     "officialLanguageName": "Croatian",
     "timeZones": [
-      "Europe/Belgrade"
+      {
+        "name": "Europe/Belgrade",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".hr"
   },
@@ -2563,7 +3661,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "America/Port-au-Prince"
+      {
+        "name": "America/Port-au-Prince",
+        "utcOffset": -300,
+        "utcOffsetStr": "-05:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".ht"
   },
@@ -2588,7 +3692,13 @@
     "officialLanguageCode": "hu",
     "officialLanguageName": "Hungarian",
     "timeZones": [
-      "Europe/Budapest"
+      {
+        "name": "Europe/Budapest",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".hu"
   },
@@ -2613,10 +3723,34 @@
     "officialLanguageCode": "id",
     "officialLanguageName": "Indonesian",
     "timeZones": [
-      "Asia/Jakarta",
-      "Asia/Jayapura",
-      "Asia/Makassar",
-      "Asia/Pontianak"
+      {
+        "name": "Asia/Jakarta",
+        "utcOffset": 420,
+        "utcOffsetStr": "+07:00",
+        "dstOffset": 420,
+        "dstOffsetStr": "+07:00"
+      },
+      {
+        "name": "Asia/Jayapura",
+        "utcOffset": 540,
+        "utcOffsetStr": "+09:00",
+        "dstOffset": 540,
+        "dstOffsetStr": "+09:00"
+      },
+      {
+        "name": "Asia/Makassar",
+        "utcOffset": 480,
+        "utcOffsetStr": "+08:00",
+        "dstOffset": 480,
+        "dstOffsetStr": "+08:00"
+      },
+      {
+        "name": "Asia/Pontianak",
+        "utcOffset": 420,
+        "utcOffsetStr": "+07:00",
+        "dstOffset": 420,
+        "dstOffsetStr": "+07:00"
+      }
     ],
     "domain": ".id"
   },
@@ -2642,7 +3776,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Europe/Dublin"
+      {
+        "name": "Europe/Dublin",
+        "utcOffset": 0,
+        "utcOffsetStr": "+00:00",
+        "dstOffset": 60,
+        "dstOffsetStr": "+01:00"
+      }
     ],
     "domain": ".ie"
   },
@@ -2668,7 +3808,13 @@
     "officialLanguageCode": "he",
     "officialLanguageName": "Hebrew",
     "timeZones": [
-      "Asia/Jerusalem"
+      {
+        "name": "Asia/Jerusalem",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".il"
   },
@@ -2693,7 +3839,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Europe/London"
+      {
+        "name": "Europe/London",
+        "utcOffset": 0,
+        "utcOffsetStr": "+00:00",
+        "dstOffset": 60,
+        "dstOffsetStr": "+01:00"
+      }
     ],
     "domain": ".im"
   },
@@ -2719,7 +3871,13 @@
     "officialLanguageCode": "hi",
     "officialLanguageName": "Hindi",
     "timeZones": [
-      "Asia/Kolkata"
+      {
+        "name": "Asia/Kolkata",
+        "utcOffset": 330,
+        "utcOffsetStr": "+05:30",
+        "dstOffset": 330,
+        "dstOffsetStr": "+05:30"
+      }
     ],
     "domain": ".in"
   },
@@ -2743,7 +3901,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Indian/Chagos"
+      {
+        "name": "Indian/Chagos",
+        "utcOffset": 360,
+        "utcOffsetStr": "+06:00",
+        "dstOffset": 360,
+        "dstOffsetStr": "+06:00"
+      }
     ],
     "domain": ".io"
   },
@@ -2769,7 +3933,13 @@
     "officialLanguageCode": "ar",
     "officialLanguageName": "Arabic",
     "timeZones": [
-      "Asia/Baghdad"
+      {
+        "name": "Asia/Baghdad",
+        "utcOffset": 180,
+        "utcOffsetStr": "+03:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".iq"
   },
@@ -2793,7 +3963,13 @@
     "officialLanguageCode": "fa",
     "officialLanguageName": "Persian",
     "timeZones": [
-      "Asia/Tehran"
+      {
+        "name": "Asia/Tehran",
+        "utcOffset": 210,
+        "utcOffsetStr": "+03:30",
+        "dstOffset": 210,
+        "dstOffsetStr": "+03:30"
+      }
     ],
     "domain": ".ir"
   },
@@ -2818,7 +3994,13 @@
     "officialLanguageCode": "is",
     "officialLanguageName": "Icelandic",
     "timeZones": [
-      "Africa/Abidjan"
+      {
+        "name": "Africa/Abidjan",
+        "utcOffset": 0,
+        "utcOffsetStr": "+00:00",
+        "dstOffset": 0,
+        "dstOffsetStr": "+00:00"
+      }
     ],
     "domain": ".is"
   },
@@ -2843,7 +4025,13 @@
     "officialLanguageCode": "it",
     "officialLanguageName": "Italian",
     "timeZones": [
-      "Europe/Rome"
+      {
+        "name": "Europe/Rome",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".it"
   },
@@ -2868,7 +4056,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Europe/London"
+      {
+        "name": "Europe/London",
+        "utcOffset": 0,
+        "utcOffsetStr": "+00:00",
+        "dstOffset": 60,
+        "dstOffsetStr": "+01:00"
+      }
     ],
     "domain": ".je"
   },
@@ -2892,7 +4086,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "America/Jamaica"
+      {
+        "name": "America/Jamaica",
+        "utcOffset": -300,
+        "utcOffsetStr": "-05:00",
+        "dstOffset": -300,
+        "dstOffsetStr": "-05:00"
+      }
     ],
     "domain": ".jm"
   },
@@ -2917,7 +4117,13 @@
     "officialLanguageCode": "ar",
     "officialLanguageName": "Arabic",
     "timeZones": [
-      "Asia/Amman"
+      {
+        "name": "Asia/Amman",
+        "utcOffset": 180,
+        "utcOffsetStr": "+03:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".jo"
   },
@@ -2942,7 +4148,13 @@
     "officialLanguageCode": "ja",
     "officialLanguageName": "Japanese",
     "timeZones": [
-      "Asia/Tokyo"
+      {
+        "name": "Asia/Tokyo",
+        "utcOffset": 540,
+        "utcOffsetStr": "+09:00",
+        "dstOffset": 540,
+        "dstOffsetStr": "+09:00"
+      }
     ],
     "domain": ".jp"
   },
@@ -2967,7 +4179,13 @@
     "officialLanguageCode": "sw",
     "officialLanguageName": "Swahili",
     "timeZones": [
-      "Africa/Nairobi"
+      {
+        "name": "Africa/Nairobi",
+        "utcOffset": 180,
+        "utcOffsetStr": "+03:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".ke"
   },
@@ -2992,7 +4210,13 @@
     "officialLanguageCode": "ky",
     "officialLanguageName": "Kirghiz, Kyrgyz",
     "timeZones": [
-      "Asia/Bishkek"
+      {
+        "name": "Asia/Bishkek",
+        "utcOffset": 360,
+        "utcOffsetStr": "+06:00",
+        "dstOffset": 360,
+        "dstOffsetStr": "+06:00"
+      }
     ],
     "domain": ".kg"
   },
@@ -3016,7 +4240,13 @@
     "officialLanguageCode": "km",
     "officialLanguageName": "Central Khmer",
     "timeZones": [
-      "Asia/Bangkok"
+      {
+        "name": "Asia/Bangkok",
+        "utcOffset": 420,
+        "utcOffsetStr": "+07:00",
+        "dstOffset": 420,
+        "dstOffsetStr": "+07:00"
+      }
     ],
     "domain": ".kh"
   },
@@ -3040,9 +4270,27 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Pacific/Kanton",
-      "Pacific/Kiritimati",
-      "Pacific/Tarawa"
+      {
+        "name": "Pacific/Kanton",
+        "utcOffset": 780,
+        "utcOffsetStr": "+13:00",
+        "dstOffset": 780,
+        "dstOffsetStr": "+13:00"
+      },
+      {
+        "name": "Pacific/Kiritimati",
+        "utcOffset": 840,
+        "utcOffsetStr": "+14:00",
+        "dstOffset": 840,
+        "dstOffsetStr": "+14:00"
+      },
+      {
+        "name": "Pacific/Tarawa",
+        "utcOffset": 720,
+        "utcOffsetStr": "+12:00",
+        "dstOffset": 720,
+        "dstOffsetStr": "+12:00"
+      }
     ],
     "domain": ".ki"
   },
@@ -3067,7 +4315,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "Africa/Nairobi"
+      {
+        "name": "Africa/Nairobi",
+        "utcOffset": 180,
+        "utcOffsetStr": "+03:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".km"
   },
@@ -3091,7 +4345,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "America/Puerto_Rico"
+      {
+        "name": "America/Puerto_Rico",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".kn"
   },
@@ -3115,7 +4375,13 @@
     "officialLanguageCode": "ko",
     "officialLanguageName": "Korean",
     "timeZones": [
-      "Asia/Pyongyang"
+      {
+        "name": "Asia/Pyongyang",
+        "utcOffset": 540,
+        "utcOffsetStr": "+09:00",
+        "dstOffset": 540,
+        "dstOffsetStr": "+09:00"
+      }
     ],
     "domain": ".kp"
   },
@@ -3140,7 +4406,13 @@
     "officialLanguageCode": "ko",
     "officialLanguageName": "Korean",
     "timeZones": [
-      "Asia/Seoul"
+      {
+        "name": "Asia/Seoul",
+        "utcOffset": 540,
+        "utcOffsetStr": "+09:00",
+        "dstOffset": 540,
+        "dstOffsetStr": "+09:00"
+      }
     ],
     "domain": ".kr"
   },
@@ -3165,7 +4437,13 @@
     "officialLanguageCode": "ar",
     "officialLanguageName": "Arabic",
     "timeZones": [
-      "Asia/Riyadh"
+      {
+        "name": "Asia/Riyadh",
+        "utcOffset": 180,
+        "utcOffsetStr": "+03:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".kw"
   },
@@ -3189,7 +4467,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "America/Panama"
+      {
+        "name": "America/Panama",
+        "utcOffset": -300,
+        "utcOffsetStr": "-05:00",
+        "dstOffset": -300,
+        "dstOffsetStr": "-05:00"
+      }
     ],
     "domain": ".ky"
   },
@@ -3218,13 +4502,55 @@
     "officialLanguageCode": "kk",
     "officialLanguageName": "Kazakh",
     "timeZones": [
-      "Asia/Almaty",
-      "Asia/Aqtau",
-      "Asia/Aqtobe",
-      "Asia/Atyrau",
-      "Asia/Oral",
-      "Asia/Qostanay",
-      "Asia/Qyzylorda"
+      {
+        "name": "Asia/Almaty",
+        "utcOffset": 300,
+        "utcOffsetStr": "+05:00",
+        "dstOffset": 300,
+        "dstOffsetStr": "+05:00"
+      },
+      {
+        "name": "Asia/Aqtau",
+        "utcOffset": 300,
+        "utcOffsetStr": "+05:00",
+        "dstOffset": 300,
+        "dstOffsetStr": "+05:00"
+      },
+      {
+        "name": "Asia/Aqtobe",
+        "utcOffset": 300,
+        "utcOffsetStr": "+05:00",
+        "dstOffset": 300,
+        "dstOffsetStr": "+05:00"
+      },
+      {
+        "name": "Asia/Atyrau",
+        "utcOffset": 300,
+        "utcOffsetStr": "+05:00",
+        "dstOffset": 300,
+        "dstOffsetStr": "+05:00"
+      },
+      {
+        "name": "Asia/Oral",
+        "utcOffset": 300,
+        "utcOffsetStr": "+05:00",
+        "dstOffset": 300,
+        "dstOffsetStr": "+05:00"
+      },
+      {
+        "name": "Asia/Qostanay",
+        "utcOffset": 300,
+        "utcOffsetStr": "+05:00",
+        "dstOffset": 300,
+        "dstOffsetStr": "+05:00"
+      },
+      {
+        "name": "Asia/Qyzylorda",
+        "utcOffset": 300,
+        "utcOffsetStr": "+05:00",
+        "dstOffset": 300,
+        "dstOffsetStr": "+05:00"
+      }
     ],
     "domain": ".kz"
   },
@@ -3248,7 +4574,13 @@
     "officialLanguageCode": "lo",
     "officialLanguageName": "Lao",
     "timeZones": [
-      "Asia/Bangkok"
+      {
+        "name": "Asia/Bangkok",
+        "utcOffset": 420,
+        "utcOffsetStr": "+07:00",
+        "dstOffset": 420,
+        "dstOffsetStr": "+07:00"
+      }
     ],
     "domain": ".la"
   },
@@ -3274,7 +4606,13 @@
     "officialLanguageCode": "ar",
     "officialLanguageName": "Arabic",
     "timeZones": [
-      "Asia/Beirut"
+      {
+        "name": "Asia/Beirut",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".lb"
   },
@@ -3298,7 +4636,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "America/Puerto_Rico"
+      {
+        "name": "America/Puerto_Rico",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".lc"
   },
@@ -3322,7 +4666,13 @@
     "officialLanguageCode": "de",
     "officialLanguageName": "German",
     "timeZones": [
-      "Europe/Zurich"
+      {
+        "name": "Europe/Zurich",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".li"
   },
@@ -3347,7 +4697,13 @@
     "officialLanguageCode": "si",
     "officialLanguageName": "Sinhala, Sinhalese",
     "timeZones": [
-      "Asia/Colombo"
+      {
+        "name": "Asia/Colombo",
+        "utcOffset": 330,
+        "utcOffsetStr": "+05:30",
+        "dstOffset": 330,
+        "dstOffsetStr": "+05:30"
+      }
     ],
     "domain": ".lk"
   },
@@ -3371,7 +4727,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Africa/Monrovia"
+      {
+        "name": "Africa/Monrovia",
+        "utcOffset": 0,
+        "utcOffsetStr": "+00:00",
+        "dstOffset": 0,
+        "dstOffsetStr": "+00:00"
+      }
     ],
     "domain": ".lr"
   },
@@ -3396,7 +4758,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Africa/Johannesburg"
+      {
+        "name": "Africa/Johannesburg",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".ls"
   },
@@ -3421,7 +4789,13 @@
     "officialLanguageCode": "lt",
     "officialLanguageName": "Lithuanian",
     "timeZones": [
-      "Europe/Vilnius"
+      {
+        "name": "Europe/Vilnius",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".lt"
   },
@@ -3448,7 +4822,13 @@
     "officialLanguageCode": "lb",
     "officialLanguageName": "Luxembourgish, Letzeburgesch",
     "timeZones": [
-      "Europe/Brussels"
+      {
+        "name": "Europe/Brussels",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".lu"
   },
@@ -3473,7 +4853,13 @@
     "officialLanguageCode": "lv",
     "officialLanguageName": "Latvian",
     "timeZones": [
-      "Europe/Riga"
+      {
+        "name": "Europe/Riga",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".lv"
   },
@@ -3498,7 +4884,13 @@
     "officialLanguageCode": "ar",
     "officialLanguageName": "Arabic",
     "timeZones": [
-      "Africa/Tripoli"
+      {
+        "name": "Africa/Tripoli",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".ly"
   },
@@ -3523,7 +4915,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "Africa/Casablanca"
+      {
+        "name": "Africa/Casablanca",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 0,
+        "dstOffsetStr": "+00:00"
+      }
     ],
     "domain": ".ma"
   },
@@ -3547,7 +4945,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "Europe/Paris"
+      {
+        "name": "Europe/Paris",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".mc"
   },
@@ -3571,7 +4975,13 @@
     "officialLanguageCode": "ro",
     "officialLanguageName": "Romanian, Moldavian, Moldovan",
     "timeZones": [
-      "Europe/Chisinau"
+      {
+        "name": "Europe/Chisinau",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".md"
   },
@@ -3599,7 +5009,13 @@
     "officialLanguageCode": "srp",
     "officialLanguageName": "српски језик",
     "timeZones": [
-      "Europe/Belgrade"
+      {
+        "name": "Europe/Belgrade",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".me"
   },
@@ -3625,7 +5041,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "America/Puerto_Rico"
+      {
+        "name": "America/Puerto_Rico",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".mf"
   },
@@ -3650,7 +5072,13 @@
     "officialLanguageCode": "mg",
     "officialLanguageName": "Malagasy",
     "timeZones": [
-      "Africa/Nairobi"
+      {
+        "name": "Africa/Nairobi",
+        "utcOffset": 180,
+        "utcOffsetStr": "+03:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".mg"
   },
@@ -3675,8 +5103,20 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Pacific/Kwajalein",
-      "Pacific/Tarawa"
+      {
+        "name": "Pacific/Kwajalein",
+        "utcOffset": 720,
+        "utcOffsetStr": "+12:00",
+        "dstOffset": 720,
+        "dstOffsetStr": "+12:00"
+      },
+      {
+        "name": "Pacific/Tarawa",
+        "utcOffset": 720,
+        "utcOffsetStr": "+12:00",
+        "dstOffset": 720,
+        "dstOffsetStr": "+12:00"
+      }
     ],
     "domain": ".mh"
   },
@@ -3701,7 +5141,13 @@
     "officialLanguageCode": "mk",
     "officialLanguageName": "Macedonian",
     "timeZones": [
-      "Europe/Belgrade"
+      {
+        "name": "Europe/Belgrade",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".mk"
   },
@@ -3725,7 +5171,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "Africa/Abidjan"
+      {
+        "name": "Africa/Abidjan",
+        "utcOffset": 0,
+        "utcOffsetStr": "+00:00",
+        "dstOffset": 0,
+        "dstOffsetStr": "+00:00"
+      }
     ],
     "domain": ".ml"
   },
@@ -3749,7 +5201,13 @@
     "officialLanguageCode": "my",
     "officialLanguageName": "Burmese",
     "timeZones": [
-      "Asia/Yangon"
+      {
+        "name": "Asia/Yangon",
+        "utcOffset": 390,
+        "utcOffsetStr": "+06:30",
+        "dstOffset": 390,
+        "dstOffsetStr": "+06:30"
+      }
     ],
     "domain": ".mm"
   },
@@ -3773,8 +5231,20 @@
     "officialLanguageCode": "mn",
     "officialLanguageName": "Mongolian",
     "timeZones": [
-      "Asia/Hovd",
-      "Asia/Ulaanbaatar"
+      {
+        "name": "Asia/Hovd",
+        "utcOffset": 420,
+        "utcOffsetStr": "+07:00",
+        "dstOffset": 420,
+        "dstOffsetStr": "+07:00"
+      },
+      {
+        "name": "Asia/Ulaanbaatar",
+        "utcOffset": 480,
+        "utcOffsetStr": "+08:00",
+        "dstOffset": 480,
+        "dstOffsetStr": "+08:00"
+      }
     ],
     "domain": ".mn"
   },
@@ -3799,7 +5269,13 @@
     "officialLanguageCode": "zh-hant",
     "officialLanguageName": "",
     "timeZones": [
-      "Asia/Macau"
+      {
+        "name": "Asia/Macau",
+        "utcOffset": 480,
+        "utcOffsetStr": "+08:00",
+        "dstOffset": 480,
+        "dstOffsetStr": "+08:00"
+      }
     ],
     "domain": ".mo"
   },
@@ -3824,7 +5300,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Pacific/Guam"
+      {
+        "name": "Pacific/Guam",
+        "utcOffset": 600,
+        "utcOffsetStr": "+10:00",
+        "dstOffset": 600,
+        "dstOffsetStr": "+10:00"
+      }
     ],
     "domain": ".mp"
   },
@@ -3848,7 +5330,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "America/Martinique"
+      {
+        "name": "America/Martinique",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".mq"
   },
@@ -3872,7 +5360,13 @@
     "officialLanguageCode": "ar",
     "officialLanguageName": "Arabic",
     "timeZones": [
-      "Africa/Abidjan"
+      {
+        "name": "Africa/Abidjan",
+        "utcOffset": 0,
+        "utcOffsetStr": "+00:00",
+        "dstOffset": 0,
+        "dstOffsetStr": "+00:00"
+      }
     ],
     "domain": ".mr"
   },
@@ -3896,7 +5390,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "America/Puerto_Rico"
+      {
+        "name": "America/Puerto_Rico",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".ms"
   },
@@ -3922,7 +5422,13 @@
     "officialLanguageCode": "mt",
     "officialLanguageName": "Maltese",
     "timeZones": [
-      "Europe/Malta"
+      {
+        "name": "Europe/Malta",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".mt"
   },
@@ -3946,7 +5452,13 @@
     "officialLanguageCode": "mfe",
     "officialLanguageName": "",
     "timeZones": [
-      "Indian/Mauritius"
+      {
+        "name": "Indian/Mauritius",
+        "utcOffset": 240,
+        "utcOffsetStr": "+04:00",
+        "dstOffset": 240,
+        "dstOffsetStr": "+04:00"
+      }
     ],
     "domain": ".mu"
   },
@@ -3970,7 +5482,13 @@
     "officialLanguageCode": "dv",
     "officialLanguageName": "Divehi, Dhivehi, Maldivian",
     "timeZones": [
-      "Indian/Maldives"
+      {
+        "name": "Indian/Maldives",
+        "utcOffset": 300,
+        "utcOffsetStr": "+05:00",
+        "dstOffset": 300,
+        "dstOffsetStr": "+05:00"
+      }
     ],
     "domain": ".mv"
   },
@@ -3995,7 +5513,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Africa/Maputo"
+      {
+        "name": "Africa/Maputo",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".mw"
   },
@@ -4020,18 +5544,90 @@
     "officialLanguageCode": "es",
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
-      "America/Bahia_Banderas",
-      "America/Cancun",
-      "America/Chihuahua",
-      "America/Ciudad_Juarez",
-      "America/Hermosillo",
-      "America/Matamoros",
-      "America/Mazatlan",
-      "America/Merida",
-      "America/Mexico_City",
-      "America/Monterrey",
-      "America/Ojinaga",
-      "America/Tijuana"
+      {
+        "name": "America/Bahia_Banderas",
+        "utcOffset": -360,
+        "utcOffsetStr": "-06:00",
+        "dstOffset": -360,
+        "dstOffsetStr": "-06:00"
+      },
+      {
+        "name": "America/Cancun",
+        "utcOffset": -300,
+        "utcOffsetStr": "-05:00",
+        "dstOffset": -300,
+        "dstOffsetStr": "-05:00"
+      },
+      {
+        "name": "America/Chihuahua",
+        "utcOffset": -360,
+        "utcOffsetStr": "-06:00",
+        "dstOffset": -360,
+        "dstOffsetStr": "-06:00"
+      },
+      {
+        "name": "America/Ciudad_Juarez",
+        "utcOffset": -420,
+        "utcOffsetStr": "-07:00",
+        "dstOffset": -360,
+        "dstOffsetStr": "-06:00"
+      },
+      {
+        "name": "America/Hermosillo",
+        "utcOffset": -420,
+        "utcOffsetStr": "-07:00",
+        "dstOffset": -420,
+        "dstOffsetStr": "-07:00"
+      },
+      {
+        "name": "America/Matamoros",
+        "utcOffset": -360,
+        "utcOffsetStr": "-06:00",
+        "dstOffset": -300,
+        "dstOffsetStr": "-05:00"
+      },
+      {
+        "name": "America/Mazatlan",
+        "utcOffset": -420,
+        "utcOffsetStr": "-07:00",
+        "dstOffset": -420,
+        "dstOffsetStr": "-07:00"
+      },
+      {
+        "name": "America/Merida",
+        "utcOffset": -360,
+        "utcOffsetStr": "-06:00",
+        "dstOffset": -360,
+        "dstOffsetStr": "-06:00"
+      },
+      {
+        "name": "America/Mexico_City",
+        "utcOffset": -360,
+        "utcOffsetStr": "-06:00",
+        "dstOffset": -360,
+        "dstOffsetStr": "-06:00"
+      },
+      {
+        "name": "America/Monterrey",
+        "utcOffset": -360,
+        "utcOffsetStr": "-06:00",
+        "dstOffset": -360,
+        "dstOffsetStr": "-06:00"
+      },
+      {
+        "name": "America/Ojinaga",
+        "utcOffset": -360,
+        "utcOffsetStr": "-06:00",
+        "dstOffset": -300,
+        "dstOffsetStr": "-05:00"
+      },
+      {
+        "name": "America/Tijuana",
+        "utcOffset": -480,
+        "utcOffsetStr": "-08:00",
+        "dstOffset": -420,
+        "dstOffsetStr": "-07:00"
+      }
     ],
     "domain": ".mx"
   },
@@ -4056,8 +5652,20 @@
     "officialLanguageCode": "ms",
     "officialLanguageName": "Malay",
     "timeZones": [
-      "Asia/Kuching",
-      "Asia/Singapore"
+      {
+        "name": "Asia/Kuching",
+        "utcOffset": 480,
+        "utcOffsetStr": "+08:00",
+        "dstOffset": 480,
+        "dstOffsetStr": "+08:00"
+      },
+      {
+        "name": "Asia/Singapore",
+        "utcOffset": 480,
+        "utcOffsetStr": "+08:00",
+        "dstOffset": 480,
+        "dstOffsetStr": "+08:00"
+      }
     ],
     "domain": ".my"
   },
@@ -4081,7 +5689,13 @@
     "officialLanguageCode": "pt",
     "officialLanguageName": "Portuguese",
     "timeZones": [
-      "Africa/Maputo"
+      {
+        "name": "Africa/Maputo",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".mz"
   },
@@ -4106,7 +5720,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Africa/Windhoek"
+      {
+        "name": "Africa/Windhoek",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".na"
   },
@@ -4130,7 +5750,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "Pacific/Noumea"
+      {
+        "name": "Pacific/Noumea",
+        "utcOffset": 660,
+        "utcOffsetStr": "+11:00",
+        "dstOffset": 660,
+        "dstOffsetStr": "+11:00"
+      }
     ],
     "domain": ".nc"
   },
@@ -4154,7 +5780,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "Africa/Lagos"
+      {
+        "name": "Africa/Lagos",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 60,
+        "dstOffsetStr": "+01:00"
+      }
     ],
     "domain": ".ne"
   },
@@ -4178,7 +5810,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Pacific/Norfolk"
+      {
+        "name": "Pacific/Norfolk",
+        "utcOffset": 660,
+        "utcOffsetStr": "+11:00",
+        "dstOffset": 720,
+        "dstOffsetStr": "+12:00"
+      }
     ],
     "domain": ".nf"
   },
@@ -4202,7 +5840,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Africa/Lagos"
+      {
+        "name": "Africa/Lagos",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 60,
+        "dstOffsetStr": "+01:00"
+      }
     ],
     "domain": ".ng"
   },
@@ -4227,7 +5871,13 @@
     "officialLanguageCode": "es",
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
-      "America/Managua"
+      {
+        "name": "America/Managua",
+        "utcOffset": -360,
+        "utcOffsetStr": "-06:00",
+        "dstOffset": -360,
+        "dstOffsetStr": "-06:00"
+      }
     ],
     "domain": ".ni"
   },
@@ -4252,7 +5902,13 @@
     "officialLanguageCode": "nl",
     "officialLanguageName": "Dutch, Flemish",
     "timeZones": [
-      "Europe/Brussels"
+      {
+        "name": "Europe/Brussels",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".nl"
   },
@@ -4279,7 +5935,13 @@
     "officialLanguageCode": "nb",
     "officialLanguageName": "Norwegian Bokmål",
     "timeZones": [
-      "Europe/Berlin"
+      {
+        "name": "Europe/Berlin",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".no"
   },
@@ -4303,7 +5965,13 @@
     "officialLanguageCode": "ne",
     "officialLanguageName": "Nepali",
     "timeZones": [
-      "Asia/Kathmandu"
+      {
+        "name": "Asia/Kathmandu",
+        "utcOffset": 345,
+        "utcOffsetStr": "+05:45",
+        "dstOffset": 345,
+        "dstOffsetStr": "+05:45"
+      }
     ],
     "domain": ".np"
   },
@@ -4328,7 +5996,13 @@
     "officialLanguageCode": "na",
     "officialLanguageName": "Nauru",
     "timeZones": [
-      "Pacific/Nauru"
+      {
+        "name": "Pacific/Nauru",
+        "utcOffset": 720,
+        "utcOffsetStr": "+12:00",
+        "dstOffset": 720,
+        "dstOffsetStr": "+12:00"
+      }
     ],
     "domain": ".nr"
   },
@@ -4352,7 +6026,13 @@
     "officialLanguageCode": "niu",
     "officialLanguageName": "",
     "timeZones": [
-      "Pacific/Niue"
+      {
+        "name": "Pacific/Niue",
+        "utcOffset": -660,
+        "utcOffsetStr": "-11:00",
+        "dstOffset": -660,
+        "dstOffsetStr": "-11:00"
+      }
     ],
     "domain": ".nu"
   },
@@ -4378,8 +6058,20 @@
     "officialLanguageCode": "mi",
     "officialLanguageName": "Maori",
     "timeZones": [
-      "Pacific/Auckland",
-      "Pacific/Chatham"
+      {
+        "name": "Pacific/Auckland",
+        "utcOffset": 720,
+        "utcOffsetStr": "+12:00",
+        "dstOffset": 780,
+        "dstOffsetStr": "+13:00"
+      },
+      {
+        "name": "Pacific/Chatham",
+        "utcOffset": 765,
+        "utcOffsetStr": "+12:45",
+        "dstOffset": 825,
+        "dstOffsetStr": "+13:45"
+      }
     ],
     "domain": ".nz"
   },
@@ -4404,7 +6096,13 @@
     "officialLanguageCode": "ar",
     "officialLanguageName": "Arabic",
     "timeZones": [
-      "Asia/Dubai"
+      {
+        "name": "Asia/Dubai",
+        "utcOffset": 240,
+        "utcOffsetStr": "+04:00",
+        "dstOffset": 240,
+        "dstOffsetStr": "+04:00"
+      }
     ],
     "domain": ".om"
   },
@@ -4429,7 +6127,13 @@
     "officialLanguageCode": "es",
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
-      "America/Panama"
+      {
+        "name": "America/Panama",
+        "utcOffset": -300,
+        "utcOffsetStr": "-05:00",
+        "dstOffset": -300,
+        "dstOffsetStr": "-05:00"
+      }
     ],
     "domain": ".pa"
   },
@@ -4454,7 +6158,13 @@
     "officialLanguageCode": "es",
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
-      "America/Lima"
+      {
+        "name": "America/Lima",
+        "utcOffset": -300,
+        "utcOffsetStr": "-05:00",
+        "dstOffset": -300,
+        "dstOffsetStr": "-05:00"
+      }
     ],
     "domain": ".pe"
   },
@@ -4478,9 +6188,27 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "Pacific/Gambier",
-      "Pacific/Marquesas",
-      "Pacific/Tahiti"
+      {
+        "name": "Pacific/Gambier",
+        "utcOffset": -540,
+        "utcOffsetStr": "-09:00",
+        "dstOffset": -540,
+        "dstOffsetStr": "-09:00"
+      },
+      {
+        "name": "Pacific/Marquesas",
+        "utcOffset": -570,
+        "utcOffsetStr": "-09:30",
+        "dstOffset": -570,
+        "dstOffsetStr": "-09:30"
+      },
+      {
+        "name": "Pacific/Tahiti",
+        "utcOffset": -600,
+        "utcOffsetStr": "-10:00",
+        "dstOffset": -600,
+        "dstOffsetStr": "-10:00"
+      }
     ],
     "domain": ".pf"
   },
@@ -4504,8 +6232,20 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Pacific/Bougainville",
-      "Pacific/Port_Moresby"
+      {
+        "name": "Pacific/Bougainville",
+        "utcOffset": 660,
+        "utcOffsetStr": "+11:00",
+        "dstOffset": 660,
+        "dstOffsetStr": "+11:00"
+      },
+      {
+        "name": "Pacific/Port_Moresby",
+        "utcOffset": 600,
+        "utcOffsetStr": "+10:00",
+        "dstOffset": 600,
+        "dstOffsetStr": "+10:00"
+      }
     ],
     "domain": ".pg"
   },
@@ -4531,7 +6271,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Asia/Manila"
+      {
+        "name": "Asia/Manila",
+        "utcOffset": 480,
+        "utcOffsetStr": "+08:00",
+        "dstOffset": 480,
+        "dstOffsetStr": "+08:00"
+      }
     ],
     "domain": ".ph"
   },
@@ -4556,7 +6302,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Asia/Karachi"
+      {
+        "name": "Asia/Karachi",
+        "utcOffset": 300,
+        "utcOffsetStr": "+05:00",
+        "dstOffset": 300,
+        "dstOffsetStr": "+05:00"
+      }
     ],
     "domain": ".pk"
   },
@@ -4581,7 +6333,13 @@
     "officialLanguageCode": "pl",
     "officialLanguageName": "Polish",
     "timeZones": [
-      "Europe/Warsaw"
+      {
+        "name": "Europe/Warsaw",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".pl"
   },
@@ -4605,7 +6363,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "America/Miquelon"
+      {
+        "name": "America/Miquelon",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -120,
+        "dstOffsetStr": "-02:00"
+      }
     ],
     "domain": ".pm"
   },
@@ -4629,7 +6393,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Pacific/Pitcairn"
+      {
+        "name": "Pacific/Pitcairn",
+        "utcOffset": -480,
+        "utcOffsetStr": "-08:00",
+        "dstOffset": -480,
+        "dstOffsetStr": "-08:00"
+      }
     ],
     "domain": ".pn"
   },
@@ -4656,7 +6426,13 @@
     "officialLanguageCode": "es",
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
-      "America/Puerto_Rico"
+      {
+        "name": "America/Puerto_Rico",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".pr"
   },
@@ -4680,8 +6456,20 @@
     "officialLanguageCode": "ar",
     "officialLanguageName": "Arabic",
     "timeZones": [
-      "Asia/Gaza",
-      "Asia/Hebron"
+      {
+        "name": "Asia/Gaza",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      },
+      {
+        "name": "Asia/Hebron",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".ps"
   },
@@ -4706,9 +6494,27 @@
     "officialLanguageCode": "pt",
     "officialLanguageName": "Portuguese",
     "timeZones": [
-      "Atlantic/Azores",
-      "Atlantic/Madeira",
-      "Europe/Lisbon"
+      {
+        "name": "Atlantic/Azores",
+        "utcOffset": -60,
+        "utcOffsetStr": "-01:00",
+        "dstOffset": 0,
+        "dstOffsetStr": "+00:00"
+      },
+      {
+        "name": "Atlantic/Madeira",
+        "utcOffset": 0,
+        "utcOffsetStr": "+00:00",
+        "dstOffset": 60,
+        "dstOffsetStr": "+01:00"
+      },
+      {
+        "name": "Europe/Lisbon",
+        "utcOffset": 0,
+        "utcOffsetStr": "+00:00",
+        "dstOffset": 60,
+        "dstOffsetStr": "+01:00"
+      }
     ],
     "domain": ".pt"
   },
@@ -4732,7 +6538,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Pacific/Palau"
+      {
+        "name": "Pacific/Palau",
+        "utcOffset": 540,
+        "utcOffsetStr": "+09:00",
+        "dstOffset": 540,
+        "dstOffsetStr": "+09:00"
+      }
     ],
     "domain": ".pw"
   },
@@ -4758,7 +6570,13 @@
     "officialLanguageCode": "es",
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
-      "America/Asuncion"
+      {
+        "name": "America/Asuncion",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      }
     ],
     "domain": ".py"
   },
@@ -4783,7 +6601,13 @@
     "officialLanguageCode": "ar",
     "officialLanguageName": "Arabic",
     "timeZones": [
-      "Asia/Qatar"
+      {
+        "name": "Asia/Qatar",
+        "utcOffset": 180,
+        "utcOffsetStr": "+03:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".qa"
   },
@@ -4807,7 +6631,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "Asia/Dubai"
+      {
+        "name": "Asia/Dubai",
+        "utcOffset": 240,
+        "utcOffsetStr": "+04:00",
+        "dstOffset": 240,
+        "dstOffsetStr": "+04:00"
+      }
     ],
     "domain": ".re"
   },
@@ -4832,7 +6662,13 @@
     "officialLanguageCode": "ro",
     "officialLanguageName": "Romanian, Moldavian, Moldovan",
     "timeZones": [
-      "Europe/Bucharest"
+      {
+        "name": "Europe/Bucharest",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".ro"
   },
@@ -4857,7 +6693,13 @@
     "officialLanguageCode": "sr",
     "officialLanguageName": "Serbian",
     "timeZones": [
-      "Europe/Belgrade"
+      {
+        "name": "Europe/Belgrade",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".rs"
   },
@@ -4886,33 +6728,195 @@
     "officialLanguageCode": "ru",
     "officialLanguageName": "Russian",
     "timeZones": [
-      "Asia/Anadyr",
-      "Asia/Barnaul",
-      "Asia/Chita",
-      "Asia/Irkutsk",
-      "Asia/Kamchatka",
-      "Asia/Khandyga",
-      "Asia/Krasnoyarsk",
-      "Asia/Magadan",
-      "Asia/Novokuznetsk",
-      "Asia/Novosibirsk",
-      "Asia/Omsk",
-      "Asia/Sakhalin",
-      "Asia/Srednekolymsk",
-      "Asia/Tomsk",
-      "Asia/Ust-Nera",
-      "Asia/Vladivostok",
-      "Asia/Yakutsk",
-      "Asia/Yekaterinburg",
-      "Europe/Astrakhan",
-      "Europe/Kaliningrad",
-      "Europe/Kirov",
-      "Europe/Moscow",
-      "Europe/Samara",
-      "Europe/Saratov",
-      "Europe/Simferopol",
-      "Europe/Ulyanovsk",
-      "Europe/Volgograd"
+      {
+        "name": "Asia/Anadyr",
+        "utcOffset": 720,
+        "utcOffsetStr": "+12:00",
+        "dstOffset": 720,
+        "dstOffsetStr": "+12:00"
+      },
+      {
+        "name": "Asia/Barnaul",
+        "utcOffset": 420,
+        "utcOffsetStr": "+07:00",
+        "dstOffset": 420,
+        "dstOffsetStr": "+07:00"
+      },
+      {
+        "name": "Asia/Chita",
+        "utcOffset": 540,
+        "utcOffsetStr": "+09:00",
+        "dstOffset": 540,
+        "dstOffsetStr": "+09:00"
+      },
+      {
+        "name": "Asia/Irkutsk",
+        "utcOffset": 480,
+        "utcOffsetStr": "+08:00",
+        "dstOffset": 480,
+        "dstOffsetStr": "+08:00"
+      },
+      {
+        "name": "Asia/Kamchatka",
+        "utcOffset": 720,
+        "utcOffsetStr": "+12:00",
+        "dstOffset": 720,
+        "dstOffsetStr": "+12:00"
+      },
+      {
+        "name": "Asia/Khandyga",
+        "utcOffset": 540,
+        "utcOffsetStr": "+09:00",
+        "dstOffset": 540,
+        "dstOffsetStr": "+09:00"
+      },
+      {
+        "name": "Asia/Krasnoyarsk",
+        "utcOffset": 420,
+        "utcOffsetStr": "+07:00",
+        "dstOffset": 420,
+        "dstOffsetStr": "+07:00"
+      },
+      {
+        "name": "Asia/Magadan",
+        "utcOffset": 660,
+        "utcOffsetStr": "+11:00",
+        "dstOffset": 660,
+        "dstOffsetStr": "+11:00"
+      },
+      {
+        "name": "Asia/Novokuznetsk",
+        "utcOffset": 420,
+        "utcOffsetStr": "+07:00",
+        "dstOffset": 420,
+        "dstOffsetStr": "+07:00"
+      },
+      {
+        "name": "Asia/Novosibirsk",
+        "utcOffset": 420,
+        "utcOffsetStr": "+07:00",
+        "dstOffset": 420,
+        "dstOffsetStr": "+07:00"
+      },
+      {
+        "name": "Asia/Omsk",
+        "utcOffset": 360,
+        "utcOffsetStr": "+06:00",
+        "dstOffset": 360,
+        "dstOffsetStr": "+06:00"
+      },
+      {
+        "name": "Asia/Sakhalin",
+        "utcOffset": 660,
+        "utcOffsetStr": "+11:00",
+        "dstOffset": 660,
+        "dstOffsetStr": "+11:00"
+      },
+      {
+        "name": "Asia/Srednekolymsk",
+        "utcOffset": 660,
+        "utcOffsetStr": "+11:00",
+        "dstOffset": 660,
+        "dstOffsetStr": "+11:00"
+      },
+      {
+        "name": "Asia/Tomsk",
+        "utcOffset": 420,
+        "utcOffsetStr": "+07:00",
+        "dstOffset": 420,
+        "dstOffsetStr": "+07:00"
+      },
+      {
+        "name": "Asia/Ust-Nera",
+        "utcOffset": 600,
+        "utcOffsetStr": "+10:00",
+        "dstOffset": 600,
+        "dstOffsetStr": "+10:00"
+      },
+      {
+        "name": "Asia/Vladivostok",
+        "utcOffset": 600,
+        "utcOffsetStr": "+10:00",
+        "dstOffset": 600,
+        "dstOffsetStr": "+10:00"
+      },
+      {
+        "name": "Asia/Yakutsk",
+        "utcOffset": 540,
+        "utcOffsetStr": "+09:00",
+        "dstOffset": 540,
+        "dstOffsetStr": "+09:00"
+      },
+      {
+        "name": "Asia/Yekaterinburg",
+        "utcOffset": 300,
+        "utcOffsetStr": "+05:00",
+        "dstOffset": 300,
+        "dstOffsetStr": "+05:00"
+      },
+      {
+        "name": "Europe/Astrakhan",
+        "utcOffset": 240,
+        "utcOffsetStr": "+04:00",
+        "dstOffset": 240,
+        "dstOffsetStr": "+04:00"
+      },
+      {
+        "name": "Europe/Kaliningrad",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      },
+      {
+        "name": "Europe/Kirov",
+        "utcOffset": 180,
+        "utcOffsetStr": "+03:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      },
+      {
+        "name": "Europe/Moscow",
+        "utcOffset": 180,
+        "utcOffsetStr": "+03:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      },
+      {
+        "name": "Europe/Samara",
+        "utcOffset": 240,
+        "utcOffsetStr": "+04:00",
+        "dstOffset": 240,
+        "dstOffsetStr": "+04:00"
+      },
+      {
+        "name": "Europe/Saratov",
+        "utcOffset": 240,
+        "utcOffsetStr": "+04:00",
+        "dstOffset": 240,
+        "dstOffsetStr": "+04:00"
+      },
+      {
+        "name": "Europe/Simferopol",
+        "utcOffset": 180,
+        "utcOffsetStr": "+03:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      },
+      {
+        "name": "Europe/Ulyanovsk",
+        "utcOffset": 240,
+        "utcOffsetStr": "+04:00",
+        "dstOffset": 240,
+        "dstOffsetStr": "+04:00"
+      },
+      {
+        "name": "Europe/Volgograd",
+        "utcOffset": 180,
+        "utcOffsetStr": "+03:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".ru"
   },
@@ -4938,7 +6942,13 @@
     "officialLanguageCode": "rw",
     "officialLanguageName": "Kinyarwanda",
     "timeZones": [
-      "Africa/Maputo"
+      {
+        "name": "Africa/Maputo",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".rw"
   },
@@ -4963,7 +6973,13 @@
     "officialLanguageCode": "ar",
     "officialLanguageName": "Arabic",
     "timeZones": [
-      "Asia/Riyadh"
+      {
+        "name": "Asia/Riyadh",
+        "utcOffset": 180,
+        "utcOffsetStr": "+03:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".sa"
   },
@@ -4987,7 +7003,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Pacific/Guadalcanal"
+      {
+        "name": "Pacific/Guadalcanal",
+        "utcOffset": 660,
+        "utcOffsetStr": "+11:00",
+        "dstOffset": 660,
+        "dstOffsetStr": "+11:00"
+      }
     ],
     "domain": ".sb"
   },
@@ -5012,7 +7034,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "Asia/Dubai"
+      {
+        "name": "Asia/Dubai",
+        "utcOffset": 240,
+        "utcOffsetStr": "+04:00",
+        "dstOffset": 240,
+        "dstOffsetStr": "+04:00"
+      }
     ],
     "domain": ".sc"
   },
@@ -5038,7 +7066,13 @@
     "officialLanguageCode": "ar",
     "officialLanguageName": "Arabic",
     "timeZones": [
-      "Africa/Khartoum"
+      {
+        "name": "Africa/Khartoum",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".sd"
   },
@@ -5063,7 +7097,13 @@
     "officialLanguageCode": "sv",
     "officialLanguageName": "Swedish",
     "timeZones": [
-      "Europe/Berlin"
+      {
+        "name": "Europe/Berlin",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".se"
   },
@@ -5091,7 +7131,13 @@
     "officialLanguageCode": "zh-hans",
     "officialLanguageName": "",
     "timeZones": [
-      "Asia/Singapore"
+      {
+        "name": "Asia/Singapore",
+        "utcOffset": 480,
+        "utcOffsetStr": "+08:00",
+        "dstOffset": 480,
+        "dstOffsetStr": "+08:00"
+      }
     ],
     "domain": ".sg"
   },
@@ -5115,7 +7161,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Africa/Abidjan"
+      {
+        "name": "Africa/Abidjan",
+        "utcOffset": 0,
+        "utcOffsetStr": "+00:00",
+        "dstOffset": 0,
+        "dstOffsetStr": "+00:00"
+      }
     ],
     "domain": ".sh"
   },
@@ -5140,7 +7192,13 @@
     "officialLanguageCode": "sl",
     "officialLanguageName": "Slovenian",
     "timeZones": [
-      "Europe/Belgrade"
+      {
+        "name": "Europe/Belgrade",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".si"
   },
@@ -5164,7 +7222,13 @@
     "officialLanguageCode": "no",
     "officialLanguageName": "Norwegian",
     "timeZones": [
-      "Europe/Berlin"
+      {
+        "name": "Europe/Berlin",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".sj (unofficial)"
   },
@@ -5189,7 +7253,13 @@
     "officialLanguageCode": "sk",
     "officialLanguageName": "Slovak",
     "timeZones": [
-      "Europe/Prague"
+      {
+        "name": "Europe/Prague",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".sk"
   },
@@ -5213,7 +7283,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Africa/Abidjan"
+      {
+        "name": "Africa/Abidjan",
+        "utcOffset": 0,
+        "utcOffsetStr": "+00:00",
+        "dstOffset": 0,
+        "dstOffsetStr": "+00:00"
+      }
     ],
     "domain": ".sl"
   },
@@ -5237,7 +7313,13 @@
     "officialLanguageCode": "it",
     "officialLanguageName": "Italian",
     "timeZones": [
-      "Europe/Rome"
+      {
+        "name": "Europe/Rome",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".sm"
   },
@@ -5261,7 +7343,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "Africa/Abidjan"
+      {
+        "name": "Africa/Abidjan",
+        "utcOffset": 0,
+        "utcOffsetStr": "+00:00",
+        "dstOffset": 0,
+        "dstOffsetStr": "+00:00"
+      }
     ],
     "domain": ".sn"
   },
@@ -5286,7 +7374,13 @@
     "officialLanguageCode": "so",
     "officialLanguageName": "Somali",
     "timeZones": [
-      "Africa/Nairobi"
+      {
+        "name": "Africa/Nairobi",
+        "utcOffset": 180,
+        "utcOffsetStr": "+03:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".so"
   },
@@ -5310,7 +7404,13 @@
     "officialLanguageCode": "nl",
     "officialLanguageName": "Dutch, Flemish",
     "timeZones": [
-      "America/Paramaribo"
+      {
+        "name": "America/Paramaribo",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      }
     ],
     "domain": ".sr"
   },
@@ -5334,7 +7434,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Africa/Juba"
+      {
+        "name": "Africa/Juba",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".ss"
   },
@@ -5358,7 +7464,13 @@
     "officialLanguageCode": "pt",
     "officialLanguageName": "Portuguese",
     "timeZones": [
-      "Africa/Sao_Tome"
+      {
+        "name": "Africa/Sao_Tome",
+        "utcOffset": 0,
+        "utcOffsetStr": "+00:00",
+        "dstOffset": 0,
+        "dstOffsetStr": "+00:00"
+      }
     ],
     "domain": ".st"
   },
@@ -5383,7 +7495,13 @@
     "officialLanguageCode": "es",
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
-      "America/El_Salvador"
+      {
+        "name": "America/El_Salvador",
+        "utcOffset": -360,
+        "utcOffsetStr": "-06:00",
+        "dstOffset": -360,
+        "dstOffsetStr": "-06:00"
+      }
     ],
     "domain": ".sv"
   },
@@ -5408,7 +7526,13 @@
     "officialLanguageCode": "nl",
     "officialLanguageName": "Dutch, Flemish",
     "timeZones": [
-      "America/Puerto_Rico"
+      {
+        "name": "America/Puerto_Rico",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".sx"
   },
@@ -5433,7 +7557,13 @@
     "officialLanguageCode": "ar",
     "officialLanguageName": "Arabic",
     "timeZones": [
-      "Asia/Damascus"
+      {
+        "name": "Asia/Damascus",
+        "utcOffset": 180,
+        "utcOffsetStr": "+03:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".sy"
   },
@@ -5458,7 +7588,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Africa/Johannesburg"
+      {
+        "name": "Africa/Johannesburg",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".sz"
   },
@@ -5482,7 +7618,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "America/Grand_Turk"
+      {
+        "name": "America/Grand_Turk",
+        "utcOffset": -300,
+        "utcOffsetStr": "-05:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".tc"
   },
@@ -5507,7 +7649,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "Africa/Ndjamena"
+      {
+        "name": "Africa/Ndjamena",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 60,
+        "dstOffsetStr": "+01:00"
+      }
     ],
     "domain": ".td"
   },
@@ -5531,8 +7679,20 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "Asia/Dubai",
-      "Indian/Maldives"
+      {
+        "name": "Asia/Dubai",
+        "utcOffset": 240,
+        "utcOffsetStr": "+04:00",
+        "dstOffset": 240,
+        "dstOffsetStr": "+04:00"
+      },
+      {
+        "name": "Indian/Maldives",
+        "utcOffset": 300,
+        "utcOffsetStr": "+05:00",
+        "dstOffset": 300,
+        "dstOffsetStr": "+05:00"
+      }
     ],
     "domain": ".tf"
   },
@@ -5556,7 +7716,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "Africa/Abidjan"
+      {
+        "name": "Africa/Abidjan",
+        "utcOffset": 0,
+        "utcOffsetStr": "+00:00",
+        "dstOffset": 0,
+        "dstOffsetStr": "+00:00"
+      }
     ],
     "domain": ".tg"
   },
@@ -5581,7 +7747,13 @@
     "officialLanguageCode": "th",
     "officialLanguageName": "Thai",
     "timeZones": [
-      "Asia/Bangkok"
+      {
+        "name": "Asia/Bangkok",
+        "utcOffset": 420,
+        "utcOffsetStr": "+07:00",
+        "dstOffset": 420,
+        "dstOffsetStr": "+07:00"
+      }
     ],
     "domain": ".th"
   },
@@ -5606,7 +7778,13 @@
     "officialLanguageCode": "tg",
     "officialLanguageName": "Tajik",
     "timeZones": [
-      "Asia/Dushanbe"
+      {
+        "name": "Asia/Dushanbe",
+        "utcOffset": 300,
+        "utcOffsetStr": "+05:00",
+        "dstOffset": 300,
+        "dstOffsetStr": "+05:00"
+      }
     ],
     "domain": ".tj"
   },
@@ -5630,7 +7808,13 @@
     "officialLanguageCode": "tkl",
     "officialLanguageName": "",
     "timeZones": [
-      "Pacific/Fakaofo"
+      {
+        "name": "Pacific/Fakaofo",
+        "utcOffset": 780,
+        "utcOffsetStr": "+13:00",
+        "dstOffset": 780,
+        "dstOffsetStr": "+13:00"
+      }
     ],
     "domain": ".tk"
   },
@@ -5654,7 +7838,13 @@
     "officialLanguageCode": "pt",
     "officialLanguageName": "Portuguese",
     "timeZones": [
-      "Asia/Dili"
+      {
+        "name": "Asia/Dili",
+        "utcOffset": 540,
+        "utcOffsetStr": "+09:00",
+        "dstOffset": 540,
+        "dstOffsetStr": "+09:00"
+      }
     ],
     "domain": ".tl"
   },
@@ -5679,7 +7869,13 @@
     "officialLanguageCode": "tk",
     "officialLanguageName": "Turkmen",
     "timeZones": [
-      "Asia/Ashgabat"
+      {
+        "name": "Asia/Ashgabat",
+        "utcOffset": 300,
+        "utcOffsetStr": "+05:00",
+        "dstOffset": 300,
+        "dstOffsetStr": "+05:00"
+      }
     ],
     "domain": ".tm"
   },
@@ -5704,7 +7900,13 @@
     "officialLanguageCode": "ar",
     "officialLanguageName": "Arabic",
     "timeZones": [
-      "Africa/Tunis"
+      {
+        "name": "Africa/Tunis",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 60,
+        "dstOffsetStr": "+01:00"
+      }
     ],
     "domain": ".tn"
   },
@@ -5729,7 +7931,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Pacific/Tongatapu"
+      {
+        "name": "Pacific/Tongatapu",
+        "utcOffset": 780,
+        "utcOffsetStr": "+13:00",
+        "dstOffset": 780,
+        "dstOffsetStr": "+13:00"
+      }
     ],
     "domain": ".to"
   },
@@ -5758,7 +7966,13 @@
     "officialLanguageCode": "tr",
     "officialLanguageName": "Turkish",
     "timeZones": [
-      "Europe/Istanbul"
+      {
+        "name": "Europe/Istanbul",
+        "utcOffset": 180,
+        "utcOffsetStr": "+03:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".tr"
   },
@@ -5782,7 +7996,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "America/Puerto_Rico"
+      {
+        "name": "America/Puerto_Rico",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".tt"
   },
@@ -5806,7 +8026,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Pacific/Tarawa"
+      {
+        "name": "Pacific/Tarawa",
+        "utcOffset": 720,
+        "utcOffsetStr": "+12:00",
+        "dstOffset": 720,
+        "dstOffsetStr": "+12:00"
+      }
     ],
     "domain": ".tv"
   },
@@ -5831,7 +8057,13 @@
     "officialLanguageCode": "zh-hant",
     "officialLanguageName": "",
     "timeZones": [
-      "Asia/Taipei"
+      {
+        "name": "Asia/Taipei",
+        "utcOffset": 480,
+        "utcOffsetStr": "+08:00",
+        "dstOffset": 480,
+        "dstOffsetStr": "+08:00"
+      }
     ],
     "domain": ".tw"
   },
@@ -5856,7 +8088,13 @@
     "officialLanguageCode": "sw",
     "officialLanguageName": "Swahili",
     "timeZones": [
-      "Africa/Nairobi"
+      {
+        "name": "Africa/Nairobi",
+        "utcOffset": 180,
+        "utcOffsetStr": "+03:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".tz"
   },
@@ -5881,8 +8119,20 @@
     "officialLanguageCode": "uk",
     "officialLanguageName": "Ukrainian",
     "timeZones": [
-      "Europe/Kyiv",
-      "Europe/Simferopol"
+      {
+        "name": "Europe/Kyiv",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      },
+      {
+        "name": "Europe/Simferopol",
+        "utcOffset": 180,
+        "utcOffsetStr": "+03:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".ua"
   },
@@ -5907,7 +8157,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Africa/Nairobi"
+      {
+        "name": "Africa/Nairobi",
+        "utcOffset": 180,
+        "utcOffsetStr": "+03:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".ug"
   },
@@ -5931,8 +8187,20 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Pacific/Pago_Pago",
-      "Pacific/Tarawa"
+      {
+        "name": "Pacific/Pago_Pago",
+        "utcOffset": -660,
+        "utcOffsetStr": "-11:00",
+        "dstOffset": -660,
+        "dstOffsetStr": "-11:00"
+      },
+      {
+        "name": "Pacific/Tarawa",
+        "utcOffset": 720,
+        "utcOffsetStr": "+12:00",
+        "dstOffset": 720,
+        "dstOffsetStr": "+12:00"
+      }
     ],
     "domain": ".um (unofficial)"
   },
@@ -5957,35 +8225,209 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "America/Adak",
-      "America/Anchorage",
-      "America/Boise",
-      "America/Chicago",
-      "America/Denver",
-      "America/Detroit",
-      "America/Indiana/Indianapolis",
-      "America/Indiana/Knox",
-      "America/Indiana/Marengo",
-      "America/Indiana/Petersburg",
-      "America/Indiana/Tell_City",
-      "America/Indiana/Vevay",
-      "America/Indiana/Vincennes",
-      "America/Indiana/Winamac",
-      "America/Juneau",
-      "America/Kentucky/Louisville",
-      "America/Kentucky/Monticello",
-      "America/Los_Angeles",
-      "America/Menominee",
-      "America/Metlakatla",
-      "America/New_York",
-      "America/Nome",
-      "America/North_Dakota/Beulah",
-      "America/North_Dakota/Center",
-      "America/North_Dakota/New_Salem",
-      "America/Phoenix",
-      "America/Sitka",
-      "America/Yakutat",
-      "Pacific/Honolulu"
+      {
+        "name": "America/Adak",
+        "utcOffset": -600,
+        "utcOffsetStr": "-10:00",
+        "dstOffset": -540,
+        "dstOffsetStr": "-09:00"
+      },
+      {
+        "name": "America/Anchorage",
+        "utcOffset": -540,
+        "utcOffsetStr": "-09:00",
+        "dstOffset": -480,
+        "dstOffsetStr": "-08:00"
+      },
+      {
+        "name": "America/Boise",
+        "utcOffset": -420,
+        "utcOffsetStr": "-07:00",
+        "dstOffset": -360,
+        "dstOffsetStr": "-06:00"
+      },
+      {
+        "name": "America/Chicago",
+        "utcOffset": -360,
+        "utcOffsetStr": "-06:00",
+        "dstOffset": -300,
+        "dstOffsetStr": "-05:00"
+      },
+      {
+        "name": "America/Denver",
+        "utcOffset": -420,
+        "utcOffsetStr": "-07:00",
+        "dstOffset": -360,
+        "dstOffsetStr": "-06:00"
+      },
+      {
+        "name": "America/Detroit",
+        "utcOffset": -300,
+        "utcOffsetStr": "-05:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      },
+      {
+        "name": "America/Indiana/Indianapolis",
+        "utcOffset": -300,
+        "utcOffsetStr": "-05:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      },
+      {
+        "name": "America/Indiana/Knox",
+        "utcOffset": -360,
+        "utcOffsetStr": "-06:00",
+        "dstOffset": -300,
+        "dstOffsetStr": "-05:00"
+      },
+      {
+        "name": "America/Indiana/Marengo",
+        "utcOffset": -300,
+        "utcOffsetStr": "-05:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      },
+      {
+        "name": "America/Indiana/Petersburg",
+        "utcOffset": -300,
+        "utcOffsetStr": "-05:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      },
+      {
+        "name": "America/Indiana/Tell_City",
+        "utcOffset": -360,
+        "utcOffsetStr": "-06:00",
+        "dstOffset": -300,
+        "dstOffsetStr": "-05:00"
+      },
+      {
+        "name": "America/Indiana/Vevay",
+        "utcOffset": -300,
+        "utcOffsetStr": "-05:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      },
+      {
+        "name": "America/Indiana/Vincennes",
+        "utcOffset": -300,
+        "utcOffsetStr": "-05:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      },
+      {
+        "name": "America/Indiana/Winamac",
+        "utcOffset": -300,
+        "utcOffsetStr": "-05:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      },
+      {
+        "name": "America/Juneau",
+        "utcOffset": -540,
+        "utcOffsetStr": "-09:00",
+        "dstOffset": -480,
+        "dstOffsetStr": "-08:00"
+      },
+      {
+        "name": "America/Kentucky/Louisville",
+        "utcOffset": -300,
+        "utcOffsetStr": "-05:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      },
+      {
+        "name": "America/Kentucky/Monticello",
+        "utcOffset": -300,
+        "utcOffsetStr": "-05:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      },
+      {
+        "name": "America/Los_Angeles",
+        "utcOffset": -480,
+        "utcOffsetStr": "-08:00",
+        "dstOffset": -420,
+        "dstOffsetStr": "-07:00"
+      },
+      {
+        "name": "America/Menominee",
+        "utcOffset": -360,
+        "utcOffsetStr": "-06:00",
+        "dstOffset": -300,
+        "dstOffsetStr": "-05:00"
+      },
+      {
+        "name": "America/Metlakatla",
+        "utcOffset": -540,
+        "utcOffsetStr": "-09:00",
+        "dstOffset": -480,
+        "dstOffsetStr": "-08:00"
+      },
+      {
+        "name": "America/New_York",
+        "utcOffset": -300,
+        "utcOffsetStr": "-05:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      },
+      {
+        "name": "America/Nome",
+        "utcOffset": -540,
+        "utcOffsetStr": "-09:00",
+        "dstOffset": -480,
+        "dstOffsetStr": "-08:00"
+      },
+      {
+        "name": "America/North_Dakota/Beulah",
+        "utcOffset": -360,
+        "utcOffsetStr": "-06:00",
+        "dstOffset": -300,
+        "dstOffsetStr": "-05:00"
+      },
+      {
+        "name": "America/North_Dakota/Center",
+        "utcOffset": -360,
+        "utcOffsetStr": "-06:00",
+        "dstOffset": -300,
+        "dstOffsetStr": "-05:00"
+      },
+      {
+        "name": "America/North_Dakota/New_Salem",
+        "utcOffset": -360,
+        "utcOffsetStr": "-06:00",
+        "dstOffset": -300,
+        "dstOffsetStr": "-05:00"
+      },
+      {
+        "name": "America/Phoenix",
+        "utcOffset": -420,
+        "utcOffsetStr": "-07:00",
+        "dstOffset": -420,
+        "dstOffsetStr": "-07:00"
+      },
+      {
+        "name": "America/Sitka",
+        "utcOffset": -540,
+        "utcOffsetStr": "-09:00",
+        "dstOffset": -480,
+        "dstOffsetStr": "-08:00"
+      },
+      {
+        "name": "America/Yakutat",
+        "utcOffset": -540,
+        "utcOffsetStr": "-09:00",
+        "dstOffset": -480,
+        "dstOffsetStr": "-08:00"
+      },
+      {
+        "name": "Pacific/Honolulu",
+        "utcOffset": -600,
+        "utcOffsetStr": "-10:00",
+        "dstOffset": -600,
+        "dstOffsetStr": "-10:00"
+      }
     ],
     "domain": ".us"
   },
@@ -6010,7 +8452,13 @@
     "officialLanguageCode": "es",
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
-      "America/Montevideo"
+      {
+        "name": "America/Montevideo",
+        "utcOffset": -180,
+        "utcOffsetStr": "-03:00",
+        "dstOffset": -180,
+        "dstOffsetStr": "-03:00"
+      }
     ],
     "domain": ".uy"
   },
@@ -6035,8 +8483,20 @@
     "officialLanguageCode": "uz",
     "officialLanguageName": "Uzbek",
     "timeZones": [
-      "Asia/Samarkand",
-      "Asia/Tashkent"
+      {
+        "name": "Asia/Samarkand",
+        "utcOffset": 300,
+        "utcOffsetStr": "+05:00",
+        "dstOffset": 300,
+        "dstOffsetStr": "+05:00"
+      },
+      {
+        "name": "Asia/Tashkent",
+        "utcOffset": 300,
+        "utcOffsetStr": "+05:00",
+        "dstOffset": 300,
+        "dstOffsetStr": "+05:00"
+      }
     ],
     "domain": ".uz"
   },
@@ -6061,7 +8521,13 @@
     "officialLanguageCode": "la",
     "officialLanguageName": "Latin",
     "timeZones": [
-      "Europe/Rome"
+      {
+        "name": "Europe/Rome",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".va"
   },
@@ -6085,7 +8551,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "America/Puerto_Rico"
+      {
+        "name": "America/Puerto_Rico",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".vc"
   },
@@ -6110,7 +8582,13 @@
     "officialLanguageCode": "es",
     "officialLanguageName": "Spanish, Castilian",
     "timeZones": [
-      "America/Caracas"
+      {
+        "name": "America/Caracas",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".ve"
   },
@@ -6134,7 +8612,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "America/Puerto_Rico"
+      {
+        "name": "America/Puerto_Rico",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".vg"
   },
@@ -6158,7 +8642,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "America/Puerto_Rico"
+      {
+        "name": "America/Puerto_Rico",
+        "utcOffset": -240,
+        "utcOffsetStr": "-04:00",
+        "dstOffset": -240,
+        "dstOffsetStr": "-04:00"
+      }
     ],
     "domain": ".vi"
   },
@@ -6183,8 +8673,20 @@
     "officialLanguageCode": "vi",
     "officialLanguageName": "Vietnamese",
     "timeZones": [
-      "Asia/Bangkok",
-      "Asia/Ho_Chi_Minh"
+      {
+        "name": "Asia/Bangkok",
+        "utcOffset": 420,
+        "utcOffsetStr": "+07:00",
+        "dstOffset": 420,
+        "dstOffsetStr": "+07:00"
+      },
+      {
+        "name": "Asia/Ho_Chi_Minh",
+        "utcOffset": 420,
+        "utcOffsetStr": "+07:00",
+        "dstOffset": 420,
+        "dstOffsetStr": "+07:00"
+      }
     ],
     "domain": ".vn"
   },
@@ -6210,7 +8712,13 @@
     "officialLanguageCode": "bi",
     "officialLanguageName": "Bislama",
     "timeZones": [
-      "Pacific/Efate"
+      {
+        "name": "Pacific/Efate",
+        "utcOffset": 660,
+        "utcOffsetStr": "+11:00",
+        "dstOffset": 660,
+        "dstOffsetStr": "+11:00"
+      }
     ],
     "domain": ".vu"
   },
@@ -6234,7 +8742,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "Pacific/Tarawa"
+      {
+        "name": "Pacific/Tarawa",
+        "utcOffset": 720,
+        "utcOffsetStr": "+12:00",
+        "dstOffset": 720,
+        "dstOffsetStr": "+12:00"
+      }
     ],
     "domain": ".wf"
   },
@@ -6259,7 +8773,13 @@
     "officialLanguageCode": "sm",
     "officialLanguageName": "Samoan",
     "timeZones": [
-      "Pacific/Apia"
+      {
+        "name": "Pacific/Apia",
+        "utcOffset": 780,
+        "utcOffsetStr": "+13:00",
+        "dstOffset": 780,
+        "dstOffsetStr": "+13:00"
+      }
     ],
     "domain": ".ws"
   },
@@ -6287,8 +8807,20 @@
     "officialLanguageCode": "sq",
     "officialLanguageName": "Albanian",
     "timeZones": [
-      "Europe/Berlin",
-      "Europe/Zurich"
+      {
+        "name": "Europe/Berlin",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      },
+      {
+        "name": "Europe/Zurich",
+        "utcOffset": 60,
+        "utcOffsetStr": "+01:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".xk (unofficial)"
   },
@@ -6313,7 +8845,13 @@
     "officialLanguageCode": "ar",
     "officialLanguageName": "Arabic",
     "timeZones": [
-      "Asia/Riyadh"
+      {
+        "name": "Asia/Riyadh",
+        "utcOffset": 180,
+        "utcOffsetStr": "+03:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".ye"
   },
@@ -6337,7 +8875,13 @@
     "officialLanguageCode": "fr",
     "officialLanguageName": "French",
     "timeZones": [
-      "Africa/Nairobi"
+      {
+        "name": "Africa/Nairobi",
+        "utcOffset": 180,
+        "utcOffsetStr": "+03:00",
+        "dstOffset": 180,
+        "dstOffsetStr": "+03:00"
+      }
     ],
     "domain": ".yt"
   },
@@ -6371,7 +8915,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Africa/Johannesburg"
+      {
+        "name": "Africa/Johannesburg",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".za"
   },
@@ -6395,7 +8945,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Africa/Maputo"
+      {
+        "name": "Africa/Maputo",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".zm"
   },
@@ -6421,7 +8977,13 @@
     "officialLanguageCode": "en",
     "officialLanguageName": "English",
     "timeZones": [
-      "Africa/Maputo"
+      {
+        "name": "Africa/Maputo",
+        "utcOffset": 120,
+        "utcOffsetStr": "+02:00",
+        "dstOffset": 120,
+        "dstOffsetStr": "+02:00"
+      }
     ],
     "domain": ".zw"
   }

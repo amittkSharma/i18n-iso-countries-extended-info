@@ -1,4 +1,4 @@
-import type { CountryCurrencyInfo } from "../types/countryCurrencyInfo";
+import type { CountryCurrencyInfo } from "../types/countryInfo";
 
 export const currenciesInfo: Record<string, CountryCurrencyInfo> = {
 	AD: {

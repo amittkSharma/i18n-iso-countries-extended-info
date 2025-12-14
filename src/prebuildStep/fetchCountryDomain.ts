@@ -1,5 +1,5 @@
 import { log } from "../devUtils/logger";
-import type { CountryDomainInfo } from "./types/countryCurrencyInfo";
+import type { CountryDomainInfo } from "./types/countryInfo";
 
 const countriesDB = require("countries-db");
 

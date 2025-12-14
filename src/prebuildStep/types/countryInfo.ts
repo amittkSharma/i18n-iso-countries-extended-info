@@ -22,7 +22,15 @@ export interface CountryDomainInfo {
 	domain: string;
 }
 
+interface TimezoneInfo {
+	name: string;
+	utcOffset: number;
+	utcOffsetStr: string;
+	dstOffset: number;
+	dstOffsetStr: string;
+}
+
 export interface CountryTimeZoneInfo {
 	countryCode: string;
-	timeZones: Array<string>;
+	timeZones: Array<TimezoneInfo>;
 }
