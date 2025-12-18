@@ -1,7 +1,7 @@
 {
 	"name": "i18n-iso-countries-extended-info",
 	"version": "1.8.0",
-	"description": "",
+	"description": "i18n-iso-countries-extended-info package provides basic and additional information about countries around the world based on ISO codes and name. Information includes capital, official language names, continents, time zones (with utc offsets), and internet domains",
 	"types": "./build/index.d.ts",
 	"main": "./build/index.js",
 	"scripts": {
@@ -28,7 +28,12 @@
 		"numeric",
 		"country",
 		"countries",
-		"iso codes"
+		"iso codes",
+		"time zones",
+		"continents",
+		"official languages",
+		"internet domains",
+		"time zones (utc offset)"
 	],
 	"author": "Amitt K Sharma",
 	"license": "MIT",
