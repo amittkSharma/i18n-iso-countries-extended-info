@@ -1,13 +1,19 @@
-import type { CountryCode } from "../generated/countryDataSet";
+import type {
+	CountryCode,
+	CountryCodeAlpha3,
+} from "../generated/countryDataSet";
 import type { TimeZone } from "./countrySource";
 
 export type AlphaCode = "Alpha-2" | "Alpha-3";
 
 /**
- * An ISO 3166-1 alpha-2 code. Known codes are suggested by the editor; any other string
+ * An ISO 3166-1 alpha-2 or alpha-3 code. Known codes are suggested by the editor; any other string
  * is still accepted (and rejected at runtime), so values from user input keep compiling.
  */
-export type CountryCodeInput = CountryCode | (string & Record<never, never>);
+export type CountryCodeInput =
+	| CountryCode
+	| CountryCodeAlpha3
+	| (string & Record<never, never>);
 
 export type ContinentCode = "AF" | "AN" | "AS" | "EU" | "NA" | "OC" | "SA";
 

@@ -1,6 +1,7 @@
 import {
 	formatCurrency as formatCountryCurrency,
 	getAllCountriesWithIsoCodes,
+	getUtcOffset as readUtcOffset,
 	getCountry as resolveCountry,
 	findCountries as searchCountries,
 } from "./services";
@@ -11,6 +12,8 @@ import type {
 	CountryFilter,
 	FormatCurrencyOptions,
 	LocaleOptions,
+	UtcOffset,
+	UtcOffsetOptions,
 } from "./types";
 
 /**
@@ -98,4 +101,29 @@ export const getAllCountriesAlphaCodes = (
 	options?: LocaleOptions,
 ) => {
 	return getAllCountriesWithIsoCodes(alphaCodeType, options);
+};
+
+/**
+ * Reads the UTC offset of a country at a given moment, including daylight saving.
+ * Countries with several time zones are fine as long as their zones agree at that moment
+ * (Germany: Berlin and Büsingen). If they differ (the US, Russia, Brazil...), pass `timeZone`.
+ * @param country - ISO-2/ISO-3/numeric code or English name, e.g. "DE", "DEU", 276, "Germany".
+ * @param options - `timeZone` picks one of the country's zones; `date` picks the moment (default: now).
+ * @example
+ * ```ts
+ * getUtcOffset("IN");
+ * // { timeZone: "Asia/Kolkata", utcOffset: 330, utcOffsetStr: "+05:30" }
+ * getUtcOffset("DE", { date: new Date("2026-07-15T12:00:00Z") });
+ * // { timeZone: "Europe/Berlin", utcOffset: 120, utcOffsetStr: "+02:00" }
+ * getUtcOffset("US", { timeZone: "America/New_York", date: new Date("2026-01-15T12:00:00Z") });
+ * // { timeZone: "America/New_York", utcOffset: -300, utcOffsetStr: "-05:00" }
+ * ```
+ * @returns The zone used, the offset in minutes and the offset as "+HH:MM".
+ * @throws Will throw an error if the country is not found, `timeZone` is not one of its zones, `date` is invalid, or the country's zones disagree and no `timeZone` was given.
+ */
+export const getUtcOffset = (
+	country: CountryCodeInput | number,
+	options?: UtcOffsetOptions,
+): UtcOffset => {
+	return readUtcOffset(country, options);
 };

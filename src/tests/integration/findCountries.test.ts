@@ -86,6 +86,77 @@ describe("findCountries", () => {
 		});
 	});
 
+	describe("phoneNumber", () => {
+		it("finds the country of a full international number, however it is written", () => {
+			for (const phoneNumber of [
+				"+49 170 1234567",
+				"0049 170 1234567",
+				"+49(170)123-4567",
+				" +49.170.1234567 ",
+				"+491701234567",
+			]) {
+				expect(codes({ phoneNumber })).toEqual(["DE"]);
+			}
+		});
+		it("prefers the longest matching calling code", () => {
+			expect(codes({ phoneNumber: "+1 268 555 1234" })).toEqual(["AG"]);
+			expect(codes({ phoneNumber: "+1 809 555 0100" })).toEqual(["DO"]);
+			expect(codes({ phoneNumber: "+47 79 12 34 56" })).toEqual(["SJ"]);
+			expect(codes({ phoneNumber: "+599 7 123 4567" })).toEqual(["BQ"]);
+		});
+		it("returns every country sharing the code when the dataset cannot tell them apart", () => {
+			expect(codes({ phoneNumber: "+1 212 555 0100" })).toEqual([
+				"CA",
+				"UM",
+				"US",
+			]);
+			expect(codes({ phoneNumber: "+44 20 7946 0958" })).toEqual([
+				"GB",
+				"GG",
+				"IM",
+				"JE",
+			]);
+			expect(codes({ phoneNumber: "+47 21 23 45 67" })).toEqual(["BV", "NO"]);
+		});
+		it("returns [] unless the number is in international format", () => {
+			for (const phoneNumber of [
+				"",
+				"+",
+				"00",
+				"49170123",
+				"0170 1234567",
+				"+0 170 123",
+				"+49 170 x",
+				"abc",
+				"+49 170 1234567 ext. 5",
+			]) {
+				expect(codes({ phoneNumber })).toEqual([]);
+			}
+		});
+		it("combines with other filters", () => {
+			expect(
+				codes({ phoneNumber: "+49 170 1234567", currency: "EUR" }),
+			).toEqual(["DE"]);
+			expect(
+				codes({ phoneNumber: "+49 170 1234567", currency: "USD" }),
+			).toEqual([]);
+		});
+		it("only accepts strings", () => {
+			expect(() => findCountries({ phoneNumber: 4917012345 } as never)).toThrow(
+				TypeError,
+			);
+		});
+		it("finds every country from each of its own calling codes", () => {
+			for (const country of findCountries({})) {
+				for (const code of country.isdCodes) {
+					expect(codes({ phoneNumber: `+${code}123456789` })).toContain(
+						country.iso2,
+					);
+				}
+			}
+		});
+	});
+
 	describe("domain", () => {
 		it("accepts the TLD with or without a dot in any case", () => {
 			for (const domain of [".de", "de", "DE", " .De "]) {
