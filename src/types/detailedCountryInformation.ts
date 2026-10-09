@@ -1,7 +1,10 @@
+import type { TimeZone } from "./countrySource";
+
 export type AlphaCode = "Alpha-2" | "Alpha-3";
 
 export interface Others {
-	// timeZones: string[];
+	timeZones?: TimeZone[];
+	domain?: string;
 	dateFormat?: string;
 }
 
@@ -33,7 +36,8 @@ export interface CountryInfo {
 export interface CountryDetailInformation
 	extends CountryInfo,
 		LocationInfo,
-		CurrencyInfo {}
+		CurrencyInfo,
+		Others {}
 
 export interface CountryIsoCodePreview {
 	countryName?: string;

@@ -141,7 +141,18 @@ result:{
  "region": "North America",
  "currency": "USD",
  "symbol": "$",
- "currencyName": "United States dollar"
+ "currencyName": "United States dollar",
+ "timeZones": [
+   {
+     "name": "America/New_York",
+     "utcOffset": -300,
+     "utcOffsetStr": "-05:00",
+     "dstOffset": -240,
+     "dstOffsetStr": "-04:00"
+   }
+   // ...more time zones
+ ],
+ "domain": ".us"
 }
 ```
 
@@ -279,7 +290,18 @@ result:{
  "region": "North America",
  "currency": "USD",
  "symbol": "$",
- "currencyName": "United States dollar"
+ "currencyName": "United States dollar",
+ "timeZones": [
+   {
+     "name": "America/New_York",
+     "utcOffset": -300,
+     "utcOffsetStr": "-05:00",
+     "dstOffset": -240,
+     "dstOffsetStr": "-04:00"
+   }
+   // ...more time zones
+ ],
+ "domain": ".us"
 }
 ```
 
@@ -417,7 +439,18 @@ result:{
  "region": "North America",
  "currency": "USD",
  "symbol": "$",
- "currencyName": "United States dollar"
+ "currencyName": "United States dollar",
+ "timeZones": [
+   {
+     "name": "America/New_York",
+     "utcOffset": -300,
+     "utcOffsetStr": "-05:00",
+     "dstOffset": -240,
+     "dstOffsetStr": "-04:00"
+   }
+   // ...more time zones
+ ],
+ "domain": ".us"
 }
 ```
 
@@ -555,7 +588,18 @@ result:{
  "region": "North America",
  "currency": "USD",
  "symbol": "$",
- "currencyName": "United States dollar"
+ "currencyName": "United States dollar",
+ "timeZones": [
+   {
+     "name": "America/New_York",
+     "utcOffset": -300,
+     "utcOffsetStr": "-05:00",
+     "dstOffset": -240,
+     "dstOffsetStr": "-04:00"
+   }
+   // ...more time zones
+ ],
+ "domain": ".us"
 }
 ```
 

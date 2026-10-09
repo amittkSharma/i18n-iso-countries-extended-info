@@ -118,6 +118,17 @@ describe("country information by name service", () => {
 				symbol: "₹",
 				currency: "INR",
 				currencyName: "Indian rupee",
+				domain: ".in",
+				dateFormat: "d/M/yyyy",
+				timeZones: [
+					{
+						name: "Asia/Kolkata",
+						utcOffset: 330,
+						utcOffsetStr: "+05:30",
+						dstOffset: 330,
+						dstOffsetStr: "+05:30",
+					},
+				],
 			};
 
 			namesForIndia.forEach((nameForIndia) => {

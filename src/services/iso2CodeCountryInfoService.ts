@@ -2,6 +2,7 @@ import { isValid } from "i18n-iso-countries/index.js";
 import type { CountryInfoService } from "../types/countryInfoSerive";
 import type { CountryDetailInformation } from "../types/detailedCountryInformation";
 import {
+	getAdditionalInfoByCountryIso2Code,
 	getCurrencyInfoByCountryIso2Code,
 	getInfoByCountryIso2Code,
 	getLocationInfoByCountryIso2Code,
@@ -42,13 +43,15 @@ class Iso2CodeCountryInfoService implements CountryInfoService {
 		const infoRes = getInfoByCountryIso2Code(iso2Code);
 		const locRes = getLocationInfoByCountryIso2Code(iso2Code);
 		const curRes = getCurrencyInfoByCountryIso2Code(iso2Code);
+		const othRes = getAdditionalInfoByCountryIso2Code(iso2Code);
 
 		const result: CountryDetailInformation | undefined =
-			infoRes && locRes && curRes
+			infoRes && locRes && curRes && othRes
 				? {
 						...infoRes,
 						...locRes,
 						...curRes,
+						...othRes,
 					}
 				: undefined;
 		return result;

@@ -4,17 +4,12 @@ import {
 	toAlpha2,
 } from "i18n-iso-countries/index.js";
 import { BASIC_LANGUAGE } from "../constants";
-import { countriesWithRegionalInfo } from "../generated/countryDataSet";
-import type { TimeZone } from "../types/countrySource";
 import type { CountryDetailInformation } from "../types/detailedCountryInformation";
 import { iso2CodeService } from "./iso2CodeCountryInfoService";
 
 export interface Country extends CountryDetailInformation {
 	iso2: string;
 	iso3?: string;
-	timeZones?: TimeZone[];
-	domain?: string;
-	dateFormat?: string;
 }
 
 /** Resolves an ISO-2, ISO-3, numeric code or English name to a full country record. */
@@ -26,8 +21,6 @@ export const getCountry = (input: string | number): Country => {
 	}
 
 	const detail = iso2CodeService.getCountryDetailInfo(iso2);
-	const { timeZones, domain, dateFormat } =
-		countriesWithRegionalInfo[iso2] ?? {};
 	if (!detail) {
 		throw new Error(`Country information not available for: ${value}`);
 	}
@@ -36,8 +29,5 @@ export const getCountry = (input: string | number): Country => {
 		iso2,
 		iso3: alpha2ToAlpha3(iso2),
 		...detail,
-		timeZones,
-		domain,
-		dateFormat,
 	};
 };

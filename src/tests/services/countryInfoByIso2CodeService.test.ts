@@ -169,6 +169,17 @@ describe("country information by iso-2 code service", () => {
 				symbol: "₹",
 				currency: "INR",
 				currencyName: "Indian rupee",
+				domain: ".in",
+				dateFormat: "d/M/yyyy",
+				timeZones: [
+					{
+						name: "Asia/Kolkata",
+						utcOffset: 330,
+						utcOffsetStr: "+05:30",
+						dstOffset: 330,
+						dstOffsetStr: "+05:30",
+					},
+				],
 			};
 
 			iso2CodesForIndia.forEach((iso2CodeForIndia) => {
