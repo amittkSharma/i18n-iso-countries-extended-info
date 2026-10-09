@@ -32,6 +32,9 @@
 		"dist"
 	],
 	"sideEffects": false,
+	"engines": {
+		"node": ">=20"
+	},
 	"scripts": {
 		"prestart": "npx ts-node src/prebuildStep/checkCountryCurrencySync.ts && npx ts-node src/prebuildStep/createDatasetFile.ts",
 		"start": "npx ts-node src/devUtils/launchApp.ts",
@@ -41,9 +44,10 @@
 		"lint": "biome lint --write",
 		"check": "biome check --write",
 		"test": "jest",
-		"docs": "npx readme-tsdoc",
-		"prepublishOnly": "npm run docs && npm run build",
-		"test:pack": "npm run build && ./scripts/smokePack.sh"
+		"prepublishOnly": "npm run build",
+		"test:pack": "npm run build && ./scripts/smokePack.sh",
+		"typecheck": "tsc --noEmit",
+		"verify": "biome check && npm run typecheck && jest"
 	},
 	"keywords": [
 		"i18n",
@@ -82,10 +86,8 @@
 		"jest": "^30.2.0",
 		"pino": "^10.1.0",
 		"pino-pretty": "^13.1.2",
-		"readme-tsdoc": "^1.1.4",
 		"ts-jest": "^29.4.5",
 		"ts-node": "^10.9.2",
-		"tslib": "^2.8.1",
 		"tsup": "^8.5.1",
 		"typescript": "^5.9.2"
 	},

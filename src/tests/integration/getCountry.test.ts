@@ -1,5 +1,9 @@
 import * as api from "../../index";
-import { getAllCountriesAlphaCodes, getCountry } from "../../index";
+import {
+	findCountries,
+	getAllCountriesAlphaCodes,
+	getCountry,
+} from "../../index";
 
 describe("public API", () => {
 	it("exposes only the documented functions", () => {
@@ -28,6 +32,7 @@ describe("getCountry", () => {
 		const india = {
 			iso2: "IN",
 			iso3: "IND",
+			numeric: "356",
 			name: "India",
 			native: "भारत",
 			capital: "New Delhi",
@@ -41,6 +46,7 @@ describe("getCountry", () => {
 			currencyName: "Indian rupee",
 			symbol: "₹",
 			domain: ".in",
+			domainUnofficial: undefined,
 			dateFormat: "d/M/yyyy",
 			timeZones: [
 				{
@@ -64,6 +70,26 @@ describe("getCountry", () => {
 		]) {
 			expect(getCountry(key)).toEqual(india);
 		}
+	});
+
+	it("exposes the ISO numeric code as a zero-padded string", () => {
+		expect(getCountry("AU").numeric).toBe("036");
+		expect(getCountry("DE").numeric).toBe("276");
+		for (const { code } of getAllCountriesAlphaCodes("Alpha-2")) {
+			const country = getCountry(code);
+			expect(country.numeric).toMatch(/^\d{3}$/);
+			expect(getCountry(country.numeric).iso2).toBe(code);
+			expect(getCountry(Number(country.numeric)).iso2).toBe(code);
+		}
+	});
+
+	it("marks only territories without a TLD in use as unofficial", () => {
+		const unofficial = findCountries({})
+			.filter((c) => c.domainUnofficial)
+			.map((c) => c.iso2);
+		expect(unofficial).toEqual(["BV", "EH", "SJ", "UM", "XK"]);
+		expect(getCountry("GB").domain).toBe(".uk");
+		expect(getCountry("DE").domainUnofficial).toBeUndefined();
 	});
 
 	it("pads short numeric codes", () => {
@@ -117,5 +143,99 @@ describe("getAllCountriesAlphaCodes", () => {
 	// This fails if the package stops registering "en" itself.
 	it("returns names without the consumer registering a locale", () => {
 		expect(getCountry("germany").name).toBe("Germany");
+	});
+});
+
+describe("localized names", () => {
+	it("returns names in the requested language and leaves everything else alone", () => {
+		const english = getCountry("DE");
+		const french = getCountry("DE", { locale: "fr" });
+
+		expect(french).toEqual({
+			...english,
+			name: "Allemagne",
+			currencyName: "euro",
+			language: { ...english.language, official: "allemand" },
+		});
+		expect(getCountry("DE", { locale: "de" }).name).toBe("Deutschland");
+		expect(getCountry("US", { locale: "ja" }).name).toBe("アメリカ合衆国");
+	});
+
+	it("keeps the dataset's English names when no locale is given", () => {
+		expect(getCountry("DE").name).toBe("Germany");
+		expect(getCountry("DE", {}).name).toBe("Germany");
+		expect(getCountry("DE", { locale: undefined }).name).toBe("Germany");
+	});
+
+	it("accepts regional and case-variant locales", () => {
+		expect(getCountry("DE", { locale: "fr-CA" }).name).toBe("Allemagne");
+		expect(getCountry("DE", { locale: "FR" }).name).toBe("Allemagne");
+		expect(getCountry("DE", { locale: "zh-Hans" }).name).toBe("德国");
+	});
+
+	it("falls back to English for well-formed locales without translations", () => {
+		for (const locale of ["xx", "tlh"]) {
+			expect(getCountry("DE", { locale })).toEqual(getCountry("DE"));
+		}
+	});
+
+	it("rejects malformed locales instead of guessing", () => {
+		for (const locale of ["", "en_US", "not a locale!", "x"]) {
+			expect(() => getCountry("DE", { locale })).toThrow(RangeError);
+		}
+		for (const locale of [5, null, ["fr"], {}]) {
+			expect(() => getCountry("DE", { locale } as never)).toThrow(TypeError);
+		}
+	});
+
+	it("never adds facts the English record lacks", () => {
+		expect(getCountry("BY", { locale: "fr" }).currencyName).toBe("");
+		expect(getCountry("CN", { locale: "fr" }).language.official).toBe("");
+		expect(getCountry("AQ", { locale: "fr" }).capital).toBe("");
+	});
+
+	it("translates every country without errors", () => {
+		for (const { code } of getAllCountriesAlphaCodes("Alpha-2")) {
+			for (const locale of ["fr", "de", "ja", "ar"]) {
+				const c = getCountry(code, { locale });
+				expect(c.name.trim()).not.toBe("");
+				expect(c.iso2).toBe(code);
+			}
+		}
+	});
+
+	it("does not leak into later lookups", () => {
+		getCountry("DE", { locale: "fr" });
+		expect(getCountry("DE").name).toBe("Germany");
+	});
+
+	it("applies to findCountries", () => {
+		expect(findCountries({ callingCode: 49 }, { locale: "fr" })[0].name).toBe(
+			"Allemagne",
+		);
+		expect(findCountries({ callingCode: 49 })[0].name).toBe("Germany");
+		expect(() => findCountries({}, { locale: "bad locale" })).toThrow(
+			RangeError,
+		);
+	});
+
+	it("applies to getAllCountriesAlphaCodes for both code types", () => {
+		const fr2 = getAllCountriesAlphaCodes("Alpha-2", { locale: "fr" });
+		const fr3 = getAllCountriesAlphaCodes("Alpha-3", { locale: "fr" });
+
+		expect(fr2).toContainEqual({ code: "DE", countryName: "Allemagne" });
+		expect(fr3).toContainEqual({ code: "DEU", countryName: "Allemagne" });
+		expect(fr2).toHaveLength(250);
+		expect(fr2.every((c) => c.countryName?.trim())).toBe(true);
+		expect(getAllCountriesAlphaCodes("Alpha-2")).toContainEqual({
+			code: "DE",
+			countryName: "Germany",
+		});
+		expect(getAllCountriesAlphaCodes("Alpha-2", { locale: "xx" })).toEqual(
+			getAllCountriesAlphaCodes("Alpha-2"),
+		);
+		expect(() => getAllCountriesAlphaCodes("Alpha-2", { locale: "" })).toThrow(
+			RangeError,
+		);
 	});
 });

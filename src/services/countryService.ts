@@ -1,11 +1,13 @@
 import {
 	alpha2ToAlpha3,
+	alpha2ToNumeric,
 	getAlpha2Code,
 	toAlpha2,
 } from "i18n-iso-countries/index.js";
 import { BASIC_LANGUAGE } from "../constants";
 import { countriesWithRegionalInfo } from "../generated/countryDataSet";
-import type { Country } from "../types/countryApi";
+import type { Country, LocaleOptions } from "../types/countryApi";
+import { createCountryLocalizer } from "./localizeService";
 
 // The dataset's own names (e.g. "Brunei", "Laos") differ from the library's for 18 countries.
 const iso2ByDatasetName = new Map(
@@ -35,7 +37,8 @@ export const getCountryByIso2 = (iso2: string): Country => {
 
 	return {
 		iso2,
-		iso3: alpha2ToAlpha3(iso2),
+		iso3: alpha2ToAlpha3(iso2) as string,
+		numeric: alpha2ToNumeric(iso2) as string,
 		name: c.name,
 		native: c.native,
 		capital: c.capital,
@@ -54,9 +57,13 @@ export const getCountryByIso2 = (iso2: string): Country => {
 		symbol: c.symbol,
 		timeZones: c.timeZones.map((zone) => ({ ...zone })),
 		domain: c.domain,
+		domainUnofficial: c.domainUnofficial,
 		dateFormat: c.dateFormat,
 	};
 };
 
-export const getCountry = (input: string | number): Country =>
-	getCountryByIso2(resolveIso2(input));
+export const getCountry = (
+	input: string | number,
+	options?: LocaleOptions,
+): Country =>
+	createCountryLocalizer(options)(getCountryByIso2(resolveIso2(input)));

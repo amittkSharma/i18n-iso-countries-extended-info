@@ -1,7 +1,6 @@
-// biome-ignore assist/source/organizeImports: off
-import { getAlpha2Codes } from "i18n-iso-countries";
 import fs from "node:fs";
 import path from "node:path";
+import { getAlpha2Codes } from "i18n-iso-countries";
 import { log } from "../devUtils/logger";
 import { COUNTRY_DATASET_JSON_FILENAME } from "./constants";
 import { fetchCountryDomains } from "./fetchCountryDomain";
@@ -13,7 +12,7 @@ import { countriesWithRegionalInfo } from "./rawCountryData/regionalInformation"
 import type {
 	CountryDomainInfo,
 	CountryTimeZoneInfo,
-} from "./types/countryCurrencyInfo";
+} from "./types/countryInfo";
 
 const validateCurrencyDetails = (countries: Array<string>) => {
 	log.info(`Validating Currency Data Sync`);
@@ -102,13 +101,17 @@ const validateTimeZoneInformation = (
 	}
 };
 
+const domainFields = (info?: CountryDomainInfo) => ({
+	domain: info?.domain,
+	domainUnofficial: info?.unofficial,
+});
+
 const generateCountrySourceFile = (
 	countries: Array<string>,
 	domains: Array<CountryDomainInfo>,
 	timeZones: Array<CountryTimeZoneInfo>,
 ) => {
-	// biome-ignore lint/suspicious/noExplicitAny: off
-	const merged: any = {};
+	const merged: Record<string, Record<string, unknown>> = {};
 	countries.sort().forEach((alpha2Code) => {
 		const regionalInfo = countriesWithRegionalInfo[alpha2Code];
 		const currency = currenciesInfo[alpha2Code];
@@ -124,7 +127,7 @@ const generateCountrySourceFile = (
 			officialLanguageCode: data ? data.officialLanguageCode : undefined,
 			officialLanguageName: data ? data.officialLanguageNameEn : undefined,
 			timeZones: timeZones.find((d) => d.countryCode === alpha2Code)?.timeZones,
-			domain: domains.find((d) => d.countryCode === alpha2Code)?.domain,
+			...domainFields(domains.find((d) => d.countryCode === alpha2Code)),
 		};
 
 		merged[alpha2Code] = {

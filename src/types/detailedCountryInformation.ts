@@ -13,8 +13,10 @@ export type ContinentCode = "AF" | "AN" | "AS" | "EU" | "NA" | "OC" | "SA";
 
 export interface Others {
 	timeZones: TimeZone[];
-	/** Internet country-code TLD, e.g. ".de". A few territories carry an " (unofficial)" suffix. */
+	/** Internet country-code TLD, e.g. ".de". */
 	domain: string;
+	/** Set for the few territories (BV, EH, SJ, UM, XK) that have no TLD in actual use; `domain` is then only the conventional ".xx". */
+	domainUnofficial?: boolean;
 	dateFormat?: string;
 }
 

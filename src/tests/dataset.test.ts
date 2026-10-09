@@ -60,9 +60,12 @@ describe("country dataset invariants", () => {
 		}
 	});
 
-	it("domains are a two-letter TLD optionally followed by a note", () => {
+	it("domains are plain two-letter TLDs; only territories without one are flagged", () => {
 		for (const [, c] of entries) {
-			expect(c.domain.split(" ")[0]).toMatch(/^\.[a-z]{2}$/);
+			expect(c.domain).toMatch(/^\.[a-z]{2}$/);
 		}
+		expect(
+			entries.filter(([, c]) => c.domainUnofficial).map(([code]) => code),
+		).toEqual(["BV", "EH", "SJ", "UM", "XK"]);
 	});
 });

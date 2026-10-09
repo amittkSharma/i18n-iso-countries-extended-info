@@ -10,12 +10,10 @@ type CountryData = {
 	officialLanguageNameEn: string;
 	officialLanguageNameLocal: string;
 	countryCallingCode: string;
-	areaCodes?: any[];
+	areaCodes?: unknown[];
 	region: string;
 	flag: string;
 };
-
-type CountryProperty = keyof CountryData;
 
 export const countriesData: CountryData[] = [
 	{
@@ -4080,4 +4078,4 @@ export const countriesData: CountryData[] = [
 	},
 ];
 
-export type { CountryData, CountryProperty };
+export type { CountryData };

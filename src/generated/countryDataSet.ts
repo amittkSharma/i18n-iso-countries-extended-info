@@ -1391,7 +1391,8 @@
         "dstOffsetStr": "+02:00"
       }
     ],
-    "domain": ".bv (unofficial)"
+    "domain": ".bv",
+    "domainUnofficial": true
   },
   "BW": {
     "name": "Botswana",
@@ -2605,7 +2606,8 @@
         "dstOffsetStr": "+00:00"
       }
     ],
-    "domain": ".eh (unofficial)"
+    "domain": ".eh",
+    "domainUnofficial": true
   },
   "ER": {
     "name": "Eritrea",
@@ -2977,7 +2979,7 @@
         "dstOffsetStr": "+01:00"
       }
     ],
-    "domain": ".gb"
+    "domain": ".uk"
   },
   "GD": {
     "name": "Grenada",
@@ -7235,7 +7237,8 @@
         "dstOffsetStr": "+02:00"
       }
     ],
-    "domain": ".sj (unofficial)"
+    "domain": ".sj",
+    "domainUnofficial": true
   },
   "SK": {
     "name": "Slovakia",
@@ -8207,7 +8210,8 @@
         "dstOffsetStr": "+12:00"
       }
     ],
-    "domain": ".um (unofficial)"
+    "domain": ".um",
+    "domainUnofficial": true
   },
   "US": {
     "name": "United States",
@@ -8827,7 +8831,8 @@
         "dstOffsetStr": "+02:00"
       }
     ],
-    "domain": ".xk (unofficial)"
+    "domain": ".xk",
+    "domainUnofficial": true
   },
   "YE": {
     "name": "Yemen",

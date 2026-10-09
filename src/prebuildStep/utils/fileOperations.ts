@@ -12,12 +12,12 @@ export const readFile = (filePath: string) => {
 	}
 };
 
-export const writeFile = (filePath: string, data: any) => {
+export const writeFile = (filePath: string, data: string) => {
 	try {
 		fs.writeFileSync(filePath, data);
 	} catch (error) {
 		throw Error(
-			`Unable to read the file from path: ${filePath} due to ${(error as Error).message}`,
+			`Unable to write the file to path: ${filePath} due to ${(error as Error).message}`,
 		);
 	}
 };

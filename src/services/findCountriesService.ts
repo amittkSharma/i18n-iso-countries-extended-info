@@ -1,8 +1,13 @@
 import { countriesWithRegionalInfo } from "../generated/countryDataSet";
-import type { Country, CountryFilter } from "../types/countryApi";
+import type {
+	Country,
+	CountryFilter,
+	LocaleOptions,
+} from "../types/countryApi";
 import type { CountrySource } from "../types/countrySource";
 import type { ContinentCode } from "../types/detailedCountryInformation";
 import { getCountryByIso2 } from "./countryService";
+import { createCountryLocalizer } from "./localizeService";
 
 type Predicate = (country: CountrySource) => boolean;
 
@@ -62,8 +67,7 @@ const predicateFactories: {
 	domain: (value) => {
 		const text = normalize(value);
 		const domain = text.startsWith(".") ? text : `.${text}`;
-		// A few entries read ".bv (unofficial)"; compare only the TLD.
-		return (c) => c.domain.split(" ")[0].toLowerCase() === domain;
+		return (c) => c.domain.toLowerCase() === domain;
 	},
 	timeZone: (value) => {
 		const zone = normalize(value);
@@ -86,7 +90,10 @@ const predicateFactories: {
 	},
 };
 
-export const findCountries = (filter: CountryFilter): Country[] => {
+export const findCountries = (
+	filter: CountryFilter,
+	options?: LocaleOptions,
+): Country[] => {
 	if (typeof filter !== "object" || filter === null || Array.isArray(filter)) {
 		throw new TypeError("filter must be an object, e.g. { currency: 'EUR' }");
 	}
@@ -114,9 +121,11 @@ export const findCountries = (filter: CountryFilter): Country[] => {
 		);
 	}
 
+	const localize = createCountryLocalizer(options);
+
 	return Object.keys(countriesWithRegionalInfo)
 		.filter((code) =>
 			predicates.every((matches) => matches(countriesWithRegionalInfo[code])),
 		)
-		.map(getCountryByIso2);
+		.map((code) => localize(getCountryByIso2(code)));
 };
