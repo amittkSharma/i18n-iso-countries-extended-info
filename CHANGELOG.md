@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [2.0.0](https://github.com/amittkSharma/i18n-iso-countries-extended-info/compare/v1.8.0...v2.0.0) (2026-10-09)
+
+
+### Features
+
+* add complete timezones information to countries ([ad4be08](https://github.com/amittkSharma/i18n-iso-countries-extended-info/commit/ad4be08b149396ec9b4cf9a2bc09dccedc4c4193))
+* adding timezone information to the source file ([90a46da](https://github.com/amittkSharma/i18n-iso-countries-extended-info/commit/90a46da9b8397b0ad7eec7716806571a9180cd12))
+* adding timezones and domain information to the country object ([07b105f](https://github.com/amittkSharma/i18n-iso-countries-extended-info/commit/07b105f15f8d0bcc06345f5dd90af1624c983922))
+* reshape public api and added new feature ([56045db](https://github.com/amittkSharma/i18n-iso-countries-extended-info/commit/56045db0b6d3d297d81a7f0bbdc5e57fa9bcb58b))
+* update version from 1.7.0 to 1.8.0 ([cafbb56](https://github.com/amittkSharma/i18n-iso-countries-extended-info/commit/cafbb56361df08de313982d03272fd833ce8544e))
+
+
+### Bug Fixes
+
+* get country detail info provides the correct information ([662b93c](https://github.com/amittkSharma/i18n-iso-countries-extended-info/commit/662b93c73502f73aa33a13c8ae94118c4ad117f7))
+* locale registration so the package will not fail ([abe6150](https://github.com/amittkSharma/i18n-iso-countries-extended-info/commit/abe615009ba95127ca2e20742d3b40e54d485dd6))
+* remove pre-build files from the build folder ([2e36083](https://github.com/amittkSharma/i18n-iso-countries-extended-info/commit/2e36083dd0482c07b25e37b2d772b7fdf164c9f7))
+* vulnerabilities ([f49b1ee](https://github.com/amittkSharma/i18n-iso-countries-extended-info/commit/f49b1ee8b35aa8238ff711554c339389dcac5991))
+
 ## [1.8.0](https://github.com/amittkSharma/i18n-iso-countries-extended-info/compare/v1.7.0...v1.8.0) (2025-11-28)
 
 

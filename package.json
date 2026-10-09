@@ -1,6 +1,6 @@
 {
 	"name": "i18n-iso-countries-extended-info",
-	"version": "1.8.0",
+	"version": "2.0.0",
 	"description": "i18n-iso-countries-extended-info package provides basic and additional information about countries around the world based on ISO codes and name. Information includes capital, official language names, continents, time zones (with utc offsets), and internet domains",
 	"main": "./dist/index.js",
 	"module": "./dist/index.mjs",
