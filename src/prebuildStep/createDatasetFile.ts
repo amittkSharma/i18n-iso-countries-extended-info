@@ -10,8 +10,15 @@ export const generateCountrySourceTsFile = () => {
 		readFile(path.join(__dirname, "./data/", COUNTRY_DATASET_JSON_FILENAME)),
 	);
 
+	const codes = Object.keys(data).sort();
+
 	const fileContent = `
   import type { CountrySource } from '../types/countrySource';
+
+  /** ISO 3166-1 alpha-2 codes of every country in the dataset. */
+  export const COUNTRY_CODES = ${JSON.stringify(codes)} as const;
+
+  export type CountryCode = (typeof COUNTRY_CODES)[number];
 
   export const countriesWithRegionalInfo: Record<string, CountrySource> =  ${JSON.stringify(data, null, 2)}
   `;

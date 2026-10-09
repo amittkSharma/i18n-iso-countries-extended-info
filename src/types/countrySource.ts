@@ -1,3 +1,5 @@
+import type { ContinentCode } from "./detailedCountryInformation";
+
 export interface TimeZone {
 	name: string;
 	utcOffset: number;
@@ -10,7 +12,7 @@ export interface CountrySource {
 	name: string;
 	native: string;
 	phone: number[];
-	continent: string;
+	continent: ContinentCode;
 	capital: string;
 	currency: string;
 	languages: string[];
@@ -22,7 +24,7 @@ export interface CountrySource {
 	officialLanguageCode: string;
 	officialLanguageName: string;
 	dateFormat?: string;
-	continents?: string[];
-	timeZones?: TimeZone[];
-	domain?: string;
+	continents?: ContinentCode[];
+	timeZones: TimeZone[];
+	domain: string;
 }

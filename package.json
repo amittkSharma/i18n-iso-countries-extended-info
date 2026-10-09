@@ -76,7 +76,6 @@
 		"@tsconfig/node20": "^20.1.4",
 		"@types/jest": "^30.0.0",
 		"@types/node": "^20.19.14",
-		"@types/pino": "^7.0.5",
 		"commit-and-tag-version": "^12.4.1",
 		"countries-and-timezones": "^3.8.0",
 		"countries-db": "^1.2.0",

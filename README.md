@@ -3,678 +3,49 @@
 
 ## Introduction
 
-**i18n-iso-countries-extended-info** package provides some of the basic and important information about the countries in the world.
-The information provided is completely in a standardized format.
+**i18n-iso-countries-extended-info** gives you one call to get the facts about a country: ISO codes, names, capital, languages, continent, currency, time zones and internet domain. Everything is bundled, so there are no network calls and no setup. Install it and call it; you do not need to install or configure `i18n-iso-countries` yourself.
 
-**Features**
+```ts
+import { findCountries, formatCurrency, getCountry } from "i18n-iso-countries-extended-info";
 
-- Get ISO codes (both ISO-2 and ISO-3) for all the country around the world
-- Get information about the countries from their respective ISO and numeric codes
-- Information provided
-  - ISO-2/ISO-3 Codes
-  - Numeric Codes
-  - Country Name
-- Validation of ISO-2/ISO-3 code for the countries
+getCountry("DE");                 // by ISO-2, ISO-3, numeric code or English name
+findCountries({ currency: "EUR" }); // reverse lookup
+formatCurrency(1234.5, "DE");     // "1.234,50 €"
+```
 
+| Function | Purpose |
+|---|---|
+| `getCountry(input)` | Full record for one country |
+| `findCountries(filter)` | Countries by currency, calling code, domain, time zone, continent or language |
+| `formatCurrency(amount, country, options?)` | Amount formatted in a country's currency |
+| `getAllCountriesAlphaCodes(type)` | Every ISO-2 or ISO-3 code with its English name |
+
+Also exported: `COUNTRY_CODES` and the `CountryCode` type (all ISO-2 codes), plus the result types. ESM and CommonJS are both supported; `i18n-iso-countries-extended-info/data` exposes the raw dataset on its own.
+
+## Migrating from 1.x
+
+The 16 `getCountry<View>By<Key>` functions and `getCountryAlphaCodeByName` were removed. `getCountry` accepts every key type and returns every view.
+
+| 1.x | 2.0 |
+|---|---|
+| `getCountryDetailInformationByAlpha2Code("DE")` (also `…Alpha3Code`, `…Name`, `…NumericCode`) | `getCountry("DE")` |
+| `getCountryGeneralInformationBy…("DE")` | `const { name, native, capital, flag, isdCodes, language } = getCountry("DE")` |
+| `getCountryLocationInformationBy…("DE")` | `const { continent, region, continents } = getCountry("DE")` |
+| `getCountryCurrencyInformationBy…("DE")` | `const { currency, currencyName, symbol } = getCountry("DE")` |
+| `getCountryAlphaCodeByName("Germany", "both")` | `const { iso2, iso3 } = getCountry("Germany")` |
+
+Behaviour differences: `getCountry` is not strict about the key type (an ISO-2 lookup used to reject a name), every failure throws `Country can not be found for: <input>`, and results are copies you can safely modify.
 
 ## API Usage
 
 The following is auto-generated from `./src/countryIsoInformationService.ts`:
 
-### __export · value
-
-**Value:** `any`
-
-### getAllCountriesAlphaCodes · function
-
-This function retrieves all countries' ISO codes based on the specified alpha code type.
-
-**Signature:** `(alphaCodeType: "Alpha-2" | "Alpha-3") => CountryIsoCodePreview[]`
-
-**Parameters:**
-
-- `alphaCodeType` - - The type of alpha code ("Alpha-2" or "Alpha-3") to filter the countries by.
-
-**Returns:** An array of country ISO code previews corresponding to the specified alpha code type.
-
-**Throws:**
-
-- Will throw an error if the provided alpha code type is invalid.
-
-**Examples:**
-
-```ts
-const alpha2Codes = getAllCountriesAlphaCodes("Alpha-2");
-const alpha3Codes = getAllCountriesAlphaCodes("Alpha-3");
-```
-
-### getCountryAlphaCodeByName · function
-
-This function retrieves the ISO code(s) for a given country name based on the specified alpha code type.
-
-**Signature:** `(countryName: string, alphaCode?: "Alpha-2" | "Alpha-3" | "both") => string`
-
-**Parameters:**
-
-- `countryName` - - The name of the country to retrieve the ISO code(s) for.
-- `alphaCode` - - The type of alpha code to retrieve ("Alpha-2", "Alpha-3", or "both"). Default is "Alpha-2".
-
-**Returns:** The ISO code(s) corresponding to the specified country name and alpha code type.
-
-**Throws:**
-
-- Will throw an error if the country name is not found or if the alpha code type is invalid.
-
-**Examples:**
-
-```ts
-const alpha2Code = getCountryAlphaCodeByName("United States", "Alpha-2");
-const alpha3Code = getCountryAlphaCodeByName("United States", "Alpha-3");
-const bothCodes = getCountryAlphaCodeByName("United States", "both");
-```
-
-### getCountryCurrencyInformationByAlpha2Code · function
-
-The following functions retrieve various types of country information
-based on Alpha-2 code identifiers.
-
-**Signature:** `(alpha2Code: string) => CurrencyInfo`
-
-**Parameters:**
-
-- `alpha2Code` - - The Alpha-2 code of the country.
-
-**Returns:** Currency information of the country.
-
-**Throws:**
-
-- Will throw an error if the Alpha-2 code is not found.
-
-**Examples:**
-
-```ts
-const currencyInfo = getCountryCurrencyInformationByAlpha2Code("US");
-result: {
-   "currency": "USD",
-   "symbol": "$",
-   "currencyName": "United States dollar"
- }
-```
-
-### getCountryDetailInformationByAlpha2Code · function
-
-* The following functions retrieve various types of country information
-based on Alpha-2 code identifiers.
-
-**Signature:** `(alpha2Code: string) => CountryDetailInformation`
-
-**Parameters:**
-
-- `alpha2Code` - - The Alpha-2 code of the country.
-
-**Returns:** Detailed information of the country.
-
-**Throws:**
-
-- Will throw an error if the Alpha-2 code is not found.
-
-**Examples:**
-
-```ts
-const detailInfo = getCountryDetailInformationByAlpha2Code("US");
-result:{
- "name": "United States",
- "native": "United States",
- "capital": "Washington D.C.",
- "flag": "🇺🇸",
- "isdCodes": [
-     1
- ],
- "language": {
-     "code": "en",
-     "official": "English",
-     "others": [
-       "en"
-     ]
- },
- "continent": "NA",
- "region": "North America",
- "currency": "USD",
- "symbol": "$",
- "currencyName": "United States dollar",
- "timeZones": [
-   {
-     "name": "America/New_York",
-     "utcOffset": -300,
-     "utcOffsetStr": "-05:00",
-     "dstOffset": -240,
-     "dstOffsetStr": "-04:00"
-   }
-   // ...more time zones
- ],
- "domain": ".us"
-}
-```
-
-### getCountryGeneralInformationByAlpha2Code · function
-
-* The following functions retrieve various types of country information
-based on Alpha-2 code identifiers.
-
-**Signature:** `(alpha2Code: string) => CountryInfo`
-
-**Parameters:**
-
-- `alpha2Code` - - The Alpha-2 code of the country.
-
-**Returns:** General information of the country.
-
-**Throws:**
-
-- Will throw an error if the Alpha-2 code is not found.
-
-**Examples:**
-
-```ts
-const generalInfo = getCountryGeneralInformationByAlpha2Code("US");
-result: {
-   "name": "United States",
-   "native": "United States",
-   "capital": "Washington D.C.",
-   "flag": "🇺🇸",
-   "isdCodes": [
-       1
-   ],
-   "language": {
-       "code": "en",
-       "official": "English",
-       "others": [
-         "en"
-       ]
-   }
- }
-```
-
-### getCountryLocationInformationByAlpha2Code · function
-
-* The following functions retrieve various types of country information
-based on Alpha-2 code identifiers.
-
-**Signature:** `(alpha2Code: string) => LocationInfo`
-
-**Parameters:**
-
-- `alpha2Code` - - The Alpha-2 code of the country.
-
-**Returns:** Location information of the country.
-
-**Throws:**
-
-- Will throw an error if the Alpha-2 code is not found.
-
-**Examples:**
-
-```ts
-const locationInfo = getCountryLocationInformationByAlpha2Code("US");
-result: {
- "continent": "NA",
- "region": "North America"
-}
-```
-
-### getCountryCurrencyInformationByAlpha3Code · function
-
-* The following functions retrieve various types of country information
-based on Alpha-3 code identifiers.
-
-**Signature:** `(alpha3Code: string) => CurrencyInfo`
-
-**Parameters:**
-
-- `alpha3Code` - - The Alpha-3 code of the country.
-
-**Returns:** Currency information of the country.
-
-**Throws:**
-
-- Will throw an error if the Alpha-3 code is not found.
-
-**Examples:**
-
-```ts
-const currencyInfo = getCountryCurrencyInformationByAlpha3Code("USA");
-result: {
-   "currency": "USD",
-   "symbol": "$",
-   "currencyName": "United States dollar"
- }
-```
-
-### getCountryDetailInformationByAlpha3Code · function
-
-* The following functions retrieve various types of country information
-based on Alpha-3 code identifiers.
-
-**Signature:** `(alpha3Code: string) => CountryDetailInformation`
-
-**Parameters:**
-
-- `alpha3Code` - - The Alpha-3 code of the country.
-
-**Returns:** Detailed information of the country.
-
-**Throws:**
-
-- Will throw an error if the Alpha-3 code is not found.
-
-**Examples:**
-
-```ts
-const detailInfo = getCountryDetailInformationByAlpha3Code("USA");
-result:{
- "name": "United States",
- "native": "United States",
- "capital": "Washington D.C.",
- "flag": "🇺🇸",
- "isdCodes": [
-     1
- ],
- "language": {
-     "code": "en",
-     "official": "English",
-     "others": [
-       "en"
-     ]
- },
- "continent": "NA",
- "region": "North America",
- "currency": "USD",
- "symbol": "$",
- "currencyName": "United States dollar",
- "timeZones": [
-   {
-     "name": "America/New_York",
-     "utcOffset": -300,
-     "utcOffsetStr": "-05:00",
-     "dstOffset": -240,
-     "dstOffsetStr": "-04:00"
-   }
-   // ...more time zones
- ],
- "domain": ".us"
-}
-```
-
-### getCountryGeneralInformationByAlpha3Code · function
-
-* The following functions retrieve various types of country information
-based on Alpha-3 code identifiers.
-
-**Signature:** `(alpha3Code: string) => CountryInfo`
-
-**Parameters:**
-
-- `alpha3Code` - - The Alpha-3 code of the country.
-
-**Returns:** General information of the country.
-
-**Throws:**
-
-- Will throw an error if the Alpha-3 code is not found.
-
-**Examples:**
-
-```ts
-const generalInfo = getCountryGeneralInformationByAlpha3Code("USA");
-result: {
-   "name": "United States",
-   "native": "United States",
-   "capital": "Washington D.C.",
-   "flag": "🇺🇸",
-   "isdCodes": [
-       1
-   ],
-   "language": {
-       "code": "en",
-       "official": "English",
-       "others": [
-         "en"
-       ]
-   }
- }
-```
-
-### getCountryLocationInformationByAlpha3Code · function
-
-* The following functions retrieve various types of country information
-based on Alpha-3 code identifiers.
-
-**Signature:** `(alpha3Code: string) => LocationInfo`
-
-**Parameters:**
-
-- `alpha3Code` - - The Alpha-3 code of the country.
-
-**Returns:** Location information of the country.
-
-**Throws:**
-
-- Will throw an error if the Alpha-3 code is not found.
-
-**Examples:**
-
-```ts
-const locationInfo = getCountryLocationInformationByAlpha3Code("USA");
-result: {
- "continent": "NA",
- "region": "North America"
-}
-```
-
-### getCountryCurrencyInformationByName · function
-
-* The following functions retrieve various types of country information
-based on country names.
-
-**Signature:** `(name: string) => CurrencyInfo`
-
-**Parameters:**
-
-- `name` - - The name of the country.
-
-**Returns:** Currency information of the country.
-
-**Throws:**
-
-- Will throw an error if the country name is not found.
-
-**Examples:**
-
-```ts
-const currencyInfo = getCountryCurrencyInformationByName("United States");
-result: {
-   "currency": "USD",
-   "symbol": "$",
-   "currencyName": "United States dollar"
- }
-```
-
-### getCountryDetailInformationByName · function
-
-* The following functions retrieve various types of country information
-based on country names.
-
-**Signature:** `(name: string) => CountryDetailInformation`
-
-**Parameters:**
-
-- `name` - - The name of the country.
-
-**Returns:** Detailed information of the country.
-
-**Throws:**
-
-- Will throw an error if the country name is not found.
-
-**Examples:**
-
-```ts
-const detailInfo = getCountryDetailInformationByName("United States");
-result:{
- "name": "United States",
- "native": "United States",
- "capital": "Washington D.C.",
- "flag": "🇺🇸",
- "isdCodes": [
-     1
- ],
- "language": {
-     "code": "en",
-     "official": "English",
-     "others": [
-       "en"
-     ]
- },
- "continent": "NA",
- "region": "North America",
- "currency": "USD",
- "symbol": "$",
- "currencyName": "United States dollar",
- "timeZones": [
-   {
-     "name": "America/New_York",
-     "utcOffset": -300,
-     "utcOffsetStr": "-05:00",
-     "dstOffset": -240,
-     "dstOffsetStr": "-04:00"
-   }
-   // ...more time zones
- ],
- "domain": ".us"
-}
-```
-
-### getCountryGeneralInformationByName · function
-
-* The following functions retrieve various types of country information
-based on country names.
-
-**Signature:** `(name: string) => CountryInfo`
-
-**Parameters:**
-
-- `name` - - The name of the country.
-
-**Returns:** General information of the country.
-
-**Throws:**
-
-- Will throw an error if the country name is not found.
-
-**Examples:**
-
-```ts
-const generalInfo = getCountryGeneralInformationByName("United States");
-result: {
-   "name": "United States",
-   "native": "United States",
-   "capital": "Washington D.C.",
-   "flag": "🇺🇸",
-   "isdCodes": [
-       1
-   ],
-   "language": {
-       "code": "en",
-       "official": "English",
-       "others": [
-         "en"
-       ]
-   }
- }
-```
-
-### getCountryLocationInformationByName · function
-
-* The following functions retrieve various types of country information
-based on country names.
-
-**Signature:** `(name: string) => LocationInfo`
-
-**Parameters:**
-
-- `name` - - The name of the country.
-
-**Returns:** Location information of the country.
-
-**Throws:**
-
-- Will throw an error if the country name is not found.
-
-**Examples:**
-
-```ts
-const locationInfo = getCountryLocationInformationByName("United States");
-result: {
- "continent": "NA",
- "region": "North America"
-}
-```
-
-### getCountryCurrencyInformationByNumericCode · function
-
-* The following functions retrieve various types of country information
-based on Numeric code identifiers.
-
-**Signature:** `(numericCode: string) => CurrencyInfo`
-
-**Parameters:**
-
-- `numericCode` - - The Numeric code of the country.
-
-**Returns:** Currency information of the country.
-
-**Throws:**
-
-- Will throw an error if the Numeric code is not found.
-
-**Examples:**
-
-```ts
-const currencyInfo = getCountryCurrencyInformationByNumericCode("840");
-result: {
-   "currency": "USD",
-   "symbol": "$",
-   "currencyName": "United States dollar"
- }
-```
-
-### getCountryDetailInformationByNumericCode · function
-
-* The following functions retrieve various types of country information
-based on Numeric code identifiers.
-
-**Signature:** `(numericCode: string) => CountryDetailInformation`
-
-**Parameters:**
-
-- `numericCode` - - The Numeric code of the country.
-
-**Returns:** Detailed information of the country.
-
-**Throws:**
-
-- Will throw an error if the Numeric code is not found.
-
-**Examples:**
-
-```ts
-const detailInfo = getCountryDetailInformationByNumericCode("840");
-result:{
- "name": "United States",
- "native": "United States",
- "capital": "Washington D.C.",
- "flag": "🇺🇸",
- "isdCodes": [
-     1
- ],
- "language": {
-     "code": "en",
-     "official": "English",
-     "others": [
-       "en"
-     ]
- },
- "continent": "NA",
- "region": "North America",
- "currency": "USD",
- "symbol": "$",
- "currencyName": "United States dollar",
- "timeZones": [
-   {
-     "name": "America/New_York",
-     "utcOffset": -300,
-     "utcOffsetStr": "-05:00",
-     "dstOffset": -240,
-     "dstOffsetStr": "-04:00"
-   }
-   // ...more time zones
- ],
- "domain": ".us"
-}
-```
-
-### getCountryGeneralInformationByNumericCode · function
-
-* The following functions retrieve various types of country information
-based on Numeric code identifiers.
-
-**Signature:** `(numericCode: string) => CountryInfo`
-
-**Parameters:**
-
-- `numericCode` - - The Numeric code of the country.
-
-**Returns:** General information of the country.
-
-**Throws:**
-
-- Will throw an error if the Numeric code is not found.
-
-**Examples:**
-
-```ts
-const generalInfo = getCountryGeneralInformationByNumericCode("840");
-result: {
-   "name": "United States",
-   "native": "United States",
-   "capital": "Washington D.C.",
-   "flag": "🇺🇸",
-   "isdCodes": [
-       1
-   ],
-   "language": {
-       "code": "en",
-       "official": "English",
-       "others": [
-         "en"
-       ]
-   }
- }
-```
-
-### getCountryLocationInformationByNumericCode · function
-
-* The following functions retrieve various types of country information
-based on Numeric code identifiers.
-
-**Signature:** `(numericCode: string) => LocationInfo`
-
-**Parameters:**
-
-- `numericCode` - - The Numeric code of the country.
-
-**Returns:** Location information of the country.
-
-**Throws:**
-
-- Will throw an error if the Numeric code is not found.
-
-**Examples:**
-
-```ts
-const locationInfo = getCountryLocationInformationByNumericCode("840");
-result: {
- "continent": "NA",
- "region": "North America"
-}
-```
-
 ### getCountry · function
 
-Retrieves the complete country record (codes, general, location, currency, time zones, domain)
-from an ISO-2 code, ISO-3 code, numeric code or English country name.
+Retrieves the complete country record (codes, names, capital, languages, continent,
+currency, time zones, domain) from an ISO-2 code, ISO-3 code, numeric code or English country name.
 
-**Signature:** `(input: string | number) => Country`
+**Signature:** `(input: number | CountryCodeInput) => Country`
 
 **Parameters:**
 
@@ -691,6 +62,79 @@ from an ISO-2 code, ISO-3 code, numeric code or English country name.
 ```ts
 const germany = getCountry("DEU");
 const sameGermany = getCountry("germany");
+const { capital, currency, timeZones } = getCountry(276);
+```
+
+### findCountries · function
+
+Finds every country matching all given criteria (reverse lookup).
+Matching is case-insensitive and ignores surrounding whitespace. Results are ordered by ISO-2 code;
+no match returns an empty array, and an empty filter returns every country.
+
+**Signature:** `(filter: CountryFilter) => Country[]`
+
+**Parameters:**
+
+- `filter` - - Any of `currency`, `callingCode`, `domain`, `timeZone`, `continent`, `language`.
+
+**Returns:** The matching country records.
+
+**Throws:**
+
+- Will throw an error if the filter is not an object, has an unknown key, or a value of the wrong type.
+
+**Examples:**
+
+```ts
+findCountries({ currency: "EUR" });                    // 37 countries
+findCountries({ callingCode: "+1 268" });              // Antigua and Barbuda
+findCountries({ continent: "Europe", language: "de" });
+findCountries({ domain: ".de" });
+```
+
+### formatCurrency · function
+
+Formats an amount in the currency of a country, using the country's official language and region
+for the number format (e.g. 1234.5 in Germany is "1.234,50 €").
+
+**Signature:** `(amount: number, country: number | CountryCodeInput, options?: FormatCurrencyOptions) => string`
+
+**Parameters:**
+
+- `amount` - - A finite number.
+- `country` - - ISO-2/ISO-3/numeric code or English name, e.g. "DE", "DEU", 276, "Germany".
+- `options` - - `locale` overrides the number format; other `Intl.NumberFormat` options pass through (except `style` and `currency`).
+
+**Returns:** The formatted amount.
+
+**Throws:**
+
+- Will throw an error if the amount is not a finite number or the country is not found.
+
+**Examples:**
+
+```ts
+formatCurrency(1234.5, "US");                       // "$1,234.50"
+formatCurrency(1234.5, "DE");                       // "1.234,50 €"
+formatCurrency(1234.5, "DE", { locale: "en-US" });  // "€1,234.50"
+```
+
+### getAllCountriesAlphaCodes · function
+
+Lists every country's ISO code together with its English name.
+
+**Signature:** `(alphaCodeType: AlphaCode) => CountryIsoCodePreview[]`
+
+**Parameters:**
+
+- `alphaCodeType` - - "Alpha-2" or "Alpha-3".
+
+**Returns:** An array of `{ code, countryName }`.
+
+**Examples:**
+
+```ts
+getAllCountriesAlphaCodes("Alpha-2"); // [{ code: "AD", countryName: "Andorra" }, ...]
 ```
 
 ## License

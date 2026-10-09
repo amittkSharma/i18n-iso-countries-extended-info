@@ -1,35 +1,49 @@
+import type { CountryCode } from "../generated/countryDataSet";
 import type { TimeZone } from "./countrySource";
 
 export type AlphaCode = "Alpha-2" | "Alpha-3";
 
+/**
+ * An ISO 3166-1 alpha-2 code. Known codes are suggested by the editor; any other string
+ * is still accepted (and rejected at runtime), so values from user input keep compiling.
+ */
+export type CountryCodeInput = CountryCode | (string & Record<never, never>);
+
+export type ContinentCode = "AF" | "AN" | "AS" | "EU" | "NA" | "OC" | "SA";
+
 export interface Others {
-	timeZones?: TimeZone[];
-	domain?: string;
+	timeZones: TimeZone[];
+	/** Internet country-code TLD, e.g. ".de". A few territories carry an " (unofficial)" suffix. */
+	domain: string;
 	dateFormat?: string;
 }
 
 export interface CurrencyInfo {
-	currency?: string;
-	currencyName?: string;
-	symbol?: string;
+	currency: string;
+	/** Empty string when the country has no currency name in the dataset. */
+	currencyName: string;
+	symbol: string;
 }
 
 export interface LocationInfo {
-	continent?: string;
-	region?: string;
-	continents?: string[];
+	continent: ContinentCode;
+	region: string;
+	/** Only set for countries spanning several continents. */
+	continents?: ContinentCode[];
 }
 
 export interface CountryInfo {
-	name?: string;
-	native?: string;
-	capital?: string;
-	flag?: string;
-	isdCodes?: number[];
+	name: string;
+	native: string;
+	/** Empty string for territories without a capital. */
+	capital: string;
+	flag: string;
+	isdCodes: number[];
 	language: {
-		code?: string;
-		official?: string;
-		others?: string[];
+		code: string;
+		/** Empty string when the dataset has no language name. */
+		official: string;
+		others: string[];
 	};
 }
 
