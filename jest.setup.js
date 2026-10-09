@@ -1,6 +1,7 @@
 /** biome-ignore-all lint/suspicious/noConfusingLabels: off */
 jest.mock("i18n-iso-countries", () => {
 	return {
+		registerLocale: jest.fn(),
 		isValid: jest.fn((code) => {
 			return code !== "XX";
 		}),
