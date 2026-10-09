@@ -1,4 +1,4 @@
-import { getAlpha2Code } from "i18n-iso-countries";
+import { getAlpha2Code } from "i18n-iso-countries/index.js";
 import { BASIC_LANGUAGE } from "../constants";
 import type { CountryInfoService } from "../types/countryInfoSerive";
 import { iso2CodeService } from "./iso2CodeCountryInfoService";

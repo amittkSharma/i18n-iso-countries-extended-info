@@ -1,5 +1,5 @@
 /** biome-ignore-all lint/suspicious/noConfusingLabels: off */
-jest.mock("i18n-iso-countries", () => {
+jest.mock("i18n-iso-countries/index.js", () => {
 	return {
 		registerLocale: jest.fn(),
 		isValid: jest.fn((code) => {

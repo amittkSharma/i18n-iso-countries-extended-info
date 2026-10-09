@@ -1,4 +1,4 @@
-import { isValid } from "i18n-iso-countries";
+import { isValid } from "i18n-iso-countries/index.js";
 import type { CountryInfoService } from "../types/countryInfoSerive";
 import type { CountryDetailInformation } from "../types/detailedCountryInformation";
 import {

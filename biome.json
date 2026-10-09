@@ -7,7 +7,16 @@
 	},
 	"files": {
 		"ignoreUnknown": false,
-		"includes": ["**", "!dist", "!**/dist", "!build", "!**/build"]
+		"includes": [
+			"**",
+			"!dist",
+			"!**/dist",
+			"!build",
+			"!**/build",
+			"!coverage",
+			"!src/generated",
+			"!src/prebuildStep/data"
+		]
 	},
 	"formatter": {
 		"enabled": true,

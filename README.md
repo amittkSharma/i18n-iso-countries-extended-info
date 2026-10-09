@@ -21,6 +21,10 @@ The information provided is completely in a standardized format.
 
 The following is auto-generated from `./src/countryIsoInformationService.ts`:
 
+### __export · value
+
+**Value:** `any`
+
 ### getAllCountriesAlphaCodes · function
 
 This function retrieves all countries' ISO codes based on the specified alpha code type.
@@ -619,6 +623,30 @@ result: {
  "continent": "NA",
  "region": "North America"
 }
+```
+
+### getCountry · function
+
+Retrieves the complete country record (codes, general, location, currency, time zones, domain)
+from an ISO-2 code, ISO-3 code, numeric code or English country name.
+
+**Signature:** `(input: string | number) => Country`
+
+**Parameters:**
+
+- `input` - - ISO-2/ISO-3/numeric code or English name, e.g. "DE", "DEU", 276, "Germany".
+
+**Returns:** The full country record.
+
+**Throws:**
+
+- Will throw an error if no country matches the input.
+
+**Examples:**
+
+```ts
+const germany = getCountry("DEU");
+const sameGermany = getCountry("germany");
 ```
 
 ## License

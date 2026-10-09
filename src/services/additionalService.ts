@@ -5,7 +5,7 @@ import {
 	getAlpha3Codes,
 	getName,
 	isValid,
-} from "i18n-iso-countries";
+} from "i18n-iso-countries/index.js";
 import { BASIC_LANGUAGE } from "../constants";
 import type {
 	AlphaCode,

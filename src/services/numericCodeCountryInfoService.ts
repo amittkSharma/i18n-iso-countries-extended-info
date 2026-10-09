@@ -1,4 +1,4 @@
-import { isValid, toAlpha2 } from "i18n-iso-countries";
+import { isValid, toAlpha2 } from "i18n-iso-countries/index.js";
 import type { CountryInfoService } from "../types/countryInfoSerive";
 import { iso2CodeService } from "./iso2CodeCountryInfoService";
 

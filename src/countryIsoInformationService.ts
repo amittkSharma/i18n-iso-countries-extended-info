@@ -5,6 +5,7 @@ import {
 	iso3CodeService,
 	nameService,
 	numericCodeService,
+	getCountry as resolveCountry,
 } from "./services";
 
 export * from "./types";
@@ -476,4 +477,20 @@ export const getCountryLocationInformationByNumericCode = (
 	numericCode: string,
 ) => {
 	return numericCodeService.getCountryLocationInfo(numericCode);
+};
+
+/**
+ * Retrieves the complete country record (codes, general, location, currency, time zones, domain)
+ * from an ISO-2 code, ISO-3 code, numeric code or English country name.
+ * @param input - ISO-2/ISO-3/numeric code or English name, e.g. "DE", "DEU", 276, "Germany".
+ * @example
+ * ```ts
+ * const germany = getCountry("DEU");
+ * const sameGermany = getCountry("germany");
+ * ```
+ * @returns The full country record.
+ * @throws Will throw an error if no country matches the input.
+ */
+export const getCountry = (input: string | number) => {
+	return resolveCountry(input);
 };

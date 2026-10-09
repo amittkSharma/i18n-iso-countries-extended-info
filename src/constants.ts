@@ -1,4 +1,4 @@
-import { registerLocale } from "i18n-iso-countries";
+import { registerLocale } from "i18n-iso-countries/index.js";
 import en from "i18n-iso-countries/langs/en.json";
 
 export const BASIC_LANGUAGE = "en";

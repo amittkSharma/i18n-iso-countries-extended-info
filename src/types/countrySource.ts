@@ -1,4 +1,4 @@
-interface TimeZone {
+export interface TimeZone {
 	name: string;
 	utcOffset: number;
 	utcOffsetStr: string;
