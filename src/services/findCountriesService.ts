@@ -6,6 +6,7 @@ import type {
 } from "../types/countryApi";
 import type { CountrySource } from "../types/countrySource";
 import type { ContinentCode } from "../types/detailedCountryInformation";
+import { baseCallingCode } from "./callingCodes";
 import { getCountryByIso2 } from "./countryService";
 import { createCountryLocalizer } from "./localizeService";
 
@@ -23,15 +24,21 @@ const CONTINENT_NAMES: Record<ContinentCode, string> = {
 
 const normalize = (value: string) => value.trim().toLowerCase();
 
-// Dataset calling codes longer than 3 digits are a shared code plus extra digits:
-// NANP area codes (1268 -> +1), 4779 (+47, Svalbard), 5997/5999 (+599, Caribbean Netherlands).
-// The dataset test fails if a new family appears.
-const baseCallingCode = (code: string) =>
-	code.startsWith("1")
-		? "1"
-		: code.startsWith("599")
-			? "599"
-			: code.slice(0, 2);
+const allCallingCodes = [
+	...new Set(
+		Object.values(countriesWithRegionalInfo).flatMap((c) =>
+			c.phone.map(String),
+		),
+	),
+];
+
+/** Digits of a number written as "+49 170 1234567" or "0049 170 1234567"; anything else is not international format. */
+const parseInternationalNumber = (value: string): string | undefined => {
+	const text = value.trim();
+	return /^(?:\+|00)\d[\d\s().-]*$/.test(text)
+		? text.replace(/^(?:\+|00)/, "").replace(/[\s().-]/g, "")
+		: undefined;
+};
 
 const parseCallingCode = (value: string | number): string | undefined => {
 	if (typeof value === "number") {
@@ -63,6 +70,18 @@ const predicateFactories: {
 					(code.length > 3 && baseCallingCode(code) === wanted)
 				);
 			});
+	},
+	phoneNumber: (value) => {
+		const digits = parseInternationalNumber(value);
+		// The longest calling code that starts the number wins: 1268... is Antigua, not "+1".
+		const best = allCallingCodes
+			.filter((code) => digits?.startsWith(code))
+			.reduce(
+				(longest, code) => (code.length > longest.length ? code : longest),
+				"",
+			);
+		return (c) =>
+			best !== "" && c.phone.some((phone) => String(phone) === best);
 	},
 	domain: (value) => {
 		const text = normalize(value);

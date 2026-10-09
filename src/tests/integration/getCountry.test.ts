@@ -1,5 +1,6 @@
 import * as api from "../../index";
 import {
+	COUNTRY_CODES_ALPHA3,
 	findCountries,
 	getAllCountriesAlphaCodes,
 	getCountry,
@@ -9,10 +10,12 @@ describe("public API", () => {
 	it("exposes only the documented functions", () => {
 		expect(Object.keys(api).sort()).toEqual([
 			"COUNTRY_CODES",
+			"COUNTRY_CODES_ALPHA3",
 			"findCountries",
 			"formatCurrency",
 			"getAllCountriesAlphaCodes",
 			"getCountry",
+			"getUtcOffset",
 		]);
 	});
 });
@@ -38,6 +41,7 @@ describe("getCountry", () => {
 			capital: "New Delhi",
 			flag: "🇮🇳",
 			isdCodes: [91],
+			callingCodes: ["+91"],
 			language: { code: "hi", official: "Hindi", others: ["hi", "en"] },
 			continent: "AS",
 			continents: undefined,
@@ -90,6 +94,35 @@ describe("getCountry", () => {
 		expect(unofficial).toEqual(["BV", "EH", "SJ", "UM", "XK"]);
 		expect(getCountry("GB").domain).toBe(".uk");
 		expect(getCountry("DE").domainUnofficial).toBeUndefined();
+	});
+
+	it("formats calling codes for display, splitting shared codes", () => {
+		const callingCodes = (code: string) => getCountry(code).callingCodes;
+
+		expect(callingCodes("DE")).toEqual(["+49"]);
+		expect(callingCodes("US")).toEqual(["+1"]);
+		expect(callingCodes("KZ")).toEqual(["+7"]);
+		expect(callingCodes("AG")).toEqual(["+1 268"]);
+		expect(callingCodes("DO")).toEqual(["+1 809", "+1 829", "+1 849"]);
+		expect(callingCodes("SJ")).toEqual(["+47 79"]);
+		expect(callingCodes("BQ")).toEqual(["+599 7"]);
+		expect(callingCodes("CW")).toEqual(["+599 9"]);
+
+		for (const { code } of getAllCountriesAlphaCodes("Alpha-2")) {
+			const country = getCountry(code);
+			expect(country.callingCodes).toHaveLength(country.isdCodes.length);
+			country.callingCodes.forEach((formatted, i) => {
+				expect(formatted).toMatch(/^\+\d{1,3}( \d{1,3})?$/);
+				expect(formatted.replace(/\D/g, "")).toBe(String(country.isdCodes[i]));
+			});
+		}
+	});
+
+	it("has ISO-3 codes that match the generated list", () => {
+		const iso3 = getAllCountriesAlphaCodes("Alpha-2").map(
+			({ code }) => getCountry(code).iso3,
+		);
+		expect([...iso3].sort()).toEqual([...COUNTRY_CODES_ALPHA3]);
 	});
 
 	it("pads short numeric codes", () => {

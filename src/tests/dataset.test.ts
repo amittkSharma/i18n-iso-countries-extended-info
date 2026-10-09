@@ -1,6 +1,7 @@
 // Guards the assumptions the public types and findCountries rely on.
 import {
 	COUNTRY_CODES,
+	COUNTRY_CODES_ALPHA3,
 	countriesWithRegionalInfo,
 } from "../generated/countryDataSet";
 
@@ -14,6 +15,28 @@ describe("country dataset invariants", () => {
 		);
 		expect(COUNTRY_CODES).toHaveLength(250);
 		expect(COUNTRY_CODES.every((code) => /^[A-Z]{2}$/.test(code))).toBe(true);
+	});
+
+	it("COUNTRY_CODES_ALPHA3 has one sorted, unique ISO-3 code per country", () => {
+		expect(COUNTRY_CODES_ALPHA3).toHaveLength(COUNTRY_CODES.length);
+		expect(new Set(COUNTRY_CODES_ALPHA3).size).toBe(
+			COUNTRY_CODES_ALPHA3.length,
+		);
+		expect([...COUNTRY_CODES_ALPHA3]).toEqual([...COUNTRY_CODES_ALPHA3].sort());
+		expect(COUNTRY_CODES_ALPHA3.every((code) => /^[A-Z]{3}$/.test(code))).toBe(
+			true,
+		);
+	});
+
+	it("every flag is the emoji for its own ISO-2 code", () => {
+		const flagOf = (code: string) =>
+			String.fromCodePoint(
+				...[...code].map((ch) => 0x1f1e6 + ch.charCodeAt(0) - 65),
+			);
+
+		for (const [code, c] of entries) {
+			expect(c.flag).toBe(flagOf(code));
+		}
 	});
 
 	it.each(entries)(

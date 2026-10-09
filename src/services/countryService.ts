@@ -7,6 +7,7 @@ import {
 import { BASIC_LANGUAGE } from "../constants";
 import { countriesWithRegionalInfo } from "../generated/countryDataSet";
 import type { Country, LocaleOptions } from "../types/countryApi";
+import { formatCallingCode } from "./callingCodes";
 import { createCountryLocalizer } from "./localizeService";
 
 // The dataset's own names (e.g. "Brunei", "Laos") differ from the library's for 18 countries.
@@ -44,6 +45,7 @@ export const getCountryByIso2 = (iso2: string): Country => {
 		capital: c.capital,
 		flag: c.flag,
 		isdCodes: [...c.phone],
+		callingCodes: c.phone.map(formatCallingCode),
 		language: {
 			code: c.officialLanguageCode,
 			official: c.officialLanguageName,

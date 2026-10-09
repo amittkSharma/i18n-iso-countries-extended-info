@@ -1,4 +1,10 @@
 export * from "./countryIsoInformationService";
-export type { CountryCode } from "./generated/countryDataSet";
-export { COUNTRY_CODES } from "./generated/countryDataSet";
+export type {
+	CountryCode,
+	CountryCodeAlpha3,
+} from "./generated/countryDataSet";
+export {
+	COUNTRY_CODES,
+	COUNTRY_CODES_ALPHA3,
+} from "./generated/countryDataSet";
 export * from "./types";

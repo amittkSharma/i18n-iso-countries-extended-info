@@ -11,7 +11,7 @@ Everything you need to know about a country in one call: ISO codes, names, capit
 
 - **One lookup for any key:** ISO-2 (`"DE"`), ISO-3 (`"DEU"`), numeric (`276`) or English name (`"Germany"`).
 - **Reverse search:** find countries by currency, calling code, domain, time zone, continent or language.
-- **Money formatting:** show an amount the way people in a country write it.
+- **Money and time:** show an amount the way people in a country write it, and read a country's UTC offset at any moment, daylight saving included.
 - **Translated names:** country, currency and language names in any language your runtime supports.
 - **Fully typed**, works with ESM and CommonJS, and you do not need to install `i18n-iso-countries` yourself.
 
@@ -47,8 +47,9 @@ const { getCountry } = require("i18n-iso-countries-extended-info");
 | [`getCountry(input, options?)`](#getcountryinput-options) | Full record for one country |
 | [`findCountries(filter, options?)`](#findcountriesfilter-options) | All countries matching a currency, calling code, domain, time zone, continent or language |
 | [`formatCurrency(amount, country, options?)`](#formatcurrencyamount-country-options) | An amount written in a country's currency |
+| [`getUtcOffset(country, options?)`](#getutcoffsetcountry-options) | A country's UTC offset at a given moment |
 | [`getAllCountriesAlphaCodes(type, options?)`](#getallcountriesalphacodestype-options) | Every ISO code with its country name |
-| [`COUNTRY_CODES`](#country_codes-and-countrycode) | The 250 ISO-2 codes, and the `CountryCode` type |
+| [`COUNTRY_CODES`, `COUNTRY_CODES_ALPHA3`](#country_codes-and-countrycode) | The 250 ISO-2 and ISO-3 codes, and the `CountryCode` / `CountryCodeAlpha3` types |
 
 ### `getCountry(input, options?)`
 
@@ -115,6 +116,7 @@ Finds every country that matches **all** the criteria you give. Results are orde
 |---|---|---|
 | `currency` | ISO 4217 code | `"EUR"` |
 | `callingCode` | number or string, with or without `+`, spaces and dashes allowed | `49`, `"+49"`, `"+1 268"` |
+| `phoneNumber` | a full number in international format (starting with `+` or `00`) | `"+49 170 1234567"` |
 | `domain` | country TLD, with or without the dot | `".de"`, `"de"` |
 | `timeZone` | IANA time zone name | `"Asia/Kolkata"` |
 | `continent` | code or English name | `"EU"`, `"Europe"`, `"North America"` |
@@ -141,6 +143,12 @@ findCountries({ continent: "Europe", language: "de" }).map((c) => c.iso2);
 findCountries({ callingCode: 44 }).map((c) => c.iso2);
 // ["GB", "GG", "IM", "JE"]
 
+// Which country does this phone number belong to?
+findCountries({ phoneNumber: "+49 170 1234567" }).map((c) => c.iso2);   // ["DE"]
+findCountries({ phoneNumber: "+1 268 555 1234" }).map((c) => c.iso2);   // ["AG"]  (area code wins over +1)
+findCountries({ phoneNumber: "+1 212 555 0100" }).map((c) => c.iso2);   // ["CA", "UM", "US"]
+findCountries({ phoneNumber: "0170 1234567" });                         // []  (not international format)
+
 findCountries({ domain: ".uk" }).map((c) => c.name);   // ["United Kingdom"]
 findCountries({ timeZone: "Asia/Kolkata" }).map((c) => c.iso2);   // ["IN"]
 findCountries({ currency: "XXX" });                    // []
@@ -149,6 +157,7 @@ findCountries({ currency: "XXX" });                    // []
 Things worth knowing:
 
 - **Calling code `1`** matches the whole North American plan (the US, Canada and the Caribbean nations). Pass the full code, such as `"+1 268"`, to get one country. `47` and `599` work the same way for Svalbard and the Caribbean Netherlands. A bare digit like `4` matches nothing.
+- **`phoneNumber`** picks the longest calling code the number starts with. It cannot tell apart countries that share a code (`+1` is the US, Canada and `UM`; `+44` is the UK and its Crown dependencies), because the dataset holds no area-code data, so it returns all of them. Spaces, dots, dashes and brackets are ignored; the number must start with `+` or `00`, otherwise the result is `[]`. It only accepts strings.
 - **Continents:** countries that span two continents appear under both, for example Russia under Europe and Asia.
 - **Typos are errors, not empty results.** `findCountries({ currncy: "EUR" })` throws `Error: Unknown filter "currncy". Supported: currency, callingCode, domain, timeZone, continent, language`. Non-object filters and wrong value types throw `TypeError`.
 - **Time zone aliases** such as `"Asia/Calcutta"` are not resolved; use the current name (`"Asia/Kolkata"`).
@@ -180,6 +189,44 @@ formatCurrency(1234.5, "US", { currencyDisplay: "code" });     // "USD 1,234.50"
 ```
 
 Spaces between the number and the symbol are no-break spaces, as in `Intl.NumberFormat`. Arabic-speaking countries use Arabic digits by default; pass `locale: "en"` for Latin digits. Needs full ICU, which is the default in Node.js 13+ and in browsers.
+
+### `getUtcOffset(country, options?)`
+
+Reads a country's offset from UTC at a given moment. Daylight saving is applied, because the offset comes from the runtime's time zone rules.
+
+| Parameter | Type | Description |
+|---|---|---|
+| `country` | `string \| number` | Same input as `getCountry`. |
+| `options.timeZone` | `string` (optional) | One of the country's zones, e.g. `"America/New_York"`. Needed only when the country's zones disagree (see below). |
+| `options.date` | `Date` (optional) | The moment to look at. Default: now. |
+
+Returns `{ timeZone, utcOffset, utcOffsetStr }`: the zone the offset was read from, the offset in minutes east of UTC, and the same as `"+HH:MM"`.
+
+```ts
+import { getUtcOffset } from "i18n-iso-countries-extended-info";
+
+getUtcOffset("IN");
+// { timeZone: "Asia/Kolkata", utcOffset: 330, utcOffsetStr: "+05:30" }
+
+getUtcOffset("DE", { date: new Date("2026-07-15T12:00:00Z") });
+// { timeZone: "Europe/Berlin", utcOffset: 120, utcOffsetStr: "+02:00" }
+
+getUtcOffset("US", { timeZone: "America/New_York", date: new Date("2026-01-15T12:00:00Z") });
+// { timeZone: "America/New_York", utcOffset: -300, utcOffsetStr: "-05:00" }
+
+getUtcOffset("AU", { timeZone: "Australia/Sydney", date: new Date("2026-01-15T12:00:00Z") });
+// { timeZone: "Australia/Sydney", utcOffset: 660, utcOffsetStr: "+11:00" }   (summer in the south)
+```
+
+**Countries with several time zones.** The function never guesses. If all of a country's zones have the same offset at that moment (Germany has Berlin and Büsingen), you get the answer without passing a zone. If they differ (the US, Russia, Brazil, Australia, Canada...), it throws and lists the zones:
+
+```ts
+getUtcOffset("US");
+// Error: US has several UTC offsets at 2026-01-15T12:00:00.000Z; pass { timeZone }.
+//        Available: America/Adak, America/Anchorage, America/Boise, ...
+```
+
+Other errors: a `timeZone` the country does not use (`Error: Time zone "Asia/Kolkata" is not used by DE. Available: Europe/Berlin, Europe/Zurich`; aliases such as `Asia/Calcutta` are not resolved), a `date` that is not a valid `Date` (`TypeError`), and an unknown country. Offsets for dates before standard time was introduced can carry seconds; they are rounded to the minute.
 
 ### `getAllCountriesAlphaCodes(type, options?)`
 
@@ -235,13 +282,23 @@ findCountries({ callingCode: 49 }, { locale: "fr" })[0].name;   // "Allemagne"
 ### `COUNTRY_CODES` and `CountryCode`
 
 ```ts
-import { COUNTRY_CODES, type CountryCode } from "i18n-iso-countries-extended-info";
+import {
+  COUNTRY_CODES,
+  COUNTRY_CODES_ALPHA3,
+  type CountryCode,
+  type CountryCodeAlpha3,
+} from "i18n-iso-countries-extended-info";
 
 COUNTRY_CODES.length;      // 250
 COUNTRY_CODES.slice(0, 4); // ["AD", "AE", "AF", "AG"]
 
-const code: CountryCode = "DE";   // OK
-const bad: CountryCode = "XX";    // TypeScript error: not a country code
+COUNTRY_CODES_ALPHA3.length;      // 250
+COUNTRY_CODES_ALPHA3.slice(0, 4); // ["ABW", "AFG", "AGO", "AIA"]
+
+const code: CountryCode = "DE";           // OK
+const bad: CountryCode = "XX";            // TypeScript error: not an ISO-2 code
+const code3: CountryCodeAlpha3 = "DEU";   // OK
+const bad3: CountryCodeAlpha3 = "DE";     // TypeScript error: not an ISO-3 code
 ```
 
 ### The `Country` record
@@ -254,8 +311,9 @@ const bad: CountryCode = "XX";    // TypeScript error: not a country code
 | `name` | `string` | `"Germany"` | |
 | `native` | `string` | `"Deutschland"` | Name in the local language. |
 | `capital` | `string` | `"Berlin"` | `""` for territories without one. |
-| `flag` | `string` | `"🇩🇪"` | Emoji flag. |
-| `isdCodes` | `number[]` | `[49]` | Calling codes. |
+| `flag` | `string` | `"🇩🇪"` | Emoji flag (no image files are shipped). |
+| `isdCodes` | `number[]` | `[49]` | Raw calling codes from the dataset. Shared codes carry extra digits: Antigua is `[1268]`. |
+| `callingCodes` | `string[]` | `["+49"]` | The same, ready to display: Antigua is `["+1 268"]`, Svalbard `["+47 79"]`. |
 | `language` | `{ code, official, others }` | `{ code: "de", official: "German", others: ["de"] }` | `official` is `""` when unknown. |
 | `continent` | `"AF" \| "AN" \| "AS" \| "EU" \| "NA" \| "OC" \| "SA"` | `"EU"` | |
 | `continents` | `string[]` (optional) | `["AS", "EU"]` for Russia | Only for countries spanning continents. |
@@ -277,20 +335,27 @@ const options = getAllCountriesAlphaCodes("Alpha-2", { locale: navigator.languag
 // <option value={code}>{countryName}</option>
 ```
 
-**Which country uses this calling code?**
+**Which country does this phone number belong to?**
 
 ```ts
-findCountries({ callingCode: "+49" }).map((c) => c.name);   // ["Germany"]
+findCountries({ phoneNumber: "+49 170 1234567" }).map((c) => c.name);   // ["Germany"]
+```
+
+**Show a phone code next to a country**
+
+```ts
+getCountry("DE").callingCodes[0];   // "+49"
+getCountry("AG").callingCodes[0];   // "+1 268"
 ```
 
 **Local time in a country**
 
 ```ts
-const { timeZones } = getCountry("IN");
-new Date().toLocaleTimeString("en-GB", { timeZone: timeZones[0].name });   // e.g. "19:42:07"
+const { timeZone } = getUtcOffset("IN");
+new Date().toLocaleTimeString("en-GB", { timeZone });   // e.g. "19:42:07"
 ```
 
-For countries with several zones (the US has 29 in the data), pick the one you need from `timeZones`.
+For countries with several zones (the US has 29 in the data), pass the one you need: `getUtcOffset("US", { timeZone: "America/New_York" })`.
 
 **Check that user input is a real country code**
 
@@ -301,7 +366,7 @@ const isCountryCode = (value: string): value is CountryCode =>
 
 ## TypeScript
 
-Types ship with the package; there is nothing extra to install. Exported types: `Country`, `CountryCode`, `CountryFilter`, `LocaleOptions`, `FormatCurrencyOptions`, `CountryInfo`, `LocationInfo`, `CurrencyInfo`, `CountryDetailInformation`, `AlphaCode`, `CountryIsoCodePreview` and `ContinentCode`.
+Types ship with the package; there is nothing extra to install. Exported types: `Country`, `CountryCode`, `CountryCodeAlpha3`, `CountryFilter`, `LocaleOptions`, `FormatCurrencyOptions`, `UtcOffset`, `UtcOffsetOptions`, `CountryInfo`, `LocationInfo`, `CurrencyInfo`, `CountryDetailInformation`, `AlphaCode`, `CountryIsoCodePreview` and `ContinentCode`.
 
 ## Good to know
 

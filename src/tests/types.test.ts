@@ -1,5 +1,6 @@
 import type {
 	CountryCode,
+	CountryCodeAlpha3,
 	CountryDetailInformation,
 	CountryInfo,
 } from "../index";
@@ -14,10 +15,18 @@ describe("public types", () => {
 		expect([ok, bad]).toHaveLength(2);
 	});
 
+	it("CountryCodeAlpha3 only accepts known ISO-3 codes", () => {
+		const ok: CountryCodeAlpha3 = "DEU";
+		// @ts-expect-error "DE" is an ISO-2 code
+		const bad: CountryCodeAlpha3 = "DE";
+		expect([ok, bad]).toHaveLength(2);
+	});
+
 	it("getCountry suggests codes but still accepts plain strings and numbers", () => {
 		const fromUserInput: string = "zz";
 		expect(() => getCountry(fromUserInput)).toThrow();
 		expect(getCountry(276).iso2).toBe("DE");
+		expect(getCountry("DEU" as CountryCodeAlpha3).iso2).toBe("DE");
 	});
 
 	it("always-present fields are required, genuinely optional ones are not", () => {
