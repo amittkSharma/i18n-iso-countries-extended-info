@@ -1,35 +1,10 @@
 {
 	"prettier.enable": false,
 	"eslint.enable": false,
+	"editor.defaultFormatter": "biomejs.biome",
+	"editor.formatOnSave": true,
 	"editor.codeActionsOnSave": {
 		"source.fixAll.biome": "explicit",
 		"source.organizeImports.biome": "explicit"
-	},
-	"editor.defaultFormatter": "biomejs.biome",
-	"editor.formatOnSave": true,
-	"[typescript]": {
-		"editor.defaultFormatter": "biomejs.biome"
-	},
-	"[javascript]": {
-		"editor.defaultFormatter": "biomejs.biome"
-	},
-	"[javascriptreact]": {
-		"editor.defaultFormatter": "biomejs.biome"
-	},
-	"[typescriptreact]": {
-		"editor.defaultFormatter": "biomejs.biome"
-	},
-	"[json]": {
-		"editor.defaultFormatter": "biomejs.biome"
-	},
-	"[jsonc]": {
-		"editor.defaultFormatter": "biomejs.biome"
-	},
-	//JEST & RUN-IT --config /Users/asharma/workspace/coach/coach-solutions-tooling/source/packages/jest.config.js
-	"jest.jestCommandLine": "/Users/amitsharma/workspace/i18n-iso-countries-extended-info/node_modules/jest/bin/jest.js --config /Users/amitsharma/workspace/i18n-iso-countries-extended-info/jest.config.ts",
-	"jest.runMode": "on-demand",
-	"jestRunIt.jestPath": "node_modules/jest/bin/jest.js",
-	"jestRunIt.jestConfigPath": "/Users/amitsharma/workspace/i18n-iso-countries-extended-info/jest.config.ts",
-	"jest.debugMode": true,
-	"cSpell.words": ["npmignore"]
+	}
 }

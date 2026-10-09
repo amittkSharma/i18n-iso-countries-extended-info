@@ -5,7 +5,17 @@ import type {
 
 export interface Country extends CountryDetailInformation {
 	iso2: string;
-	iso3?: string;
+	iso3: string;
+	/** ISO 3166-1 numeric code as a zero-padded string, e.g. "036". Not the currency's numeric code. */
+	numeric: string;
+}
+
+export interface LocaleOptions {
+	/**
+	 * BCP 47 locale, e.g. "fr". `name`, `currencyName` and `language.official` are returned in that language.
+	 * Omit it for the dataset's English names; a well-formed locale without translations falls back to those too.
+	 */
+	locale?: string;
 }
 
 /** Every field is optional; all given fields must match (AND). Matching is case-insensitive. */

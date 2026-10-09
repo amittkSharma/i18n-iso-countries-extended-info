@@ -20,6 +20,8 @@ export interface ICountry {
 export interface CountryDomainInfo {
 	countryCode: string;
 	domain: string;
+	/** The TLD is not in use for this country (no source lists one). */
+	unofficial?: true;
 }
 
 interface TimezoneInfo {

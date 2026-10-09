@@ -92,10 +92,16 @@ describe("findCountries", () => {
 				expect(codes({ domain })).toEqual(["DE"]);
 			}
 		});
-		it("matches entries the dataset marks as unofficial", () => {
+		it("matches territories flagged as having no TLD in use", () => {
 			expect(codes({ domain: ".bv" })).toEqual(["BV"]);
 			expect(codes({ domain: "xk" })).toEqual(["XK"]);
+			expect(findCountries({ domain: "bv" })[0].domainUnofficial).toBe(true);
 			expect(codes({ domain: ".bv (unofficial)" })).toEqual([]);
+		});
+		it("uses .uk, the TLD in actual use, for Great Britain", () => {
+			expect(codes({ domain: ".uk" })).toEqual(["GB"]);
+			expect(codes({ domain: "UK" })).toEqual(["GB"]);
+			expect(codes({ domain: ".gb" })).toEqual([]);
 		});
 		it("returns [] for unknown TLDs", () => {
 			expect(codes({ domain: ".zz" })).toEqual([]);

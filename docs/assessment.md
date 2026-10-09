@@ -19,7 +19,7 @@ A thin enrichment layer over `i18n-iso-countries`: capital, currency, languages,
 | 2 | Reverse lookups: by currency, calling code, TLD, time zone, continent, language | **done** (`findCountries`) |
 | 3 | Tree-shakeable output: ESM + CJS, `exports` map, data as a separate import | **done** (tsup; `/data` subpath; see notes) |
 | 4 | Stricter types: required fields where data is complete, `CountryCode` literal union | **step 1 done**; step 2 (narrow inputs to `CountryCode`) needs a major version |
-| 5 | Multi-language names via a `lang` option | proposed |
+| 5 | Multi-language names via a `lang` option | **done** (`{ locale }` option, via `Intl.DisplayNames`) |
 | 6 | Time-zone helpers: current UTC offset with DST, business-hours check | proposed |
 | 7 | Formatting helpers: `Intl.NumberFormat` currency, phone prefix, flag | **currency done** (`formatCurrency`); phone prefix and flag not started (the data already holds both) |
 | 8 | More data: driving side, measurement system, postal-code regex | proposed |
@@ -45,8 +45,8 @@ A thin enrichment layer over `i18n-iso-countries`: capital, currency, languages,
 - **Bug found while testing**: the library's `toAlpha2("XX")` returns `"XX"`, so unknown two-letter input reached the dataset lookup. `resolveIso2` now also requires a dataset entry.
 
 ## Data quality issues found (not changed)
-- `domain` carries a note for 5 territories, e.g. `".bv (unofficial)"` (BV, EH, SJ, UM, XK); `findCountries` compares only the TLD.
-- Great Britain's domain is `.gb`; the TLD in actual use is `.uk`, so `domain: ".uk"` finds nothing.
+- ~~`domain` carries a note for 5 territories, e.g. `".bv (unofficial)"`~~ — **fixed in 2.1**: `domain` is a plain TLD and `domainUnofficial: true` marks BV, EH, SJ, UM, XK.
+- ~~Great Britain's domain is `.gb`~~ — **fixed in 2.1**: `.uk` (override in `fetchCountryDomain.ts`; the source library has `.gb`).
 - Antarctica (`AQ`) is listed with currency `EUR`, which inflates the EUR count to 37.
 - Missing values are `""`, not absent.
 
@@ -57,5 +57,24 @@ A thin enrichment layer over `i18n-iso-countries`: capital, currency, languages,
 - **Bug found while porting tests**: 18 dataset names did not resolve as input (`Brunei`, `Laos`, `Moldova`, `Syria`, `Myanmar (Burma)`, `East Timor`, `Vatican City`…) because the library names them differently (`Brunei Darussalam`…). Name lookup now falls back to the dataset's own names, so `getCountry(getCountry(x).name)` always round-trips.
 - Release: commit with a `BREAKING CHANGE:` footer, then `npm run release -- --release-as major` (the version in `package.json` is still 1.8.0).
 
+## 2.1.0
+- **Localized names**: `getCountry`, `findCountries` and `getAllCountriesAlphaCodes` take `{ locale }`. `name`, `currencyName` and `language.official` come from `Intl.DisplayNames`, so no data or bundle size is added. Omitted locale keeps the dataset's English names; well-formed locales without translations fall back to English (never the machine locale); malformed locales throw `RangeError`; empty dataset values stay empty. All 250 regions, currencies and official languages resolve in French (checked).
+- **`numeric`** on every record: ISO 3166-1 numeric code as a zero-padded string (`"036"`). `iso3` and `numeric` are now non-optional. The dataset's own `numericCode` is the currency's code and is not exposed.
+- **Domains**: see data issues above. The regenerated dataset differs from the old one only in those six domains.
+- **CI**: `.github/workflows/ci.yml` runs `npm run verify` (Biome, `tsc --noEmit`, Jest) and `npm run test:pack` on Node 20 and 22. `engines` is `>=20`. All 331 tests were also run locally on Node 20.20.2. The workflow itself has not run on GitHub yet.
+- **Bug found**: `checkCountryCurrencySync.ts` imported `./types/countryCurrencyInfo`, which no longer exists, so `npm start`'s `prestart` (the data pipeline) had been failing since commit `ad4be08`. Fixed.
+- **Process note**: Biome's `useOptionalChain` autofix suggested a change that broke type-checking; `npm run verify` caught it, which is the case for running the type check in CI.
+
+## Cleanup pass
+- `jest.config.ts` (206 lines, almost all commented template) → 14 lines. `tsconfig.json` (56 lines of unused emit/decorator/JSX settings, excludes for paths that no longer exist) → 19 lines, and it now also type-checks tests, `devUtils` and `prebuildStep`; the old excludes are why the broken pipeline import went unnoticed. `biome.json` → defaults plus the ignore list. `.gitignore` 137 → 9 lines. `.vscode/settings.json` lost another developer's absolute paths and a spell-check word for the deleted `.npmignore`.
+- Removed the unused `tslib` dev dependency (helpers are no longer emitted), the unused `CountryProperty` type, and every `biome-ignore` / `any` in `src` (Biome now reports 0 warnings).
+- Fixed `writeFile`'s error message (said "read"), and the no-op `log.info;("…")` statement in `fetchCountryTimeZones.ts`.
+- Re-running `npm run prestart` reproduces the committed dataset byte for byte.
+- Not removed: `pino` / `pino-pretty` (dev logger used by the pipeline; `pino-pretty` is loaded by name, so tools like knip report it unused), `.codesight/` (untracked, created by a tool outside this repo).
+
+## Documentation
+- README rewritten as a quick-start plus a per-function reference where every example output was produced by running the built package; badges for CI, npm version, downloads, Node, types and license. The 1.x → 2.x guide moved to `docs/migration-v2.md`.
+- The README is now hand-written. `readme-tsdoc` (which regenerated the API section from the doc comments on every publish) and the `docs` script were removed, because it overwrote hand-written examples; the doc comments in `src/countryIsoInformationService.ts` still feed editor tooltips. Update both places when the API changes.
+
 ## Remaining work
-Proposed #5, #6, #8, #9 are untouched; #7 still lacks phone-prefix and flag helpers (both values are already in the record). Still open: single 195 KB dataset chunk, and the data-quality issues above.
+Proposed #6 (offset helper), #8, #9 and the phone-prefix/flag part of #7 are untouched. Still open: single 195 KB dataset chunk, Antarctica listed with currency `EUR`, missing values stored as `""`, two `noExplicitAny` warnings in `src/prebuildStep`.

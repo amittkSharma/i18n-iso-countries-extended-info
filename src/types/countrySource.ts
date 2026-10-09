@@ -27,4 +27,5 @@ export interface CountrySource {
 	continents?: ContinentCode[];
 	timeZones: TimeZone[];
 	domain: string;
+	domainUnofficial?: boolean;
 }

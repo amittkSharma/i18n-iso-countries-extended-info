@@ -14,8 +14,7 @@ const missingTimeZones: Record<string, TimezoneName[]> = {
 };
 
 export const fetchCountryTimeZones = (countries: Array<string>) => {
-	log.info;
-	("Fetching Country Time Zone Information");
+	log.info("Fetching Country Time Zone Information");
 	const timeZoneData: Record<string, Country> = getAllCountries();
 	const completeTimeZoneData = getAllTimezones();
 
